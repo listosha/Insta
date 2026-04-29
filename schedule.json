@@ -2,7 +2,7 @@
   {
     "id": 2,
     "date": "2026-04-30",
-    "time": "19:30",
+    "time": "10:00",
     "timezone": "Europe/Moscow",
     "folder": "series-02-",
     "slides_count": 9,
@@ -11,8 +11,8 @@
   },
   {
     "id": 3,
-    "date": "2026-05-01",
-    "time": "19:30",
+    "date": "2026-04-30",
+    "time": "14:00",
     "timezone": "Europe/Moscow",
     "folder": "series-03-",
     "slides_count": 8,
@@ -21,7 +21,7 @@
   },
   {
     "id": 4,
-    "date": "2026-05-02",
+    "date": "2026-04-30",
     "time": "19:30",
     "timezone": "Europe/Moscow",
     "folder": "series-04-",
@@ -31,8 +31,8 @@
   },
   {
     "id": 5,
-    "date": "2026-05-03",
-    "time": "19:30",
+    "date": "2026-05-01",
+    "time": "10:00",
     "timezone": "Europe/Moscow",
     "folder": "series-05-",
     "slides_count": 8,
@@ -41,8 +41,8 @@
   },
   {
     "id": 6,
-    "date": "2026-05-04",
-    "time": "19:30",
+    "date": "2026-05-01",
+    "time": "14:00",
     "timezone": "Europe/Moscow",
     "folder": "series-06-",
     "slides_count": 8,
@@ -51,7 +51,7 @@
   },
   {
     "id": 7,
-    "date": "2026-05-05",
+    "date": "2026-05-01",
     "time": "19:30",
     "timezone": "Europe/Moscow",
     "folder": "series-07-",
@@ -61,8 +61,8 @@
   },
   {
     "id": 8,
-    "date": "2026-05-06",
-    "time": "19:30",
+    "date": "2026-05-02",
+    "time": "10:00",
     "timezone": "Europe/Moscow",
     "folder": "series-08-",
     "slides_count": 9,
@@ -71,8 +71,8 @@
   },
   {
     "id": 9,
-    "date": "2026-05-07",
-    "time": "19:30",
+    "date": "2026-05-02",
+    "time": "14:00",
     "timezone": "Europe/Moscow",
     "folder": "series-09-",
     "slides_count": 9,
@@ -81,7 +81,7 @@
   },
   {
     "id": 10,
-    "date": "2026-05-08",
+    "date": "2026-05-02",
     "time": "19:30",
     "timezone": "Europe/Moscow",
     "folder": "series-10-",
@@ -91,8 +91,8 @@
   },
   {
     "id": 11,
-    "date": "2026-05-09",
-    "time": "19:30",
+    "date": "2026-05-03",
+    "time": "10:00",
     "timezone": "Europe/Moscow",
     "folder": "series-11-",
     "slides_count": 9,
@@ -101,8 +101,8 @@
   },
   {
     "id": 12,
-    "date": "2026-05-10",
-    "time": "19:30",
+    "date": "2026-05-03",
+    "time": "14:00",
     "timezone": "Europe/Moscow",
     "folder": "series-12-",
     "slides_count": 9,

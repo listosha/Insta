@@ -2,8 +2,10 @@ name: Publish Instagram Carousel
 
 on:
   schedule:
-    - cron: '30 16 * * *'  # 19:30 Moscow (UTC+3)
-  workflow_dispatch:        # manual trigger for testing
+    - cron: '0 7 * * *'   # 10:00 МСК
+    - cron: '0 11 * * *'  # 14:00 МСК
+    - cron: '30 16 * * *' # 19:30 МСК
+  workflow_dispatch:       # ручной запуск для тестирования
 
 jobs:
   publish:
@@ -23,7 +25,6 @@ jobs:
           import json
           import os
           import sys
-          import time
           import requests
           from datetime import datetime, timezone, timedelta
 
@@ -34,10 +35,29 @@ jobs:
               "content-type": "application/json"
           }
 
-          # Today's date in Moscow time (UTC+3)
+          # Текущее время в Москве (UTC+3)
           moscow_tz = timezone(timedelta(hours=3))
-          today = datetime.now(moscow_tz).strftime("%Y-%m-%d")
-          print(f"Today (Moscow): {today}")
+          now_moscow = datetime.now(moscow_tz)
+          today = now_moscow.strftime("%Y-%m-%d")
+          hour = now_moscow.hour
+          minute = now_moscow.minute
+
+          # Определяем слот по времени запуска
+          # 07:00 UTC → 10:00 МСК → ищем "10:00"
+          # 11:00 UTC → 14:00 МСК → ищем "14:00"
+          # 16:30 UTC → 19:30 МСК → ищем "19:30"
+          if hour == 10:
+              time_slot = "10:00"
+          elif hour == 14:
+              time_slot = "14:00"
+          elif hour == 19:
+              time_slot = "19:30"
+          else:
+              # Для ручного запуска — ищем любой pending на сегодня
+              time_slot = None
+
+          print(f"Moscow time: {now_moscow.strftime('%Y-%m-%d %H:%M')}")
+          print(f"Today: {today}, time_slot: {time_slot or 'any (manual run)'}")
 
           with open("schedule.json", "r", encoding="utf-8") as f:
               schedule = json.load(f)
@@ -45,80 +65,72 @@ jobs:
           entry = None
           entry_idx = None
           for i, item in enumerate(schedule):
-              if item["date"] == today and item["status"] == "pending":
+              if item["date"] != today or item["status"] != "pending":
+                  continue
+              if time_slot is None or item["time"] == time_slot:
                   entry = item
                   entry_idx = i
                   break
 
           if entry is None:
-              print(f"No pending carousel for {today}. Skipping.")
+              print(f"No pending carousel for {today} slot={time_slot or 'any'}. Skipping.")
               sys.exit(0)
 
-          print(f"Found carousel {entry['id']} — {entry['folder']} ({entry['slides_count']} slides)")
+          print(f"Publishing carousel {entry['id']} — {entry['folder']} at {entry['time']} ({entry['slides_count']} slides)")
 
-          # Build image URLs
+          # Формируем URL картинок
           image_urls = [
               f"https://raw.githubusercontent.com/listosha/Insta/main/images/{entry['folder']}/slide-{str(i).zfill(2)}.png"
               for i in range(1, entry["slides_count"] + 1)
           ]
-          print(f"Image URLs: {image_urls}")
+          print(f"URLs: {image_urls}")
 
-          # Step 1: Create carousel container
-          payload = {
-              "input": {
-                  "ig_user_id": "me",
-                  "caption": entry["caption"],
-                  "child_image_urls": image_urls
-              },
-              "entity_id": "default"
-          }
-
-          print("Creating carousel container...")
+          # Шаг 1: создаём carousel container
           resp = requests.post(
               f"{BASE_URL}/INSTAGRAM_CREATE_CAROUSEL_CONTAINER/execute",
               headers=HEADERS,
-              json=payload,
+              json={
+                  "input": {
+                      "ig_user_id": "me",
+                      "caption": entry["caption"],
+                      "child_image_urls": image_urls
+                  },
+                  "entity_id": "default"
+              },
               timeout=60
           )
-
           if not resp.ok:
               print(f"ERROR creating container: {resp.status_code} {resp.text}")
               sys.exit(1)
 
-          result = resp.json()
-          creation_id = result["response"]["data"]["id"]
-          print(f"Carousel container created: {creation_id}")
+          creation_id = resp.json()["response"]["data"]["id"]
+          print(f"Container created: {creation_id}")
 
-          # Step 2: Publish
-          payload = {
-              "input": {
-                  "ig_user_id": "me",
-                  "creation_id": creation_id,
-                  "max_wait_seconds": 60
-              },
-              "entity_id": "default"
-          }
-
-          print("Publishing carousel...")
+          # Шаг 2: публикуем
           resp = requests.post(
               f"{BASE_URL}/INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH/execute",
               headers=HEADERS,
-              json=payload,
+              json={
+                  "input": {
+                      "ig_user_id": "me",
+                      "creation_id": creation_id,
+                      "max_wait_seconds": 60
+                  },
+                  "entity_id": "default"
+              },
               timeout=120
           )
-
           if not resp.ok:
               print(f"ERROR publishing: {resp.status_code} {resp.text}")
               sys.exit(1)
 
-          result = resp.json()
-          media_id = result["response"]["data"]["id"]
-          print(f"Published! Instagram media ID: {media_id}")
+          media_id = resp.json()["response"]["data"]["id"]
+          print(f"Published! Media ID: {media_id}")
 
-          # Step 3: Update schedule.json
+          # Шаг 3: обновляем schedule.json
           schedule[entry_idx]["status"] = "published"
           schedule[entry_idx]["media_id"] = media_id
-          schedule[entry_idx]["published_at"] = datetime.now(moscow_tz).isoformat()
+          schedule[entry_idx]["published_at"] = now_moscow.isoformat()
 
           with open("schedule.json", "w", encoding="utf-8") as f:
               json.dump(schedule, f, ensure_ascii=False, indent=2)
@@ -131,5 +143,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add schedule.json
-          git diff --staged --quiet || git commit -m "Published carousel $(date -u +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "Published carousel $(date -u +%Y-%m-%d\ %H:%M) UTC"
           git push
