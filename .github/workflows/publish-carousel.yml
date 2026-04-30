@@ -22,22 +22,6 @@ jobs:
           COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
         run: |
           python3 << 'EOF'
-          import requests, os
-
-          api_key = os.getenv("COMPOSIO_API_KEY")
-          endpoints = [
-              "https://backend.composio.dev/api/v3/connectedAccounts?appName=instagram",
-              "https://backend.composio.dev/api/v3/connectedAccounts",
-              "https://backend.composio.dev/api/v3/connections?appName=instagram",
-              "https://backend.composio.dev/api/v3/toolkits/instagram/connected_accounts",
-          ]
-          for url in endpoints:
-              r = requests.get(url, headers={"x-api-key": api_key})
-              print(f"URL: {url}")
-              print(f"Status: {r.status_code}, Response: {r.text[:500]}")
-              print("---")
-          exit(0)
-
           import json
           import os
           import sys
@@ -103,7 +87,7 @@ jobs:
                       "caption": entry["caption"],
                       "child_image_urls": image_urls
                   },
-                  "entityId": "default"
+                  "connectedAccountId": "instagram_owlet-ruga"
               },
               timeout=60
           )
@@ -125,7 +109,7 @@ jobs:
                       "creation_id": creation_id,
                       "max_wait_seconds": 60
                   },
-                  "entityId": "default"
+                  "connectedAccountId": "instagram_owlet-ruga"
               },
               timeout=120
           )
