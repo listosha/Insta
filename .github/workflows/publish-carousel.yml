@@ -95,7 +95,8 @@ jobs:
                       "caption": entry["caption"],
                       "child_image_urls": image_urls
                   },
-                  "connected_account_id": "instagram_frough-look"
+                  "connectedAccountId": "instagram_frough-look",
+                  "appName": "instagram"
               },
               timeout=60
           )
@@ -116,7 +117,8 @@ jobs:
                       "creation_id": creation_id,
                       "max_wait_seconds": 60
                   },
-                  "connected_account_id": "instagram_frough-look"
+                  "connectedAccountId": "instagram_frough-look",
+                  "appName": "instagram"
               },
               timeout=120
           )
