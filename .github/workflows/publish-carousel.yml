@@ -27,15 +27,14 @@ jobs:
 
           API_KEY = os.environ["COMPOSIO_API_KEY"]
 
-          # Ищем UUID через entity endpoints
           for url in [
-              "https://backend.composio.dev/api/v1/entity/default",
-              "https://backend.composio.dev/api/v1/entity/default/connections",
-              "https://backend.composio.dev/api/v1/entity/default/connections?appName=instagram",
-              "https://backend.composio.dev/api/v2/entity/default/connections",
+              "https://backend.composio.dev/api/v3/connected_accounts?appName=instagram",
+              "https://backend.composio.dev/api/v3/connected_accounts",
+              "https://backend.composio.dev/api/v3/connections?appName=instagram",
+              "https://backend.composio.dev/api/v3/user/connections",
           ]:
               r = requests.get(url, headers={"x-api-key": API_KEY}, timeout=10)
-              print(f"GET {url} → {r.status_code}: {r.text[:500]}")
+              print(f"GET {url} → {r.status_code}: {r.text[:600]}")
           sys.exit(0)
           BASE_URL = "https://backend.composio.dev/api/v2/actions"
           HEADERS = {
