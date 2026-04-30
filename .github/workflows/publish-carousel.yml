@@ -25,18 +25,6 @@ jobs:
           COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
         run: |
           python3 << 'EOF'
-          import requests, os
-
-          api_key = os.getenv("COMPOSIO_API_KEY")
-          print(f"API key length: {len(api_key) if api_key else 'NONE'}")
-          print(f"API key first 8 chars: {api_key[:8] if api_key else 'NONE'}")
-          r = requests.get(
-              "https://backend.composio.dev/api/v1/connectedAccounts",
-              headers={"x-api-key": api_key})
-          print(f"Status: {r.status_code}")
-          print(f"Response: {r.text[:300]}")
-          exit(0)
-
           import json
           import os
           import sys
