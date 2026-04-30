@@ -5,7 +5,7 @@ on:
     - cron: '0 7 * * *'   # 10:00 МСК
     - cron: '0 11 * * *'  # 14:00 МСК
     - cron: '30 16 * * *' # 19:30 МСК
-  workflow_dispatch:       # ручной запуск для тестирования
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -17,40 +17,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Publish carousel via Composio
+      - name: Publish carousel via Instagram Graph API
         env:
-          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
         run: |
           python3 << 'EOF'
-          import json, os, sys, requests
+          import json
+          import os
+          import sys
+          import time
+          import requests
           from datetime import datetime, timezone, timedelta
 
-          API_KEY = os.environ["COMPOSIO_API_KEY"]
-
-          EXEC_URL_V3 = "https://backend.composio.dev/api/v3/actions/INSTAGRAM_CREATE_CAROUSEL_CONTAINER/execute"
-          EXEC_URL_V2 = "https://backend.composio.dev/api/v2/actions/INSTAGRAM_CREATE_CAROUSEL_CONTAINER/execute"
-          test_input = {"ig_user_id": "me", "caption": "test", "child_image_urls": ["https://example.com/img.png"]}
-
-          for url, body in [
-              (EXEC_URL_V3, {"input": test_input, "connectedAccountId": "instagram_owlet-ruga"}),
-              (EXEC_URL_V3, {"input": test_input, "entityId": "default", "appName": "instagram"}),
-              (EXEC_URL_V2, {"input": test_input}),
-          ]:
-              r = requests.post(url, headers={"x-api-key": API_KEY, "content-type": "application/json"},
-                                json=body, timeout=15)
-              print(f"POST {url}")
-              print(f"  body keys: {list(body.keys())} → {r.status_code}: {r.text[:300]}")
-          sys.exit(0)
-          BASE_URL = "https://backend.composio.dev/api/v2/actions"
-          HEADERS = {
-              "x-api-key": API_KEY,
-              "content-type": "application/json"
-          }
+          ACCESS_TOKEN = os.environ["INSTAGRAM_ACCESS_TOKEN"]
+          IG_USER_ID   = "27198558379728784"
+          GRAPH_BASE   = "https://graph.facebook.com/v21.0"
 
           moscow_tz = timezone(timedelta(hours=3))
           now_moscow = datetime.now(moscow_tz)
           today = now_moscow.strftime("%Y-%m-%d")
-          hour = now_moscow.hour
+          hour  = now_moscow.hour
 
           if hour == 10:
               time_slot = "10:00"
@@ -61,8 +47,7 @@ jobs:
           else:
               time_slot = None
 
-          print(f"Moscow time: {now_moscow.strftime('%Y-%m-%d %H:%M')}")
-          print(f"Today: {today}, time_slot: {time_slot or 'any (manual run)'}")
+          print(f"Moscow time: {now_moscow.strftime('%Y-%m-%d %H:%M')}, slot: {time_slot or 'any'}")
 
           with open("schedule.json", "r", encoding="utf-8") as f:
               schedule = json.load(f)
@@ -81,7 +66,7 @@ jobs:
               print(f"No pending carousel for {today} slot={time_slot or 'any'}. Skipping.")
               sys.exit(0)
 
-          print(f"Publishing: {entry['id']} — {entry['folder']} at {entry['time']} ({entry['slides_count']} slides)")
+          print(f"Publishing: {entry['id']} — {entry['folder']} ({entry['slides_count']} slides)")
 
           image_urls = [
               f"https://raw.githubusercontent.com/listosha/Insta/main/images/{entry['folder']}/slide-{str(i).zfill(2)}.png"
@@ -89,52 +74,76 @@ jobs:
           ]
           print(f"URLs: {image_urls}")
 
-          # Шаг 1: создаём carousel container
-          resp = requests.post(
-              f"{BASE_URL}/INSTAGRAM_CREATE_CAROUSEL_CONTAINER/execute",
-              headers=HEADERS,
-              json={
-                  "input": {
-                      "ig_user_id": "me",
-                      "caption": entry["caption"],
-                      "child_image_urls": image_urls
+          # Шаг 1: создаём item-контейнеры для каждого слайда
+          item_ids = []
+          for idx, url in enumerate(image_urls, 1):
+              resp = requests.post(
+                  f"{GRAPH_BASE}/{IG_USER_ID}/media",
+                  params={
+                      "image_url":        url,
+                      "is_carousel_item": "true",
+                      "access_token":     ACCESS_TOKEN,
                   },
-                  "connectedAccountId": "instagram_owlet-ruga"
+                  timeout=60,
+              )
+              print(f"  Slide {idx}: {resp.status_code} {resp.text[:200]}")
+              if not resp.ok:
+                  sys.exit(1)
+              item_ids.append(resp.json()["id"])
+
+          print(f"Item IDs: {item_ids}")
+
+          # Шаг 2: создаём carousel container
+          resp = requests.post(
+              f"{GRAPH_BASE}/{IG_USER_ID}/media",
+              params={
+                  "media_type":   "CAROUSEL",
+                  "caption":      entry["caption"],
+                  "children":     ",".join(item_ids),
+                  "access_token": ACCESS_TOKEN,
               },
-              timeout=60
+              timeout=60,
           )
-          print(f"Container status: {resp.status_code}")
-          print(f"Container response: {resp.text[:500]}")
+          print(f"Carousel container: {resp.status_code} {resp.text[:200]}")
+          if not resp.ok:
+              sys.exit(1)
+          creation_id = resp.json()["id"]
+          print(f"Container ID: {creation_id}")
+
+          # Шаг 3: ждём готовности контейнера
+          for attempt in range(10):
+              time.sleep(3)
+              r = requests.get(
+                  f"{GRAPH_BASE}/{creation_id}",
+                  params={"fields": "status_code", "access_token": ACCESS_TOKEN},
+                  timeout=30,
+              )
+              status = r.json().get("status_code", "")
+              print(f"  Container status: {status}")
+              if status == "FINISHED":
+                  break
+              if status == "ERROR":
+                  print(f"Container error: {r.text}")
+                  sys.exit(1)
+
+          # Шаг 4: публикуем
+          resp = requests.post(
+              f"{GRAPH_BASE}/{IG_USER_ID}/media_publish",
+              params={
+                  "creation_id":  creation_id,
+                  "access_token": ACCESS_TOKEN,
+              },
+              timeout=60,
+          )
+          print(f"Publish: {resp.status_code} {resp.text[:200]}")
           if not resp.ok:
               sys.exit(1)
 
-          creation_id = resp.json()["response"]["data"]["id"]
-          print(f"Container created: {creation_id}")
-
-          # Шаг 2: публикуем
-          resp2 = requests.post(
-              f"{BASE_URL}/INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH/execute",
-              headers=HEADERS,
-              json={
-                  "input": {
-                      "ig_user_id": "me",
-                      "creation_id": creation_id,
-                      "max_wait_seconds": 60
-                  },
-                  "connectedAccountId": "instagram_owlet-ruga"
-              },
-              timeout=120
-          )
-          print(f"Publish status: {resp2.status_code}")
-          print(f"Publish response: {resp2.text[:500]}")
-          if not resp2.ok:
-              sys.exit(1)
-
-          media_id = resp2.json()["response"]["data"]["id"]
+          media_id = resp.json()["id"]
           print(f"Published! Media ID: {media_id}")
 
-          schedule[entry_idx]["status"] = "published"
-          schedule[entry_idx]["media_id"] = media_id
+          schedule[entry_idx]["status"]       = "published"
+          schedule[entry_idx]["media_id"]     = media_id
           schedule[entry_idx]["published_at"] = now_moscow.isoformat()
 
           with open("schedule.json", "w", encoding="utf-8") as f:
