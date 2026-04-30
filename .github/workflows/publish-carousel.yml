@@ -27,14 +27,19 @@ jobs:
 
           API_KEY = os.environ["COMPOSIO_API_KEY"]
 
-          for url in [
-              "https://backend.composio.dev/api/v3/connected_accounts?appName=instagram",
-              "https://backend.composio.dev/api/v3/connected_accounts",
-              "https://backend.composio.dev/api/v3/connections?appName=instagram",
-              "https://backend.composio.dev/api/v3/user/connections",
+          EXEC_URL_V3 = "https://backend.composio.dev/api/v3/actions/INSTAGRAM_CREATE_CAROUSEL_CONTAINER/execute"
+          EXEC_URL_V2 = "https://backend.composio.dev/api/v2/actions/INSTAGRAM_CREATE_CAROUSEL_CONTAINER/execute"
+          test_input = {"ig_user_id": "me", "caption": "test", "child_image_urls": ["https://example.com/img.png"]}
+
+          for url, body in [
+              (EXEC_URL_V3, {"input": test_input, "connectedAccountId": "instagram_owlet-ruga"}),
+              (EXEC_URL_V3, {"input": test_input, "entityId": "default", "appName": "instagram"}),
+              (EXEC_URL_V2, {"input": test_input}),
           ]:
-              r = requests.get(url, headers={"x-api-key": API_KEY}, timeout=10)
-              print(f"GET {url} → {r.status_code}: {r.text[:600]}")
+              r = requests.post(url, headers={"x-api-key": API_KEY, "content-type": "application/json"},
+                                json=body, timeout=15)
+              print(f"POST {url}")
+              print(f"  body keys: {list(body.keys())} → {r.status_code}: {r.text[:300]}")
           sys.exit(0)
           BASE_URL = "https://backend.composio.dev/api/v2/actions"
           HEADERS = {
