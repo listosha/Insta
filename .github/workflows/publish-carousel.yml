@@ -31,16 +31,7 @@ jobs:
 
           ACCESS_TOKEN = os.environ["INSTAGRAM_ACCESS_TOKEN"]
           GRAPH_BASE   = "https://graph.facebook.com/v21.0"
-
-          # Диагностика: что видит токен
-          for url, params in [
-              (f"{GRAPH_BASE}/me", {"fields": "id,name,instagram_accounts", "access_token": ACCESS_TOKEN}),
-              (f"{GRAPH_BASE}/me/accounts", {"fields": "id,name,instagram_business_account", "access_token": ACCESS_TOKEN}),
-              (f"{GRAPH_BASE}/me/permissions", {"access_token": ACCESS_TOKEN}),
-          ]:
-              r = requests.get(url, params=params)
-              print(f"GET {url.split('/')[-1]}: {r.status_code} {r.text[:400]}")
-          sys.exit(0)
+          IG_USER_ID   = "17841403939108726"
 
           moscow_tz = timezone(timedelta(hours=3))
           now_moscow = datetime.now(moscow_tz)
