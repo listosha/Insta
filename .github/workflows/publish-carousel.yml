@@ -22,13 +22,20 @@ jobs:
           COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
         run: |
           python3 << 'EOF'
-          import json
-          import os
-          import sys
-          import requests
+          import json, os, sys, requests
           from datetime import datetime, timezone, timedelta
 
           API_KEY = os.environ["COMPOSIO_API_KEY"]
+
+          # Получаем UUID Instagram connected account
+          for url in [
+              "https://backend.composio.dev/api/v1/connectedAccounts?appName=instagram&showActiveOnly=true",
+              "https://backend.composio.dev/api/v1/connectedAccounts",
+              "https://backend.composio.dev/api/v1/connectedAccounts/instagram_owlet-ruga",
+          ]:
+              r = requests.get(url, headers={"x-api-key": API_KEY}, timeout=10)
+              print(f"GET {url} → {r.status_code}: {r.text[:400]}")
+          sys.exit(0)
           BASE_URL = "https://backend.composio.dev/api/v2/actions"
           HEADERS = {
               "x-api-key": API_KEY,
