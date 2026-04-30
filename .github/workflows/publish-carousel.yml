@@ -17,9 +17,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Composio SDK
-        run: pip install composio-core --quiet
-
       - name: Publish carousel via Composio
         env:
           COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
@@ -28,18 +25,21 @@ jobs:
           import json
           import os
           import sys
+          import requests
           from datetime import datetime, timezone, timedelta
-          from composio import ComposioToolSet, Action
 
-          toolset = ComposioToolSet(api_key=os.environ["COMPOSIO_API_KEY"])
+          API_KEY = os.environ["COMPOSIO_API_KEY"]
+          BASE_URL = "https://backend.composio.dev/api/v2/actions"
+          HEADERS = {
+              "x-api-key": API_KEY,
+              "content-type": "application/json"
+          }
 
-          # Текущее время в Москве (UTC+3)
           moscow_tz = timezone(timedelta(hours=3))
           now_moscow = datetime.now(moscow_tz)
           today = now_moscow.strftime("%Y-%m-%d")
           hour = now_moscow.hour
 
-          # Определяем слот по времени запуска
           if hour == 10:
               time_slot = "10:00"
           elif hour == 14:
@@ -47,7 +47,7 @@ jobs:
           elif hour == 19:
               time_slot = "19:30"
           else:
-              time_slot = None  # ручной запуск — берём любой pending
+              time_slot = None
 
           print(f"Moscow time: {now_moscow.strftime('%Y-%m-%d %H:%M')}")
           print(f"Today: {today}, time_slot: {time_slot or 'any (manual run)'}")
@@ -78,42 +78,49 @@ jobs:
           print(f"URLs: {image_urls}")
 
           # Шаг 1: создаём carousel container
-          result = toolset.execute_action(
-              action=Action.INSTAGRAM_CREATE_CAROUSEL_CONTAINER,
-              params={
-                  "ig_user_id": "me",
-                  "caption": entry["caption"],
-                  "child_image_urls": image_urls,
+          resp = requests.post(
+              f"{BASE_URL}/INSTAGRAM_CREATE_CAROUSEL_CONTAINER/execute",
+              headers=HEADERS,
+              json={
+                  "input": {
+                      "ig_user_id": "me",
+                      "caption": entry["caption"],
+                      "child_image_urls": image_urls
+                  },
+                  "entityId": "default"
               },
-              entity_id="default",
+              timeout=60
           )
-          print(f"Container result: {result}")
-          if not result.get("successful"):
-              print(f"ERROR creating container: {result.get('error')}")
+          print(f"Container status: {resp.status_code}")
+          print(f"Container response: {resp.text[:500]}")
+          if not resp.ok:
               sys.exit(1)
 
-          creation_id = result["data"]["id"]
+          creation_id = resp.json()["response"]["data"]["id"]
           print(f"Container created: {creation_id}")
 
           # Шаг 2: публикуем
-          result2 = toolset.execute_action(
-              action=Action.INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH,
-              params={
-                  "ig_user_id": "me",
-                  "creation_id": creation_id,
-                  "max_wait_seconds": 60,
+          resp2 = requests.post(
+              f"{BASE_URL}/INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH/execute",
+              headers=HEADERS,
+              json={
+                  "input": {
+                      "ig_user_id": "me",
+                      "creation_id": creation_id,
+                      "max_wait_seconds": 60
+                  },
+                  "entityId": "default"
               },
-              entity_id="default",
+              timeout=120
           )
-          print(f"Publish result: {result2}")
-          if not result2.get("successful"):
-              print(f"ERROR publishing: {result2.get('error')}")
+          print(f"Publish status: {resp2.status_code}")
+          print(f"Publish response: {resp2.text[:500]}")
+          if not resp2.ok:
               sys.exit(1)
 
-          media_id = result2["data"]["id"]
+          media_id = resp2.json()["response"]["data"]["id"]
           print(f"Published! Media ID: {media_id}")
 
-          # Шаг 3: обновляем schedule.json
           schedule[entry_idx]["status"] = "published"
           schedule[entry_idx]["media_id"] = media_id
           schedule[entry_idx]["published_at"] = now_moscow.isoformat()
