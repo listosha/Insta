@@ -30,8 +30,26 @@ jobs:
           from datetime import datetime, timezone, timedelta
 
           ACCESS_TOKEN = os.environ["INSTAGRAM_ACCESS_TOKEN"]
-          IG_USER_ID   = "27198558379728784"
           GRAPH_BASE   = "https://graph.facebook.com/v21.0"
+
+          # Получаем правильный IG Business Account ID через Facebook Pages
+          r = requests.get(f"{GRAPH_BASE}/me/accounts", params={"access_token": ACCESS_TOKEN})
+          print(f"Pages: {r.status_code} {r.text[:500]}")
+          pages = r.json().get("data", [])
+          IG_USER_ID = None
+          for page in pages:
+              page_id = page["id"]
+              r2 = requests.get(f"{GRAPH_BASE}/{page_id}",
+                                params={"fields": "instagram_business_account", "access_token": ACCESS_TOKEN})
+              print(f"Page {page_id}: {r2.text[:300]}")
+              ig = r2.json().get("instagram_business_account", {})
+              if ig.get("id"):
+                  IG_USER_ID = ig["id"]
+                  print(f"Found IG account: {IG_USER_ID}")
+                  break
+          if not IG_USER_ID:
+              print("ERROR: No Instagram Business account found linked to any Facebook Page")
+              sys.exit(1)
 
           moscow_tz = timezone(timedelta(hours=3))
           now_moscow = datetime.now(moscow_tz)
