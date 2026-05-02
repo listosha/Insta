@@ -43,13 +43,13 @@ jobs:
           hour   = now_moscow.hour
           minute = now_moscow.minute
 
-          if hour == 10 and minute <= 20:
+          if hour == 10 and minute <= 25:
               time_slot = "10:00"
-          elif hour == 10 and minute > 20:
+          elif hour == 10 and minute > 25:
               time_slot = "10:30"
-          elif hour == 14 and minute <= 20:
+          elif hour == 14 and minute <= 25:
               time_slot = "14:00"
-          elif hour == 14 and minute > 20:
+          elif hour == 14 and minute > 25:
               time_slot = "14:30"
           elif hour == 19:
               time_slot = "19:30"
