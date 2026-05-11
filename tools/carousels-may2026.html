@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Карусели «Консультация» · Май 2026 · Все 9 (v2)</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px; background: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+.page-title { font-size: 22px; font-weight: 700; color: #222; margin-bottom: 6px; }
+.page-sub { font-size: 13px; color: #888; margin-bottom: 32px; }
+
+.series { background: white; border-radius: 12px; margin-bottom: 48px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
+.series-header { padding: 20px 24px 0; border-bottom: 1px solid #eee; padding-bottom: 16px; }
+.series-num { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #aaa; margin-bottom: 4px; }
+.series-title { font-size: 18px; font-weight: 700; color: #222; margin-bottom: 8px; }
+.series-meta { display: flex; gap: 20px; font-size: 12px; flex-wrap: wrap; }
+.meta-tag { display: inline-flex; align-items: center; gap: 5px; }
+.meta-tag .dot { width: 10px; height: 10px; border-radius: 50%; }
+.meta-label { color: #999; }
+.meta-value { color: #333; font-weight: 600; }
+
+.post-caption-block { margin: 0; padding: 18px 24px; background: #fafafa; border-left: 0; }
+.post-caption-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #bbb; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+.post-caption-label::after { content: ''; flex: 1; height: 1px; background: #e8e8e8; }
+.slot-badge { display: inline-block; background: #222; color: #fff; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: 1px; margin-left: 8px; }
+.post-text { font-size: 14px; line-height: 1.65; color: #444; white-space: pre-wrap; font-family: Georgia, serif; }
+
+.slides { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 16px 20px 20px; }
+@media (max-width: 700px) { .slides { grid-template-columns: repeat(2, 1fr); } }
+
+.slide-wrap { border-radius: 8px; overflow: hidden; box-shadow: 0 1px 6px rgba(0,0,0,0.1); }
+.slide-wrap svg { width: 100%; height: auto; display: block; }
+.slide-label { padding: 6px 10px; font-size: 10px; color: #888; background: #f7f7f7; border-top: 1px solid #eee; letter-spacing: 0.5px; }
+</style>
+</head>
+<body>
+
+<div class="page-title">Карусели «Консультация» · Май 2026 (v2)</div>
+<div class="page-sub">9 каруселей · публикация 10:00 МСК · 12–20 мая · @listosh.a</div>
+
+<div id="root"></div>
+
+<script>
+const THEMES = {
+  red_white: { name: 'Red + White', swatch: '#CC0000', bg: '#FFFFFF', accent: '#CC0000', accentB: '#990000', text: '#111111', textSoft: '#555555', accentText: '#FFFFFF' },
+  orange_white: { name: 'Orange + White', swatch: '#E05800', bg: '#FFFFFF', accent: '#E05800', accentB: '#B34400', text: '#111111', textSoft: '#555555', accentText: '#FFFFFF' },
+  purple_white: { name: 'Purple + White', swatch: '#6B21A8', bg: '#FFFFFF', accent: '#6B21A8', accentB: '#4C1572', text: '#111111', textSoft: '#555555', accentText: '#FFFFFF' },
+  fuchsia_white: { name: 'Fuchsia + White', swatch: '#C026D3', bg: '#FFFFFF', accent: '#C026D3', accentB: '#86198F', text: '#111111', textSoft: '#555555', accentText: '#FFFFFF' },
+  black_orange: { name: 'Black + Orange', swatch: '#1A1A1A', bg: '#1A1A1A', accent: '#E05800', accentB: '#FF7020', text: '#F5F5F5', textSoft: '#BBBBBB', accentText: '#FFFFFF' },
+  black_red: { name: 'Black + Red', swatch: '#1A1A1A', bg: '#1A1A1A', accent: '#CC0000', accentB: '#FF3333', text: '#F5F5F5', textSoft: '#BBBBBB', accentText: '#FFFFFF' },
+  teal_white: { name: 'Teal + White', swatch: '#0F766E', bg: '#FFFFFF', accent: '#0F766E', accentB: '#0D5C57', text: '#111111', textSoft: '#555555', accentText: '#FFFFFF' },
+  indigo_white: { name: 'Indigo + White', swatch: '#4338CA', bg: '#FFFFFF', accent: '#4338CA', accentB: '#3730A3', text: '#111111', textSoft: '#555555', accentText: '#FFFFFF' },
+  black_teal: { name: 'Black + Teal', swatch: '#111111', bg: '#111111', accent: '#14B8A6', accentB: '#0D9488', text: '#F5F5F5', textSoft: '#AAAAAA', accentText: '#111111' }
+};
+
+function esc(s) { return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function fitText(text, maxChars, maxLines, baseFontSize) {
+  if (!text) return { lines: [], fontSize: baseFontSize };
+  function wrap(charsPerLine) {
+    const paragraphs = String(text).split(/\n+/);
+    const out = [];
+    for (const para of paragraphs) {
+      const words = para.split(/\s+/).filter(Boolean);
+      let current = '';
+      for (const word of words) {
+        const candidate = current ? current + ' ' + word : word;
+        if (candidate.length <= charsPerLine) current = candidate;
+        else { if (current) out.push(current); current = word; }
+      }
+      if (current) out.push(current);
+    }
+    return out;
+  }
+  let scale = 1, fontSize = baseFontSize, chars = maxChars;
+  let lines = wrap(chars);
+  while (lines.length > maxLines && scale < 1.5) {
+    scale += 0.05;
+    fontSize = baseFontSize / scale;
+    chars = Math.floor(maxChars * scale);
+    lines = wrap(chars);
+  }
+  if (lines.length > maxLines) {
+    lines = lines.slice(0, maxLines);
+    const last = lines[maxLines - 1];
+    if (last && last.length > 3) lines[maxLines - 1] = last.slice(0, -2) + '...';
+  }
+  return { lines, fontSize };
+}
+
+function iconPath(name, size) {
+  const s = size;
+  const paths = {
+    iron: `<path d="M ${s*0.5} ${s*0.1} C ${s*0.2} ${s*0.5}, ${s*0.2} ${s*0.85}, ${s*0.5} ${s*0.9} C ${s*0.8} ${s*0.85}, ${s*0.8} ${s*0.5}, ${s*0.5} ${s*0.1} Z"/><path d="M ${s*0.35} ${s*0.55} Q ${s*0.5} ${s*0.45}, ${s*0.65} ${s*0.55}"/>`,
+    molecule: `<circle cx="${s*0.5}" cy="${s*0.25}" r="${s*0.1}"/><circle cx="${s*0.25}" cy="${s*0.7}" r="${s*0.1}"/><circle cx="${s*0.75}" cy="${s*0.7}" r="${s*0.1}"/><line x1="${s*0.45}" y1="${s*0.33}" x2="${s*0.3}" y2="${s*0.62}"/><line x1="${s*0.55}" y1="${s*0.33}" x2="${s*0.7}" y2="${s*0.62}"/><line x1="${s*0.35}" y1="${s*0.7}" x2="${s*0.65}" y2="${s*0.7}"/>`,
+    drop: `<path d="M ${s*0.5} ${s*0.15} C ${s*0.3} ${s*0.4}, ${s*0.2} ${s*0.65}, ${s*0.5} ${s*0.9} C ${s*0.8} ${s*0.65}, ${s*0.7} ${s*0.4}, ${s*0.5} ${s*0.15} Z"/>`,
+    wave: `<path d="M ${s*0.1} ${s*0.5} Q ${s*0.3} ${s*0.3}, ${s*0.5} ${s*0.5} Q ${s*0.7} ${s*0.7}, ${s*0.9} ${s*0.5}"/><path d="M ${s*0.1} ${s*0.65} Q ${s*0.3} ${s*0.45}, ${s*0.5} ${s*0.65} Q ${s*0.7} ${s*0.85}, ${s*0.9} ${s*0.65}"/>`,
+    spark: `<path d="M ${s*0.5} ${s*0.05} L ${s*0.62} ${s*0.38} L ${s*0.95} ${s*0.38} L ${s*0.69} ${s*0.59} L ${s*0.79} ${s*0.95} L ${s*0.5} ${s*0.73} L ${s*0.21} ${s*0.95} L ${s*0.31} ${s*0.59} L ${s*0.05} ${s*0.38} L ${s*0.38} ${s*0.38} Z"/>`,
+    gut: `<path d="M ${s*0.3} ${s*0.15} Q ${s*0.6} ${s*0.1}, ${s*0.65} ${s*0.35} Q ${s*0.7} ${s*0.55}, ${s*0.5} ${s*0.6} Q ${s*0.3} ${s*0.65}, ${s*0.35} ${s*0.8} Q ${s*0.4} ${s*0.95}, ${s*0.65} ${s*0.9}"/>`,
+    capsule: `<rect x="${s*0.28}" y="${s*0.3}" width="${s*0.44}" height="${s*0.4}" rx="${s*0.2}"/><line x1="${s*0.5}" y1="${s*0.3}" x2="${s*0.5}" y2="${s*0.7}"/>`
+  };
+  return paths[name] || '';
+}
+
+function iconGroup(name, size, color, strokeW) {
+  const path = iconPath(name, size);
+  if (!path) return '';
+  return `<g fill="none" stroke="${color}" stroke-width="${strokeW}" stroke-linecap="round" stroke-linejoin="round">${path}</g>`;
+}
+
+function renderFooter(t, w, h) {
+  const isLight = t.bg === '#FFFFFF' || t.bg.startsWith('#F');
+  const color = isLight ? t.accent : t.accentB;
+  let svg = '';
+  svg += `<text x="${w*0.92}" y="${h*0.952}" font-family="Georgia,serif" font-size="${w*0.026}" fill="${color}" font-weight="700" text-anchor="end" letter-spacing="1" opacity="0.8">listoshenkov.ru</text>`;
+  svg += `<text x="${w*0.92}" y="${h*0.975}" font-family="Georgia,serif" font-size="${w*0.022}" fill="${color}" font-weight="700" text-anchor="end" letter-spacing="1" opacity="0.55">ссылка в био</text>`;
+  return svg;
+}
+
+function renderSlide(slide, t, idx) {
+  const w = 1080, h = 1350;
+  const baseFont = 'Georgia, serif';
+  const hasIcon = slide.icon && slide.icon !== 'none';
+  let svg = `<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">`;
+
+  switch(slide.layout) {
+    case 'cover': {
+      const titleFit = fitText(slide.title, 14, 4, w * 0.100);
+      const subFit = fitText(slide.subtitle || '', 30, 2, w * 0.046);
+      const titleLH = 1.18, subLH = 1.2;
+      const titleBlockH = titleFit.lines.length * titleFit.fontSize * titleLH;
+      const subBlockH = subFit.lines.length * subFit.fontSize * subLH;
+      const gap = subFit.lines.length ? h * 0.035 : 0;
+      const totalH = subBlockH + gap + titleBlockH;
+      const blockTop = h * 0.52 - totalH / 2;
+      const subStartY = blockTop + subFit.fontSize * 0.85;
+      const titleStartY = blockTop + subBlockH + gap + titleFit.fontSize * 0.85;
+
+      svg += `<rect width="${w}" height="${h}" fill="${t.bg}"/>`;
+      svg += `<rect x="0" y="0" width="${w}" height="${w*0.007}" fill="${t.accent}"/>`;
+      svg += `<ellipse cx="${w*0.88}" cy="${h*0.18}" rx="${w*0.32}" ry="${w*0.3}" fill="${t.accent}" opacity="0.08"/>`;
+      svg += `<ellipse cx="${w*0.1}" cy="${h*0.85}" rx="${w*0.18}" ry="${w*0.18}" fill="${t.accent}" opacity="0.06"/>`;
+      if (hasIcon) svg += `<g opacity="0.22" fill="none" stroke="${t.accent}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(${w*0.72}, ${h*0.06})">${iconGroup(slide.icon, w*0.22, t.accent, 3.5)}</g>`;
+      subFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.08}" y="${subStartY + i*subFit.fontSize*subLH}" font-family="${baseFont}" font-size="${subFit.fontSize}" fill="${t.accent}" font-weight="700" font-style="italic" letter-spacing="2">${esc(line.toUpperCase())}</text>`;
+      });
+      titleFit.lines.forEach((line, i) => {
+        const isLast = i === titleFit.lines.length - 1;
+        svg += `<text x="${w*0.08}" y="${titleStartY + i*titleFit.fontSize*titleLH}" font-family="${baseFont}" font-size="${titleFit.fontSize}" fill="${isLast ? t.accent : t.text}" font-weight="700">${esc(line)}</text>`;
+      });
+      svg += `<rect x="${w*0.08}" y="${h*0.87}" width="${w*0.15}" height="${h*0.008}" fill="${t.accent}"/>`;
+      svg += `<rect x="${w*0.09}" y="${h*0.882}" width="${w*0.10}" height="${h*0.006}" fill="${t.accentB}" opacity="0.7"/>`;
+      const ftY = h * 0.92, ftH = h * 0.05;
+      svg += `<rect x="${w*0.06}" y="${ftY}" width="${w*0.48}" height="${ftH}" rx="12" fill="${t.accent}" opacity="0.08"/>`;
+      svg += `<text x="${w*0.08}" y="${ftY + ftH*0.66}" font-family="${baseFont}" font-size="${w*0.030}" fill="${t.accent}" font-weight="700" letter-spacing="3">СВАЙП →</text>`;
+      svg += renderFooter(t, w, h);
+      break;
+    }
+    case 'text': {
+      const titleFit = fitText(slide.title, 18, 3, w * 0.075);
+      const subFit = fitText(slide.subtitle || '', 26, 2, w * 0.048);
+      const titleStartY = h * 0.24;
+      const titleBlockH = titleFit.lines.length * titleFit.fontSize * 1.12;
+      const subBlockH = subFit.lines.length * subFit.fontSize * 1.15;
+      const subGap = subFit.lines.length ? h*0.03 : 0;
+      const bodyStartY = titleStartY + titleBlockH + (subFit.lines.length ? subBlockH + subGap : 0) + h * 0.055;
+      const bodyEndY = h * 0.86;
+      const bodyAvailH = bodyEndY - bodyStartY;
+      const bodyLH = 1.32;
+      let bodyFontBase = w * 0.054;
+      let bodyFit;
+      for (let attempt = 0; attempt < 8; attempt++) {
+        const charsScale = (w * 0.054) / bodyFontBase;
+        bodyFit = fitText(slide.body, Math.floor(26 * charsScale), 12, bodyFontBase);
+        if (bodyFit.lines.length * bodyFit.fontSize * bodyLH <= bodyAvailH) break;
+        bodyFontBase *= 0.94;
+      }
+      svg += `<rect width="${w}" height="${h}" fill="${t.bg}"/>`;
+      if (hasIcon) svg += `<g transform="translate(${w*0.075}, ${h*0.042})">${iconGroup(slide.icon, w*0.065, t.accent, 2.8)}</g>`;
+      svg += `<rect x="${w*0.08}" y="${h*0.14}" width="${w*0.1}" height="${h*0.01}" fill="${t.accent}"/>`;
+      titleFit.lines.forEach((line, i) => {
+        const isLast = i === titleFit.lines.length - 1;
+        svg += `<text x="${w*0.08}" y="${titleStartY + i*titleFit.fontSize*1.12}" font-family="${baseFont}" font-size="${titleFit.fontSize}" fill="${isLast ? t.accent : t.text}" font-weight="700">${esc(line)}</text>`;
+      });
+      subFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.08}" y="${titleStartY + titleBlockH + subGap + i*subFit.fontSize*1.15}" font-family="${baseFont}" font-size="${subFit.fontSize}" fill="${t.accent}" font-weight="400" font-style="italic">${esc(line)}</text>`;
+      });
+      bodyFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.08}" y="${bodyStartY + i*bodyFit.fontSize*bodyLH}" font-family="${baseFont}" font-size="${bodyFit.fontSize}" fill="${t.textSoft}" font-weight="400">${esc(line)}</text>`;
+      });
+      if (hasIcon) svg += `<g opacity="0.12" transform="translate(${w*0.73}, ${h*0.82})">${iconGroup(slide.icon, w*0.19, t.accent, 3)}</g>`;
+      svg += renderFooter(t, w, h);
+      break;
+    }
+    case 'quote': {
+      const cardTop = h * 0.24, cardH = h * 0.50;
+      const lineH = 1.22;
+      let qFontBase = w * 0.065;
+      let bodyFit;
+      for (let attempt = 0; attempt < 8; attempt++) {
+        const charsScale = (w * 0.065) / qFontBase;
+        bodyFit = fitText(slide.body, Math.floor(22 * charsScale), 10, qFontBase);
+        if (bodyFit.lines.length * bodyFit.fontSize * lineH <= cardH * 0.88) break;
+        qFontBase *= 0.93;
+      }
+      const textBlockH = bodyFit.lines.length * bodyFit.fontSize * lineH;
+      const textStartY = cardTop + (cardH / 2) - (textBlockH / 2) + bodyFit.fontSize * 0.85;
+      svg += `<rect width="${w}" height="${h}" fill="${t.bg}"/>`;
+      svg += `<rect width="${w}" height="${h}" fill="${t.accent}" opacity="0.05"/>`;
+      svg += `<text x="${w*0.10}" y="${cardTop + h*0.08}" font-family="${baseFont}" font-size="${w*0.34}" fill="${t.accent}" opacity="0.09" font-weight="700">"</text>`;
+      svg += `<rect x="${w*0.08}" y="${h*0.14}" width="${w*0.08}" height="${h*0.009}" fill="${t.accent}"/>`;
+      svg += `<rect x="${w*0.08}" y="${cardTop + cardH - h*0.01}" width="${w*0.92 - w*0.08}" height="1" fill="${t.accent}" opacity="0.15"/>`;
+      bodyFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.14}" y="${textStartY + i*bodyFit.fontSize*lineH}" font-family="${baseFont}" font-size="${bodyFit.fontSize}" fill="${t.text}" font-weight="400" font-style="italic">${esc(line)}</text>`;
+      });
+      svg += `<rect x="${w*0.08}" y="${h*0.87}" width="${w*0.12}" height="${h*0.006}" fill="${t.accent}"/>`;
+      svg += renderFooter(t, w, h);
+      break;
+    }
+    case 'list': {
+      const titleFit = fitText(slide.title, 18, 2, w * 0.075);
+      const titleStartY = h * 0.24;
+      const titleBlockH = titleFit.lines.length * titleFit.fontSize * 1.12;
+      const listStartY = titleStartY + titleBlockH + h * 0.05;
+      const listEndY = h * 0.87;
+      const availH = listEndY - listStartY;
+      const rawItems = (slide.items || []).filter(x => x);
+      const n = rawItems.length;
+      const itemLH = 1.22;
+      let itemFontBase = w * 0.052;
+      let itemFits = [];
+      for (let attempt = 0; attempt < 12; attempt++) {
+        const charsScale = (w * 0.052) / itemFontBase;
+        itemFits = rawItems.map(it => fitText(it, Math.floor(28 * charsScale), 3, itemFontBase));
+        const totalH = itemFits.reduce((sum, fit) => sum + fit.lines.length * fit.fontSize * itemLH + itemFontBase * 0.7, 0);
+        if (totalH <= availH) break;
+        itemFontBase *= 0.93;
+      }
+      svg += `<rect width="${w}" height="${h}" fill="${t.bg}"/>`;
+      if (hasIcon) svg += `<g transform="translate(${w*0.075}, ${h*0.042})">${iconGroup(slide.icon, w*0.065, t.accent, 2.8)}</g>`;
+      svg += `<rect x="${w*0.08}" y="${h*0.14}" width="${w*0.1}" height="${h*0.01}" fill="${t.accent}"/>`;
+      titleFit.lines.forEach((line, i) => {
+        const isLast = i === titleFit.lines.length - 1;
+        svg += `<text x="${w*0.08}" y="${titleStartY + i*titleFit.fontSize*1.12}" font-family="${baseFont}" font-size="${titleFit.fontSize}" fill="${isLast ? t.accent : t.text}" font-weight="700">${esc(line)}</text>`;
+      });
+      let curY = listStartY;
+      itemFits.forEach((fit, i) => {
+        const isLast = i === n - 1;
+        const lineH = fit.fontSize * itemLH;
+        const firstBaselineY = curY + fit.fontSize * 0.85;
+        const bulletCY = firstBaselineY - fit.fontSize * 0.32;
+        const bulletR = w * 0.028;
+        svg += `<circle cx="${w*0.12}" cy="${bulletCY}" r="${bulletR}" fill="${isLast ? t.accentB : t.accent}"/>`;
+        svg += `<text x="${w*0.12}" y="${bulletCY + bulletR*0.42}" font-family="${baseFont}" font-size="${w*0.028}" fill="${t.accentText}" font-weight="700" text-anchor="middle">${i+1}</text>`;
+        fit.lines.forEach((line, li) => {
+          svg += `<text x="${w*0.19}" y="${firstBaselineY + li*lineH}" font-family="${baseFont}" font-size="${fit.fontSize}" fill="${t.text}" font-weight="400">${esc(line)}</text>`;
+        });
+        curY += fit.lines.length * lineH + itemFontBase * 0.7;
+      });
+      svg += renderFooter(t, w, h);
+      break;
+    }
+    case 'accent': {
+      const titleFit = fitText(slide.title, 16, 3, w * 0.090);
+      const titleStartY = h * 0.28;
+      const titleBlockH = titleFit.lines.length * titleFit.fontSize * 1.15;
+      const bodyStartY = titleStartY + titleBlockH + h * 0.06;
+      const bodyEndY = h * 0.88;
+      const bodyAvailH = bodyEndY - bodyStartY;
+      const bodyLH = 1.28;
+      let bodyFontBase = w * 0.054;
+      let bodyFit;
+      for (let attempt = 0; attempt < 8; attempt++) {
+        const charsScale = (w * 0.054) / bodyFontBase;
+        bodyFit = fitText(slide.body, Math.floor(24 * charsScale), 12, bodyFontBase);
+        if (bodyFit.lines.length * bodyFit.fontSize * bodyLH <= bodyAvailH) break;
+        bodyFontBase *= 0.94;
+      }
+      svg += `<rect width="${w}" height="${h}" fill="${t.accent}"/>`;
+      svg += `<ellipse cx="${w*0.9}" cy="${h*0.88}" rx="${w*0.3}" ry="${w*0.27}" fill="${t.bg}" opacity="0.05"/>`;
+      svg += `<rect x="${w*0.08}" y="${h*0.14}" width="${w*0.1}" height="${h*0.01}" fill="${t.accentB}"/>`;
+      titleFit.lines.forEach((line, i) => {
+        const isLast = i === titleFit.lines.length - 1;
+        svg += `<text x="${w*0.08}" y="${titleStartY + i*titleFit.fontSize*1.15}" font-family="${baseFont}" font-size="${titleFit.fontSize}" fill="${isLast ? t.accentB : t.bg}" font-weight="700">${esc(line)}</text>`;
+      });
+      svg += `<line x1="${w*0.08}" y1="${bodyStartY - h*0.025}" x2="${w*0.92}" y2="${bodyStartY - h*0.025}" stroke="${t.bg}" stroke-width="1" opacity="0.2"/>`;
+      bodyFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.08}" y="${bodyStartY + i*bodyFit.fontSize*bodyLH}" font-family="${baseFont}" font-size="${bodyFit.fontSize}" fill="${t.bg}" font-weight="400" opacity="0.94">${esc(line)}</text>`;
+      });
+      svg += `<text x="${w*0.92}" y="${h*0.952}" font-family="${baseFont}" font-size="${w*0.026}" fill="${t.bg}" font-weight="700" text-anchor="end" letter-spacing="1" opacity="0.7">listoshenkov.ru</text>`;
+      svg += `<text x="${w*0.92}" y="${h*0.975}" font-family="${baseFont}" font-size="${w*0.022}" fill="${t.bg}" font-weight="700" text-anchor="end" letter-spacing="1" opacity="0.5">ссылка в био</text>`;
+      break;
+    }
+    case 'number': {
+      const titleFit = fitText(slide.title, 16, 3, w * 0.090);
+      const titleStartY = h * 0.34;
+      const titleBlockH = titleFit.lines.length * titleFit.fontSize * 1.2;
+      const bodyStartY = titleStartY + titleBlockH + h * 0.05;
+      const bodyEndY = h * 0.87;
+      const bodyAvailH = bodyEndY - bodyStartY;
+      const bodyLH = 1.28;
+      let bodyFontBase = w * 0.054;
+      let bodyFit;
+      for (let attempt = 0; attempt < 8; attempt++) {
+        const charsScale = (w * 0.054) / bodyFontBase;
+        bodyFit = fitText(slide.body, Math.floor(24 * charsScale), 12, bodyFontBase);
+        if (bodyFit.lines.length * bodyFit.fontSize * bodyLH <= bodyAvailH) break;
+        bodyFontBase *= 0.94;
+      }
+      const numLabel = slide.numLabel || (idx != null ? String(idx + 1).padStart(2, '0') : '01');
+      svg += `<rect width="${w}" height="${h}" fill="${t.bg}"/>`;
+      svg += `<text x="${w*0.12}" y="${h*0.22}" font-family="${baseFont}" font-size="${w*0.20}" fill="${t.accent}" font-weight="700" opacity="0.12">${esc(numLabel)}</text>`;
+      svg += `<rect x="${w*0.08}" y="${h*0.14}" width="${w*0.08}" height="${h*0.01}" fill="${t.accent}"/>`;
+      titleFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.08}" y="${titleStartY + i*titleFit.fontSize*1.12}" font-family="${baseFont}" font-size="${titleFit.fontSize}" fill="${t.text}" font-weight="700">${esc(line)}</text>`;
+      });
+      svg += `<line x1="${w*0.08}" y1="${bodyStartY - h*0.02}" x2="${w*0.92}" y2="${bodyStartY - h*0.02}" stroke="${t.accent}" stroke-width="1" opacity="0.3"/>`;
+      bodyFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.08}" y="${bodyStartY + i*bodyFit.fontSize*bodyLH}" font-family="${baseFont}" font-size="${bodyFit.fontSize}" fill="${t.textSoft}" font-weight="400">${esc(line)}</text>`;
+      });
+      svg += renderFooter(t, w, h);
+      break;
+    }
+    case 'cta': {
+      const titleFit = fitText(slide.title, 20, 3, w * 0.078);
+      const subtitleFit = fitText(slide.subtitle || '', 26, 2, w * 0.050);
+      const titleBlockH = titleFit.lines.length * titleFit.fontSize * 1.18;
+      const titleStartY = h * 0.13;
+      svg += `<rect width="${w}" height="${h}" fill="${t.bg}"/>`;
+      svg += `<ellipse cx="${w*0.5}" cy="${h*0.50}" rx="${w*0.52}" ry="${w*0.52}" fill="${t.accent}" opacity="0.05"/>`;
+      svg += `<ellipse cx="${w*0.5}" cy="${h*0.50}" rx="${w*0.34}" ry="${w*0.34}" fill="${t.accentB}" opacity="0.07"/>`;
+      if (hasIcon) svg += `<g opacity="0.8" transform="translate(${w*0.42}, ${h*0.24})">${iconGroup(slide.icon, w*0.16, t.accent, 3.5)}</g>`;
+      titleFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.5}" y="${titleStartY + i*titleFit.fontSize*1.18}" font-family="${baseFont}" font-size="${titleFit.fontSize}" fill="${t.text}" font-weight="700" text-anchor="middle">${esc(line)}</text>`;
+      });
+      subtitleFit.lines.forEach((line, i) => {
+        svg += `<text x="${w*0.5}" y="${titleStartY + titleBlockH + h*0.03 + i*subtitleFit.fontSize*1.2}" font-family="${baseFont}" font-size="${subtitleFit.fontSize}" fill="${t.textSoft}" font-weight="400" text-anchor="middle">${esc(line)}</text>`;
+      });
+      const btnY = h * 0.52, btnH = h * 0.16, btnX = w * 0.07, btnW = w * 0.86;
+      svg += `<rect x="${btnX}" y="${btnY}" width="${btnW}" height="${btnH}" rx="${btnH/2}" fill="${t.accent}"/>`;
+      svg += `<text x="${w*0.5}" y="${btnY + btnH*0.30}" font-family="${baseFont}" font-size="${w*0.050}" fill="${t.accentText}" font-weight="700" text-anchor="middle" letter-spacing="2">ЗАПИСАТЬСЯ</text>`;
+      svg += `<text x="${w*0.5}" y="${btnY + btnH*0.62}" font-family="${baseFont}" font-size="${w*0.036}" fill="${t.accentText}" font-weight="400" text-anchor="middle" opacity="0.95">в разделе «Консультация»</text>`;
+      svg += `<text x="${w*0.5}" y="${btnY + btnH*0.88}" font-family="${baseFont}" font-size="${w*0.034}" fill="${t.accentText}" font-weight="400" text-anchor="middle" opacity="0.90">в приложении</text>`;
+      svg += `<rect x="${w*0.36}" y="${h*0.82}" width="${w*0.28}" height="1.5" fill="${t.accent}" opacity="0.25"/>`;
+      svg += `<text x="${w*0.5}" y="${h*0.89}" font-family="${baseFont}" font-size="${w*0.036}" fill="${t.accent}" font-weight="700" text-anchor="middle" letter-spacing="3">LISTOSHENKOV.RU</text>`;
+      svg += `<text x="${w*0.5}" y="${h*0.965}" font-family="${baseFont}" font-size="${w*0.028}" fill="${t.textSoft}" font-weight="400" text-anchor="middle">ссылка в био</text>`;
+      break;
+    }
+  }
+  svg += `</svg>`;
+  return svg;
+}
+
+const SERIES = [
+  {
+    id: 1, theme: 'red_white',
+    title: 'Три года «просто устала»',
+    slot: '10:00 МСК · 12.05.2026',
+    caption: `«Я просто устала» - и терапевту, и неврологу, и эндокринологу. Все трое смотрели анализы и отпускали с чистой совестью.\n\nЕй 49. Три года с этим. Ферритин 11 нг/мл - лаборатория пишет «норма».\n\nВ карусели - как три цифры в норме дают три года на кровати.`,
+    slides: [
+      { layout:'cover', title:'Три года\n«просто\nустала»', subtitle:'ферритин 11. лаборатория: норма', icon:'iron' },
+      { layout:'text', title:'Три специалиста за три года', icon:'none', body:'Терапевт. Невролог. Эндокринолог.\nВсе смотрели анализы. Все отпускали.\nГемоглобин 121 г/л - в референсе.\nФерритин 11 нг/мл - тоже «в норме».' },
+      { layout:'text', title:'Проблема с «нормой»', subtitle:'по ферритину', icon:'iron', body:'Нижняя граница референса - граница анемии.\nНе граница здоровья.\nПри ферритине ниже 50 нг/мл клетки уже на аварийном режиме.\nМитохондрии без железа не производят АТФ - нет сил.' },
+      { layout:'quote', body:'Гемоглобин падает последним. Поэтому врач смотрит и говорит: «анемии нет». Технически - да. По ощущениям - человек на нуле.', icon:'none' },
+      { layout:'list', title:'Что нашли дополнительно', icon:'molecule', items:['Витамин D: 19 нг/мл - тяжёлый дефицит','Т3 свободный: 3,1 пмоль/л - нижняя граница','ТТГ: 2,3 мМЕ/л - щитовидка напрягается','ОЖСС: 74 мкмоль/л - тело кричит: железа нет'] },
+      { layout:'accent', title:'Три проблемы по отдельности «в норме»', body:'Каждый смотрел на своё.\nНикто не смотрел на картину целиком.\nЭто не вина врачей. Это система.' },
+      { layout:'text', title:'Результат через 4 месяца', icon:'drop', body:'Ферритин: 11 → 68 нг/мл.\nВитамин D: 19 → 54 нг/мл.\nТ3 вернули в рабочий диапазон.\nОна написала: «Я убралась дома и не легла после этого спать».' },
+      { layout:'number', title:'Начинаем с разбора того, что уже есть', icon:'none', numLabel:'01', body:'Не с новых анализов. С тех, что на руках.\nЧасто история уже написана - просто никто не читал её целиком.' },
+      { layout:'cta', title:'Это можно разобрать за одну встречу', icon:'iron' }
+    ]
+  },
+  {
+    id: 2, theme: 'orange_white',
+    title: '«Я уже не верю, что мне станет лучше»',
+    slot: '10:00 МСК · 13.05.2026',
+    caption: `Ей 51. Ферритин 9. Три обращения к врачу за год. Три раза - «всё в норме».\n\nПервое, что она сказала на консультации: «Я уже не верю, что мне может стать лучше».\n\nЯ промолчал секунд десять.`,
+    slides: [
+      { layout:'cover', title:'«Я уже не верю»\nчто мне\nстанет лучше', subtitle:'ферритин 9. три раза - «норма»', icon:'none' },
+      { layout:'text', title:'Она пришла и сразу сказала', icon:'none', body:'«Я уже не верю, что мне может стать лучше».\nЕй 51. Три обращения к врачу за год.\nТри раза - «всё в норме».' },
+      { layout:'quote', body:'Я промолчал секунд десять. Потом мы начали работать.', icon:'none' },
+      { layout:'text', title:'Ферритин 9 нг/мл', subtitle:'это не «просто низкий»', icon:'iron', body:'9 - это пустое депо. Ноль запасов.\nМитохондрии без железа не производят АТФ вообще.\nГемоглобин при этом держится - он падает последним.\nВрач смотрит на гемоглобин и говорит: «норма».' },
+      { layout:'list', title:'Что значит «норма» по лаборатории', icon:'molecule', items:['Референс построен на статистике популяции','В выборке много людей, которые тоже чувствуют себя неважно','«Норма» - это не «здоровье»','Функциональный оптимум ферритина - от 50 нг/мл'] },
+      { layout:'text', title:'Три года можно жить с этим', subtitle:'и думать, что так и должно быть', icon:'none', body:'Усталость становится фоном.\nМозг адаптируется. Привыкает.\nИ человек перестаёт верить, что бывает иначе.' },
+      { layout:'text', title:'Она ушла с конкретным списком', icon:'spark', body:'Что сдать дополнительно.\nЧто добавить. В какой форме. В какой дозе.\nНе «попробуй выспаться».\nТри шага на ближайшие восемь недель.' },
+      { layout:'accent', title:'Неверие - это симптом', body:'Когда тело долго не получает нужного,\nмозг перестаёт ждать хорошего.\nЭто биохимия, не пессимизм.' },
+      { layout:'cta', title:'Если ты давно не веришь что может стать лучше', icon:'none' }
+    ]
+  },
+  {
+    id: 3, theme: 'purple_white',
+    title: 'ТТГ в норме. А жить невозможно.',
+    slot: '10:00 МСК · 14.05.2026',
+    caption: `ТТГ 1,8 - эндокринолог сказал «отличный результат». Два года мёрзнет при +22, не может скинуть 8 кг, просыпается в 5 утра с тревогой.\n\n«Щитовидка здорова» - это про ТТГ. Я смотрю иначе.\n\nВ карусели - механизм, который никто не объяснил.`,
+    slides: [
+      { layout:'cover', title:'ТТГ 1,8\n«Отличный\nрезультат»', subtitle:'а жить невозможно', icon:'wave' },
+      { layout:'text', title:'Эндокринолог был доволен', icon:'none', body:'ТТГ 1,8 мМЕ/л. «Щитовидка здорова».\nЕй 52. Два года: мёрзнет при +22,\nвес не двигается несмотря на диету,\nпросыпается в 5 утра с тревогой.' },
+      { layout:'text', title:'Щитовидка делает Т4', subtitle:'это только заготовка', icon:'wave', body:'Активная форма - Т3. Именно она управляет метаболизмом.\nКонверсия Т4→Т3 происходит в печени и кишечнике.\nФерменты для этого зависят от селена и цинка.' },
+      { layout:'quote', body:'ТТГ нормальный - эндокринолог доволен. А метаболизм работает на 30-40% от нормального. Человек мёрзнет, вес стоит, мозг в тумане.', icon:'none' },
+      { layout:'list', title:'Что нашли в полной панели', icon:'molecule', items:['Т3 свободный: 3,0 пмоль/л (оптимум от 5)','Реверсивный Т3: 24 нг/дл - высоко','Кортизол утренний: 620 нмоль/л - верхняя граница','DHEA-S: 58 мкг/дл - истощение надпочечников'] },
+      { layout:'text', title:'Высокий кортизол блокирует конверсию', icon:'wave', body:'Т4 не превращается в Т3.\nВместо него - реверсивный Т3: неактивная форма,\nкоторая занимает рецепторы и мешает работать даже тому Т3, который есть.' },
+      { layout:'text', title:'Что делали', icon:'capsule', body:'Селен 200 мкг + цинк 30 мг - поддержка конверсии.\nРабота с печенью - конверсия и детоксикация эстрогенов.\nМагний вечером - кортизол в 5 утра это в том числе его дефицит.' },
+      { layout:'accent', title:'Через 3 месяца', body:'Т3: 3,0 → 4,8 пмоль/л.\nРеверсивный Т3: 24 → 16 нг/дл.\nОна написала: «Первый раз за два года проснулась без тревоги».' },
+      { layout:'cta', title:'Если «нормальные» анализы щитовидки а симптомы не ушли', icon:'wave' }
+    ]
+  },
+  {
+    id: 4, theme: 'fuchsia_white',
+    title: 'Три раза за неделю - одно и то же',
+    slot: '10:00 МСК · 15.05.2026',
+    caption: `Три женщины. Три разных города. Три разных врача. Итог один: «анализы в норме, обратитесь к психологу».\n\nЧестно - уже бесит.\n\nВ карусели - почему референсная норма и здоровье это разные вещи.`,
+    slides: [
+      { layout:'cover', title:'Три раза\nза неделю -\nодно и то же', subtitle:'уже бесит', icon:'none' },
+      { layout:'text', title:'Три женщины. Три города. Три врача.', icon:'none', body:'И у каждой - одна фраза:\n«анализы в норме, попробуйте к психологу».\nНе потому что врачи плохие.\nОни смотрят на то, что умеют смотреть.' },
+      { layout:'text', title:'Что такое референсный диапазон', subtitle:'на самом деле', icon:'molecule', body:'Это статистика. Выборка людей, среди которых\nмного тех, кто тоже чувствует себя неважно.\n«Норма» по лаборатории - это не «здоровье».' },
+      { layout:'quote', body:'Ферритин 14 нг/мл - референсная норма. Для клеток - пустое депо. Человек не выспавшийся, волосы лезут. Врач смотрит: «всё нормально».', icon:'none' },
+      { layout:'list', title:'Три примера «нормы»', icon:'molecule', items:['ТТГ 2,1 но Т3 3,0 и реверсивный выше 20 - метаболизм на трети','Ферритин 14 - лаборатория OK, клетки на аварийном режиме','Кортизол 580 «высоковат, но норма» - три года без восстановления'] },
+      { layout:'text', title:'Иногда тревога - это не характер', subtitle:'а ферритин 11', icon:'spark', body:'Иногда апатия - не выгорание, а Т3 у нижней границы.\nИногда «депрессия» проходит, когда поднимаешь D с 18 до 55 нг/мл.\nЯ за то, чтобы сначала проверить биохимию.' },
+      { layout:'accent', title:'Я не против психологов', body:'Психолог нужен. Часто.\nНо иногда перед психологом стоит нутрициолог.\nПотому что если причина в биохимии - разговор её не исправит.' },
+      { layout:'text', title:'Каждая консультация начинается', subtitle:'не с новых анализов', icon:'none', body:'А с разбора тех, что уже есть.\nЧасто там уже всё написано.\nПросто никто не читал картину целиком.' },
+      { layout:'cta', title:'Если тебе говорили «всё в норме» а лучше не становится', icon:'none' }
+    ]
+  },
+  {
+    id: 5, theme: 'black_orange',
+    title: '«Просто возраст» - это не диагноз',
+    slot: '10:00 МСК · 16.05.2026',
+    caption: `«Вам уже за 50, это нормально» - сказал гинеколог.\n\nПлюс 9 кг за полтора года. Всё на животе. Питание не менялось.\n\n«Просто возраст» - это не диагноз. Это отказ разбираться.`,
+    slides: [
+      { layout:'cover', title:'+9 кг\nза полтора\nгода', subtitle:'«просто возраст»', icon:'wave' },
+      { layout:'text', title:'Гинеколог сказал: «вам уже за 50»', icon:'none', body:'Плюс 9 кг. Всё на животе - раньше там ничего не было.\nПитание не менялось. Даже урезала углеводы.\nВес не двигается. Ей 54. Два года как менопауза.' },
+      { layout:'text', title:'В менопаузе падает эстроген', subtitle:'и вместе с ним - чувствительность к инсулину', icon:'wave', body:'Эстроген был защитником метаболизма.\nБез него инсулин перестаёт работать эффективно.\nГлюкоза не попадает в клетки - инсулин растёт -\nтело запасает жир. Прицельно в живот.' },
+      { layout:'quote', body:'«Просто возраст» - это не диагноз. Это отказ разбираться.', icon:'none' },
+      { layout:'list', title:'Что нашли в анализах', icon:'molecule', items:['Инсулин натощак: 14,2 мкМЕ/мл. HOMA-IR 3,8','Т3 свободный: 3,2 пмоль/л - метаболизм замедлен','Кортизол вечером: не падает ниже 320 нмоль/л','DHEA-S: 52 мкг/дл - надпочечники на нуле'] },
+      { layout:'text', title:'Три процесса одновременно', icon:'wave', body:'Инсулинорезистентность. Замедленный метаболизм. Нарушенный ритм кортизола.\nКаждый по отдельности - плюс 2-3 кг в год.\nВместе - это те самые 9 кг «непонятно откуда».' },
+      { layout:'text', title:'Работали 5 месяцев', icon:'spark', body:'Начали с инсулинорезистентности - изменили структуру питания.\nПараллельно - надпочечники и конверсия Т3.\nЧерез 3 месяца HOMA-IR упал до 1,9.\nЧерез 5 - минус 6 кг, и все с живота.' },
+      { layout:'accent', title:'Она написала', body:'«Я снова влезаю в джинсы,\nкоторые купила четыре года назад».\nЭто не возраст.\nЭто биохимия, с которой можно работать.' },
+      { layout:'cta', title:'Вес в менопаузе - это биохимия не характер и не возраст', icon:'none' }
+    ]
+  },
+  {
+    id: 6, theme: 'black_red',
+    title: 'Врач написал «норма». Прошло полгода.',
+    slot: '10:00 МСК · 17.05.2026',
+    caption: `Твой врач написал «всё в норме». Ты ему поверила. Прошло полгода. Лучше не стало.\n\nКто из вас ошибся?`,
+    slides: [
+      { layout:'cover', title:'«Всё\nв норме»\nПрошло полгода.', subtitle:'кто из вас ошибся', icon:'none' },
+      { layout:'text', title:'Твой врач написал «всё в норме»', icon:'none', body:'Ты ему поверила.\nИли постаралась поверить.' },
+      { layout:'accent', title:'Прошло полгода', body:'Лучше не стало.' },
+      { layout:'quote', body:'Кто из вас ошибся?', icon:'none' },
+      { layout:'text', title:'Врач не ошибся', subtitle:'он смотрел по своим правилам', icon:'none', body:'ТТГ в референсе - «щитовидка здорова».\nГемоглобин в норме - «анемии нет».\nКортизол «немного высоковат, но в пределах».\nВсё честно. Всё по протоколу.' },
+      { layout:'text', title:'Проблема в другом', icon:'molecule', body:'Референсные диапазоны построены на статистике.\nФункциональный оптимум - другие цифры.\nФерритин 14 - норма по лаборатории.\nДля митохондрий - пустое депо.' },
+      { layout:'text', title:'И ещё одна вещь', icon:'none', body:'Врач смотрит на один показатель. Я смотрю на картину.\nТТГ + Т3 + реверсивный Т3 + кортизол + ферритин\nрассказывают совсем другую историю.' },
+      { layout:'text', title:'Никто из вас не ошибся', subtitle:'просто смотрели разным инструментом', icon:'none', body:'Один инструмент - для диагностики болезни.\nДругой - для понимания, почему человек плохо себя\nчувствует при «нормальных» анализах.' },
+      { layout:'cta', title:'Если полгода прошло а лучше не стало', icon:'none' }
+    ]
+  },
+  {
+    id: 7, theme: 'red_white',
+    title: 'Год с диагнозом «выгорание»',
+    slot: '10:00 МСК · 18.05.2026',
+    caption: `Год на антидепрессантах. Психотерапия раз в неделю. Отпуск в январе. Ничего не помогло.\n\nКортизол утром: 182 нмоль/л при оптимуме 415-495.\n\nЭто не выгорание. Это истощение надпочечников.`,
+    slides: [
+      { layout:'cover', title:'Год с\nдиагнозом\n«выгорание»', subtitle:'кортизол 182. это другое.', icon:'spark' },
+      { layout:'text', title:'HR-директор, 47 лет', icon:'none', body:'Год на антидепрессанте. Психотерапия. Отпуск в январе.\n«Встаю утром - и уже хочу обратно в кровать.\nМотивации ноль. Радости ноль. Просто функционирую».' },
+      { layout:'list', title:'Анализы говорили другое', icon:'molecule', items:['Кортизол утром: 182 нмоль/л (оптимум 415-495)','DHEA-S: 41 мкг/дл (норма 100-200) - катастрофически','Ферритин: 22 нг/мл - функциональный дефицит','Т3 свободный: 3,1 пмоль/л - нижняя граница','Витамин D: 16 нг/мл - тяжёлый дефицит'] },
+      { layout:'text', title:'Выгорание vs истощение надпочечников', subtitle:'важная разница', icon:'wave', body:'При выгорании кортизол сначала высокий - бессонница, «на взводе».\nЕсли годами - надпочечники истощаются. Кортизол падает ниже нормы.\nНачинается другая стадия: апатия, нет сил встать, тяга к солёному.' },
+      { layout:'quote', body:'Мозг без нормального кортизола не может запускать мотивацию. Это буквально биохимия дофамина.', icon:'none' },
+      { layout:'accent', title:'Антидепрессант был назначен на симптом', body:'Симптом - апатия.\nПричина - истощённые надпочечники,\nдефицит железа и витамина D, нарушенная конверсия Т3.\nСимптом можно заглушить. Причину нужно убрать.' },
+      { layout:'text', title:'Работали 4 месяца', icon:'spark', body:'Восстановление надпочечников - там нет таблетки «стать бодрой к пятнице».\nПараллельно: железо, D, поддержка конверсии Т3.\nЧерез 2 месяца она написала: «я сегодня смеялась на работе».' },
+      { layout:'text', title:'Через 4 месяца', icon:'drop', body:'DHEA-S: 41 → 88 мкг/дл.\nКортизол утром: 182 → 320 нмоль/л.\nФерритин: 22 → 61 нг/мл.\nАнтидепрессант отменил её психиатр. Сама попросила.' },
+      { layout:'cta', title:'Если ты давно лечишься а лучше не становится', icon:'spark' }
+    ]
+  },
+  {
+    id: 8, theme: 'teal_white',
+    title: 'Что я перестал советовать делать в первую очередь',
+    slot: '10:00 МСК · 19.05.2026',
+    caption: `Раньше я говорил всем: «сдайте базовые анализы - ОАК, ферритин, ТТГ, витамин D».\n\nЯ перестал так говорить. Потому что это работает хуже, чем казалось.`,
+    slides: [
+      { layout:'cover', title:'Раньше я\nговорил:\n«сначала\nанализы»', subtitle:'я так больше не говорю', icon:'none' },
+      { layout:'text', title:'Логика была простая', icon:'none', body:'Смотришь на цифры - понимаешь, где проблема.\nРазумно.\nЯ перестал так говорить.\nПотому что это работает хуже, чем казалось.' },
+      { layout:'text', title:'Вот что происходит в реальности', icon:'none', body:'Человек приходит с анализами.\nЯ смотрю - и вижу, что без контекста\nцифры почти ни о чём не говорят.\nФерритин 34 - дефицит или норма? Зависит от симптомов.' },
+      { layout:'quote', body:'Цифры без истории - это просто цифры.', icon:'none' },
+      { layout:'text', title:'Теперь я начинаю иначе', subtitle:'сначала - разговор', icon:'none', body:'Как давно это началось.\nЧто предшествовало. Как менялось.\nКогда последний раз было хорошо - и что тогда было по-другому.' },
+      { layout:'text', title:'Только после этого', icon:'molecule', body:'Я понимаю, какие анализы нужны.\nИ в какой последовательности их смотреть.\nСтандартный базовый набор часто не отвечает на реальный вопрос.' },
+      { layout:'text', title:'Человек с нормальными ОАК, ТТГ и D', subtitle:'может чувствовать себя ужасно', icon:'molecule', body:'Потому что проблема в ритме кортизола,\nв конверсии Т3, в реверсивном Т3 -\nв том, что никто не смотрел.' },
+      { layout:'accent', title:'Анализы - это инструмент', body:'Полезный, когда знаешь, что ищешь.\nБесполезный, когда смотришь всё подряд\nв надежде что-нибудь найти.' },
+      { layout:'cta', title:'Первая консультация начинается с истории', icon:'none' }
+    ]
+  },
+  {
+    id: 9, theme: 'indigo_white',
+    title: 'Она пришла с усталостью. Начали с кишечника.',
+    slot: '10:00 МСК · 20.05.2026',
+    caption: `Два года пьёт железо. Ферритин поднимается на 3-4 единицы - и снова падает.\n\nПитается осознанно. Делает всё «правильно». Сил нет.\n\nРазгадка оказалась не в самом железе.`,
+    slides: [
+      { layout:'cover', title:'Два года\nпьёт железо', subtitle:'ферритин топчется на месте', icon:'gut' },
+      { layout:'text', title:'«Я уже два года пью железо»', icon:'none', body:'«Ферритин поднимается на 3-4 единицы - и снова падает».\nЕй 48. Питается осознанно. Анализы регулярно.\nДелает всё «правильно». Сил нет.\nЯ слышу такое не впервые.' },
+      { layout:'text', title:'Почему железо не усваивалось', subtitle:'механизм', icon:'gut', body:'Железо всасывается в тонком кишечнике.\nДля этого нужна нормальная кислотность желудка:\nсоляная кислота переводит железо в растворимую форму.\nЕсли кислотность снижена - железо проходит транзитом.' },
+      { layout:'quote', body:'Если в слизистой кишечника хроническое воспаление - даже правильно растворённое железо не всасывается. Клетки слизистой просто не захватывают его.', icon:'none' },
+      { layout:'list', title:'Что нашли дополнительно', icon:'molecule', items:['Ферритин: 18 нг/мл (пьёт добавку 8 месяцев)','СРБ 2,1 мг/л - скрытое воспаление','Гомоцистеин: 11,4 мкмоль/л - дефицит B12 и фолата','Кальпротектин кала: повышен - воспаление слизистой'] },
+      { layout:'text', title:'Работали последовательно', icon:'gut', body:'Сначала - кислотность желудка и слизистая кишечника.\nПараллельно убрали глютен на три месяца -\nскрытая непереносимость поддерживала воспаление.\nПотом вернулись к железу - уже в хелатной форме.' },
+      { layout:'accent', title:'Через 3 месяца', body:'Ферритин 54 нг/мл.\nВпервые за два года.' },
+      { layout:'text', title:'Она написала', icon:'none', body:'«Я не понимала, что такая усталость\nвообще может пройти.\nДумала, это просто я такая».' },
+      { layout:'cta', title:'Если пьёшь что-то давно а результата нет', icon:'gut' }
+    ]
+  }
+];
+
+const root = document.getElementById('root');
+SERIES.forEach(series => {
+  const t = THEMES[series.theme];
+  const section = document.createElement('div');
+  section.className = 'series';
+  const header = document.createElement('div');
+  header.className = 'series-header';
+  header.innerHTML = `<div class="series-num">Карусель ${series.id} из ${SERIES.length}</div><div class="series-title">${series.title}</div><div class="series-meta"><span class="meta-tag"><span class="dot" style="background:${t.swatch}"></span><span class="meta-label">Тема:</span>&nbsp;<span class="meta-value">${t.name}</span></span><span class="meta-tag"><span class="meta-label">Публикация:</span>&nbsp;<span class="meta-value">${series.slot}</span></span><span class="meta-tag"><span class="meta-label">Слайдов:</span>&nbsp;<span class="meta-value">${series.slides.length}</span></span></div>`;
+  section.appendChild(header);
+  const captionBlock = document.createElement('div');
+  captionBlock.className = 'post-caption-block';
+  captionBlock.style.borderLeft = `4px solid ${t.swatch}`;
+  captionBlock.style.padding = '16px 24px';
+  captionBlock.style.background = '#f8f8f8';
+  captionBlock.innerHTML = `<div class="post-caption-label">ТЕКСТ ПОСТА ДЛЯ ИНСТАГРАМ<span class="slot-badge">${series.slot}</span></div><div class="post-text">${series.caption}</div>`;
+  section.appendChild(captionBlock);
+  const slidesGrid = document.createElement('div');
+  slidesGrid.className = 'slides';
+  series.slides.forEach((slide, idx) => {
+    const wrap = document.createElement('div');
+    wrap.className = 'slide-wrap';
+    wrap.innerHTML = renderSlide(slide, t, idx);
+    const lbl = document.createElement('div');
+    lbl.className = 'slide-label';
+    lbl.textContent = `${idx + 1}/${series.slides.length}  ·  ${slide.layout}`;
+    wrap.appendChild(lbl);
+    slidesGrid.appendChild(wrap);
+  });
+  section.appendChild(slidesGrid);
+  root.appendChild(section);
+});
+</script>
+</body>
+</html>
