@@ -37,6 +37,35 @@ jobs:
           GRAPH_BASE   = "https://graph.facebook.com/v21.0"
           IG_USER_ID   = "17841403939108726"
 
+          def graph_post(url, params, label):
+              # Retry transient Graph API failures (5xx, is_transient flag, network errors).
+              # Three attempts: 5s, 15s, 45s backoff.
+              delays = [5, 15, 45]
+              last_text = ""
+              for attempt in range(len(delays) + 1):
+                  try:
+                      resp = requests.post(url, params=params, timeout=60)
+                      print(f"  {label} attempt {attempt + 1}: {resp.status_code} {resp.text[:200]}")
+                      if resp.ok:
+                          return resp
+                      last_text = resp.text
+                      transient = resp.status_code >= 500
+                      if not transient:
+                          try:
+                              transient = bool(resp.json().get("error", {}).get("is_transient"))
+                          except ValueError:
+                              transient = False
+                      if not transient:
+                          print(f"  {label}: non-transient error, giving up")
+                          sys.exit(1)
+                  except requests.RequestException as e:
+                      last_text = str(e)
+                      print(f"  {label} attempt {attempt + 1}: network error: {e}")
+                  if attempt < len(delays):
+                      time.sleep(delays[attempt])
+              print(f"  {label}: exhausted retries. Last response: {last_text[:300]}")
+              sys.exit(1)
+
           moscow_tz = timezone(timedelta(hours=3))
           now_moscow = datetime.now(moscow_tz)
           today = now_moscow.strftime("%Y-%m-%d")
@@ -88,36 +117,30 @@ jobs:
           # Шаг 1: создаём item-контейнеры для каждого слайда
           item_ids = []
           for idx, url in enumerate(image_urls, 1):
-              resp = requests.post(
+              resp = graph_post(
                   f"{GRAPH_BASE}/{IG_USER_ID}/media",
-                  params={
+                  {
                       "image_url":        url,
                       "is_carousel_item": "true",
                       "access_token":     ACCESS_TOKEN,
                   },
-                  timeout=60,
+                  f"Slide {idx}",
               )
-              print(f"  Slide {idx}: {resp.status_code} {resp.text[:200]}")
-              if not resp.ok:
-                  sys.exit(1)
               item_ids.append(resp.json()["id"])
 
           print(f"Item IDs: {item_ids}")
 
           # Шаг 2: создаём carousel container
-          resp = requests.post(
+          resp = graph_post(
               f"{GRAPH_BASE}/{IG_USER_ID}/media",
-              params={
+              {
                   "media_type":   "CAROUSEL",
                   "caption":      entry["caption"],
                   "children":     ",".join(item_ids),
                   "access_token": ACCESS_TOKEN,
               },
-              timeout=60,
+              "Carousel container",
           )
-          print(f"Carousel container: {resp.status_code} {resp.text[:200]}")
-          if not resp.ok:
-              sys.exit(1)
           creation_id = resp.json()["id"]
           print(f"Container ID: {creation_id}")
 
@@ -138,17 +161,14 @@ jobs:
                   sys.exit(1)
 
           # Шаг 4: публикуем
-          resp = requests.post(
+          resp = graph_post(
               f"{GRAPH_BASE}/{IG_USER_ID}/media_publish",
-              params={
+              {
                   "creation_id":  creation_id,
                   "access_token": ACCESS_TOKEN,
               },
-              timeout=60,
+              "Publish",
           )
-          print(f"Publish: {resp.status_code} {resp.text[:200]}")
-          if not resp.ok:
-              sys.exit(1)
 
           media_id = resp.json()["id"]
           print(f"Published! Media ID: {media_id}")
