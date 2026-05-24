@@ -2,14 +2,18 @@ name: Publish Instagram Carousel
 
 on:
   schedule:
-    - cron: '0 7 * * *'   # 10:00 МСК
-    - cron: '30 7 * * *'  # 10:30 МСК
-    - cron: '0 11 * * *'  # 14:00 МСК
-    - cron: '30 11 * * *' # 14:30 МСК
-    - cron: '30 16 * * *' # 19:30 МСК
-    - cron: '0 17 * * *'  # 20:00 МСК
-    - cron: '0 13 30 4 *' # 16:00 МСК 30 апреля (разовый)
+    # GitHub delays scheduled runs (often 30–120 min, worst in the early-UTC
+    # morning). We fire every 30 min across the active window; the publish
+    # script picks the earliest pending post whose slot time has already
+    # passed, so a delayed run makes a post late — never early.
+    - cron: '*/30 7-17 * * *'   # every 30 min, 10:00–20:30 МСК
   workflow_dispatch:
+
+# Serialize runs so two (possibly delayed) triggers can't publish the same
+# post twice or push a stale schedule.json.
+concurrency:
+  group: publish-carousel
+  cancel-in-progress: false
 
 jobs:
   publish:
@@ -68,45 +72,40 @@ jobs:
 
           moscow_tz = timezone(timedelta(hours=3))
           now_moscow = datetime.now(moscow_tz)
-          today = now_moscow.strftime("%Y-%m-%d")
-          hour   = now_moscow.hour
-          minute = now_moscow.minute
-
-          if hour == 10 and minute <= 25:
-              time_slot = "10:00"
-          elif hour == 10 and minute > 25:
-              time_slot = "10:30"
-          elif hour == 14 and minute <= 25:
-              time_slot = "14:00"
-          elif hour == 14 and minute > 25:
-              time_slot = "14:30"
-          elif hour == 19:
-              time_slot = "19:30"
-          elif hour == 20:
-              time_slot = "20:00"
-          else:
-              time_slot = None
-
-          print(f"Moscow time: {now_moscow.strftime('%Y-%m-%d %H:%M')}, slot: {time_slot or 'any'}")
+          print(f"Moscow time: {now_moscow.strftime('%Y-%m-%d %H:%M')}")
 
           with open("schedule.json", "r", encoding="utf-8") as f:
               schedule = json.load(f)
 
+          def scheduled_dt(item):
+              return datetime.strptime(
+                  f"{item['date']} {item['time']}", "%Y-%m-%d %H:%M"
+              ).replace(tzinfo=moscow_tz)
+
+          # Pick the earliest pending entry whose slot time has already passed,
+          # one per run. We never publish before the scheduled time, so a
+          # delayed GitHub run can only make a post late, never early. Posts
+          # whose cron GitHub skipped are caught on a later run — the queue
+          # drains strictly in schedule order.
           entry = None
           entry_idx = None
+          best_dt = None
           for i, item in enumerate(schedule):
-              if item["date"] != today or item["status"] != "pending":
+              if item.get("status") != "pending":
                   continue
-              if time_slot is None or item["time"] == time_slot:
-                  entry = item
-                  entry_idx = i
-                  break
+              dt = scheduled_dt(item)
+              if dt > now_moscow:
+                  continue
+              if best_dt is None or dt < best_dt:
+                  best_dt, entry, entry_idx = dt, item, i
 
           if entry is None:
-              print(f"No pending carousel for {today} slot={time_slot or 'any'}. Skipping.")
+              print("No due pending carousel. Skipping.")
               sys.exit(0)
 
-          print(f"Publishing: {entry['id']} — {entry['folder']} ({entry['slides_count']} slides)")
+          late_min = int((now_moscow - best_dt).total_seconds() // 60)
+          print(f"Publishing: {entry['id']} — {entry['folder']} "
+                f"({entry['slides_count']} slides; slot {entry['date']} {entry['time']}, {late_min} min late)")
 
           image_urls = [
               f"https://raw.githubusercontent.com/listosha/Insta/main/images/{entry['folder']}/slide-{str(i).zfill(2)}.png"
