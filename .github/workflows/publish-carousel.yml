@@ -6,7 +6,7 @@ on:
     # morning). We fire every 30 min across the active window; the publish
     # script picks the earliest pending post whose slot time has already
     # passed, so a delayed run makes a post late — never early.
-    - cron: '*/30 7-17 * * *'   # every 30 min, 10:00–20:30 МСК
+    - cron: '*/30 6-17 * * *'   # every 30 min, 09:00–20:30 МСК
   workflow_dispatch:
 
 # Serialize runs so two (possibly delayed) triggers can't publish the same
