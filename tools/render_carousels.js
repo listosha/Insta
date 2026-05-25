@@ -33,9 +33,9 @@ const OUT_ROOT = path.resolve(__dirname, '..', 'images');
 
   const slidesData = await page.evaluate(() => {
     const out = [];
-    const sections = document.querySelectorAll('.series');
+    const sections = document.querySelectorAll('.series, .ser');
     sections.forEach((section, sIdx) => {
-      const slides = section.querySelectorAll('.slide-wrap svg');
+      const slides = section.querySelectorAll('.slide-wrap svg, .sw svg');
       slides.forEach((svg, idx) => {
         out.push({ seriesIdx: sIdx, slideIdx: idx, svg: svg.outerHTML });
       });
