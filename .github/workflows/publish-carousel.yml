@@ -2,11 +2,13 @@ name: Publish Instagram Carousel
 
 on:
   schedule:
-    # GitHub delays scheduled runs (often 30–120 min, worst in the early-UTC
-    # morning). We fire every 30 min across the active window; the publish
-    # script picks the earliest pending post whose slot time has already
-    # passed, so a delayed run makes a post late — never early.
-    - cron: '*/30 6-17 * * *'   # every 30 min, 09:00–20:30 МСК
+    # Primary trigger is cron-job.org → workflow_dispatch, firing at the exact
+    # slot times (09:30/13:30/19:00 МСК) because GitHub's own cron is delayed
+    # 30–120 min. This schedule is now just a once-daily backstop: if a
+    # cron-job.org trigger was missed, this run drains the oldest overdue
+    # pending post. The publish script never publishes before a slot, so a
+    # delayed run is only ever late, never early.
+    - cron: '0 17 * * *'   # 20:00 МСК — daily backstop, after the 19:00 slot
   workflow_dispatch:
 
 # Serialize runs so two (possibly delayed) triggers can't publish the same
