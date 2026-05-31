@@ -3,15 +3,16 @@ name: Publish Threads Post
 # Mirrors publish-carousel.yml but for text posts on Threads (graph.threads.net).
 # Drains the earliest-due "pending" entry from threads-schedule.json, one per run.
 #
-# TRIGGER: manual (workflow_dispatch) ONLY for now — keep it this way until the
-# THREADS_ACCESS_TOKEN secret is set and a manual run publishes successfully.
-# Once it works, add cron-job.org jobs hitting this workflow's dispatch endpoint
-# (same PAT as the carousel trigger), and optionally uncomment the cron backstop.
+# TRIGGER: primary is cron-job.org → workflow_dispatch at the slot times
+# (12:00/18:00 МСК), same PAT as the carousel trigger. The schedule below is a
+# once-daily backstop (21:00 МСК) that drains any post a missed cron-job.org
+# trigger left behind. The publish script never publishes before a slot, so a
+# delayed run is only ever late, never early.
 
 on:
+  schedule:
+    - cron: '0 18 * * *'   # 21:00 МСК — daily backstop
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 18 * * *'   # 21:00 МСК — once-daily backstop (enable after token works)
 
 # Serialize runs so two triggers can't publish the same post twice or push a
 # stale threads-schedule.json.
