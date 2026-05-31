@@ -1,0 +1,78 @@
+name: Refresh Threads Token
+
+# Threads long-lived tokens last 60 days. This refreshes the token and writes the
+# new value back into the THREADS_ACCESS_TOKEN secret via the GitHub API.
+#
+# Requires an extra secret THREADS_REFRESH_PAT: a fine-grained PAT with
+# "Secrets: Read and write" on repo listosha/Insta. Do NOT enable the schedule
+# until publishing works and that PAT exists.
+#
+# Security note: the repo is public. The token is never printed — it is encrypted
+# with the repo public key (libsodium) before the API call, exactly as GitHub
+# requires for setting secrets.
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 6 1 */2 *'   # ~once every 2 months — enable after token works
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh token and update secret
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          GH_REPO:              ${{ github.repository }}
+          REFRESH_PAT:          ${{ secrets.THREADS_REFRESH_PAT }}
+        run: |
+          pip install --quiet requests pynacl
+          python3 << 'EOF'
+          import os, sys, json, requests
+          from base64 import b64encode
+          from nacl import encoding, public
+
+          old = os.environ["THREADS_ACCESS_TOKEN"]
+          repo = os.environ["GH_REPO"]
+          pat = os.environ["REFRESH_PAT"]
+
+          # 1) refresh the Threads token
+          r = requests.get(
+              "https://graph.threads.net/refresh_access_token",
+              params={"grant_type": "th_refresh_token", "access_token": old},
+              timeout=60,
+          )
+          if not r.ok:
+              print(f"Refresh failed: {r.status_code} {r.text[:300]}")
+              sys.exit(1)
+          new_token = r.json()["access_token"]
+          expires = r.json().get("expires_in", "?")
+          print(f"Got refreshed token, expires_in={expires}s")
+
+          gh = {
+              "Authorization": f"Bearer {pat}",
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+
+          # 2) fetch repo public key for secret encryption
+          k = requests.get(
+              f"https://api.github.com/repos/{repo}/actions/secrets/public-key",
+              headers=gh, timeout=30,
+          )
+          k.raise_for_status()
+          key_id = k.json()["key_id"]
+          pub = public.PublicKey(k.json()["key"].encode("utf-8"), encoding.Base64Encoder())
+
+          # 3) encrypt and PUT the new secret value
+          sealed = public.SealedBox(pub).encrypt(new_token.encode("utf-8"))
+          body = {"encrypted_value": b64encode(sealed).decode("utf-8"), "key_id": key_id}
+          u = requests.put(
+              f"https://api.github.com/repos/{repo}/actions/secrets/THREADS_ACCESS_TOKEN",
+              headers=gh, data=json.dumps(body), timeout=30,
+          )
+          if u.status_code not in (201, 204):
+              print(f"Secret update failed: {u.status_code} {u.text[:300]}")
+              sys.exit(1)
+          print("THREADS_ACCESS_TOKEN updated successfully.")
+          EOF

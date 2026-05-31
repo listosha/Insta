@@ -1,0 +1,162 @@
+name: Publish Threads Post
+
+# Mirrors publish-carousel.yml but for text posts on Threads (graph.threads.net).
+# Drains the earliest-due "pending" entry from threads-schedule.json, one per run.
+#
+# TRIGGER: manual (workflow_dispatch) ONLY for now — keep it this way until the
+# THREADS_ACCESS_TOKEN secret is set and a manual run publishes successfully.
+# Once it works, add cron-job.org jobs hitting this workflow's dispatch endpoint
+# (same PAT as the carousel trigger), and optionally uncomment the cron backstop.
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 18 * * *'   # 21:00 МСК — once-daily backstop (enable after token works)
+
+# Serialize runs so two triggers can't publish the same post twice or push a
+# stale threads-schedule.json.
+concurrency:
+  group: publish-threads
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish text post via Threads API
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID:      ${{ secrets.THREADS_USER_ID }}
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          import sys
+          import time
+          import requests
+          from datetime import datetime, timezone, timedelta
+
+          ACCESS_TOKEN = os.environ["THREADS_ACCESS_TOKEN"]
+          USER_ID      = os.environ["THREADS_USER_ID"]
+          THREADS_BASE = "https://graph.threads.net/v1.0"
+
+          def graph_post(url, params, label):
+              # Retry transient failures (5xx, is_transient, network). 5s/15s/45s backoff.
+              delays = [5, 15, 45]
+              last_text = ""
+              for attempt in range(len(delays) + 1):
+                  try:
+                      resp = requests.post(url, params=params, timeout=60)
+                      print(f"  {label} attempt {attempt + 1}: {resp.status_code} {resp.text[:200]}")
+                      if resp.ok:
+                          return resp
+                      last_text = resp.text
+                      transient = resp.status_code >= 500
+                      if not transient:
+                          try:
+                              transient = bool(resp.json().get("error", {}).get("is_transient"))
+                          except ValueError:
+                              transient = False
+                      if not transient:
+                          print(f"  {label}: non-transient error, giving up")
+                          sys.exit(1)
+                  except requests.RequestException as e:
+                      last_text = str(e)
+                      print(f"  {label} attempt {attempt + 1}: network error: {e}")
+                  if attempt < len(delays):
+                      time.sleep(delays[attempt])
+              print(f"  {label}: exhausted retries. Last response: {last_text[:300]}")
+              sys.exit(1)
+
+          moscow_tz = timezone(timedelta(hours=3))
+          now_moscow = datetime.now(moscow_tz)
+          print(f"Moscow time: {now_moscow.strftime('%Y-%m-%d %H:%M')}")
+
+          with open("threads-schedule.json", "r", encoding="utf-8") as f:
+              schedule = json.load(f)
+
+          def scheduled_dt(item):
+              return datetime.strptime(
+                  f"{item['date']} {item['time']}", "%Y-%m-%d %H:%M"
+              ).replace(tzinfo=moscow_tz)
+
+          # Earliest pending whose slot has already passed, one per run. We never
+          # publish before the slot, so a delayed run is only ever late, never early.
+          entry = None
+          entry_idx = None
+          best_dt = None
+          for i, item in enumerate(schedule):
+              if item.get("status") != "pending":
+                  continue
+              dt = scheduled_dt(item)
+              if dt > now_moscow:
+                  continue
+              if best_dt is None or dt < best_dt:
+                  best_dt, entry, entry_idx = dt, item, i
+
+          if entry is None:
+              print("No due pending thread. Skipping.")
+              sys.exit(0)
+
+          late_min = int((now_moscow - best_dt).total_seconds() // 60)
+          print(f"Publishing thread {entry['id']} "
+                f"(slot {entry['date']} {entry['time']}, {late_min} min late)")
+
+          text = entry["text"]
+          if len(text) > 500:
+              print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500. Aborting.")
+              sys.exit(1)
+
+          # Шаг 1: создаём контейнер текстового поста
+          resp = graph_post(
+              f"{THREADS_BASE}/{USER_ID}/threads",
+              {
+                  "media_type":   "TEXT",
+                  "text":         text,
+                  "access_token": ACCESS_TOKEN,
+              },
+              "Create container",
+          )
+          creation_id = resp.json()["id"]
+          print(f"Container ID: {creation_id}")
+
+          # Meta рекомендует подождать ~30с перед публикацией, чтобы контейнер
+          # обработался. Для текста обычно мгновенно, но пауза стоит дёшево.
+          time.sleep(30)
+
+          # Шаг 2: публикуем
+          resp = graph_post(
+              f"{THREADS_BASE}/{USER_ID}/threads_publish",
+              {
+                  "creation_id":  creation_id,
+                  "access_token": ACCESS_TOKEN,
+              },
+              "Publish",
+          )
+
+          thread_id = resp.json()["id"]
+          print(f"Published! Thread ID: {thread_id}")
+
+          schedule[entry_idx]["status"]       = "published"
+          schedule[entry_idx]["thread_id"]    = thread_id
+          schedule[entry_idx]["published_at"] = now_moscow.isoformat()
+
+          with open("threads-schedule.json", "w", encoding="utf-8") as f:
+              json.dump(schedule, f, ensure_ascii=False, indent=2)
+
+          print("threads-schedule.json updated.")
+          EOF
+
+      - name: Commit updated schedule
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add threads-schedule.json
+          git diff --staged --quiet || git commit -m "Published thread $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          git push
