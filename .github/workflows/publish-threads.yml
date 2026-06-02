@@ -47,8 +47,11 @@ jobs:
           USER_ID      = os.environ["THREADS_USER_ID"]
           THREADS_BASE = "https://graph.threads.net/v1.0"
 
-          def graph_post(url, params, label):
+          def graph_post(url, params, label, fatal=True):
               # Retry transient failures (5xx, is_transient, network). 5s/15s/45s backoff.
+              # fatal=True: abort the job on failure (use for the main post).
+              # fatal=False: return None on failure (use for the best-effort reply,
+              # so a failed comment never blocks committing the published post).
               delays = [5, 15, 45]
               last_text = ""
               for attempt in range(len(delays) + 1):
@@ -66,14 +69,18 @@ jobs:
                               transient = False
                       if not transient:
                           print(f"  {label}: non-transient error, giving up")
-                          sys.exit(1)
+                          if fatal:
+                              sys.exit(1)
+                          return None
                   except requests.RequestException as e:
                       last_text = str(e)
                       print(f"  {label} attempt {attempt + 1}: network error: {e}")
                   if attempt < len(delays):
                       time.sleep(delays[attempt])
               print(f"  {label}: exhausted retries. Last response: {last_text[:300]}")
-              sys.exit(1)
+              if fatal:
+                  sys.exit(1)
+              return None
 
           moscow_tz = timezone(timedelta(hours=3))
           now_moscow = datetime.now(moscow_tz)
@@ -147,6 +154,54 @@ jobs:
           schedule[entry_idx]["status"]       = "published"
           schedule[entry_idx]["thread_id"]    = thread_id
           schedule[entry_idx]["published_at"] = now_moscow.isoformat()
+
+          # Шаг 3 (опционально): постим ссылку отдельным комментарием-ответом.
+          # Threads режет охваты у постов со ссылкой в теле, поэтому ссылка
+          # вынесена в поле "reply" и публикуется ответом (reply_to_id) к
+          # только что созданному посту. Тело поста остаётся "чистым".
+          reply_text = entry.get("reply")
+          if reply_text and len(reply_text) > 500:
+              print(f"WARN: reply is {len(reply_text)} chars > 500, skipping reply.")
+              schedule[entry_idx]["reply_status"] = "skipped_too_long"
+              reply_text = None
+          if reply_text:
+              # Контейнер ответа (best-effort: сбой не валит job и не блокирует
+              # сохранение уже опубликованного поста — иначе следующий запуск
+              # опубликовал бы тот же пост повторно).
+              resp = graph_post(
+                  f"{THREADS_BASE}/{USER_ID}/threads",
+                  {
+                      "media_type":   "TEXT",
+                      "text":         reply_text,
+                      "reply_to_id":  thread_id,
+                      "access_token": ACCESS_TOKEN,
+                  },
+                  "Create reply container",
+                  fatal=False,
+              )
+              reply_id = None
+              if resp is not None:
+                  reply_creation_id = resp.json()["id"]
+                  print(f"Reply container ID: {reply_creation_id}")
+                  time.sleep(30)
+                  resp = graph_post(
+                      f"{THREADS_BASE}/{USER_ID}/threads_publish",
+                      {
+                          "creation_id":  reply_creation_id,
+                          "access_token": ACCESS_TOKEN,
+                      },
+                      "Publish reply",
+                      fatal=False,
+                  )
+                  if resp is not None:
+                      reply_id = resp.json()["id"]
+              if reply_id:
+                  print(f"Reply published! Reply ID: {reply_id}")
+                  schedule[entry_idx]["reply_id"]     = reply_id
+                  schedule[entry_idx]["reply_status"] = "published"
+              else:
+                  print("WARN: reply failed to publish; post stays published, reply marked failed.")
+                  schedule[entry_idx]["reply_status"] = "failed"
 
           with open("threads-schedule.json", "w", encoding="utf-8") as f:
               json.dump(schedule, f, ensure_ascii=False, indent=2)
