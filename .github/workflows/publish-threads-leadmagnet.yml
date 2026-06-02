@@ -1,0 +1,259 @@
+name: Publish Threads Lead Magnet
+
+# Carousel (image) variant of publish-threads.yml for lead-magnet posts.
+# Drains the earliest-due "pending" entry from threads-leadmagnets-schedule.json,
+# one per run, publishing the guide's PNG pages as a Threads carousel and the
+# course link as a first-comment reply.
+#
+# Separate queue + separate concurrency group so it never reorders the plain
+# text queue (publish-threads.yml, 12:00/18:00 МСК).
+#
+# TRIGGER: primary is cron-job.org → workflow_dispatch at 14:00 МСК (set up
+# separately, see THREADS_LEADMAGNETS.md). The schedule below is a once-daily
+# backstop (21:30 МСК) that drains any post a missed trigger left behind. The
+# publish script never publishes before a slot, so a delayed run is only ever
+# late, never early.
+
+on:
+  schedule:
+    - cron: '30 18 * * *'   # 21:30 МСК — daily backstop, after the 18:00 text slot
+  workflow_dispatch:
+
+concurrency:
+  group: publish-threads-leadmagnet
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish carousel lead magnet via Threads API
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID:      ${{ secrets.THREADS_USER_ID }}
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          import sys
+          import time
+          import requests
+          from datetime import datetime, timezone, timedelta
+
+          ACCESS_TOKEN = os.environ["THREADS_ACCESS_TOKEN"]
+          USER_ID      = os.environ["THREADS_USER_ID"]
+          THREADS_BASE = "https://graph.threads.net/v1.0"
+          REPO_RAW     = "https://raw.githubusercontent.com/listosha/Insta/main/images/leadmagnets"
+          SCHEDULE     = "threads-leadmagnets-schedule.json"
+
+          def graph_post(url, params, label, fatal=True):
+              # Retry transient failures (5xx, is_transient, network). 5s/15s/45s backoff.
+              # fatal=False returns None on failure (best-effort reply).
+              delays = [5, 15, 45]
+              last_text = ""
+              for attempt in range(len(delays) + 1):
+                  try:
+                      resp = requests.post(url, params=params, timeout=60)
+                      print(f"  {label} attempt {attempt + 1}: {resp.status_code} {resp.text[:200]}")
+                      if resp.ok:
+                          return resp
+                      last_text = resp.text
+                      transient = resp.status_code >= 500
+                      if not transient:
+                          try:
+                              transient = bool(resp.json().get("error", {}).get("is_transient"))
+                          except ValueError:
+                              transient = False
+                      if not transient:
+                          print(f"  {label}: non-transient error, giving up")
+                          if fatal:
+                              sys.exit(1)
+                          return None
+                  except requests.RequestException as e:
+                      last_text = str(e)
+                      print(f"  {label} attempt {attempt + 1}: network error: {e}")
+                  if attempt < len(delays):
+                      time.sleep(delays[attempt])
+              print(f"  {label}: exhausted retries. Last response: {last_text[:300]}")
+              if fatal:
+                  sys.exit(1)
+              return None
+
+          def wait_finished(container_id, label):
+              # Threads needs the container processed before publishing. Poll status.
+              for _ in range(20):
+                  time.sleep(5)
+                  r = requests.get(
+                      f"{THREADS_BASE}/{container_id}",
+                      params={"fields": "status,error_message", "access_token": ACCESS_TOKEN},
+                      timeout=30,
+                  )
+                  status = r.json().get("status", "")
+                  print(f"  {label} status: {status}")
+                  if status == "FINISHED":
+                      return True
+                  if status in ("ERROR", "EXPIRED"):
+                      print(f"  {label} failed: {r.text[:300]}")
+                      return False
+              print(f"  {label}: not FINISHED after polling, aborting.")
+              return False
+
+          moscow_tz = timezone(timedelta(hours=3))
+          now_moscow = datetime.now(moscow_tz)
+          print(f"Moscow time: {now_moscow.strftime('%Y-%m-%d %H:%M')}")
+
+          with open(SCHEDULE, "r", encoding="utf-8") as f:
+              schedule = json.load(f)
+
+          def scheduled_dt(item):
+              return datetime.strptime(
+                  f"{item['date']} {item['time']}", "%Y-%m-%d %H:%M"
+              ).replace(tzinfo=moscow_tz)
+
+          # Earliest pending whose slot has already passed, one per run. Entries
+          # with any other status (e.g. "hold", "published") are skipped.
+          entry = None
+          entry_idx = None
+          best_dt = None
+          for i, item in enumerate(schedule):
+              if item.get("status") != "pending":
+                  continue
+              dt = scheduled_dt(item)
+              if dt > now_moscow:
+                  continue
+              if best_dt is None or dt < best_dt:
+                  best_dt, entry, entry_idx = dt, item, i
+
+          if entry is None:
+              print("No due pending lead magnet. Skipping.")
+              sys.exit(0)
+
+          late_min = int((now_moscow - best_dt).total_seconds() // 60)
+          print(f"Publishing lead magnet {entry['id']} — {entry['folder']} "
+                f"({entry['pages_count']} pages; slot {entry['date']} {entry['time']}, {late_min} min late)")
+
+          text = entry["text"]
+          if len(text) > 500:
+              print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500. Aborting.")
+              sys.exit(1)
+
+          image_urls = [
+              f"{REPO_RAW}/{entry['folder']}/page-{str(i).zfill(2)}.png"
+              for i in range(1, entry["pages_count"] + 1)
+          ]
+          print(f"URLs: {image_urls}")
+          if len(image_urls) < 2:
+              print("ERROR: a Threads carousel needs at least 2 items. Aborting.")
+              sys.exit(1)
+
+          # Шаг 1: item-контейнеры для каждой страницы карусели
+          item_ids = []
+          for idx, url in enumerate(image_urls, 1):
+              resp = graph_post(
+                  f"{THREADS_BASE}/{USER_ID}/threads",
+                  {
+                      "media_type":       "IMAGE",
+                      "image_url":        url,
+                      "is_carousel_item": "true",
+                      "access_token":     ACCESS_TOKEN,
+                  },
+                  f"Carousel item {idx}",
+              )
+              item_ids.append(resp.json()["id"])
+          print(f"Item IDs: {item_ids}")
+
+          # Шаг 2: контейнер карусели (текст поста — здесь)
+          resp = graph_post(
+              f"{THREADS_BASE}/{USER_ID}/threads",
+              {
+                  "media_type":   "CAROUSEL",
+                  "children":     ",".join(item_ids),
+                  "text":         text,
+                  "access_token": ACCESS_TOKEN,
+              },
+              "Carousel container",
+          )
+          creation_id = resp.json()["id"]
+          print(f"Container ID: {creation_id}")
+
+          # Шаг 3: ждём готовности контейнера, затем публикуем
+          if not wait_finished(creation_id, "Carousel container"):
+              sys.exit(1)
+
+          resp = graph_post(
+              f"{THREADS_BASE}/{USER_ID}/threads_publish",
+              {
+                  "creation_id":  creation_id,
+                  "access_token": ACCESS_TOKEN,
+              },
+              "Publish",
+          )
+          thread_id = resp.json()["id"]
+          print(f"Published! Thread ID: {thread_id}")
+
+          schedule[entry_idx]["status"]       = "published"
+          schedule[entry_idx]["thread_id"]    = thread_id
+          schedule[entry_idx]["published_at"] = now_moscow.isoformat()
+
+          # Шаг 4 (опционально): ссылка на курс отдельным комментарием-ответом.
+          # Тело поста остаётся без ссылки, чтобы Threads не резал охваты.
+          reply_text = entry.get("reply")
+          if reply_text and len(reply_text) > 500:
+              print(f"WARN: reply is {len(reply_text)} chars > 500, skipping reply.")
+              schedule[entry_idx]["reply_status"] = "skipped_too_long"
+              reply_text = None
+          if reply_text:
+              resp = graph_post(
+                  f"{THREADS_BASE}/{USER_ID}/threads",
+                  {
+                      "media_type":   "TEXT",
+                      "text":         reply_text,
+                      "reply_to_id":  thread_id,
+                      "access_token": ACCESS_TOKEN,
+                  },
+                  "Create reply container",
+                  fatal=False,
+              )
+              reply_id = None
+              if resp is not None:
+                  reply_creation_id = resp.json()["id"]
+                  print(f"Reply container ID: {reply_creation_id}")
+                  time.sleep(30)
+                  resp = graph_post(
+                      f"{THREADS_BASE}/{USER_ID}/threads_publish",
+                      {
+                          "creation_id":  reply_creation_id,
+                          "access_token": ACCESS_TOKEN,
+                      },
+                      "Publish reply",
+                      fatal=False,
+                  )
+                  if resp is not None:
+                      reply_id = resp.json()["id"]
+              if reply_id:
+                  print(f"Reply published! Reply ID: {reply_id}")
+                  schedule[entry_idx]["reply_id"]     = reply_id
+                  schedule[entry_idx]["reply_status"] = "published"
+              else:
+                  print("WARN: reply failed to publish; post stays published, reply marked failed.")
+                  schedule[entry_idx]["reply_status"] = "failed"
+
+          with open(SCHEDULE, "w", encoding="utf-8") as f:
+              json.dump(schedule, f, ensure_ascii=False, indent=2)
+
+          print(f"{SCHEDULE} updated.")
+          EOF
+
+      - name: Commit updated schedule
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add threads-leadmagnets-schedule.json
+          git diff --staged --quiet || git commit -m "Published lead magnet $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          git push
