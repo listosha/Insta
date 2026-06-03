@@ -168,6 +168,15 @@ jobs:
               item_ids.append(resp.json()["id"])
           print(f"Item IDs: {item_ids}")
 
+          # Threads требует, чтобы КАЖДЫЙ дочерний item-контейнер дошёл до FINISHED,
+          # прежде чем собирать карусель — иначе контейнер карусели падает с
+          # "Invalid Carousel Children" (code 100, subcode 4279004). В отличие от
+          # IG Graph API (publish-carousel.yml), где дочерние можно не ждать.
+          for idx, item_id in enumerate(item_ids, 1):
+              if not wait_finished(item_id, f"Carousel item {idx}"):
+                  print(f"Carousel item {idx} ({item_id}) не дошёл до FINISHED. Aborting.")
+                  sys.exit(1)
+
           # Шаг 2: контейнер карусели (текст поста — здесь)
           resp = graph_post(
               f"{THREADS_BASE}/{USER_ID}/threads",
