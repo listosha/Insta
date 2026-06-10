@@ -4,8 +4,9 @@ const fs=require('fs'), path=require('path');
 
 const RAW='https://raw.githubusercontent.com/listosha/Insta/main';
 const BOARD={ name:'Быстрое сохранение', serviceId:'1084523222707156579' };
-const LINK={ iron:'https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel',
-             hair:'https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca' };
+// ?ref=pinterest — нативная атрибуция источника в приложении (index.html: session_start.ref, как ref=instagram).
+const LINK={ iron:'https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest',
+             hair:'https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest' };
 const artUrl=s=>`https://listoshenkov.ru/zametki/${s}/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=${s}`;
 
 // Гайды → один из двух гейтов. Картинки в images/pins/. Порядок чередует железо/волосы.
