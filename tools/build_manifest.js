@@ -47,7 +47,7 @@ function entry(p,type){
 }
 
 // Расписание: с завтра, 2/день — статья 10:00 + гайд 21:00 (МСК).
-function dateStr(i){const d=new Date(Date.UTC(2026,5,12)); d.setUTCDate(d.getUTCDate()+i); return d.toISOString().slice(0,10);}
+function dateStr(i){const d=new Date(Date.UTC(2026,5,11)); d.setUTCDate(d.getUTCDate()+i); return d.toISOString().slice(0,10);}
 const pins=[];
 const maxDays=Math.max(ARTICLES.length,GUIDES.length);
 for(let i=0;i<maxDays;i++){
