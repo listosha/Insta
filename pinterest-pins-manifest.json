@@ -1,0 +1,339 @@
+{
+  "channel": "pinterest",
+  "publisher": "buffer",
+  "account": "listosha0484",
+  "generated_for": "Buffer (создание пинов) + витрина календаря",
+  "board": {
+    "name": "Быстрое сохранение",
+    "serviceId": "1084523222707156579"
+  },
+  "schedule": {
+    "start": "2026-06-12",
+    "per_day": 2,
+    "slots": {
+      "article": "10:00 Europe/Moscow",
+      "guide": "21:00 Europe/Moscow"
+    }
+  },
+  "counts": {
+    "total": 19,
+    "guides": 10,
+    "articles": 9
+  },
+  "pins": [
+    {
+      "slug": "kortizol",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/kortizol.png",
+      "title": "5 признаков, что кортизол сбит — а анализ в норме",
+      "description": "5 признаков, что кортизол сбит — а анализ в норме. Еле встаёшь по утрам · Не уснуть до двух ночи · Провал сил после обеда · Тянет на солёное · Просыпаешься разбитой. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/kortizol/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=kortizol",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-12",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-12T10:00:00+03:00"
+    },
+    {
+      "slug": "zhelezo-produkty",
+      "type": "guide",
+      "gate": "iron",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/zhelezo-produkty.png",
+      "title": "10 продуктов, где железа больше, чем в гречке",
+      "description": "10 продуктов, где железа больше, чем в гречке. Говяжья печень · Моллюски и устрицы · Чечевица · Тыквенные семечки · Говядина · Шпинат · Белая фасоль · Киноа · Тёмный шоколад · Курага. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-12",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-12T21:00:00+03:00"
+    },
+    {
+      "slug": "schitovidka",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/schitovidka.png",
+      "title": "ТТГ в норме, а вы как в спячке: 6 сигналов щитовидки",
+      "description": "ТТГ в норме, а вы как в спячке: 6 сигналов щитовидки. Мёрзнете в тепле · Вес растёт · Волосы редеют · Усталость и туман · Сухая кожа · Запоры и отёки. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/schitovidka/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=schitovidka",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-13",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-13T10:00:00+03:00"
+    },
+    {
+      "slug": "volosy-prichiny",
+      "type": "guide",
+      "gate": "hair",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/volosy-prichiny.png",
+      "title": "Волосы сыплются: 6 дефицитов, которые виноваты",
+      "description": "Волосы сыплются: 6 дефицитов, которые виноваты. Низкий ферритин · Витамин D · Цинк · Щитовидка (ТТГ, Т4св) · Белок · B12 и фолаты. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-13",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-13T21:00:00+03:00"
+    },
+    {
+      "slug": "son-3-nochi",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/son-3-nochi.png",
+      "title": "Просыпаешься в 3 ночи? 5 причин — и это не голова",
+      "description": "Просыпаешься в 3 ночи? 5 причин — и это не голова. Сахарные качели · Скачок кортизола · Поздний ужин · Алкоголь · Падение прогестерона. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/son-3-nochi/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=son-3-nochi",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-14",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-14T10:00:00+03:00"
+    },
+    {
+      "slug": "zhelezo-priznaki",
+      "type": "guide",
+      "gate": "iron",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/zhelezo-priznaki.png",
+      "title": "7 признаков скрытого дефицита железа",
+      "description": "7 признаков скрытого дефицита железа. Выпадение волос · Ломкие ногти · Усталость к обеду · Одышка на лестнице · Тяга грызть лёд · Бледность · Холодные руки и ноги. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-14",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-14T21:00:00+03:00"
+    },
+    {
+      "slug": "ves",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/ves.png",
+      "title": "Вес стоит на дефиците? 3 гормона держат жир под замком",
+      "description": "Вес стоит на дефиците? 3 гормона держат жир под замком. Инсулин · Кортизол · Щитовидка. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/ves/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=ves",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-15",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-15T10:00:00+03:00"
+    },
+    {
+      "slug": "volosy-produkty",
+      "type": "guide",
+      "gate": "hair",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/volosy-produkty.png",
+      "title": "6 продуктов для густоты волос",
+      "description": "6 продуктов для густоты волос. Печень и красное мясо · Яйца · Жирная рыба · Тыквенные семечки · Греческий йогурт · Орехи и бобовые. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-15",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-15T21:00:00+03:00"
+    },
+    {
+      "slug": "pms",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/pms.png",
+      "title": "ПМС всё тяжелее? 5 сигналов перекоса эстроген/прогестерон",
+      "description": "ПМС всё тяжелее? 5 сигналов перекоса эстроген/прогестерон. Болит грудь · Отёки 2-й фазы · Тревога · Бессонница · Срывы на сладкое. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/pms/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=pms",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-16",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-16T10:00:00+03:00"
+    },
+    {
+      "slug": "zhelezo-analizy",
+      "type": "guide",
+      "gate": "iron",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/zhelezo-analizy.png",
+      "title": "5 анализов, чтобы проверить запасы железа",
+      "description": "5 анализов, чтобы проверить запасы железа. Ферритин · Сывороточное железо · ОЖСС · Трансферрин · Общий анализ крови. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-16",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-16T21:00:00+03:00"
+    },
+    {
+      "slug": "perimenopauza",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/perimenopauza.png",
+      "title": "Перименопауза после 40: 6 ранних признаков",
+      "description": "Перименопауза после 40: 6 ранних признаков. Нерегулярный цикл · Рваный сон · Растёт вес · Тревожность · Приливы-предвестники · Падает прогестерон. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/perimenopauza/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=perimenopauza",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-17",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-17T10:00:00+03:00"
+    },
+    {
+      "slug": "volosy-analizy",
+      "type": "guide",
+      "gate": "hair",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/volosy-analizy.png",
+      "title": "Волосы лезут? 5 анализов сделать до трихолога",
+      "description": "Волосы лезут? 5 анализов сделать до трихолога. Ферритин · Витамин D · ТТГ и Т4 свободный · Цинк · Белок и B12. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-17",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-17T21:00:00+03:00"
+    },
+    {
+      "slug": "trevoga",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/trevoga.png",
+      "title": "Тревога — не характер: 5 телесных причин",
+      "description": "Тревога — не характер: 5 телесных причин. Стресс и кортизол · Кишечник · Дефицит магния и B6 · Сахарные качели · Мало белка. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/trevoga/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=trevoga",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-18",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-18T10:00:00+03:00"
+    },
+    {
+      "slug": "zhelezo-usvoenie",
+      "type": "guide",
+      "gate": "iron",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/zhelezo-usvoenie.png",
+      "title": "6 ошибок, из-за которых железо не усваивается",
+      "description": "6 ошибок, из-за которых железо не усваивается. Чай и кофе после еды · Кальций с железом · Мало витамина C · Воспаление в ЖКТ · Дефицит белка · Антациды и ИПП. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-18",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-18T21:00:00+03:00"
+    },
+    {
+      "slug": "kishechnik",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/kishechnik.png",
+      "title": "Кишечник рулит гормонами: 5 связей, о которых молчат",
+      "description": "Кишечник рулит гормонами: 5 связей, о которых молчат. Выводит эстроген · Сырьё для серотонина · Усвоение железа и D · Конверсия щитовидки · Воспаление. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/kishechnik/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=kishechnik",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-19",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-19T10:00:00+03:00"
+    },
+    {
+      "slug": "volosy-oshibki",
+      "type": "guide",
+      "gate": "hair",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/volosy-oshibki.png",
+      "title": "Уход не помогает: 5 ошибок при выпадении волос",
+      "description": "Уход не помогает: 5 ошибок при выпадении волос. Лечите шампунем, а не дефицит · Жёсткие диеты · Игнор щитовидки · Стресс · Ждёте результат за неделю. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-19",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-19T21:00:00+03:00"
+    },
+    {
+      "slug": "holesterin",
+      "type": "article",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-articles/holesterin.png",
+      "title": "Холестерин повышен? 5 фактов до статинов",
+      "description": "Холестерин повышен? 5 фактов до статинов. Сырьё для гормонов · Роль печени · Связь с щитовидкой · Холестерин и ПМС · Цифра — не приговор. Подробный разбор — в статье по ссылке.",
+      "link": "https://listoshenkov.ru/zametki/holesterin/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=holesterin",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-20",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-20T10:00:00+03:00"
+    },
+    {
+      "slug": "zhelezo-rastitelnoe",
+      "type": "guide",
+      "gate": "iron",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/zhelezo-rastitelnoe.png",
+      "title": "Железо без мяса: 8 растительных источников",
+      "description": "Железо без мяса: 8 растительных источников. Чечевица · Тофу и темпе · Тыквенные семечки · Шпинат · Киноа · Нут · Курага · Тёмный шоколад. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-20",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-20T21:00:00+03:00"
+    },
+    {
+      "slug": "zhelezo-pomoshniki",
+      "type": "guide",
+      "gate": "iron",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins/zhelezo-pomoshniki.png",
+      "title": "Что помогает железу усвоиться: 6 союзников",
+      "description": "Что помогает железу усвоиться: 6 союзников. Витамин C · Мясо рядом с растительным железом · Замачивание круп · Лечить ЖКТ · Белок · Развести с кальцием и чаем. Полный гайд — бесплатно по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-21",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-21T21:00:00+03:00"
+    }
+  ]
+}

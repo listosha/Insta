@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pinterest · статейные пины (стили B/C/E, 1000×1500)</title>
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;padding:24px;background:#e9e9ee;font-family:-apple-system,'Segoe UI',sans-serif;}
+  .h{font-size:22px;font-weight:700;color:#222;margin-bottom:4px;}
+  .s{font-size:13px;color:#888;margin-bottom:24px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,330px);gap:24px;}
+  .pin{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.14);}
+  .pin svg{width:100%;height:auto;display:block;}
+  .cap{padding:8px 12px;font-size:12px;color:#666;border-top:1px solid #eee;}
+  .cap a{color:#888;}
+</style>
+</head>
+<body>
+<div class="h">Pinterest · статейные пины (B/C/E чередуем)</div>
+<div class="s">1000×1500 (2:3) · клик → статья «Гормональные заметки» с UTM-меткой</div>
+<div id="root" class="grid"></div>
+
+<script>
+const baseFont='Georgia, serif';
+const sans="-apple-system, 'Segoe UI', Roboto, sans-serif";
+const W=1000,H=1500, CTA='ПОДРОБНЕЕ В СТАТЬЕ →';
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function fitText(text,maxChars,maxLines,baseFontSize){
+  if(!text)return{lines:[],fontSize:baseFontSize};
+  function wrap(cpl){const out=[];for(const para of String(text).split(/\n+/)){const ws=para.split(/\s+/).filter(Boolean);let c='';for(const w of ws){const cand=c?c+' '+w:w;if(cand.length<=cpl)c=cand;else{if(c)out.push(c);c=w;}}if(c)out.push(c);}return out;}
+  let scale=1,fontSize=baseFontSize,chars=maxChars,lines=wrap(chars);
+  while(lines.length>maxLines&&scale<1.7){scale+=0.05;fontSize=baseFontSize/scale;chars=Math.floor(maxChars*scale);lines=wrap(chars);}
+  if(lines.length>maxLines){lines=lines.slice(0,maxLines);const last=lines[maxLines-1];if(last&&last.length>3)lines[maxLines-1]=last.slice(0,-2)+'...';}
+  return{lines,fontSize};
+}
+function artUrl(slug){return `https://listoshenkov.ru/zametki/${slug}/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=${slug}`;}
+
+function rays(cx,cy,r1,r2){return [0,45,90,135,180,225,270,315].map(a=>{const r=a*Math.PI/180;return `<line x1="${cx+Math.cos(r)*r1}" y1="${cy+Math.sin(r)*r1}" x2="${cx+Math.cos(r)*r2}" y2="${cy+Math.sin(r)*r2}"/>`;}).join('');}
+function icon(name,s){const P={
+  sun:`<circle cx="${s*0.5}" cy="${s*0.5}" r="${s*0.2}"/>`+rays(s*0.5,s*0.5,s*0.32,s*0.44),
+  moon:`<path d="M ${s*0.7} ${s*0.54} A ${s*0.27} ${s*0.27} 0 1 1 ${s*0.46} ${s*0.22} A ${s*0.21} ${s*0.21} 0 1 0 ${s*0.7} ${s*0.54} Z"/>`,
+  battery:`<rect x="${s*0.16}" y="${s*0.37}" width="${s*0.58}" height="${s*0.26}" rx="${s*0.05}"/><rect x="${s*0.76}" y="${s*0.44}" width="${s*0.06}" height="${s*0.12}" rx="${s*0.02}"/><rect x="${s*0.21}" y="${s*0.42}" width="${s*0.12}" height="${s*0.16}" rx="${s*0.02}" fill="CURRENT" stroke="none"/>`,
+  salt:`<path d="M ${s*0.37} ${s*0.36} Q ${s*0.5} ${s*0.26}, ${s*0.63} ${s*0.36} L ${s*0.65} ${s*0.78} Q ${s*0.5} ${s*0.84}, ${s*0.35} ${s*0.78} Z"/><line x1="${s*0.46}" y1="${s*0.43}" x2="${s*0.46}" y2="${s*0.45}"/><line x1="${s*0.54}" y1="${s*0.43}" x2="${s*0.54}" y2="${s*0.45}"/><line x1="${s*0.5}" y1="${s*0.49}" x2="${s*0.5}" y2="${s*0.51}"/>`,
+  flame:`<path d="M ${s*0.5} ${s*0.18} C ${s*0.33} ${s*0.42}, ${s*0.42} ${s*0.56}, ${s*0.5} ${s*0.62} C ${s*0.58} ${s*0.56}, ${s*0.67} ${s*0.42}, ${s*0.5} ${s*0.18} Z M ${s*0.5} ${s*0.46} C ${s*0.44} ${s*0.58}, ${s*0.46} ${s*0.74}, ${s*0.5} ${s*0.82} C ${s*0.54} ${s*0.74}, ${s*0.56} ${s*0.58}, ${s*0.5} ${s*0.46} Z"/>`,
+  snow:`<line x1="${s*0.5}" y1="${s*0.16}" x2="${s*0.5}" y2="${s*0.84}"/><line x1="${s*0.22}" y1="${s*0.34}" x2="${s*0.78}" y2="${s*0.66}"/><line x1="${s*0.78}" y1="${s*0.34}" x2="${s*0.22}" y2="${s*0.66}"/>`,
+  scale:`<rect x="${s*0.2}" y="${s*0.24}" width="${s*0.6}" height="${s*0.52}" rx="${s*0.1}"/><circle cx="${s*0.5}" cy="${s*0.52}" r="${s*0.16}"/><line x1="${s*0.5}" y1="${s*0.52}" x2="${s*0.58}" y2="${s*0.44}"/>`,
+  drop:`<path d="M ${s*0.5} ${s*0.18} C ${s*0.32} ${s*0.42}, ${s*0.24} ${s*0.64}, ${s*0.5} ${s*0.84} C ${s*0.76} ${s*0.64}, ${s*0.68} ${s*0.42}, ${s*0.5} ${s*0.18} Z"/>`,
+  leaf:`<path d="M ${s*0.74} ${s*0.26} C ${s*0.4} ${s*0.24}, ${s*0.24} ${s*0.5}, ${s*0.28} ${s*0.76} C ${s*0.56} ${s*0.74}, ${s*0.76} ${s*0.58}, ${s*0.74} ${s*0.26} Z"/><line x1="${s*0.34}" y1="${s*0.7}" x2="${s*0.66}" y2="${s*0.38}"/>`,
+  wave:`<path d="M ${s*0.16} ${s*0.42} Q ${s*0.32} ${s*0.24}, ${s*0.5} ${s*0.42} Q ${s*0.68} ${s*0.6}, ${s*0.84} ${s*0.42}"/><path d="M ${s*0.16} ${s*0.6} Q ${s*0.32} ${s*0.42}, ${s*0.5} ${s*0.6} Q ${s*0.68} ${s*0.78}, ${s*0.84} ${s*0.6}"/>`,
+  plate:`<circle cx="${s*0.5}" cy="${s*0.5}" r="${s*0.3}"/><circle cx="${s*0.5}" cy="${s*0.5}" r="${s*0.16}"/>`,
+  glass:`<path d="M ${s*0.34} ${s*0.22} L ${s*0.66} ${s*0.22} L ${s*0.56} ${s*0.5} Q ${s*0.5} ${s*0.56}, ${s*0.44} ${s*0.5} Z"/><line x1="${s*0.5}" y1="${s*0.54}" x2="${s*0.5}" y2="${s*0.76}"/><line x1="${s*0.38}" y1="${s*0.78}" x2="${s*0.62}" y2="${s*0.78}"/>`,
+  molecule:`<circle cx="${s*0.5}" cy="${s*0.28}" r="${s*0.1}"/><circle cx="${s*0.26}" cy="${s*0.7}" r="${s*0.1}"/><circle cx="${s*0.74}" cy="${s*0.7}" r="${s*0.1}"/><line x1="${s*0.45}" y1="${s*0.36}" x2="${s*0.31}" y2="${s*0.62}"/><line x1="${s*0.55}" y1="${s*0.36}" x2="${s*0.69}" y2="${s*0.62}"/><line x1="${s*0.36}" y1="${s*0.7}" x2="${s*0.64}" y2="${s*0.7}"/>`
+};return P[name]||P.molecule;}
+function iconG(name,size,color,sw,x,y){return `<g transform="translate(${x},${y})" fill="none" stroke="${color}" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round">${icon(name,size).replace(/CURRENT/g,color)}</g>`;}
+
+function head(k,light){ // eyebrow + заголовок; light=true → тёмный текст на светлом
+  const col=light?k.dark:'#fff', eyeCol=light?k.accent:'#fff';
+  let s=`<text x="${W*0.08}" y="${H*(light?0.075:0.085)}" font-family="${sans}" font-size="${W*0.026}" fill="${eyeCol}" opacity="${light?1:0.82}" font-weight="700" letter-spacing="3">${esc(k.eyebrow.toUpperCase())}</text>`;
+  const tf=fitText(k.title,18,3,W*0.07); const ty=H*(light?0.135:0.15);
+  tf.lines.forEach((l,i)=>s+=`<text x="${W*0.08}" y="${ty+i*tf.fontSize*1.12}" font-family="${sans}" font-size="${tf.fontSize}" fill="${col}" font-weight="800">${esc(l)}</text>`);
+  return {svg:s, bottom:ty+tf.lines.length*tf.fontSize*1.12};
+}
+function cta(k,light){ // light=true → акцентная плашка на светлом фоне
+  const cy=H*0.9,ch=H*0.05; let s='';
+  s+=`<rect x="${W*0.06}" y="${cy}" width="${W*0.6}" height="${ch}" rx="${ch*0.5}" fill="${light?k.accent:'#fff'}"/>`;
+  s+=`<text x="${W*0.09}" y="${cy+ch*0.63}" font-family="${sans}" font-size="${W*0.026}" fill="${light?'#fff':k.accent}" font-weight="800" letter-spacing="1">${CTA}</text>`;
+  s+=`<text x="${W*0.93}" y="${cy+ch*0.63}" font-family="${sans}" font-size="${W*0.024}" fill="${light?k.accent:'#fff'}" font-weight="800" text-anchor="end" opacity="0.88">listoshenkov.ru</text>`;
+  return s;
+}
+
+// ===== B: цвет + иконки-кружки, крупный текст =====
+function styleB(k,slug){
+  let s=`<svg data-slug="${slug}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg"><rect width="${W}" height="${H}" fill="${k.accent}"/>`;
+  s+=`<text x="${W*0.99}" y="${H*0.94}" font-family="${sans}" font-size="${W*0.85}" fill="#fff" opacity="0.08" font-weight="900" text-anchor="end">${esc(k.bigNum||k.items.length)}</text>`;
+  const h=head(k,false); s+=h.svg;
+  s+=`<rect x="${W*0.08}" y="${h.bottom+H*0.006}" width="${W*0.16}" height="${H*0.008}" fill="#fff" opacity="0.55"/>`;
+  const n=k.items.length, top=h.bottom+H*0.05, bot=H*0.85, gap=(bot-top)/n;
+  k.items.forEach((it,i)=>{const cy=top+i*gap,r=W*0.04,cx=W*0.12,ccy=cy+gap*0.5;
+    s+=`<circle cx="${cx}" cy="${ccy}" r="${r}" fill="#fff"/>`+iconG(k.icons[i],r*1.05,k.accent,3.4,cx-r*0.525,ccy-r*0.525);
+    const tx=cx+r+W*0.045,itf=fitText(it,20,2,W*0.05),iy=ccy-(itf.lines.length-1)*itf.fontSize*0.6+itf.fontSize*0.34;
+    itf.lines.forEach((l,li)=>s+=`<text x="${tx}" y="${iy+li*itf.fontSize*1.16}" font-family="${baseFont}" font-size="${itf.fontSize}" fill="#fff">${esc(l)}</text>`);
+    if(i<n-1)s+=`<line x1="${tx}" y1="${cy+gap*0.96}" x2="${W*0.9}" y2="${cy+gap*0.96}" stroke="#fff" stroke-opacity="0.16" stroke-width="1.5"/>`;});
+  return s+cta(k,false)+`</svg>`;
+}
+// ===== C: крупные цифры, светлый =====
+function styleC(k,slug){
+  let s=`<svg data-slug="${slug}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg"><rect width="${W}" height="${H}" fill="#FFFFFF"/>`;
+  s+=`<rect x="0" y="0" width="${W}" height="${W*0.018}" fill="${k.accent}"/>`;
+  const h=head(k,true); s+=h.svg;
+  const n=k.items.length, top=h.bottom+H*0.04, bot=H*0.85, gap=(bot-top)/n;
+  k.items.forEach((it,i)=>{const cy=top+i*gap,mid=cy+gap*0.5;
+    s+=`<text x="${W*0.085}" y="${mid+W*0.03}" font-family="${sans}" font-size="${W*0.085}" fill="${k.accent}" font-weight="900">${i+1}</text>`;
+    const tx=W*0.26,itf=fitText(it,20,2,W*0.052),iy=mid-(itf.lines.length-1)*itf.fontSize*0.6+itf.fontSize*0.34;
+    itf.lines.forEach((l,li)=>s+=`<text x="${tx}" y="${iy+li*itf.fontSize*1.16}" font-family="${baseFont}" font-size="${itf.fontSize}" fill="${k.dark}">${esc(l)}</text>`);
+    if(i<n-1)s+=`<line x1="${W*0.085}" y1="${cy+gap*0.96}" x2="${W*0.92}" y2="${cy+gap*0.96}" stroke="${k.accent}" stroke-opacity="0.18" stroke-width="2"/>`;});
+  return s+cta(k,true)+`</svg>`;
+}
+// ===== E: крупные иконки, светлый =====
+function styleE(k,slug){
+  let s=`<svg data-slug="${slug}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  s+=`<defs><linearGradient id="g_${slug}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${k.tint}"/><stop offset="0.5" stop-color="#FFFFFF"/></linearGradient></defs>`;
+  s+=`<rect width="${W}" height="${H}" fill="url(#g_${slug})"/>`;
+  const h=head(k,true); s+=h.svg;
+  const n=k.items.length, top=h.bottom+H*0.045, bot=H*0.85, gap=(bot-top)/n;
+  k.items.forEach((it,i)=>{const cy=top+i*gap,ic=W*0.085,mid=cy+gap*0.5;
+    s+=iconG(k.icons[i],ic,k.accent,4,W*0.08,mid-ic*0.5);
+    const tx=W*0.24,itf=fitText(it,20,2,W*0.052),iy=mid-(itf.lines.length-1)*itf.fontSize*0.6+itf.fontSize*0.34;
+    itf.lines.forEach((l,li)=>s+=`<text x="${tx}" y="${iy+li*itf.fontSize*1.16}" font-family="${baseFont}" font-size="${itf.fontSize}" fill="${k.dark}" font-weight="600">${esc(l)}</text>`);});
+  return s+cta(k,true)+`</svg>`;
+}
+const STYLES={B:styleB,C:styleC,E:styleE};
+
+const PINS=[
+  { slug:'kortizol', style:'B', accent:'#B45309', tint:'#FBEFE2', dark:'#1A1206', eyebrow:'Гормоны · кортизол',
+    title:'5 признаков, что кортизол сбит — а анализ в норме',
+    items:['Еле встаёшь по утрам','Не уснуть до двух ночи','Провал сил после обеда','Постоянно тянет на солёное','Просыпаешься уже разбитой'],
+    icons:['sun','moon','battery','salt','flame'] },
+  { slug:'schitovidka', style:'C', accent:'#0F766E', tint:'#E3F1EF', dark:'#0A1F1C', eyebrow:'Гормоны · щитовидка',
+    title:'ТТГ в норме, а вы как в спячке: 6 сигналов щитовидки',
+    items:['Мёрзнете, когда всем тепло','Вес растёт на прежнем питании','Волосы редеют','Усталость и туман в голове','Сухая кожа, ломкие ногти','Запоры и отёчность'],
+    icons:['snow','scale','drop','battery','leaf','wave'] },
+  { slug:'son-3-nochi', style:'E', accent:'#4338CA', tint:'#E7E6FA', dark:'#10103A', eyebrow:'Гормоны · сон',
+    title:'Просыпаешься в 3 ночи? 5 причин — и это не голова',
+    items:['Сахарные качели вечером','Ночной скачок кортизола','Поздний тяжёлый ужин','Алкоголь перед сном','Падение прогестерона'],
+    icons:['wave','flame','plate','glass','molecule'] },
+  { slug:'ves', style:'B', accent:'#BE185D', tint:'#FBE6EF', dark:'#2A0814', eyebrow:'Гормоны · вес',
+    title:'Вес стоит на дефиците? 3 гормона держат жир под замком', bigNum:'3',
+    items:['Инсулин и сахарные качели','Хронически высокий кортизол','Замедленная щитовидка'],
+    icons:['wave','flame','snow'] },
+  { slug:'pms', style:'C', accent:'#7C3AED', tint:'#EDE7FB', dark:'#1B0B3A', eyebrow:'Гормоны · ПМС',
+    title:'ПМС всё тяжелее? 5 сигналов перекоса эстроген/прогестерон',
+    items:['Грудь болит и наливается','Отёки во второй фазе','Тревога и раздражительность','Бессонница перед циклом','Срывы на сладкое'] },
+  { slug:'trevoga', style:'E', accent:'#0E7490', tint:'#DEF1F5', dark:'#06222B', eyebrow:'Гормоны · тревога',
+    title:'Тревога — не характер: 5 телесных причин',
+    items:['Хронический стресс и кортизол','Проблемы кишечника','Дефицит магния и B6','Сахарные качели','Мало белка — нет триптофана'],
+    icons:['flame','leaf','molecule','wave','plate'] },
+  { slug:'kishechnik', style:'B', accent:'#15803D', tint:'#E2F2E8', dark:'#07210F', eyebrow:'Гормоны · кишечник',
+    title:'Кишечник рулит гормонами: 5 связей, о которых молчат',
+    items:['Выводит лишний эстроген','Сырьё для серотонина','Усвоение железа и витамина D','Конверсия гормонов щитовидки','Воспаление бьёт по балансу'],
+    icons:['wave','sun','drop','molecule','flame'] },
+  { slug:'perimenopauza', style:'C', accent:'#9D174D', tint:'#FAE3EC', dark:'#2A0716', eyebrow:'Гормоны · перименопауза',
+    title:'Перименопауза после 40: 6 ранних признаков',
+    items:['Цикл стал нерегулярным','Сон рвётся под утро','Вес растёт незаметно','Тревожность и раздражительность','Приливы-предвестники','Первым падает прогестерон'] },
+  { slug:'holesterin', style:'E', accent:'#A16207', tint:'#F7EDD8', dark:'#2A1D06', eyebrow:'Гормоны · холестерин',
+    title:'Холестерин повышен? 5 фактов до статинов',
+    items:['Это сырьё для всех гормонов','При чём тут печень','Связь со щитовидкой','Холестерин и ПМС','Когда цифра — не приговор'],
+    icons:['molecule','leaf','snow','drop','scale'] }
+];
+PINS.forEach(p=>p.url=artUrl(p.slug));
+
+const root=document.getElementById('root');
+for(const pin of PINS){
+  const card=document.createElement('div');
+  card.className='pin';
+  card.innerHTML=STYLES[pin.style](pin,pin.slug)+`<div class="cap">${pin.slug}.png · стиль ${pin.style} · <a href="${pin.url}">+utm</a></div>`;
+  root.appendChild(card);
+}
+</script>
+</body>
+</html>

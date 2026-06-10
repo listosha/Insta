@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pinterest-пины · списки-памятки (1000×1500, 2:3)</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; background: #f0f0f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  .page-title { font-size: 22px; font-weight: 700; color: #222; margin-bottom: 4px; }
+  .page-sub { font-size: 13px; color: #888; margin-bottom: 28px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, 320px); gap: 24px; }
+  .pin { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,.12); }
+  .pin svg { width: 100%; height: auto; display: block; }
+  .pin .cap { padding: 8px 12px; font-size: 11px; color: #777; border-top: 1px solid #eee; }
+</style>
+</head>
+<body>
+<div class="page-title">Pinterest · списки-памятки</div>
+<div class="page-sub">Стандартный пин 1000×1500 (2:3) · тема: железодефицит · клик → гайд за email</div>
+<div id="root" class="grid"></div>
+
+<script>
+// Палитра — из основной дизайн-системы каруселей (carousels-may2026.html), чтобы пины были в едином стиле.
+const THEMES = {
+  red_white:    { bg:'#FFFFFF', accent:'#CC0000', accentB:'#990000', text:'#111111', textSoft:'#555555', accentText:'#FFFFFF' },
+  purple_white: { bg:'#FFFFFF', accent:'#6B21A8', accentB:'#4C1572', text:'#111111', textSoft:'#555555', accentText:'#FFFFFF' },
+  teal_white:   { bg:'#FFFFFF', accent:'#0F766E', accentB:'#0D5C57', text:'#111111', textSoft:'#555555', accentText:'#FFFFFF' },
+  indigo_white: { bg:'#FFFFFF', accent:'#4338CA', accentB:'#3730A3', text:'#111111', textSoft:'#555555', accentText:'#FFFFFF' },
+  fuchsia_white:{ bg:'#FFFFFF', accent:'#C026D3', accentB:'#86198F', text:'#111111', textSoft:'#555555', accentText:'#FFFFFF' }
+};
+
+// Диплинки в приложение (email-gated бесплатные материалы). Канон: miniapp/docs/instagram-funnel-deeplinks.md.
+const LINK_IRON = 'https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel'; // протокол железа 8 недель
+const LINK_HAIR = 'https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca'; // протокол по волосам 3 мес
+
+const baseFont = 'Georgia, serif';
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// Авто-подгонка текста — порт из основного шаблона.
+function fitText(text, maxChars, maxLines, baseFontSize){
+  if(!text) return { lines:[], fontSize:baseFontSize };
+  function wrap(charsPerLine){
+    const out=[];
+    for(const para of String(text).split(/\n+/)){
+      const words=para.split(/\s+/).filter(Boolean); let cur='';
+      for(const w of words){ const cand=cur?cur+' '+w:w; if(cand.length<=charsPerLine) cur=cand; else { if(cur) out.push(cur); cur=w; } }
+      if(cur) out.push(cur);
+    }
+    return out;
+  }
+  let scale=1, fontSize=baseFontSize, chars=maxChars, lines=wrap(chars);
+  while(lines.length>maxLines && scale<1.6){ scale+=0.05; fontSize=baseFontSize/scale; chars=Math.floor(maxChars*scale); lines=wrap(chars); }
+  if(lines.length>maxLines){ lines=lines.slice(0,maxLines); const last=lines[maxLines-1]; if(last&&last.length>3) lines[maxLines-1]=last.slice(0,-2)+'...'; }
+  return { lines, fontSize };
+}
+
+// Иконки — подмножество из основного шаблона.
+function iconPath(name,s){
+  const p={
+    iron:`<path d="M ${s*0.5} ${s*0.1} C ${s*0.2} ${s*0.5}, ${s*0.2} ${s*0.85}, ${s*0.5} ${s*0.9} C ${s*0.8} ${s*0.85}, ${s*0.8} ${s*0.5}, ${s*0.5} ${s*0.1} Z"/><path d="M ${s*0.35} ${s*0.55} Q ${s*0.5} ${s*0.45}, ${s*0.65} ${s*0.55}"/>`,
+    drop:`<path d="M ${s*0.5} ${s*0.15} C ${s*0.3} ${s*0.4}, ${s*0.2} ${s*0.65}, ${s*0.5} ${s*0.9} C ${s*0.8} ${s*0.65}, ${s*0.7} ${s*0.4}, ${s*0.5} ${s*0.15} Z"/>`,
+    molecule:`<circle cx="${s*0.5}" cy="${s*0.25}" r="${s*0.1}"/><circle cx="${s*0.25}" cy="${s*0.7}" r="${s*0.1}"/><circle cx="${s*0.75}" cy="${s*0.7}" r="${s*0.1}"/><line x1="${s*0.45}" y1="${s*0.33}" x2="${s*0.3}" y2="${s*0.62}"/><line x1="${s*0.55}" y1="${s*0.33}" x2="${s*0.7}" y2="${s*0.62}"/><line x1="${s*0.35}" y1="${s*0.7}" x2="${s*0.65}" y2="${s*0.7}"/>`,
+    gut:`<path d="M ${s*0.3} ${s*0.15} Q ${s*0.6} ${s*0.1}, ${s*0.65} ${s*0.35} Q ${s*0.7} ${s*0.55}, ${s*0.5} ${s*0.6} Q ${s*0.3} ${s*0.65}, ${s*0.35} ${s*0.8} Q ${s*0.4} ${s*0.95}, ${s*0.65} ${s*0.9}"/>`
+  };
+  return p[name]||'';
+}
+function iconGroup(name,size,color,strokeW){ const path=iconPath(name,size); return path?`<g fill="none" stroke="${color}" stroke-width="${strokeW}" stroke-linecap="round" stroke-linejoin="round">${path}</g>`:''; }
+
+function renderFooter(t,w,h){
+  let s='';
+  s+=`<text x="${w*0.92}" y="${h*0.962}" font-family="${baseFont}" font-size="${w*0.026}" fill="${t.accent}" font-weight="700" text-anchor="end" letter-spacing="1" opacity="0.85">listoshenkov.ru</text>`;
+  s+=`<text x="${w*0.92}" y="${h*0.982}" font-family="${baseFont}" font-size="${w*0.021}" fill="${t.accent}" font-weight="700" text-anchor="end" letter-spacing="1" opacity="0.55">бесплатный гайд по ссылке</text>`;
+  return s;
+}
+
+// Один пин = список-памятка. 1000×1500 (2:3).
+function renderPin(pin){
+  const t=THEMES[pin.theme]||THEMES.red_white;
+  const w=1000,h=1500;
+  const hasIcon=pin.icon&&pin.icon!=='none';
+  let svg=`<svg data-slug="${esc(pin.slug)}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg">`;
+  svg+=`<rect width="${w}" height="${h}" fill="${t.bg}"/>`;
+  svg+=`<rect x="0" y="0" width="${w}" height="${w*0.008}" fill="${t.accent}"/>`;
+  svg+=`<ellipse cx="${w*0.9}" cy="${h*0.12}" rx="${w*0.28}" ry="${w*0.26}" fill="${t.accent}" opacity="0.06"/>`;
+
+  // Eyebrow
+  svg+=`<text x="${w*0.08}" y="${h*0.062}" font-family="${baseFont}" font-size="${w*0.026}" fill="${t.accent}" font-weight="700" font-style="italic" letter-spacing="3">${esc((pin.eyebrow||'').toUpperCase())}</text>`;
+  if(hasIcon) svg+=`<g transform="translate(${w*0.80}, ${h*0.04})">${iconGroup(pin.icon, w*0.10, t.accent, 3)}</g>`;
+  svg+=`<rect x="${w*0.08}" y="${h*0.082}" width="${w*0.12}" height="${h*0.008}" fill="${t.accent}"/>`;
+
+  // Title (2–3 строки, последняя — акцентом)
+  const titleFit=fitText(pin.title, 16, 3, w*0.078);
+  const titleStartY=h*0.155;
+  const titleLH=1.12;
+  titleFit.lines.forEach((line,i)=>{
+    const isLast=i===titleFit.lines.length-1;
+    svg+=`<text x="${w*0.08}" y="${titleStartY+i*titleFit.fontSize*titleLH}" font-family="${baseFont}" font-size="${titleFit.fontSize}" fill="${isLast?t.accent:t.text}" font-weight="700">${esc(line)}</text>`;
+  });
+  const titleBlockH=titleFit.lines.length*titleFit.fontSize*titleLH;
+
+  // List
+  const listStartY=titleStartY+titleBlockH+h*0.045;
+  const listEndY=h*0.86;
+  const availH=listEndY-listStartY;
+  const items=(pin.items||[]).filter(Boolean);
+  const n=items.length;
+  const itemLH=1.2;
+  // Перенос по реальной ширине: текст от x=w*0.18 до ~w*0.86 → доступно w*0.68 (правый отступ ~14%).
+  // Символов в строке оцениваем от кегля (Georgia, кириллица ≈ 0.57·fontSize на глиф).
+  const availTextW=w*0.68;
+  let itemFontBase=w*0.05, itemFits=[];
+  for(let a=0;a<14;a++){
+    const cpl=Math.max(8, Math.floor(availTextW/(itemFontBase*0.57)));
+    itemFits=items.map(it=>fitText(it, cpl, 2, itemFontBase));
+    const totalH=itemFits.reduce((sum,fit)=>sum+fit.lines.length*fit.fontSize*itemLH+itemFontBase*0.8,0);
+    if(totalH<=availH) break;
+    itemFontBase*=0.94;
+  }
+  let curY=listStartY;
+  itemFits.forEach((fit,i)=>{
+    const isLast=i===n-1;
+    const lh=fit.fontSize*itemLH;
+    const firstBaselineY=curY+fit.fontSize*0.85;
+    const bulletCY=firstBaselineY-fit.fontSize*0.32;
+    const bulletR=w*0.026;
+    svg+=`<circle cx="${w*0.12}" cy="${bulletCY}" r="${bulletR}" fill="${isLast?t.accentB:t.accent}"/>`;
+    svg+=`<text x="${w*0.12}" y="${bulletCY+bulletR*0.42}" font-family="${baseFont}" font-size="${w*0.026}" fill="${t.accentText}" font-weight="700" text-anchor="middle">${i+1}</text>`;
+    fit.lines.forEach((line,li)=>{
+      svg+=`<text x="${w*0.18}" y="${firstBaselineY+li*lh}" font-family="${baseFont}" font-size="${fit.fontSize}" fill="${t.text}" font-weight="400">${esc(line)}</text>`;
+    });
+    curY+=fit.lines.length*lh+itemFontBase*0.8;
+  });
+
+  // CTA-плашка
+  const ctaY=h*0.885, ctaH=h*0.045;
+  svg+=`<rect x="${w*0.06}" y="${ctaY}" width="${w*0.62}" height="${ctaH}" rx="${ctaH*0.5}" fill="${t.accent}"/>`;
+  svg+=`<text x="${w*0.09}" y="${ctaY+ctaH*0.65}" font-family="${baseFont}" font-size="${w*0.028}" fill="${t.accentText}" font-weight="700" letter-spacing="1.5">СОХРАНИ · ГАЙД ПО ССЫЛКЕ →</text>`;
+
+  svg+=renderFooter(t,w,h);
+  svg+=`</svg>`;
+  return svg;
+}
+
+const PINS=[
+  {
+    slug:'zhelezo-produkty', theme:'red_white', icon:'iron', url:LINK_IRON,
+    eyebrow:'Питание · памятка',
+    title:'10 продуктов, где железа больше, чем в гречке',
+    items:['Говяжья печень','Моллюски и устрицы','Чечевица','Тыквенные семечки','Говядина','Шпинат','Белая фасоль','Киноа','Тёмный шоколад 70%+','Курага']
+  },
+  {
+    slug:'zhelezo-priznaki', theme:'purple_white', icon:'drop', url:LINK_IRON,
+    eyebrow:'Здоровье · памятка',
+    title:'7 признаков скрытого дефицита железа',
+    items:['Волосы лезут пучками','Ногти ломкие, в бороздках','К обеду не остаётся сил','Одышка на лестнице','Тянет грызть лёд','Бледная кожа, круги под глазами','Постоянно мёрзнут руки и ноги']
+  },
+  {
+    slug:'zhelezo-usvoenie', theme:'teal_white', icon:'gut', url:LINK_IRON,
+    eyebrow:'Питание · памятка',
+    title:'6 ошибок, из-за которых железо не усваивается',
+    items:['Чай и кофе сразу после еды','Кальций в один приём с железом','Мало витамина C в рационе','Скрытое воспаление в кишечнике','Дефицит белка','Антациды и ИПП без контроля']
+  },
+  {
+    slug:'zhelezo-analizy', theme:'indigo_white', icon:'molecule', url:LINK_IRON,
+    eyebrow:'Анализы · памятка',
+    title:'5 анализов, чтобы проверить запасы железа',
+    items:['Ферритин — главный маркёр депо','Сывороточное железо','ОЖСС и насыщение трансферрина','Трансферрин','Общий анализ крови + гемоглобин']
+  },
+  {
+    slug:'volosy-prichiny', theme:'fuchsia_white', icon:'drop', url:LINK_HAIR,
+    eyebrow:'Здоровье · памятка',
+    title:'Волосы сыплются: 6 дефицитов, которые виноваты',
+    items:['Низкий ферритин — пустое депо железа','Дефицит витамина D','Цинк ниже нормы','Скрытые сбои щитовидки (ТТГ, Т4св)','Нехватка белка в рационе','Дефицит B12 и фолатов']
+  },
+  {
+    slug:'zhelezo-rastitelnoe', theme:'teal_white', icon:'iron', url:LINK_IRON,
+    eyebrow:'Питание · памятка',
+    title:'Железо без мяса: 8 растительных источников',
+    items:['Чечевица','Тофу и темпе','Тыквенные семечки','Шпинат','Киноа','Нут','Курага','Тёмный шоколад 70%+']
+  },
+  {
+    slug:'zhelezo-pomoshniki', theme:'indigo_white', icon:'iron', url:LINK_IRON,
+    eyebrow:'Питание · памятка',
+    title:'Что помогает железу усвоиться: 6 союзников',
+    items:['Витамин C в один приём','Мясо рядом с растительным железом','Замачивание круп и бобовых','Лечить воспаление в ЖКТ','Достаточно белка','Развести по времени с кальцием и чаем']
+  },
+  {
+    slug:'volosy-produkty', theme:'fuchsia_white', icon:'drop', url:LINK_HAIR,
+    eyebrow:'Питание · памятка',
+    title:'6 продуктов для густоты волос',
+    items:['Печень и красное мясо','Яйца','Жирная рыба','Тыквенные семечки','Греческий йогурт','Орехи и бобовые']
+  },
+  {
+    slug:'volosy-analizy', theme:'purple_white', icon:'drop', url:LINK_HAIR,
+    eyebrow:'Анализы · памятка',
+    title:'Волосы лезут? 5 анализов сделать до трихолога',
+    items:['Ферритин','Витамин D','ТТГ и Т4 свободный','Цинк','Общий белок и B12']
+  },
+  {
+    slug:'volosy-oshibki', theme:'red_white', icon:'drop', url:LINK_HAIR,
+    eyebrow:'Здоровье · памятка',
+    title:'Уход не помогает: 5 ошибок при выпадении волос',
+    items:['Лечите шампунем, а не дефицит','Жёсткие диеты без белка','Игнорируете щитовидку','Стресс без контроля','Ждёте результат за неделю']
+  }
+];
+
+const root=document.getElementById('root');
+for(const pin of PINS){
+  const card=document.createElement('div');
+  card.className='pin';
+  card.innerHTML=renderPin(pin)+`<div class="cap">${pin.slug}.png</div>`;
+  root.appendChild(card);
+}
+</script>
+</body>
+</html>
