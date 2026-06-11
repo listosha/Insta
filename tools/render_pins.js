@@ -29,11 +29,16 @@ const OUT = path.resolve(__dirname, '..', 'images', process.argv[3] || 'pins');
 
   fs.mkdirSync(OUT, { recursive: true });
   for (const pin of pins) {
-    const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+    const html = `<!DOCTYPE html><html><head><meta charset="utf-8">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+      <style>
       html,body{margin:0;padding:0;background:#fff}
       svg{display:block;width:1000px;height:1500px}
     </style></head><body>${pin.svg}</body></html>`;
-    await page.setContent(html, { waitUntil: 'load' });
+    await page.setContent(html, { waitUntil: 'networkidle' });
+    try { await page.evaluate(() => document.fonts.ready); } catch {}
     const file = path.join(OUT, `${pin.slug}.png`);
     await page.locator('svg').screenshot({ path: file, omitBackground: false });
     console.log(`  pins/${pin.slug}.png`);

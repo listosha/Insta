@@ -12,13 +12,15 @@
     "per_day": 2,
     "slots": {
       "article": "10:00 Europe/Moscow",
-      "guide": "21:00 Europe/Moscow"
+      "guide": "21:00 Europe/Moscow",
+      "menu": "21:00 Europe/Moscow (с 21.06)"
     }
   },
   "counts": {
-    "total": 19,
+    "total": 49,
     "guides": 10,
-    "articles": 9
+    "articles": 9,
+    "menu": 30
   },
   "pins": [
     {
@@ -334,6 +336,486 @@
       "time": "21:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-06-20T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-zavtraki-energiya",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-zavtraki-energiya.png",
+      "title": "3 завтрака для энергии до обеда",
+      "description": "3 завтрака для энергии до обеда. Омлет со шпинатом и авокадо · Гречка с яйцом и зеленью · Йогурт с орехами и ягодами. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-21",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-21T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-obed-bez-spada",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-obed-bez-spada.png",
+      "title": "Обед без спада сил после еды",
+      "description": "Обед без спада сил после еды. Лосось, киноа и овощи · Курица, бурый рис, салат · Чечевичный суп с яйцом. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-22",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-22T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-uzhin-son",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-uzhin-son.png",
+      "title": "Ужин для спокойного сна",
+      "description": "Ужин для спокойного сна. Индейка и запечённые овощи · Творог с тыквенными семечками · Тёплый суп с рыбой. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-23",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-23T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-perekusy",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-perekusy.png",
+      "title": "Перекусы без качелей сахара",
+      "description": "Перекусы без качелей сахара. Яблоко с миндальной пастой · Горсть орехов и сыр · Йогурт с семенами чиа. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-24",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-24T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-zavtrak-zhelezo",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-zavtrak-zhelezo.png",
+      "title": "Завтраки, чтобы поднять железо",
+      "description": "Завтраки, чтобы поднять железо. Печёночный паштет на тосте · Гречка с яйцом и петрушкой · Овсянка с курагой и семечками. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-25",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-25T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-tarelka-gormony",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-tarelka-gormony.png",
+      "title": "Тарелка для гормонального баланса",
+      "description": "Тарелка для гормонального баланса. ¼ — овощи и зелень · ⅓ — белок и жиры · ⅓ — длинные углеводы. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-26",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-26T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-zhelezo",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-zhelezo.png",
+      "title": "Что есть при дефиците железа",
+      "description": "Что есть при дефиците железа. Красное мясо и печень · Бобовые с витамином C · Зелёные листовые. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-27",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-27T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-schitovidka",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-schitovidka.png",
+      "title": "Меню для поддержки щитовидки",
+      "description": "Меню для поддержки щитовидки. Рыба и морепродукты · Бразильский орех · Яйца и достаточно белка. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-28",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-28T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-pms",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-pms.png",
+      "title": "Еда, чтобы пережить ПМС легче",
+      "description": "Еда, чтобы пережить ПМС легче. Магний: семечки, какао · Сложные углеводы · Жирная рыба. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-29",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-29T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-perimenopauza",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-perimenopauza.png",
+      "title": "Меню при перименопаузе",
+      "description": "Меню при перименопаузе. Белок и жиры в каждый приём · Растительные прогестероны · Кальций только из растений · Витамин D и магний. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-06-30",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-06-30T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-chto-takoe",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-chto-takoe.png",
+      "title": "Что такое «Сделай Меню»",
+      "description": "Что такое «Сделай Меню». Меню под твои цели · Готовый список покупок · Простые рецепты. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-01",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-01T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-kashi-utro",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-kashi-utro.png",
+      "title": "3 каши, которые держат сытость",
+      "description": "3 каши, которые держат сытость. Овсянка на воде с яйцом · Гречка с маслом и зеленью · Киноа с орехами. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-02",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-02T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-smuzi-energiya",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-smuzi-energiya.png",
+      "title": "Смузи для энергии без сахара",
+      "description": "Смузи для энергии без сахара. Йогурт, ягоды, семена чиа · Шпинат, банан, орехи · Какао, банан, миндаль. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-03",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-03T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-uzhin-15min",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-uzhin-15min.png",
+      "title": "3 ужина за 15 минут",
+      "description": "3 ужина за 15 минут. Рыба на пару с овощами · Омлет с овощами · Тёплый салат с курицей. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-04",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-04T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-salaty-syto",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-salaty-syto.png",
+      "title": "Сытные салаты, чтобы наесться",
+      "description": "Сытные салаты, чтобы наесться. Салат с тунцом и яйцом · Тёплый салат с нутом · Зелень, авокадо, семечки. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-05",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-05T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-supy-jkt",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-supy-jkt.png",
+      "title": "Тёплые супы для лёгкости в животе",
+      "description": "Тёплые супы для лёгкости в животе. Овощной крем-суп · Куриный бульон с овощами · Чечевичный суп. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-06",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-06T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-perekus-rabota",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-perekus-rabota.png",
+      "title": "Перекусы на работе без сахара",
+      "description": "Перекусы на работе без сахара. Орехи и кусочек сыра · Йогурт без добавок · Яйцо и овощные палочки. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-07",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-07T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-desert-bez-sahara",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-desert-bez-sahara.png",
+      "title": "Сладкое без скачка сахара",
+      "description": "Сладкое без скачка сахара. Йогурт с ягодами и орехами · Тёмный шоколад 70%+ · Запечённое яблоко с корицей. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-08",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-08T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-belok-zavtrak",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-belok-zavtrak.png",
+      "title": "Завтраки с высоким белком",
+      "description": "Завтраки с высоким белком. Яичница с творогом · Скрэмбл с лососем · Творог с орехами. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-09",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-09T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-kortizol",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-kortizol.png",
+      "title": "Еда при высоком кортизоле",
+      "description": "Еда при высоком кортизоле. Завтрак с белком · Магний: зелень, семечки · Омега-3 рыба. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-10",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-10T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-son",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-son.png",
+      "title": "Что есть, чтобы крепче спать",
+      "description": "Что есть, чтобы крепче спать. Триптофан: индейка, творог · Магний: тыквенные семечки · Лёгкий тёплый ужин. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-11",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-11T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-trevoga",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-trevoga.png",
+      "title": "Питание против тревоги",
+      "description": "Питание против тревоги. Магний и B6 · Омега-3 рыба · Ровный сахар. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-12",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-12T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-kishechnik",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-kishechnik.png",
+      "title": "Еда для здорового кишечника",
+      "description": "Еда для здорового кишечника. Клетчатка: овощи, крупы · Ферментированное · Бобовые понемногу. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-13",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-13T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-holesterin",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-holesterin.png",
+      "title": "Питание при высоком холестерине",
+      "description": "Питание при высоком холестерине. Омега-3 рыба · Растворимая клетчатка · Орехи горстью. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-14",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-14T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-volosy",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-volosy.png",
+      "title": "Еда для густоты волос",
+      "description": "Еда для густоты волос. Белок и железо · Цинк и омега-3 · Зелень и яркие овощи. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-15",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-15T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-insulin",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-insulin.png",
+      "title": "Еда, чтобы выровнять сахар",
+      "description": "Еда, чтобы выровнять сахар. Белок и жир первыми · Сложные углеводы · Клетчатка каждый приём. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-16",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-16T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-voda",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-voda.png",
+      "title": "Сколько воды нужно и зачем",
+      "description": "Сколько воды нужно и зачем. ~30 мл на кг веса · Стакан после пробуждения · Меньше кофе и сладких. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-17",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-17T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-belok-skolko",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-belok-skolko.png",
+      "title": "Сколько белка нужно женщине",
+      "description": "Сколько белка нужно женщине. ~1,2–1,6 г на кг · Белок в каждый приём · Считаем источники. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-18",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-18T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-ritm-edy",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-ritm-edy.png",
+      "title": "Когда есть: ритм приёмов пищи",
+      "description": "Когда есть: ритм приёмов пищи. Завтрак в первый час · 3 приёма без долгих окон · Ужин за 3 часа до сна. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-19",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-19T21:00:00+03:00"
+    },
+    {
+      "slug": "menu-spisok-pokupok",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-spisok-pokupok.png",
+      "title": "Список покупок на неделю за минуту",
+      "description": "Список покупок на неделю за минуту. Меню собирает список · Всё по категориям · Ничего не забудешь. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-20",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-20T21:00:00+03:00"
     }
   ]
 }

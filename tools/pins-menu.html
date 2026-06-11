@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pinterest · пины «Сделай Меню» (рецепты, 1000×1500)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;}
+  body{margin:0;padding:24px;background:#e9e9ee;font-family:'Nunito',-apple-system,sans-serif;}
+  .h{font-size:22px;font-weight:800;color:#222;margin-bottom:4px;}
+  .s{font-size:13px;color:#888;margin-bottom:24px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,330px);gap:24px;}
+  .pin{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 18px rgba(0,0,0,.14);}
+  .pin svg{width:100%;height:auto;display:block;}
+  .cap{padding:8px 12px;font-size:12px;color:#666;border-top:1px solid #eee;}
+  .cap a{color:#888;}
+</style>
+</head>
+<body>
+<div class="h">Pinterest · «Сделай Меню» — рецепты</div>
+<div class="s">1000×1500 (2:3) · палитра и шрифт «Сделай Меню» (Nunito) · клик → приложение ?section=menu&ref=pinterest · контент ЧЕРНОВОЙ</div>
+<div id="root" class="grid"></div>
+
+<script>
+const FONT="'Nunito', -apple-system, 'Segoe UI', sans-serif";
+const W=1000,H=1500, CTA='СОБРАТЬ СВОЁ МЕНЮ →';
+const MENU_URL='https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu';
+// Единая палитра «Сделай Меню» (взята с лендинга listoshenkov.ru/menu/).
+const PAL={ bg1:'#fbeaf0', bg2:'#fffafc', accent:'#bf4570', icon:'#5d1d33', dark:'#4b1528', sub:'#7a2a45', line:'#f4c0d1' };
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function fitText(text,maxChars,maxLines,baseFontSize){
+  if(!text)return{lines:[],fontSize:baseFontSize};
+  function wrap(cpl){const out=[];for(const para of String(text).split(/\n+/)){const ws=para.split(/\s+/).filter(Boolean);let c='';for(const w of ws){const cand=c?c+' '+w:w;if(cand.length<=cpl)c=cand;else{if(c)out.push(c);c=w;}}if(c)out.push(c);}return out;}
+  let scale=1,fontSize=baseFontSize,chars=maxChars,lines=wrap(chars);
+  while(lines.length>maxLines&&scale<1.7){scale+=0.05;fontSize=baseFontSize/scale;chars=Math.floor(maxChars*scale);lines=wrap(chars);}
+  if(lines.length>maxLines){lines=lines.slice(0,maxLines);const last=lines[maxLines-1];if(last&&last.length>3)lines[maxLines-1]=last.slice(0,-2)+'...';}
+  return{lines,fontSize};
+}
+
+// --- иконки еды (линейные, в стиле статейных пинов) ---
+function icon(name,s){const P={
+  egg:`<ellipse cx="${s*0.5}" cy="${s*0.54}" rx="${s*0.26}" ry="${s*0.32}"/><circle cx="${s*0.5}" cy="${s*0.58}" r="${s*0.12}"/>`,
+  fish:`<path d="M ${s*0.18} ${s*0.5} C ${s*0.34} ${s*0.32}, ${s*0.62} ${s*0.32}, ${s*0.74} ${s*0.5} C ${s*0.62} ${s*0.68}, ${s*0.34} ${s*0.68}, ${s*0.18} ${s*0.5} Z"/><path d="M ${s*0.74} ${s*0.5} L ${s*0.86} ${s*0.4} L ${s*0.86} ${s*0.6} Z"/><circle cx="${s*0.3}" cy="${s*0.48}" r="${s*0.02}"/>`,
+  seeds:`<ellipse cx="${s*0.38}" cy="${s*0.42}" rx="${s*0.07}" ry="${s*0.13}" transform="rotate(-25 ${s*0.38} ${s*0.42})"/><ellipse cx="${s*0.6}" cy="${s*0.4}" rx="${s*0.07}" ry="${s*0.13}" transform="rotate(20 ${s*0.6} ${s*0.4})"/><ellipse cx="${s*0.5}" cy="${s*0.62}" rx="${s*0.07}" ry="${s*0.13}" transform="rotate(-5 ${s*0.5} ${s*0.62})"/>`,
+  oats:`<path d="M ${s*0.5} ${s*0.2} L ${s*0.5} ${s*0.8}"/><path d="M ${s*0.5} ${s*0.34} Q ${s*0.36} ${s*0.3}, ${s*0.34} ${s*0.42} Q ${s*0.46} ${s*0.44}, ${s*0.5} ${s*0.4} Z"/><path d="M ${s*0.5} ${s*0.34} Q ${s*0.64} ${s*0.3}, ${s*0.66} ${s*0.42} Q ${s*0.54} ${s*0.44}, ${s*0.5} ${s*0.4} Z"/><path d="M ${s*0.5} ${s*0.5} Q ${s*0.36} ${s*0.46}, ${s*0.34} ${s*0.58} Q ${s*0.46} ${s*0.6}, ${s*0.5} ${s*0.56} Z"/><path d="M ${s*0.5} ${s*0.5} Q ${s*0.64} ${s*0.46}, ${s*0.66} ${s*0.58} Q ${s*0.54} ${s*0.6}, ${s*0.5} ${s*0.56} Z"/>`,
+  yogurt:`<path d="M ${s*0.34} ${s*0.36} L ${s*0.66} ${s*0.36} L ${s*0.6} ${s*0.8} L ${s*0.4} ${s*0.8} Z"/><line x1="${s*0.34}" y1="${s*0.36}" x2="${s*0.66}" y2="${s*0.36}"/><path d="M ${s*0.42} ${s*0.5} q ${s*0.08} ${-s*0.06}, ${s*0.16} 0"/>`,
+  meat:`<path d="M ${s*0.3} ${s*0.34} Q ${s*0.2} ${s*0.5}, ${s*0.32} ${s*0.64} Q ${s*0.5} ${s*0.76}, ${s*0.68} ${s*0.64} Q ${s*0.8} ${s*0.5}, ${s*0.7} ${s*0.34} Q ${s*0.5} ${s*0.24}, ${s*0.3} ${s*0.34} Z"/><line x1="${s*0.4}" y1="${s*0.46}" x2="${s*0.5}" y2="${s*0.46}"/>`,
+  soup:`<path d="M ${s*0.22} ${s*0.5} Q ${s*0.5} ${s*0.78}, ${s*0.78} ${s*0.5} Z"/><line x1="${s*0.18}" y1="${s*0.5}" x2="${s*0.82}" y2="${s*0.5}"/><path d="M ${s*0.42} ${s*0.4} q ${s*0.08} ${-s*0.07}, 0 ${-s*0.14} M ${s*0.56} ${s*0.4} q ${s*0.08} ${-s*0.07}, 0 ${-s*0.14}"/>`,
+  leaf:`<path d="M ${s*0.74} ${s*0.26} C ${s*0.4} ${s*0.24}, ${s*0.24} ${s*0.5}, ${s*0.28} ${s*0.76} C ${s*0.56} ${s*0.74}, ${s*0.76} ${s*0.58}, ${s*0.74} ${s*0.26} Z"/><line x1="${s*0.34}" y1="${s*0.7}" x2="${s*0.66}" y2="${s*0.38}"/>`,
+  beans:`<ellipse cx="${s*0.4}" cy="${s*0.5}" rx="${s*0.1}" ry="${s*0.16}" transform="rotate(-20 ${s*0.4} ${s*0.5})"/><ellipse cx="${s*0.6}" cy="${s*0.52}" rx="${s*0.1}" ry="${s*0.16}" transform="rotate(15 ${s*0.6} ${s*0.52})"/>`,
+  nuts:`<path d="M ${s*0.5} ${s*0.24} C ${s*0.34} ${s*0.4}, ${s*0.34} ${s*0.6}, ${s*0.5} ${s*0.76} C ${s*0.66} ${s*0.6}, ${s*0.66} ${s*0.4}, ${s*0.5} ${s*0.24} Z"/><line x1="${s*0.5}" y1="${s*0.3}" x2="${s*0.5}" y2="${s*0.7}"/>`,
+  clipboard:`<rect x="${s*0.3}" y="${s*0.24}" width="${s*0.4}" height="${s*0.52}" rx="${s*0.04}"/><rect x="${s*0.42}" y="${s*0.2}" width="${s*0.16}" height="${s*0.08}" rx="${s*0.02}"/><line x1="${s*0.38}" y1="${s*0.44}" x2="${s*0.62}" y2="${s*0.44}"/><line x1="${s*0.38}" y1="${s*0.56}" x2="${s*0.62}" y2="${s*0.56}"/><line x1="${s*0.38}" y1="${s*0.68}" x2="${s*0.54}" y2="${s*0.68}"/>`,
+  cart:`<path d="M ${s*0.24} ${s*0.28} L ${s*0.32} ${s*0.28} L ${s*0.4} ${s*0.6} L ${s*0.68} ${s*0.6} L ${s*0.74} ${s*0.38} L ${s*0.36} ${s*0.38}"/><circle cx="${s*0.43}" cy="${s*0.7}" r="${s*0.045}"/><circle cx="${s*0.65}" cy="${s*0.7}" r="${s*0.045}"/>`,
+  clock:`<circle cx="${s*0.5}" cy="${s*0.5}" r="${s*0.28}"/><line x1="${s*0.5}" y1="${s*0.5}" x2="${s*0.5}" y2="${s*0.32}"/><line x1="${s*0.5}" y1="${s*0.5}" x2="${s*0.62}" y2="${s*0.56}"/>`,
+  glass:`<path d="M ${s*0.36} ${s*0.26} L ${s*0.64} ${s*0.26} L ${s*0.6} ${s*0.74} L ${s*0.4} ${s*0.74} Z"/><line x1="${s*0.38}" y1="${s*0.46}" x2="${s*0.62}" y2="${s*0.46}"/>`
+};return P[name]||P.soup;}
+function iconG(name,size,color,sw,x,y){return `<g transform="translate(${x},${y})" fill="none" stroke="${color}" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round">${icon(name,size)}</g>`;}
+
+function head(k){
+  let s=`<text x="${W*0.08}" y="${H*0.08}" font-family="${FONT}" font-size="${W*0.03}" fill="${PAL.accent}" font-weight="800" letter-spacing="2.5">${esc(k.eyebrow.toUpperCase())}</text>`;
+  const tf=fitText(k.title,15,3,W*0.084); const ty=H*0.145;
+  tf.lines.forEach((l,i)=>s+=`<text x="${W*0.08}" y="${ty+i*tf.fontSize*1.1}" font-family="${FONT}" font-size="${tf.fontSize}" fill="${PAL.dark}" font-weight="900">${esc(l)}</text>`);
+  return {svg:s, bottom:ty+tf.lines.length*tf.fontSize*1.1};
+}
+function cta(){
+  const cy=H*0.9,ch=H*0.058; let s='';
+  s+=`<rect x="${W*0.06}" y="${cy}" width="${W*0.6}" height="${ch}" rx="${ch*0.5}" fill="${PAL.accent}"/>`;
+  s+=`<text x="${W*0.36}" y="${cy+ch*0.63}" font-family="${FONT}" font-size="${W*0.031}" fill="#fff" font-weight="800" letter-spacing="0.5" text-anchor="middle">${CTA}</text>`;
+  s+=`<text x="${W*0.95}" y="${cy+ch*0.63}" font-family="${FONT}" font-size="${W*0.023}" fill="${PAL.accent}" font-weight="800" text-anchor="end">listoshenkov.ru</text>`;
+  return s;
+}
+
+// ===== M: карточка-рецепты (блюдо + строка состава + иконка) =====
+function styleM(k,slug){
+  let s=`<svg data-slug="${slug}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  s+=`<defs><linearGradient id="g_${slug}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${PAL.bg1}"/><stop offset="0.6" stop-color="${PAL.bg2}"/></linearGradient></defs>`;
+  s+=`<rect width="${W}" height="${H}" fill="url(#g_${slug})"/>`;
+  s+=`<rect x="0" y="0" width="${W}" height="${W*0.02}" fill="${PAL.accent}"/>`;
+  const h=head(k); s+=h.svg;
+  s+=`<rect x="${W*0.08}" y="${h.bottom+H*0.006}" width="${W*0.15}" height="${H*0.009}" rx="${H*0.0045}" fill="${PAL.accent}"/>`;
+  const n=k.items.length, top=h.bottom+H*0.055, bot=H*0.85, gap=(bot-top)/n;
+  k.items.forEach((it,i)=>{const cy=top+i*gap,r=W*0.058,cx=W*0.14,ccy=cy+gap*0.5;
+    s+=`<circle cx="${cx}" cy="${ccy}" r="${r}" fill="#fff" stroke="${PAL.icon}" stroke-width="3"/>`+iconG(it.icon,r*1.15,PAL.icon,3.6,cx-r*0.575,ccy-r*0.575);
+    const tx=cx+r+W*0.05;
+    const nf=fitText(it.name,22,2,W*0.056);
+    const nameY=ccy-(nf.lines.length>1?W*0.03:W*0.006);
+    nf.lines.forEach((l,li)=>s+=`<text x="${tx}" y="${nameY+li*nf.fontSize*1.04}" font-family="${FONT}" font-size="${nf.fontSize}" fill="${PAL.dark}" font-weight="800">${esc(l)}</text>`);
+    const sf=fitText(it.sub,30,2,W*0.042);
+    const subY=nameY+(nf.lines.length>1?nf.fontSize*1.04:0)+W*0.044;
+    sf.lines.forEach((l,li)=>s+=`<text x="${tx}" y="${subY+li*W*0.046}" font-family="${FONT}" font-size="${sf.fontSize}" fill="${PAL.sub}" font-weight="600">${esc(l)}</text>`);
+    if(i<n-1)s+=`<line x1="${tx}" y1="${cy+gap*0.97}" x2="${W*0.9}" y2="${cy+gap*0.97}" stroke="${PAL.line}" stroke-width="2"/>`;});
+  return s+cta()+`</svg>`;
+}
+const STYLES={M:styleM};
+
+// ЧЕРНОВОЙ контент — нутрициолог правит. Без формулировок похудения.
+const PINS=[
+  // ——— РЕЦЕПТЫ ———
+  { slug:'menu-zavtraki-energiya', style:'M', eyebrow:'Сделай Меню · завтрак',
+    title:'3 завтрака для энергии до обеда',
+    items:[
+      {name:'Омлет со шпинатом и авокадо', sub:'белок + железо + полезный жир', icon:'egg'},
+      {name:'Гречка с яйцом и зеленью', sub:'медленные углеводы, ровный сахар', icon:'oats'},
+      {name:'Йогурт с орехами и ягодами', sub:'белок и магний без скачка глюкозы', icon:'yogurt'},
+    ] },
+  { slug:'menu-obed-bez-spada', style:'M', eyebrow:'Сделай Меню · обед',
+    title:'Обед без спада сил после еды',
+    items:[
+      {name:'Лосось, киноа и овощи', sub:'омега-3 и белок — энергия без тяжести', icon:'fish'},
+      {name:'Курица, бурый рис, салат', sub:'белок и клетчатка держат сытость', icon:'meat'},
+      {name:'Чечевичный суп с яйцом', sub:'растительное железо + белок', icon:'soup'},
+    ] },
+  { slug:'menu-uzhin-son', style:'M', eyebrow:'Сделай Меню · ужин',
+    title:'Ужин для спокойного сна',
+    items:[
+      {name:'Индейка и запечённые овощи', sub:'триптофан — сырьё для серотонина', icon:'meat'},
+      {name:'Творог с тыквенными семечками', sub:'казеин и магний — покой к ночи', icon:'seeds'},
+      {name:'Тёплый суп с рыбой', sub:'лёгкий ужин, не грузит пищеварение', icon:'soup'},
+    ] },
+  { slug:'menu-perekusy', style:'M', eyebrow:'Сделай Меню · перекусы',
+    title:'Перекусы без качелей сахара',
+    items:[
+      {name:'Яблоко с миндальной пастой', sub:'клетчатка плюс жир и белок', icon:'nuts'},
+      {name:'Горсть орехов и сыр', sub:'сытно, без скачка глюкозы', icon:'nuts'},
+      {name:'Йогурт с семенами чиа', sub:'белок, магний, омега-3', icon:'yogurt'},
+    ] },
+  { slug:'menu-zavtrak-zhelezo', style:'M', eyebrow:'Сделай Меню · завтрак',
+    title:'Завтраки, чтобы поднять железо',
+    items:[
+      {name:'Печёночный паштет на тосте', sub:'гемовое железо — усваивается лучше', icon:'meat'},
+      {name:'Гречка с яйцом и петрушкой', sub:'железо плюс витамин C из зелени', icon:'oats'},
+      {name:'Овсянка с курагой и семечками', sub:'растительное железо и медь', icon:'seeds'},
+    ] },
+  { slug:'menu-tarelka-gormony', style:'M', eyebrow:'Сделай Меню · принцип',
+    title:'Тарелка для гормонального баланса',
+    items:[
+      {name:'¼ — овощи и зелень', sub:'клетчатка выводит лишний эстроген', icon:'leaf'},
+      {name:'⅓ — белок и жиры', sub:'рыба, яйца, птица, полезный жир', icon:'fish'},
+      {name:'⅓ — длинные углеводы', sub:'крупы, гречка, киноа — ровный сахар', icon:'oats'},
+    ] },
+  // ——— ЕДА ПРИ ДИАГНОЗЕ ———
+  { slug:'menu-eda-zhelezo', style:'M', eyebrow:'Сделай Меню · при дефиците железа',
+    title:'Что есть при дефиците железа',
+    items:[
+      {name:'Красное мясо и печень', sub:'гемовое железо усваивается лучше', icon:'meat'},
+      {name:'Бобовые с витамином C', sub:'перец и зелень — железо усвоится', icon:'beans'},
+      {name:'Зелёные листовые', sub:'шпинат, руккола, петрушка', icon:'leaf'},
+    ] },
+  { slug:'menu-eda-schitovidka', style:'M', eyebrow:'Сделай Меню · при щитовидке',
+    title:'Меню для поддержки щитовидки',
+    items:[
+      {name:'Рыба и морепродукты', sub:'йод и селен для гормонов', icon:'fish'},
+      {name:'Бразильский орех', sub:'1–2 штуки — норма селена', icon:'nuts'},
+      {name:'Яйца и достаточно белка', sub:'строительный материал гормонов', icon:'egg'},
+    ] },
+  { slug:'menu-eda-pms', style:'M', eyebrow:'Сделай Меню · при ПМС',
+    title:'Еда, чтобы пережить ПМС легче',
+    items:[
+      {name:'Магний: семечки, какао', sub:'меньше тревоги и тяги на сладкое', icon:'seeds'},
+      {name:'Сложные углеводы', sub:'ровный сахар — ровное настроение', icon:'oats'},
+      {name:'Жирная рыба', sub:'омега-3 снижает воспаление', icon:'fish'},
+    ] },
+  { slug:'menu-eda-perimenopauza', style:'M', eyebrow:'Сделай Меню · при перименопаузе',
+    title:'Меню при перименопаузе',
+    items:[
+      {name:'Белок и жиры — в каждый приём', sub:'и начинаем приём пищи с них', icon:'meat'},
+      {name:'Растительные прогестероны', sub:'мягкая поддержка второй фазы', icon:'seeds'},
+      {name:'Кальций — только из растений', sub:'кунжут, миндаль, зелень', icon:'leaf'},
+      {name:'Витамин D и магний', sub:'приём обязателен', icon:'glass'},
+    ] },
+  // ——— EXPLAINER ———
+  { slug:'menu-chto-takoe', style:'M', eyebrow:'Сделай Меню · сервис',
+    title:'Что такое «Сделай Меню»',
+    items:[
+      {name:'Меню под твои цели', sub:'учитывает анализы и дефициты', icon:'clipboard'},
+      {name:'Готовый список покупок', sub:'не думаешь, что купить', icon:'cart'},
+      {name:'Простые рецепты', sub:'без готовки часами', icon:'clock'},
+    ] },
+  // ——— РЕЦЕПТЫ (расширение на месяц) ———
+  { slug:'menu-kashi-utro', style:'M', eyebrow:'Сделай Меню · завтрак', title:'3 каши, которые держат сытость',
+    items:[
+      {name:'Овсянка на воде с яйцом', sub:'белок добавляет сытости', icon:'oats'},
+      {name:'Гречка с маслом и зеленью', sub:'медленные углеводы, железо', icon:'oats'},
+      {name:'Киноа с орехами', sub:'белок и магний с утра', icon:'nuts'},
+    ] },
+  { slug:'menu-smuzi-energiya', style:'M', eyebrow:'Сделай Меню · напитки', title:'Смузи для энергии без сахара',
+    items:[
+      {name:'Йогурт, ягоды, семена чиа', sub:'белок и клетчатка вместе', icon:'yogurt'},
+      {name:'Шпинат, банан, орехи', sub:'железо плюс калий', icon:'leaf'},
+      {name:'Какао, банан, миндаль', sub:'магний и мягкая сладость', icon:'nuts'},
+    ] },
+  { slug:'menu-uzhin-15min', style:'M', eyebrow:'Сделай Меню · ужин', title:'3 ужина за 15 минут',
+    items:[
+      {name:'Рыба на пару с овощами', sub:'белок и омега-3 быстро', icon:'fish'},
+      {name:'Омлет с овощами', sub:'белок без долгой готовки', icon:'egg'},
+      {name:'Тёплый салат с курицей', sub:'сытно и легко', icon:'leaf'},
+    ] },
+  { slug:'menu-salaty-syto', style:'M', eyebrow:'Сделай Меню · салаты', title:'Сытные салаты, чтобы наесться',
+    items:[
+      {name:'Салат с тунцом и яйцом', sub:'белок держит сытость', icon:'fish'},
+      {name:'Тёплый салат с нутом', sub:'клетчатка и растительный белок', icon:'beans'},
+      {name:'Зелень, авокадо, семечки', sub:'полезные жиры и магний', icon:'leaf'},
+    ] },
+  { slug:'menu-supy-jkt', style:'M', eyebrow:'Сделай Меню · супы', title:'Тёплые супы для лёгкости в животе',
+    items:[
+      {name:'Овощной крем-суп', sub:'мягко для пищеварения', icon:'soup'},
+      {name:'Куриный бульон с овощами', sub:'белок и тепло', icon:'soup'},
+      {name:'Чечевичный суп', sub:'клетчатка и железо', icon:'beans'},
+    ] },
+  { slug:'menu-perekus-rabota', style:'M', eyebrow:'Сделай Меню · перекусы', title:'Перекусы на работе без сахара',
+    items:[
+      {name:'Орехи и кусочек сыра', sub:'белок и жир — без скачка', icon:'nuts'},
+      {name:'Йогурт без добавок', sub:'белок и кальций', icon:'yogurt'},
+      {name:'Яйцо и овощные палочки', sub:'сытно и просто', icon:'egg'},
+    ] },
+  { slug:'menu-desert-bez-sahara', style:'M', eyebrow:'Сделай Меню · сладкое', title:'Сладкое без скачка сахара',
+    items:[
+      {name:'Йогурт с ягодами и орехами', sub:'белок смягчает сахар ягод', icon:'yogurt'},
+      {name:'Тёмный шоколад 70%+', sub:'магний и меньше сахара', icon:'nuts'},
+      {name:'Запечённое яблоко с корицей', sub:'клетчатка и тепло', icon:'leaf'},
+    ] },
+  { slug:'menu-belok-zavtrak', style:'M', eyebrow:'Сделай Меню · завтрак', title:'Завтраки с высоким белком',
+    items:[
+      {name:'Яичница с творогом', sub:'двойной источник белка', icon:'egg'},
+      {name:'Скрэмбл с лососем', sub:'белок и омега-3', icon:'fish'},
+      {name:'Творог с орехами', sub:'казеин держит сытость', icon:'yogurt'},
+    ] },
+  // ——— ЕДА ПРИ ДИАГНОЗЕ (расширение) ———
+  { slug:'menu-eda-kortizol', style:'M', eyebrow:'Сделай Меню · при кортизоле', title:'Еда при высоком кортизоле',
+    items:[
+      {name:'Завтрак с белком', sub:'не на голодный кофе', icon:'egg'},
+      {name:'Магний: зелень, семечки', sub:'мягко успокаивает', icon:'leaf'},
+      {name:'Омега-3 рыба', sub:'снижает воспаление', icon:'fish'},
+    ] },
+  { slug:'menu-eda-son', style:'M', eyebrow:'Сделай Меню · для сна', title:'Что есть, чтобы крепче спать',
+    items:[
+      {name:'Триптофан: индейка, творог', sub:'сырьё для мелатонина', icon:'meat'},
+      {name:'Магний: тыквенные семечки', sub:'расслабляет к ночи', icon:'seeds'},
+      {name:'Лёгкий тёплый ужин', sub:'не грузит сон', icon:'soup'},
+    ] },
+  { slug:'menu-eda-trevoga', style:'M', eyebrow:'Сделай Меню · против тревоги', title:'Питание против тревоги',
+    items:[
+      {name:'Магний и B6', sub:'семечки, гречка, зелень', icon:'seeds'},
+      {name:'Омега-3 рыба', sub:'поддержка нервной системы', icon:'fish'},
+      {name:'Ровный сахар', sub:'белок в каждый приём', icon:'leaf'},
+    ] },
+  { slug:'menu-eda-kishechnik', style:'M', eyebrow:'Сделай Меню · для кишечника', title:'Еда для здорового кишечника',
+    items:[
+      {name:'Клетчатка: овощи, крупы', sub:'питание для микробиоты', icon:'leaf'},
+      {name:'Ферментированное', sub:'йогурт, квашеная капуста', icon:'yogurt'},
+      {name:'Бобовые понемногу', sub:'пребиотики для бактерий', icon:'beans'},
+    ] },
+  { slug:'menu-eda-holesterin', style:'M', eyebrow:'Сделай Меню · при холестерине', title:'Питание при высоком холестерине',
+    items:[
+      {name:'Омега-3 рыба', sub:'поддержка липидного профиля', icon:'fish'},
+      {name:'Растворимая клетчатка', sub:'овёс, бобовые, яблоки', icon:'oats'},
+      {name:'Орехи горстью', sub:'полезные жиры', icon:'nuts'},
+    ] },
+  { slug:'menu-eda-volosy', style:'M', eyebrow:'Сделай Меню · для волос', title:'Еда для густоты волос',
+    items:[
+      {name:'Белок и железо', sub:'мясо, печень, яйца', icon:'meat'},
+      {name:'Цинк и омега-3', sub:'рыба, тыквенные семечки', icon:'fish'},
+      {name:'Зелень и яркие овощи', sub:'витамины для роста', icon:'leaf'},
+    ] },
+  { slug:'menu-eda-insulin', style:'M', eyebrow:'Сделай Меню · ровный сахар', title:'Еда, чтобы выровнять сахар',
+    items:[
+      {name:'Белок и жир первыми', sub:'потом углеводы', icon:'egg'},
+      {name:'Сложные углеводы', sub:'крупы вместо белого', icon:'oats'},
+      {name:'Клетчатка каждый приём', sub:'замедляет всасывание', icon:'leaf'},
+    ] },
+  // ——— ПРИНЦИПЫ / СЕРВИС (расширение) ———
+  { slug:'menu-voda', style:'M', eyebrow:'Сделай Меню · принцип', title:'Сколько воды нужно и зачем',
+    items:[
+      {name:'~30 мл на кг веса', sub:'ориентир на день', icon:'glass'},
+      {name:'Стакан после пробуждения', sub:'запускает день', icon:'clock'},
+      {name:'Меньше кофе и сладких', sub:'они обезвоживают', icon:'leaf'},
+    ] },
+  { slug:'menu-belok-skolko', style:'M', eyebrow:'Сделай Меню · принцип', title:'Сколько белка нужно женщине',
+    items:[
+      {name:'~1,2–1,6 г на кг', sub:'ориентир при активности', icon:'fish'},
+      {name:'Белок в каждый приём', sub:'20–30 г за раз', icon:'egg'},
+      {name:'Считаем источники', sub:'мясо, рыба, яйца, бобовые', icon:'clipboard'},
+    ] },
+  { slug:'menu-ritm-edy', style:'M', eyebrow:'Сделай Меню · принцип', title:'Когда есть: ритм приёмов пищи',
+    items:[
+      {name:'Завтрак в первый час', sub:'после пробуждения', icon:'clock'},
+      {name:'3 приёма без долгих окон', sub:'ровный сахар и энергия', icon:'soup'},
+      {name:'Ужин за 3 часа до сна', sub:'легче засыпать', icon:'leaf'},
+    ] },
+  { slug:'menu-spisok-pokupok', style:'M', eyebrow:'Сделай Меню · сервис', title:'Список покупок на неделю за минуту',
+    items:[
+      {name:'Меню собирает список', sub:'автоматически по рецептам', icon:'clipboard'},
+      {name:'Всё по категориям', sub:'не бегаешь по магазину', icon:'cart'},
+      {name:'Ничего не забудешь', sub:'и не купишь лишнее', icon:'clock'},
+    ] },
+];
+PINS.forEach(p=>p.url=MENU_URL);
+
+const root=document.getElementById('root');
+for(const pin of PINS){
+  const card=document.createElement('div');
+  card.className='pin';
+  card.innerHTML=STYLES[pin.style](pin,pin.slug)+`<div class="cap">${pin.slug}.png · <a href="${pin.url}">→ меню</a></div>`;
+  root.appendChild(card);
+}
+</script>
+</body>
+</html>

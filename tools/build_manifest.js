@@ -35,6 +35,42 @@ const ARTICLES=[
   {slug:'holesterin',    title:'Холестерин повышен? 5 фактов до статинов', items:['Сырьё для гормонов','Роль печени','Связь с щитовидкой','Холестерин и ПМС','Цифра — не приговор']}
 ];
 
+// Меню-пины «Сделай Меню» → раздел meню приложения. Картинки в images/pins-menu/.
+// Контент зеркалит tools/pins-menu.html (рецепты + еда при диагнозе + explainer).
+const MENU_URL='https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu';
+const MENU=[
+  {slug:'menu-zavtraki-energiya', title:'3 завтрака для энергии до обеда', items:['Омлет со шпинатом и авокадо','Гречка с яйцом и зеленью','Йогурт с орехами и ягодами']},
+  {slug:'menu-obed-bez-spada',    title:'Обед без спада сил после еды', items:['Лосось, киноа и овощи','Курица, бурый рис, салат','Чечевичный суп с яйцом']},
+  {slug:'menu-uzhin-son',         title:'Ужин для спокойного сна', items:['Индейка и запечённые овощи','Творог с тыквенными семечками','Тёплый суп с рыбой']},
+  {slug:'menu-perekusy',          title:'Перекусы без качелей сахара', items:['Яблоко с миндальной пастой','Горсть орехов и сыр','Йогурт с семенами чиа']},
+  {slug:'menu-zavtrak-zhelezo',   title:'Завтраки, чтобы поднять железо', items:['Печёночный паштет на тосте','Гречка с яйцом и петрушкой','Овсянка с курагой и семечками']},
+  {slug:'menu-tarelka-gormony',   title:'Тарелка для гормонального баланса', items:['¼ — овощи и зелень','⅓ — белок и жиры','⅓ — длинные углеводы']},
+  {slug:'menu-eda-zhelezo',       title:'Что есть при дефиците железа', items:['Красное мясо и печень','Бобовые с витамином C','Зелёные листовые']},
+  {slug:'menu-eda-schitovidka',   title:'Меню для поддержки щитовидки', items:['Рыба и морепродукты','Бразильский орех','Яйца и достаточно белка']},
+  {slug:'menu-eda-pms',           title:'Еда, чтобы пережить ПМС легче', items:['Магний: семечки, какао','Сложные углеводы','Жирная рыба']},
+  {slug:'menu-eda-perimenopauza', title:'Меню при перименопаузе', items:['Белок и жиры в каждый приём','Растительные прогестероны','Кальций только из растений','Витамин D и магний']},
+  {slug:'menu-chto-takoe',        title:'Что такое «Сделай Меню»', items:['Меню под твои цели','Готовый список покупок','Простые рецепты']},
+  {slug:'menu-kashi-utro',        title:'3 каши, которые держат сытость', items:['Овсянка на воде с яйцом','Гречка с маслом и зеленью','Киноа с орехами']},
+  {slug:'menu-smuzi-energiya',    title:'Смузи для энергии без сахара', items:['Йогурт, ягоды, семена чиа','Шпинат, банан, орехи','Какао, банан, миндаль']},
+  {slug:'menu-uzhin-15min',       title:'3 ужина за 15 минут', items:['Рыба на пару с овощами','Омлет с овощами','Тёплый салат с курицей']},
+  {slug:'menu-salaty-syto',       title:'Сытные салаты, чтобы наесться', items:['Салат с тунцом и яйцом','Тёплый салат с нутом','Зелень, авокадо, семечки']},
+  {slug:'menu-supy-jkt',          title:'Тёплые супы для лёгкости в животе', items:['Овощной крем-суп','Куриный бульон с овощами','Чечевичный суп']},
+  {slug:'menu-perekus-rabota',    title:'Перекусы на работе без сахара', items:['Орехи и кусочек сыра','Йогурт без добавок','Яйцо и овощные палочки']},
+  {slug:'menu-desert-bez-sahara', title:'Сладкое без скачка сахара', items:['Йогурт с ягодами и орехами','Тёмный шоколад 70%+','Запечённое яблоко с корицей']},
+  {slug:'menu-belok-zavtrak',     title:'Завтраки с высоким белком', items:['Яичница с творогом','Скрэмбл с лососем','Творог с орехами']},
+  {slug:'menu-eda-kortizol',      title:'Еда при высоком кортизоле', items:['Завтрак с белком','Магний: зелень, семечки','Омега-3 рыба']},
+  {slug:'menu-eda-son',           title:'Что есть, чтобы крепче спать', items:['Триптофан: индейка, творог','Магний: тыквенные семечки','Лёгкий тёплый ужин']},
+  {slug:'menu-eda-trevoga',       title:'Питание против тревоги', items:['Магний и B6','Омега-3 рыба','Ровный сахар']},
+  {slug:'menu-eda-kishechnik',    title:'Еда для здорового кишечника', items:['Клетчатка: овощи, крупы','Ферментированное','Бобовые понемногу']},
+  {slug:'menu-eda-holesterin',    title:'Питание при высоком холестерине', items:['Омега-3 рыба','Растворимая клетчатка','Орехи горстью']},
+  {slug:'menu-eda-volosy',        title:'Еда для густоты волос', items:['Белок и железо','Цинк и омега-3','Зелень и яркие овощи']},
+  {slug:'menu-eda-insulin',       title:'Еда, чтобы выровнять сахар', items:['Белок и жир первыми','Сложные углеводы','Клетчатка каждый приём']},
+  {slug:'menu-voda',              title:'Сколько воды нужно и зачем', items:['~30 мл на кг веса','Стакан после пробуждения','Меньше кофе и сладких']},
+  {slug:'menu-belok-skolko',      title:'Сколько белка нужно женщине', items:['~1,2–1,6 г на кг','Белок в каждый приём','Считаем источники']},
+  {slug:'menu-ritm-edy',          title:'Когда есть: ритм приёмов пищи', items:['Завтрак в первый час','3 приёма без долгих окон','Ужин за 3 часа до сна']},
+  {slug:'menu-spisok-pokupok',    title:'Список покупок на неделю за минуту', items:['Меню собирает список','Всё по категориям','Ничего не забудешь']}
+];
+
 const clip=(s,n)=>s.length<=n?s:s.slice(0,n-1).trimEnd()+'…';
 function entry(p,type){
   const isGuide=type==='guide';
@@ -44,6 +80,11 @@ function entry(p,type){
   const desc=clip(`${p.title}. ${p.items.join(' · ')}. ${cta}`,480);
   return { slug:p.slug, type, gate:isGuide?p.gate:undefined, image:img,
            title:clip(p.title,100), description:desc, link, board:BOARD };
+}
+function menuEntry(p){
+  const img=`${RAW}/images/pins-menu/${p.slug}.png`;
+  const desc=clip(`${p.title}. ${p.items.join(' · ')}. Готовое меню под твои цели и анализы — в приложении по ссылке.`,480);
+  return { slug:p.slug, type:'menu', image:img, title:clip(p.title,100), description:desc, link:MENU_URL, board:BOARD };
 }
 
 // Расписание: с завтра, 2/день — статья 10:00 + гайд 21:00 (МСК).
@@ -55,13 +96,19 @@ for(let i=0;i<maxDays;i++){
   if(ARTICLES[i]) pins.push({...entry(ARTICLES[i],'article'), date, time:'10:00', tz:'Europe/Moscow', scheduled_at:`${date}T10:00:00+03:00`});
   if(GUIDES[i])   pins.push({...entry(GUIDES[i],'guide'),     date, time:'21:00', tz:'Europe/Moscow', scheduled_at:`${date}T21:00:00+03:00`});
 }
+// Меню — слот 21:00, начиная со следующего дня после последнего гайда (21.06).
+const menuStart=maxDays;
+for(let i=0;i<MENU.length;i++){
+  const date=dateStr(menuStart+i);
+  pins.push({...menuEntry(MENU[i]), date, time:'21:00', tz:'Europe/Moscow', scheduled_at:`${date}T21:00:00+03:00`});
+}
 
 const manifest={
   channel:'pinterest', publisher:'buffer', account:'listosha0484',
   generated_for:'Buffer (создание пинов) + витрина календаря',
   board:BOARD,
-  schedule:{ start:dateStr(0), per_day:2, slots:{article:'10:00 Europe/Moscow', guide:'21:00 Europe/Moscow'} },
-  counts:{ total:pins.length, guides:GUIDES.length, articles:ARTICLES.length },
+  schedule:{ start:dateStr(0), per_day:2, slots:{article:'10:00 Europe/Moscow', guide:'21:00 Europe/Moscow', menu:'21:00 Europe/Moscow (с 21.06)'} },
+  counts:{ total:pins.length, guides:GUIDES.length, articles:ARTICLES.length, menu:MENU.length },
   pins
 };
 const out=path.resolve(__dirname,'..','pinterest-pins-manifest.json');
