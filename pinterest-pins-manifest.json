@@ -13,7 +13,7 @@
     "slots": {
       "article": "10:00 Europe/Moscow",
       "guide": "21:00 Europe/Moscow",
-      "menu": "21:00 Europe/Moscow (с 21.06)"
+      "menu": "10:00 Europe/Moscow (с 21.06)"
     }
   },
   "counts": {
@@ -349,9 +349,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-21",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-21T21:00:00+03:00"
+      "scheduled_at": "2026-06-21T10:00:00+03:00"
     },
     {
       "slug": "menu-obed-bez-spada",
@@ -365,9 +365,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-22",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-22T21:00:00+03:00"
+      "scheduled_at": "2026-06-22T10:00:00+03:00"
     },
     {
       "slug": "menu-uzhin-son",
@@ -381,9 +381,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-23",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-23T21:00:00+03:00"
+      "scheduled_at": "2026-06-23T10:00:00+03:00"
     },
     {
       "slug": "menu-perekusy",
@@ -397,9 +397,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-24",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-24T21:00:00+03:00"
+      "scheduled_at": "2026-06-24T10:00:00+03:00"
     },
     {
       "slug": "menu-zavtrak-zhelezo",
@@ -413,9 +413,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-25",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-25T21:00:00+03:00"
+      "scheduled_at": "2026-06-25T10:00:00+03:00"
     },
     {
       "slug": "menu-tarelka-gormony",
@@ -429,9 +429,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-26",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-26T21:00:00+03:00"
+      "scheduled_at": "2026-06-26T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-zhelezo",
@@ -445,9 +445,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-27",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-27T21:00:00+03:00"
+      "scheduled_at": "2026-06-27T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-schitovidka",
@@ -461,9 +461,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-28",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-28T21:00:00+03:00"
+      "scheduled_at": "2026-06-28T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-pms",
@@ -477,9 +477,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-29",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-29T21:00:00+03:00"
+      "scheduled_at": "2026-06-29T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-perimenopauza",
@@ -493,9 +493,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-06-30",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-06-30T21:00:00+03:00"
+      "scheduled_at": "2026-06-30T10:00:00+03:00"
     },
     {
       "slug": "menu-chto-takoe",
@@ -509,9 +509,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-01",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-01T21:00:00+03:00"
+      "scheduled_at": "2026-07-01T10:00:00+03:00"
     },
     {
       "slug": "menu-kashi-utro",
@@ -525,9 +525,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-02",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-02T21:00:00+03:00"
+      "scheduled_at": "2026-07-02T10:00:00+03:00"
     },
     {
       "slug": "menu-smuzi-energiya",
@@ -541,9 +541,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-03",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-03T21:00:00+03:00"
+      "scheduled_at": "2026-07-03T10:00:00+03:00"
     },
     {
       "slug": "menu-uzhin-15min",
@@ -557,9 +557,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-04",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-04T21:00:00+03:00"
+      "scheduled_at": "2026-07-04T10:00:00+03:00"
     },
     {
       "slug": "menu-salaty-syto",
@@ -573,9 +573,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-05",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-05T21:00:00+03:00"
+      "scheduled_at": "2026-07-05T10:00:00+03:00"
     },
     {
       "slug": "menu-supy-jkt",
@@ -589,9 +589,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-06",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-06T21:00:00+03:00"
+      "scheduled_at": "2026-07-06T10:00:00+03:00"
     },
     {
       "slug": "menu-perekus-rabota",
@@ -605,9 +605,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-07",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-07T21:00:00+03:00"
+      "scheduled_at": "2026-07-07T10:00:00+03:00"
     },
     {
       "slug": "menu-desert-bez-sahara",
@@ -621,9 +621,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-08",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-08T21:00:00+03:00"
+      "scheduled_at": "2026-07-08T10:00:00+03:00"
     },
     {
       "slug": "menu-belok-zavtrak",
@@ -637,9 +637,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-09",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-09T21:00:00+03:00"
+      "scheduled_at": "2026-07-09T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-kortizol",
@@ -653,9 +653,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-10",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-10T21:00:00+03:00"
+      "scheduled_at": "2026-07-10T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-son",
@@ -669,9 +669,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-11",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-11T21:00:00+03:00"
+      "scheduled_at": "2026-07-11T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-trevoga",
@@ -685,9 +685,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-12",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-12T21:00:00+03:00"
+      "scheduled_at": "2026-07-12T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-kishechnik",
@@ -701,9 +701,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-13",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-13T21:00:00+03:00"
+      "scheduled_at": "2026-07-13T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-holesterin",
@@ -717,9 +717,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-14",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-14T21:00:00+03:00"
+      "scheduled_at": "2026-07-14T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-volosy",
@@ -733,9 +733,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-15",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-15T21:00:00+03:00"
+      "scheduled_at": "2026-07-15T10:00:00+03:00"
     },
     {
       "slug": "menu-eda-insulin",
@@ -749,9 +749,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-16",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-16T21:00:00+03:00"
+      "scheduled_at": "2026-07-16T10:00:00+03:00"
     },
     {
       "slug": "menu-voda",
@@ -765,9 +765,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-17",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-17T21:00:00+03:00"
+      "scheduled_at": "2026-07-17T10:00:00+03:00"
     },
     {
       "slug": "menu-belok-skolko",
@@ -781,9 +781,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-18",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-18T21:00:00+03:00"
+      "scheduled_at": "2026-07-18T10:00:00+03:00"
     },
     {
       "slug": "menu-ritm-edy",
@@ -797,9 +797,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-19",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-19T21:00:00+03:00"
+      "scheduled_at": "2026-07-19T10:00:00+03:00"
     },
     {
       "slug": "menu-spisok-pokupok",
@@ -813,9 +813,9 @@
         "serviceId": "1084523222707156579"
       },
       "date": "2026-07-20",
-      "time": "21:00",
+      "time": "10:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-20T21:00:00+03:00"
+      "scheduled_at": "2026-07-20T10:00:00+03:00"
     }
   ]
 }

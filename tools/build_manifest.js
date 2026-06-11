@@ -96,18 +96,19 @@ for(let i=0;i<maxDays;i++){
   if(ARTICLES[i]) pins.push({...entry(ARTICLES[i],'article'), date, time:'10:00', tz:'Europe/Moscow', scheduled_at:`${date}T10:00:00+03:00`});
   if(GUIDES[i])   pins.push({...entry(GUIDES[i],'guide'),     date, time:'21:00', tz:'Europe/Moscow', scheduled_at:`${date}T21:00:00+03:00`});
 }
-// Меню — слот 21:00, начиная со следующего дня после последнего гайда (21.06).
+// Меню — утренний слот 10:00, начиная со следующего дня после последнего гайда (21.06).
+// (21:00 с 21.06 освобождён под другой формат.)
 const menuStart=maxDays;
 for(let i=0;i<MENU.length;i++){
   const date=dateStr(menuStart+i);
-  pins.push({...menuEntry(MENU[i]), date, time:'21:00', tz:'Europe/Moscow', scheduled_at:`${date}T21:00:00+03:00`});
+  pins.push({...menuEntry(MENU[i]), date, time:'10:00', tz:'Europe/Moscow', scheduled_at:`${date}T10:00:00+03:00`});
 }
 
 const manifest={
   channel:'pinterest', publisher:'buffer', account:'listosha0484',
   generated_for:'Buffer (создание пинов) + витрина календаря',
   board:BOARD,
-  schedule:{ start:dateStr(0), per_day:2, slots:{article:'10:00 Europe/Moscow', guide:'21:00 Europe/Moscow', menu:'21:00 Europe/Moscow (с 21.06)'} },
+  schedule:{ start:dateStr(0), per_day:2, slots:{article:'10:00 Europe/Moscow', guide:'21:00 Europe/Moscow', menu:'10:00 Europe/Moscow (с 21.06)'} },
   counts:{ total:pins.length, guides:GUIDES.length, articles:ARTICLES.length, menu:MENU.length },
   pins
 };
