@@ -17,10 +17,11 @@
     }
   },
   "counts": {
-    "total": 49,
+    "total": 109,
     "guides": 10,
     "articles": 9,
-    "menu": 30
+    "menu": 30,
+    "hero": 60
   },
   "pins": [
     {
@@ -816,6 +817,966 @@
       "time": "10:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-20T10:00:00+03:00"
+    },
+    {
+      "slug": "iron_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_01.png",
+      "title": "10 продуктов, где железа больше, чем в гречке",
+      "description": "10 продуктов, где железа больше, чем в гречке. Печень говяжья · Красное мясо · Моллюски и устрицы · Чечевица и фасоль · Тыквенные семечки · Шпинат · Тёмный шоколад 70%+ · Киноа. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-03",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-03T09:00:00+03:00"
+    },
+    {
+      "slug": "hair_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_01.png",
+      "title": "6 продуктов для густоты волос",
+      "description": "6 продуктов для густоты волос. Яйца · Жирная рыба · Орехи и семена · Печень · Зелёные овощи · Бобовые. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-03",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-03T20:00:00+03:00"
+    },
+    {
+      "slug": "thy_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_01.png",
+      "title": "ТТГ «в норме», а ты в спячке: 6 сигналов щитовидки",
+      "description": "ТТГ «в норме», а ты в спячке: 6 сигналов щитовидки. Усталость и сонливость · Постоянно мёрзнешь · Отёки, одутловатость · Сухая кожа · Волосы и брови редеют · Вес растёт без причин. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-04",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-04T09:00:00+03:00"
+    },
+    {
+      "slug": "pms_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_01.png",
+      "title": "ПМС всё тяжелее? 5 сигналов перекоса эстрогена",
+      "description": "ПМС всё тяжелее? 5 сигналов перекоса эстрогена. Болит и наливается грудь · Отёки · Раздражительность · Тяга к сладкому · Обильные месячные. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-04",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-04T20:00:00+03:00"
+    },
+    {
+      "slug": "peri_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_01.png",
+      "title": "Перименопауза после 40: 6 ранних признаков",
+      "description": "Перименопауза после 40: 6 ранних признаков. Цикл стал нерегулярным · Хуже сон · Приливы · Настроение скачет · Вес уходит в живот · Суше кожа и слизистые. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-05",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-05T09:00:00+03:00"
+    },
+    {
+      "slug": "iron_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_02.png",
+      "title": "5 анализов, чтобы проверить запасы железа",
+      "description": "5 анализов, чтобы проверить запасы железа. Ферритин — главный запас · Сывороточное железо · ОЖСС и % насыщения · Трансферрин · ОАК: гемоглобин, MCV. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-05",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-05T20:00:00+03:00"
+    },
+    {
+      "slug": "hair_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_02.png",
+      "title": "Волосы лезут: 6 дефицитов-виновников",
+      "description": "Волосы лезут: 6 дефицитов-виновников. Железо и ферритин · Витамин D · Цинк · Белок · Щитовидка (ТТГ) · Витамины группы B. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-06",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-06T09:00:00+03:00"
+    },
+    {
+      "slug": "thy_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_02.png",
+      "title": "5 анализов щитовидки (не только ТТГ)",
+      "description": "5 анализов щитовидки (не только ТТГ). ТТГ · Т4 свободный · Т3 свободный · Антитела к ТПО · УЗИ щитовидки. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-06",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-06T20:00:00+03:00"
+    },
+    {
+      "slug": "pms_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_02.png",
+      "title": "6 продуктов, выводящих лишний эстроген",
+      "description": "6 продуктов, выводящих лишний эстроген. Брокколи и капуста · Клетчатка · Лён молотый · Крестоцветная зелень · Чеснок · Ферментированное. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-07",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-07T09:00:00+03:00"
+    },
+    {
+      "slug": "peri_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_02.png",
+      "title": "7 продуктов для гормонов после 40",
+      "description": "7 продуктов для гормонов после 40. Жирная рыба · Лён и семена · Крестоцветные · Бобовые · Зелень и кальций · Ягоды · Оливковое масло. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-07",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-07T20:00:00+03:00"
+    },
+    {
+      "slug": "iron_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_03.png",
+      "title": "7 скрытых признаков дефицита железа",
+      "description": "7 скрытых признаков дефицита железа. Усталость даже после сна · Волосы сыплются сильнее · Ломкие ногти · Бледность кожи · Одышка на лестнице · Мёрзнут руки и ноги · Тянет грызть лёд. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-08",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-08T09:00:00+03:00"
+    },
+    {
+      "slug": "hair_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_03.png",
+      "title": "5 анализов сделать до похода к трихологу",
+      "description": "5 анализов сделать до похода к трихологу. Ферритин · ТТГ и Т4 свободный · Витамин D · Цинк · ОАК и общий белок. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-08",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-08T20:00:00+03:00"
+    },
+    {
+      "slug": "thy_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_03.png",
+      "title": "7 продуктов, которые крадут йод",
+      "description": "7 продуктов, которые крадут йод. Соя в объёме · Сырая капуста горой · Просо · Избыток льна · Курение · Избыток фтора · Дефицит селена рядом. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-09",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-09T09:00:00+03:00"
+    },
+    {
+      "slug": "pms_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_03.png",
+      "title": "Магний при ПМС: какой и когда",
+      "description": "Магний при ПМС: какой и когда. Цитрат или глицинат · 200-300 мг · Вечером · Со второй фазы цикла · B6 усиливает эффект · Оксид — почти не усваивается. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-09",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-09T20:00:00+03:00"
+    },
+    {
+      "slug": "peri_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_03.png",
+      "title": "Не набрать вес в перименопаузу: 5 правил тарелки",
+      "description": "Не набрать вес в перименопаузу: 5 правил тарелки. Белок в каждый приём · ½ тарелки овощей · Меньше быстрых углеводов · Не голодать — замедляет обмен · Силовые 2-3 раза в неделю. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-10",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-10T09:00:00+03:00"
+    },
+    {
+      "slug": "iron_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_04.png",
+      "title": "Железо не усваивается: 6 частых ошибок",
+      "description": "Железо не усваивается: 6 частых ошибок. Пьёте с кофе или чаем · Запиваете молоком · Вместе с кальцием · Без витамина C · Натощак при гастрите · Бросили курс через месяц. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-10",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-10T20:00:00+03:00"
+    },
+    {
+      "slug": "hair_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_04.png",
+      "title": "Не шампунь: 4 гормона, из-за которых сыплются волосы",
+      "description": "Не шампунь: 4 гормона, из-за которых сыплются волосы. Щитовидка (гипотиреоз) · Андрогены (ДГТ) · Эстроген (спад после родов) · Кортизол (хронический стресс). Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-11",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-11T09:00:00+03:00"
+    },
+    {
+      "slug": "thy_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_04.png",
+      "title": "АИТ: 5 первых признаков, которые пропускают",
+      "description": "АИТ: 5 первых признаков, которые пропускают. Качели самочувствия · То жарко, то холодно · Тревога и сердцебиение · Потом — усталость · Антитела ТПО повышены. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-11",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-11T20:00:00+03:00"
+    },
+    {
+      "slug": "pms_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_04.png",
+      "title": "Прогестерон: 4 признака нехватки",
+      "description": "Прогестерон: 4 признака нехватки. Короткая вторая фаза · ПМС и тревога · Мажущие выделения до месячных · Плохой сон во второй фазе. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-12",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-12T09:00:00+03:00"
+    },
+    {
+      "slug": "peri_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_04.png",
+      "title": "Кальций из растений: 6 источников без молочки",
+      "description": "Кальций из растений: 6 источников без молочки. Кунжут и тахини · Миндаль · Зелёные листовые · Тофу на кальции · Сардины с костями · Инжир. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-12",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-12T20:00:00+03:00"
+    },
+    {
+      "slug": "iron_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_05.png",
+      "title": "Железо без мяса: 8 растительных источников",
+      "description": "Железо без мяса: 8 растительных источников. Чечевица · Нут и фасоль · Тофу и темпе · Тыквенные семечки · Шпинат · Курага · Овсянка · Тёмный шоколад. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-13",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-13T09:00:00+03:00"
+    },
+    {
+      "slug": "hair_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_05.png",
+      "title": "Сколько волос в день терять — это норма",
+      "description": "Сколько волос в день терять — это норма. 50-100 в день — норма · Дольше 3 месяцев — сигнal · Пучок в руке — не норма · Проверь ферритин и ТТГ · Сезонное усиление бывает. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-13",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-13T20:00:00+03:00"
+    },
+    {
+      "slug": "thy_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_05.png",
+      "title": "Селен, цинк, йод: кому и сколько",
+      "description": "Селен, цинк, йод: кому и сколько. Селен — 1-2 бразильских ореха · Цинк — при выпадении волос · Йод — осторожно при АИТ · Не назначай йод себе вслепую · Сначала — анализы. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-14",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-14T09:00:00+03:00"
+    },
+    {
+      "slug": "pms_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_05.png",
+      "title": "5 привычек, которые ломают цикл",
+      "description": "5 привычек, которые ломают цикл. Жёсткий дефицит калорий · Хронический недосып · Много кофе и алкоголя · Стресс без разгрузки · Слишком мало жиров в еде. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-14",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-14T20:00:00+03:00"
+    },
+    {
+      "slug": "peri_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_05.png",
+      "title": "Приливы и бессонница: 4 нутриента, что помогают",
+      "description": "Приливы и бессонница: 4 нутриента, что помогают. Магний · Омега-3 · Витамин D · Фитоэстрогены (лён, соя) · + меньше кофеина и алкоголя. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-15",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-15T09:00:00+03:00"
+    },
+    {
+      "slug": "iron_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_06.png",
+      "title": "С чем пить железо, а с чем — никогда",
+      "description": "С чем пить железо, а с чем — никогда. ✓ Витамин C (лимон) · ✓ Мясо к растительному железу · ✗ Кофе и чай · ✗ Молочное и кальций · ✗ Цинк в тот же приём. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-15",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-15T20:00:00+03:00"
+    },
+    {
+      "slug": "hair_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_06.png",
+      "title": "Выпадение после родов: почему и что делать",
+      "description": "Выпадение после родов: почему и что делать. Спад эстрогена — телоген · Пик на 3-4 месяце · Часто плюс дефицит железа · Обычно проходит к году · Восполни ферритин и витамин D. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-16",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-16T09:00:00+03:00"
+    },
+    {
+      "slug": "thy_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_06.png",
+      "title": "Мёрзнешь, отёки, туман: это щитовидка?",
+      "description": "Мёрзнешь, отёки, туман: это щитовидка?. Зябкость даже в тепле · Отёки лица и век · Туман в голове · Медленный пульс · Сухая кожа — проверь ТТГ. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-16",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-16T20:00:00+03:00"
+    },
+    {
+      "slug": "pms_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_06.png",
+      "title": "Болит грудь перед месячными: почему",
+      "description": "Болит грудь перед месячными: почему. Эстроген выше прогестерона · Задержка жидкости · Дефицит магния · Много кофеина · Йод важен для ткани груди. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-17",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-17T09:00:00+03:00"
+    },
+    {
+      "slug": "peri_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_06.png",
+      "title": "Какие анализы сдать в перименопаузу",
+      "description": "Какие анализы сдать в перименопаузу. ТТГ и Т4 · Ферритин · Витамин D · Глюкоза и HbA1c · Липидный профиль · ФСГ — по ситуации. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-17",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-17T20:00:00+03:00"
+    },
+    {
+      "slug": "iron_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_07.png",
+      "title": "Ферритин 15 или 50: где твоя норма",
+      "description": "Ферритин 15 или 50: где твоя норма. <30 — дефицит вероятен · 30-50 — низковато для женщин · 50-100 — комфортная зона · Симптомы важнее одной цифры · Смотри вместе с ОАК. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-18",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-18T09:00:00+03:00"
+    },
+    {
+      "slug": "hair_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_07.png",
+      "title": "Цинк, железо, белок: тройка для роста волос",
+      "description": "Цинк, железо, белок: тройка для роста волос. Железо — кислород к луковице · Цинк — деление клеток · Белок — сам кератин · Дефицит любого = выпадение · Еда важнее дорогих ампул. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-18",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-18T20:00:00+03:00"
+    },
+    {
+      "slug": "thy_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_07.png",
+      "title": "8 продуктов для щитовидки",
+      "description": "8 продуктов для щитовидки. Морская рыба · Морская капуста · Яйца · Бразильский орех · Морепродукты · Творог · Тыквенные семечки · Ягоды. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-19",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-19T09:00:00+03:00"
+    },
+    {
+      "slug": "pms_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_07.png",
+      "title": "Тяга к сладкому перед циклом: как унять",
+      "description": "Тяга к сладкому перед циклом: как унять. Падает серотонин · Белок в каждый приём · Магний вечером · Тёмный шоколад вместо молочного · Не голодать днём. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-19",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-19T20:00:00+03:00"
+    },
+    {
+      "slug": "peri_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_07.png",
+      "title": "Белок после 40: сколько и зачем",
+      "description": "Белок после 40: сколько и зачем. Около 1,2-1,6 г на кг · Держит мышцы · Дольше сытость · Меньше тяги к сладкому · По 25-30 г в каждый приём. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-20",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-20T09:00:00+03:00"
+    },
+    {
+      "slug": "iron_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_08.png",
+      "title": "Витамин C ×3 усвоение: как поднять железо",
+      "description": "Витамин C ×3 усвоение: как поднять железо. Лимон в воду к еде · Болгарский перец · Киви и цитрусы · Квашеная капуста · Ягоды к каше · Витамин C боится жара. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-20",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-20T20:00:00+03:00"
+    },
+    {
+      "slug": "hair_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_08.png",
+      "title": "7 ошибок, из-за которых волос всё меньше",
+      "description": "7 ошибок, из-за которых волос всё меньше. Жёсткие диеты · Дефицит белка · Тугие причёски · Горячая укладка каждый день · Игнор щитовидки · Мода на «детоксы» · БАДы наугад. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-21",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-21T09:00:00+03:00"
+    },
+    {
+      "slug": "thy_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_08.png",
+      "title": "Гипотиреоз: почему вес растёт",
+      "description": "Гипотиреоз: почему вес растёт. Обмен веществ замедляется · Задержка жидкости · Меньше энергии — меньше движения · Тяга к сладкому · Дело не в лени — в гормоне. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-21",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-21T20:00:00+03:00"
+    },
+    {
+      "slug": "pms_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_08.png",
+      "title": "Семена для баланса гормонов (seed cycling)",
+      "description": "Семена для баланса гормонов (seed cycling). Фаза 1: лён + тыква · Фаза 2: кунжут + подсолнух · По 1-2 ст. л. в день · Обязательно молотые · Эффект — недели, не дни. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-22",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-22T09:00:00+03:00"
+    },
+    {
+      "slug": "peri_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_08.png",
+      "title": "Магний в перименопаузу: 4 причины добавить",
+      "description": "Магний в перименопаузу: 4 причины добавить. Сон и расслабление · Меньше тревоги · Кости вместе с кальцием · Мышечные спазмы · Глицинат вечером. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-22",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-22T20:00:00+03:00"
+    },
+    {
+      "slug": "iron_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_09.png",
+      "title": "Тянет грызть лёд и мел? Это дефицит железа",
+      "description": "Тянет грызть лёд и мел? Это дефицит железа. Пикацизм — сигнал дефицита · Лёд, мел, крахмал, земля · Часто ещё до анемии · Проверь ферритин · Уходит на фоне восполнения. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-23",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-23T09:00:00+03:00"
+    },
+    {
+      "slug": "hair_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_09.png",
+      "title": "Ломкие волосы и ногти: чего не хватает",
+      "description": "Ломкие волосы и ногти: чего не хватает. Железо · Биотин (B7) · Цинк · Белок · Омега-3 · Витамин D. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-23",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-23T20:00:00+03:00"
+    },
+    {
+      "slug": "thy_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_09.png",
+      "title": "Щитовидка и брови/волосы: неочевидная связь",
+      "description": "Щитовидка и брови/волосы: неочевидная связь. Редеет край брови · Диффузное выпадение волос · Сухие, ломкие волосы · Медленный рост · Проверь ТТГ и ферритин. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-24",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-24T09:00:00+03:00"
+    },
+    {
+      "slug": "pms_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_09.png",
+      "title": "Отёки перед месячными: 5 причин",
+      "description": "Отёки перед месячными: 5 причин. Эстроген задерживает натрий · Мало магния · Избыток соли · Мало воды (парадокс) · Мало движения. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-24",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-24T20:00:00+03:00"
+    },
+    {
+      "slug": "peri_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_09.png",
+      "title": "Сон рушится после 45: что помогает уснуть",
+      "description": "Сон рушится после 45: что помогает уснуть. Магний вечером · Прохлада в спальне · Белковый ужин · Меньше алкоголя · Ритуал и режим · Дневной свет утром. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-25",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-25T09:00:00+03:00"
+    },
+    {
+      "slug": "iron_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_10.png",
+      "title": "Устаёшь, даже выспавшись: 5 причин",
+      "description": "Устаёшь, даже выспавшись: 5 причин. Низкий ферритин · Щитовидка (гипотиреоз) · Дефицит B12 и витамина D · Сахарные качели · Плохое качество сна. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-25",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-25T20:00:00+03:00"
+    },
+    {
+      "slug": "hair_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_10.png",
+      "title": "Биотин не помогает? Проверь сначала это",
+      "description": "Биотин не помогает? Проверь сначала это. Биотин редко в дефиците · Чаще виновно железо · И щитовидка · И нехватка белка · И витамин D · Биотин искажает анализы ТТГ. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-26",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-26T09:00:00+03:00"
+    },
+    {
+      "slug": "thy_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_10.png",
+      "title": "Йод: 5 признаков, что его не хватает",
+      "description": "Йод: 5 признаков, что его не хватает. Усталость и зябкость · Отёки · Сухая кожа · Проблемы с памятью · Прибавка веса — но не диагностируй по симптомам. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-26",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-26T20:00:00+03:00"
+    },
+    {
+      "slug": "pms_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_10.png",
+      "title": "Раздражительность перед циклом: чего не хватает",
+      "description": "Раздражительность перед циклом: чего не хватает. Магния · Витамина B6 · Стабильного сахара в крови · Сна · Прогестерона во второй фазе. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-27",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-27T09:00:00+03:00"
+    },
+    {
+      "slug": "peri_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_10.png",
+      "title": "Мышцы и гормоны после 40: почему это важно",
+      "description": "Мышцы и гормоны после 40: почему это важно. Мышцы — обмен и сахар · Защита костей · Силовые 2-3 раза в неделю · Белок после тренировки · Без нагрузки теряем ~1% мышц в год. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-27",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-27T20:00:00+03:00"
+    },
+    {
+      "slug": "iron_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_11.png",
+      "title": "Гемоглобин в норме — а железа не хватает",
+      "description": "Гемоглобин в норме — а железа не хватает. Гемоглобин падает последним · Ферритин — реальный запас · Можно быть без анемии, но в дефиците · Смотри ферритин и % насыщения · Норма ОАК не исключает дефицит. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-28",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-28T09:00:00+03:00"
+    },
+    {
+      "slug": "hair_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_11.png",
+      "title": "Волосы и щитовидка: как это связано",
+      "description": "Волосы и щитовидка: как это связано. Гипотиреоз → диффузное выпадение · Редеет край брови · Сухость и ломкость · Растут медленно · Проверь ТТГ, Т4, антитела. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-28",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-28T20:00:00+03:00"
+    },
+    {
+      "slug": "thy_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_11.png",
+      "title": "ТТГ, Т4, антитела: что реально значат цифры",
+      "description": "ТТГ, Т4, антитела: что реально значат цифры. ТТГ ↑ — щитовидка ленится · Т4 св. — сколько гормона · Антитела ТПО — аутоиммунитет · Т3 св. — активная форма · Смотри в динамике. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-29",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-29T09:00:00+03:00"
+    },
+    {
+      "slug": "pms_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_11.png",
+      "title": "Клетчатка и эстроген: как это связано",
+      "description": "Клетчатка и эстроген: как это связано. Печень обезвреживает эстроген · Клетчатка выводит его · Мало клетчатки — реабсорбция · 25-30 г в день · Овощи, отруби, бобовые. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-29",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-29T20:00:00+03:00"
+    },
+    {
+      "slug": "peri_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_11.png",
+      "title": "Омега-3 после 40: зачем нужна",
+      "description": "Омега-3 после 40: зачем нужна. Сердце и сосуды · Настроение · Суставы · Сухость кожи и глаз · 2 порции рыбы в неделю или добавка. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-30",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-30T09:00:00+03:00"
+    },
+    {
+      "slug": "iron_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_12.png",
+      "title": "Железо у веганов: 6 правил, чтобы не просесть",
+      "description": "Железо у веганов: 6 правил, чтобы не просесть. Бобовые каждый день · Витамин C к каждому приёму · Замачивай крупы и бобы · Меньше чая во время еды · Контроль ферритина 1-2 р/год · Готовь в чугунной посуде. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-30",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-30T20:00:00+03:00"
+    },
+    {
+      "slug": "hair_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_12.png",
+      "title": "Маски не спасут, если есть дефицит",
+      "description": "Маски не спасут, если есть дефицит. Волос растёт изнутри · Маска работает только на длину · Корень питается из крови · Сначала ферритин, ТТГ, белок · Потом — уход. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-31",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-31T09:00:00+03:00"
+    },
+    {
+      "slug": "thy_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_12.png",
+      "title": "Постоянная усталость и щитовидка: связь",
+      "description": "Постоянная усталость и щитовидка: связь. Гипотиреоз замедляет всё · Сон не восстанавливает · Мышечная слабость · Апатия · Проверь ТТГ до «витаминов от усталости». Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-31",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-31T20:00:00+03:00"
+    },
+    {
+      "slug": "pms_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_12.png",
+      "title": "B6, магний, кальций при ПМС: зачем каждый",
+      "description": "B6, магний, кальций при ПМС: зачем каждый. B6 — серотонин и настроение · Магний — спазмы и сон · Кальций — тяжесть ПМС · Вместе работают лучше · Со второй фазы цикла. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-01",
+      "time": "09:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-01T09:00:00+03:00"
+    },
+    {
+      "slug": "peri_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_12.png",
+      "title": "Настроение скачет в перименопаузу: почему",
+      "description": "Настроение скачет в перименопаузу: почему. Эстроген влияет на серотонин · Хуже сон · Сахарные качели · Стресс и кортизол · Помогают белок, магний, движение. Полный разбор и протокол — по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-01",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-01T20:00:00+03:00"
     }
   ]
 }
