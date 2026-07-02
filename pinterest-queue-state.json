@@ -1,5 +1,5 @@
 {
-  "queued": 49,
+  "queued": 109,
   "channel": "listosha0484",
   "start": "2026-06-11",
   "posts": [
@@ -296,6 +296,366 @@
       "dueAt": "2026-07-20T10:00:00+03:00",
       "title": "Список покупок на неделю за минуту",
       "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
+    },
+    {
+      "id": "6a46c48f3c4cbed3feaadfcd",
+      "dueAt": "2026-07-03T09:00:00+03:00",
+      "title": "10 продуктов, где железа больше, чем в гречке",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c49a5c0878dffa7b1f89",
+      "dueAt": "2026-07-03T20:00:00+03:00",
+      "title": "6 продуктов для густоты волос",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c49fc7f3a3379f2f0b61",
+      "dueAt": "2026-07-04T09:00:00+03:00",
+      "title": "ТТГ «в норме», а ты в спячке: 6 сигналов щитовидки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a00c2201946bd0ff92",
+      "dueAt": "2026-07-04T20:00:00+03:00",
+      "title": "ПМС всё тяжелее? 5 сигналов перекоса эстрогена",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a05c0878dffa7b1fd2",
+      "dueAt": "2026-07-05T09:00:00+03:00",
+      "title": "Перименопауза после 40: 6 ранних признаков",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a1e55e31b283153882",
+      "dueAt": "2026-07-05T20:00:00+03:00",
+      "title": "5 анализов, чтобы проверить запасы железа",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a2c7f3a3379f2f0b86",
+      "dueAt": "2026-07-06T09:00:00+03:00",
+      "title": "Волосы лезут: 6 дефицитов-виновников",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a30c2201946bd0ffb7",
+      "dueAt": "2026-07-06T20:00:00+03:00",
+      "title": "5 анализов щитовидки (не только ТТГ)",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a43c4cbed3feaae09e",
+      "dueAt": "2026-07-07T09:00:00+03:00",
+      "title": "6 продуктов, выводящих лишний эстроген",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a45c0878dffa7b2019",
+      "dueAt": "2026-07-07T20:00:00+03:00",
+      "title": "7 продуктов для гормонов после 40",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a5e55e31b2831538a7",
+      "dueAt": "2026-07-08T09:00:00+03:00",
+      "title": "7 скрытых признаков дефицита железа",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a60c2201946bd0ffdc",
+      "dueAt": "2026-07-08T20:00:00+03:00",
+      "title": "5 анализов сделать до похода к трихологу",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a6e55e31b2831538cf",
+      "dueAt": "2026-07-09T09:00:00+03:00",
+      "title": "7 продуктов, которые крадут йод",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a7bb7dc73d99b09f9f",
+      "dueAt": "2026-07-09T20:00:00+03:00",
+      "title": "Магний при ПМС: какой и когда",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a85c0878dffa7b2046",
+      "dueAt": "2026-07-10T09:00:00+03:00",
+      "title": "Не набрать вес в перименопаузу: 5 правил тарелки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4a9bb7dc73d99b09fe9",
+      "dueAt": "2026-07-10T20:00:00+03:00",
+      "title": "Железо не усваивается: 6 частых ошибок",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c4aac7f3a3379f2f0c1c",
+      "dueAt": "2026-07-11T09:00:00+03:00",
+      "title": "Не шампунь: 4 гормона, из-за которых сыплются волосы",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4aa3c4cbed3feaae0d7",
+      "dueAt": "2026-07-11T20:00:00+03:00",
+      "title": "АИТ: 5 первых признаков, которые пропускают",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4abbb7dc73d99b0a017",
+      "dueAt": "2026-07-12T09:00:00+03:00",
+      "title": "Прогестерон: 4 признака нехватки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4acbb7dc73d99b0a03d",
+      "dueAt": "2026-07-12T20:00:00+03:00",
+      "title": "Кальций из растений: 6 источников без молочки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4ad0c2201946bd10018",
+      "dueAt": "2026-07-13T09:00:00+03:00",
+      "title": "Железо без мяса: 8 растительных источников",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c4ad5c0878dffa7b207c",
+      "dueAt": "2026-07-13T20:00:00+03:00",
+      "title": "Сколько волос в день терять — это норма",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4aee55e31b283153aef",
+      "dueAt": "2026-07-14T09:00:00+03:00",
+      "title": "Селен, цинк, йод: кому и сколько",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4afbb7dc73d99b0a065",
+      "dueAt": "2026-07-14T20:00:00+03:00",
+      "title": "5 привычек, которые ломают цикл",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b0bb7dc73d99b0a08b",
+      "dueAt": "2026-07-15T09:00:00+03:00",
+      "title": "Приливы и бессонница: 4 нутриента, что помогают",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b0c7f3a3379f2f0c84",
+      "dueAt": "2026-07-15T20:00:00+03:00",
+      "title": "С чем пить железо, а с чем — никогда",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b13c4cbed3feaae14b",
+      "dueAt": "2026-07-16T09:00:00+03:00",
+      "title": "Выпадение после родов: почему и что делать",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b2e55e31b283153d65",
+      "dueAt": "2026-07-16T20:00:00+03:00",
+      "title": "Мёрзнешь, отёки, туман: это щитовидка?",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b30c2201946bd100d1",
+      "dueAt": "2026-07-17T09:00:00+03:00",
+      "title": "Болит грудь перед месячными: почему",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b4bb7dc73d99b0a0cd",
+      "dueAt": "2026-07-17T20:00:00+03:00",
+      "title": "Какие анализы сдать в перименопаузу",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b43c4cbed3feaae170",
+      "dueAt": "2026-07-18T09:00:00+03:00",
+      "title": "Ферритин 15 или 50: где твоя норма",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b53c4cbed3feaae195",
+      "dueAt": "2026-07-18T20:00:00+03:00",
+      "title": "Цинк, железо, белок: тройка для роста волос",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b6c7f3a3379f2f0cd7",
+      "dueAt": "2026-07-19T09:00:00+03:00",
+      "title": "8 продуктов для щитовидки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b7e55e31b283154071",
+      "dueAt": "2026-07-19T20:00:00+03:00",
+      "title": "Тяга к сладкому перед циклом: как унять",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b80c2201946bd10103",
+      "dueAt": "2026-07-20T09:00:00+03:00",
+      "title": "Белок после 40: сколько и зачем",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b90c2201946bd10128",
+      "dueAt": "2026-07-20T20:00:00+03:00",
+      "title": "Витамин C ×3 усвоение: как поднять железо",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c4b93c4cbed3feaae1c1",
+      "dueAt": "2026-07-21T09:00:00+03:00",
+      "title": "7 ошибок, из-за которых волос всё меньше",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4ba3c4cbed3feaae1e6",
+      "dueAt": "2026-07-21T20:00:00+03:00",
+      "title": "Гипотиреоз: почему вес растёт",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4bb5c0878dffa7b2175",
+      "dueAt": "2026-07-22T09:00:00+03:00",
+      "title": "Семена для баланса гормонов (seed cycling)",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4bc5c0878dffa7b21a2",
+      "dueAt": "2026-07-22T20:00:00+03:00",
+      "title": "Магний в перименопаузу: 4 причины добавить",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4bde55e31b2831544e0",
+      "dueAt": "2026-07-23T09:00:00+03:00",
+      "title": "Тянет грызть лёд и мел? Это дефицит железа",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c4c4e55e31b283154543",
+      "dueAt": "2026-07-23T20:00:00+03:00",
+      "title": "Ломкие волосы и ногти: чего не хватает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4c60c2201946bd10204",
+      "dueAt": "2026-07-24T09:00:00+03:00",
+      "title": "Щитовидка и брови/волосы: неочевидная связь",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4c7c7f3a3379f2f0d52",
+      "dueAt": "2026-07-24T20:00:00+03:00",
+      "title": "Отёки перед месячными: 5 причин",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4c73c4cbed3feaae234",
+      "dueAt": "2026-07-25T09:00:00+03:00",
+      "title": "Сон рушится после 45: что помогает уснуть",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4c8bb7dc73d99b0a129",
+      "dueAt": "2026-07-25T20:00:00+03:00",
+      "title": "Устаёшь, даже выспавшись: 5 причин",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c4c90c2201946bd10229",
+      "dueAt": "2026-07-26T09:00:00+03:00",
+      "title": "Биотин не помогает? Проверь сначала это",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4cac7f3a3379f2f0d7b",
+      "dueAt": "2026-07-26T20:00:00+03:00",
+      "title": "Йод: 5 признаков, что его не хватает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4cbbb7dc73d99b0a14e",
+      "dueAt": "2026-07-27T09:00:00+03:00",
+      "title": "Раздражительность перед циклом: чего не хватает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4cbbb7dc73d99b0a173",
+      "dueAt": "2026-07-27T20:00:00+03:00",
+      "title": "Мышцы и гормоны после 40: почему это важно",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4cc3c4cbed3feaae260",
+      "dueAt": "2026-07-28T09:00:00+03:00",
+      "title": "Гемоглобин в норме — а железа не хватает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a46c4cde55e31b28315497b",
+      "dueAt": "2026-07-28T20:00:00+03:00",
+      "title": "Волосы и щитовидка: как это связано",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4cebb7dc73d99b0a1a1",
+      "dueAt": "2026-07-29T09:00:00+03:00",
+      "title": "ТТГ, Т4, антитела: что реально значат цифры",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a46c4cfc7f3a3379f2f0dd2",
+      "dueAt": "2026-07-29T20:00:00+03:00",
+      "title": "Клетчатка и эстроген: как это связано",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4d03c4cbed3feaae28e",
+      "dueAt": "2026-07-30T09:00:00+03:00",
+      "title": "Омега-3 после 40: зачем нужна",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4d0bb7dc73d99b0a1c6",
+      "dueAt": "2026-07-30T20:00:00+03:00",
+      "title": "Железо у веганов: 6 правил, чтобы не просесть",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a46c4d13c4cbed3feaae2b3",
+      "dueAt": "2026-07-31T09:00:00+03:00",
+      "title": "Маски не спасут, если есть дефицит",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a46c4d23c4cbed3feaae2d8",
+      "dueAt": "2026-07-31T20:00:00+03:00",
+      "title": "Постоянная усталость и щитовидка: связь",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a46c4d3c7f3a3379f2f0df7",
+      "dueAt": "2026-08-01T09:00:00+03:00",
+      "title": "B6, магний, кальций при ПМС: зачем каждый",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a46c4d45c0878dffa7b2216",
+      "dueAt": "2026-08-01T20:00:00+03:00",
+      "title": "Настроение скачет в перименопаузу: почему",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
     }
   ]
 }
