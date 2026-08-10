@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Напоминалки про приложение · обложки TG/MAX</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #d9d9d9; font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; padding: 30px; }
+  .card {
+    width: 1280px; height: 720px; background: #FBF7F2; color: #2A2118;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 66px 74px; position: relative; overflow: hidden;
+    margin: 0 auto 30px;
+  }
+  /* Тёплое пятно в углу — чтобы фон не читался как пустая бумага. */
+  .glow {
+    position: absolute; width: 620px; height: 620px; right: -190px; top: -230px;
+    border-radius: 50%; background: radial-gradient(circle, rgba(196,114,74,.16) 0%, rgba(196,114,74,0) 70%);
+  }
+  .eyebrow { font-size: 25px; font-weight: 800; letter-spacing: 5px; text-transform: uppercase; color: #C4724A; position: relative; }
+  .eyebrow span { display: block; width: 82px; height: 6px; margin-top: 17px; border-radius: 3px; background: #C4724A; }
+  .mid { flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; }
+  .headline { font-size: 78px; font-weight: 800; line-height: 1.06; letter-spacing: -1.5px; }
+  .headline.sm { font-size: 64px; }
+  .sub { font-size: 36px; font-weight: 500; margin-top: 24px; opacity: .72; }
+  /* Плитка-строка: узнаваемый элемент навигации приложения. */
+  .row {
+    display: flex; align-items: center; gap: 26px;
+    background: #fff; border: 1px solid #EDE4DA; border-radius: 22px;
+    padding: 22px 30px; margin-top: 40px; box-shadow: 0 10px 30px rgba(42,33,24,.06);
+    position: relative;
+  }
+  .tile { width: 78px; height: 78px; border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 40px; flex-shrink: 0; }
+  .rowText { flex: 1; }
+  .rowTitle { font-size: 32px; font-weight: 800; }
+  .rowSub { font-size: 26px; font-weight: 500; opacity: .6; margin-top: 5px; }
+  .chev { font-size: 40px; opacity: .3; font-weight: 700; }
+  .footer { display: flex; justify-content: space-between; align-items: flex-end; position: relative; }
+  .brand { font-size: 25px; font-weight: 700; opacity: .62; }
+  .open { font-size: 27px; font-weight: 800; color: #fff; background: #C4724A; border-radius: 100px; padding: 14px 34px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// Пастельные плитки взяты из самого приложения (.icon-* в index.html).
+const CARDS = [
+  { name:'rem-01-cases',
+    h:'Кейсы теперь лежат целиком', s:'В канале полтора дня, в приложении навсегда',
+    tile:{ e:'📋', bg:'#fde8d8', t:'Разборы с консультаций', d:'12 историй одной статьёй' } },
+  { name:'rem-02-pills',
+    h:'Сто пять добавок с разбором', s:'Зачем, кому подходит и как принимать',
+    tile:{ e:'💊', bg:'#e8d8f5', t:'Волшебные таблетки', d:'105 проверенных добавок' } },
+  { name:'rem-03-free',
+    h:'Двенадцать гайдов бесплатно', s:'Половина читателей про них не знает',
+    tile:{ e:'🎁', bg:'#d8f5e0', t:'Полезные материалы', d:'Скачиваются PDF, без оплаты' } },
+  { name:'rem-04-discount',
+    h:'Анализы со скидкой 20%', s:'Ферритин, железо, ОЖСС, щитовидка',
+    tile:{ e:'🩸', bg:'#f5d8d8', t:'Тест на железо', d:'И скидка до 50% на протокол' } },
+  { name:'rem-05-archive',
+    h:'908 постов с поиском по темам', s:'Самая недооценённая часть приложения',
+    tile:{ e:'🗂', bg:'#fde8d8', t:'Подборки по темам', d:'18 тем, всё в одном списке' } },
+  { name:'rem-06-courses',
+    h:'Два курса, доступ не сгорает', s:'Гормональный баланс и управление весом',
+    tile:{ e:'🧬', bg:'#e8d8f5', t:'Курсы', d:'11 частей и 7 глав, в своём темпе' } },
+  { name:'rem-07-menu',
+    h:'Что съесть в четверг', s:'Меню под твой протокол, а не «правильное вообще»',
+    tile:{ e:'🍽', bg:'#fef3d8', t:'СделайМеню', d:'С учётом того, что тебе нельзя' } },
+  { name:'rem-08-guides',
+    h:'Двенадцать протоколов от и до', s:'Что сдать, как прочитать, что делать дальше',
+    tile:{ e:'📕', bg:'#f5edd8', t:'Гайды Pro', d:'Самый ходовой - железодефицит' } },
+  { name:'rem-09-topics',
+    h:'Лента, настроенная под тебя', s:'Полминуты на то, чтобы отметить свои темы',
+    tile:{ e:'🎯', bg:'#e8f4fd', t:'Мои беспокойства', d:'Наверх поднимется то, что про тебя' } },
+  { name:'rem-10-audio',
+    h:'Тот же разбор, только голосом', s:'Для тех, кто за рулём и на кухне',
+    tile:{ e:'🎧', bg:'#f5d8e8', t:'Эфиры и подкасты', d:'Ставишь и занимаешься делами' } },
+  { name:'rem-11-favorites',
+    h:'Звёздочка, которой не пользуются', s:'Сохрани сейчас, найдёшь когда придут анализы',
+    tile:{ e:'⭐', bg:'#fef3d8', t:'Избранное', d:'Пост находится за две секунды' } }
+];
+
+const root = document.getElementById('root');
+
+for (const c of CARDS) {
+  const el = document.createElement('div');
+  el.className = 'card';
+  el.setAttribute('data-name', c.name);
+  el.innerHTML =
+    '<div class="glow"></div>'
+    + '<div class="eyebrow">В приложении<span></span></div>'
+    + '<div class="mid">'
+      + '<div class="headline' + (c.h.length > 30 ? ' sm' : '') + '">' + c.h + '</div>'
+      + '<div class="sub">' + c.s + '</div>'
+      + '<div class="row">'
+        + '<div class="tile" style="background:' + c.tile.bg + '">' + c.tile.e + '</div>'
+        + '<div class="rowText"><div class="rowTitle">' + c.tile.t + '</div>'
+          + '<div class="rowSub">' + c.tile.d + '</div></div>'
+        + '<div class="chev">›</div>'
+      + '</div>'
+    + '</div>'
+    + '<div class="footer"><div class="brand">Алексей Листошенков · нутрициолог</div>'
+      + '<div class="open">Открыть →</div></div>';
+  root.appendChild(el);
+}
+</script>
+</body>
+</html>
