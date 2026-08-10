@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Case cards · серия 2 (август-октябрь 2026)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #d9d9d9; font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; padding: 30px; }
+  .card {
+    width: 1280px; height: 720px;
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 70px 80px; position: relative; overflow: hidden;
+    margin: 0 auto 30px;
+  }
+  .eyebrow { font-size: 26px; font-weight: 800; letter-spacing: 5px; text-transform: uppercase; }
+  .mid { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .headline { font-size: 80px; font-weight: 800; line-height: 1.05; letter-spacing: -1px; }
+  .headline.sm { font-size: 66px; }
+  .sub { font-size: 38px; font-weight: 500; margin-top: 26px; opacity: 0.82; }
+  .footer { display: flex; justify-content: space-between; align-items: flex-end; }
+  .footL { display: flex; align-items: center; gap: 22px; }
+  .badge { font-size: 30px; font-weight: 800; padding: 13px 30px; border-radius: 100px; letter-spacing: 1px; }
+  .cont { font-size: 30px; font-weight: 600; opacity: 0.85; }
+  .brand { font-size: 26px; font-weight: 700; opacity: 0.7; text-align: right; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+// Та же фиолетовая схема, что и в июньской серии (case-cards.html).
+const THEMES = {
+  purple_white: { bg:'#FFFFFF', accent:'#6B21A8', accentText:'#FFFFFF', text:'#111111' }
+};
+const THEME = 'purple_white';
+
+// Серия 2: case-14..case-30, выходит с пт 14.08 по пт 09.10.2026.
+const CASES = [
+  { name:'case-14',
+    p1:{ h:'Гормон пожизненно. По одной цифре.', s:'А щитовидка здоровая' },
+    p2:{ h:'Кортизоловый живот в четырнадцать лет', s:'Восемь перекусов в день' } },
+  { name:'case-15',
+    p1:{ h:'Лучшие гормоны за шестнадцать лет', s:'И всё вернулось за полгода' },
+    p2:{ h:'Почему тироксин не лечит', s:'Воспаление глушит переработку' } },
+  { name:'case-16',
+    p1:{ h:'Антитела выросли с 30 до 300', s:'Щитовидку никто не трогал' },
+    p2:{ h:'Железа тут просто заложник', s:'Иммунитет воюет на три фронта' } },
+  { name:'case-17',
+    p1:{ h:'Слово вспоминал одиннадцать минут', s:'Выписали препарат от деменции' },
+    p2:{ h:'Очаг нашёлся в носу', s:'Сломан пятьдесят лет назад' } },
+  { name:'case-18',
+    p1:{ h:'Днём никакая. Ночью бодрячком.', s:'Как будто всё перевернулось' },
+    p2:{ h:'Кривая кортизола перевёрнута', s:'Почему кровь этого не покажет' } },
+  { name:'case-19',
+    p1:{ h:'Полгода болей. От лекарств хуже.', s:'«Либо не те препараты, либо я не такая»' },
+    p2:{ h:'Белок вырос без единого коктейля', s:'Он не про то, сколько человек съел' } },
+  { name:'case-20',
+    p1:{ h:'Купила укол и не сделала', s:'Дождалась приёма и спросила' },
+    p2:{ h:'Как выглядит уходящее воспаление', s:'Было 420, потом 219, теперь 75' } },
+  { name:'case-21',
+    p1:{ h:'Инфекцию нашли и не пролечили', s:'Прошёл год' },
+    p2:{ h:'Белок стоит на 68 и не идёт', s:'Инфекции едят его быстрее' } },
+  { name:'case-22',
+    p1:{ h:'Давление 270. И ничего не болит.', s:'Операцию отменили на столе' },
+    p2:{ h:'Почки работают как спидометр', s:'Куда било тридцать лет' } },
+  { name:'case-23',
+    p1:{ h:'Пока держишься, тело держится', s:'Выдохнула, и вылез герпес' },
+    p2:{ h:'Редкий разворот по эстрогенам', s:'Тот случай, когда их поднимают' } },
+  { name:'case-24',
+    p1:{ h:'Иммунитет ей поднимать нельзя', s:'Любая попытка даёт обострение' },
+    p2:{ h:'Один корень пяти диагнозов', s:'Развилка в одном анализе' } },
+  { name:'case-25',
+    p1:{ h:'«У меня всё время что-то растёт»', s:'И на этом фоне остеопороз' },
+    p2:{ h:'Остеопороз вернулся за три месяца', s:'Кальций тут ни при чём' } },
+  { name:'case-26',
+    p1:{ h:'Не завтракает. Инсулин высокий.', s:'Стройная, спортивная, плавает' },
+    p2:{ h:'Куда утекает её железо', s:'Ферритин с 80 упал до 36' } },
+  { name:'case-27',
+    p1:{ h:'Полтора года на одну бактерию', s:'Фаги не сработали' },
+    p2:{ h:'Воспаление ушло, холестерин вырос', s:'И это хорошая новость' } },
+  { name:'case-28',
+    p1:{ h:'Ушли пародонтит, гайморит и герпес', s:'Она сама удивилась' },
+    p2:{ h:'B12 упал вдвое, хотя она его пила', s:'Всё упирается в кислотность' } },
+  { name:'case-29',
+    p1:{ h:'Пять лет болит ухо', s:'Договорился с ним вместо лечения' },
+    p2:{ h:'Антибиотик не сработал не зря', s:'Профиль оказался вирусным' } },
+  { name:'case-30',
+    p1:{ h:'Часть цифр пошла назад', s:'Показываю не победу, а качели' },
+    p2:{ h:'Почему результаты откатываются', s:'Финал серии' } }
+];
+
+const root = document.getElementById('root');
+
+function card(part, name, data) {
+  const t = THEMES[THEME];
+  const isP1 = part === 1;
+  const badgeTxt = isP1 ? 'ЧАСТЬ 1' : 'ЧАСТЬ 2';
+  const contTxt  = isP1 ? 'продолжение сегодня в 18:30' : 'финал кейса';
+  const longHead = data.h.length > 34;
+  const el = document.createElement('div');
+  el.className = 'card';
+  el.setAttribute('data-name', name + (isP1 ? '-p1' : '-p2'));
+  el.style.background = t.bg;
+  el.style.color = t.text;
+  el.innerHTML =
+    '<div class="eyebrow" style="color:' + t.accent + '">Разбор с консультации'
+      + '<span style="display:block;width:86px;height:6px;margin-top:18px;border-radius:3px;background:' + t.accent + '"></span></div>'
+    + '<div class="mid"><div class="headline' + (longHead ? ' sm' : '') + '">' + data.h + '</div>'
+      + (data.s ? '<div class="sub">' + data.s + '</div>' : '') + '</div>'
+    + '<div class="footer"><div class="footL">'
+      + '<span class="badge" style="background:' + t.accent + ';color:' + t.accentText + '">' + badgeTxt + '</span>'
+      + '<span class="cont">' + contTxt + '</span></div>'
+      + '<div class="brand">Алексей Листошенков<br>нутрициолог</div></div>';
+  return el;
+}
+
+for (const c of CASES) {
+  root.appendChild(card(1, c.name, c.p1));
+  root.appendChild(card(2, c.name, c.p2));
+}
+</script>
+</body>
+</html>
