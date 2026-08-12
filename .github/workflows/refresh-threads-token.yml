@@ -4,8 +4,8 @@ name: Refresh Threads Token
 # new value back into the THREADS_ACCESS_TOKEN secret via the GitHub API.
 #
 # Requires an extra secret THREADS_REFRESH_PAT: a fine-grained PAT with
-# "Secrets: Read and write" on repo listosha/Insta. Do NOT enable the schedule
-# until publishing works and that PAT exists.
+# "Secrets: Read and write" on repo listosha/Insta. Секрет заведён 12.08.2026,
+# расписание включено.
 #
 # Security note: the repo is public. The token is never printed — it is encrypted
 # with the repo public key (libsodium) before the API call, exactly as GitHub
@@ -13,8 +13,10 @@ name: Refresh Threads Token
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 6 1 */2 *'   # ~once every 2 months — enable after token works
+  schedule:
+    # Токен живёт 60 дней. Гоняем раз в месяц с запасом: пропущенный прогон
+    # не должен стоить канала, как это случилось летом 2026.
+    - cron: '0 6 1 * *'
 
 jobs:
   refresh:
