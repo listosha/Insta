@@ -17,11 +17,12 @@
     }
   },
   "counts": {
-    "total": 109,
+    "total": 145,
     "guides": 10,
     "articles": 9,
     "menu": 30,
-    "hero": 60
+    "hero": 60,
+    "glucose": 36
   },
   "pins": [
     {
@@ -1777,6 +1778,582 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-01T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-01-01.png",
+      "title": "Почему клонит в сон после еды и что с этим делать",
+      "description": "Послеобеденная сонливость приходит примерно через полтора часа после еды и часто по расписанию. Разбираем механизм: подъём сахара, избыточный инсулин, провал. Что помогает в тот же день. Пошаговый разбор в бесплатном гайде.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-12",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-12T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-02-01.png",
+      "title": "Какие анализы сдать, чтобы проверить сахар и инсулин",
+      "description": "Одной глюкозы натощак мало: она остаётся нормальной годами, пока инсулин растёт. Три показателя из одной пробирки и что они означают. Ориентиры, а не диагноз.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-13",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-03-01.png",
+      "title": "HOMA-IR: как посчитать индекс инсулинорезистентности самому",
+      "description": "Индекс считается из глюкозы и инсулина натощак обычным калькулятором. Показывает то, чего не видно в отдельных строках анализа. Ориентир и пример расчёта.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-14",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-04-01.png",
+      "title": "Как справиться с тягой к сладкому без силы воли",
+      "description": "Тяга включается на падении сахара и обычно проходит сама за двадцать минут. Три шага, которые работают лучше запретов. Механизм и исследование в бесплатном гайде.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-17",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-05-01.png",
+      "title": "Признаки скачков сахара в крови у здоровых людей",
+      "description": "Скачки глюкозы бывают и без диабета: по оценкам, к нарушенной регуляции предрасположены около 88 процентов взрослых. Чек-лист симптомов и что проверить дальше.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-18",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-06-01.png",
+      "title": "Прогулка после еды: сколько минут и зачем",
+      "description": "Десять минут движения после еды заметно снижают подъём сахара, причём без повышения инсулина. Почему это работает и в какое окно нужно успеть.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-19",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-07-01.png",
+      "title": "Гликированный гемоглобин: расшифровка и когда он обманывает",
+      "description": "HbA1c показывает средний сахар за квартал, и подготовиться к нему нельзя. Но у анализа есть два ограничения, из-за которых по нему делают неверные выводы.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-20",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-08-01.png",
+      "title": "Почему нет сил, если питание нормальное",
+      "description": "Усталость при достаточной еде часто идёт от перегруженных митохондрий, но не всегда: те же симптомы дают низкий ферритин, дефицит B12 и вялая щитовидная железа. Что проверить.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-21",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-09a",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-09a-01.png",
+      "title": "Порядок еды при инсулинорезистентности: что есть первым",
+      "description": "Один и тот же обед даёт разный скачок сахара в зависимости от того, с чего начать. Схема из трёх шагов, механизм и цифры исследования. Разбор целиком в канале.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-24",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-09b",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-09b-01.png",
+      "title": "Как есть хлеб и не ловить скачок сахара",
+      "description": "Приём из практики: разложить бутерброд на составляющие и съесть хлеб последним. Работает с любым приёмом пищи, где есть крахмал.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-25",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-10-01.png",
+      "title": "Овощи перед едой: что подойдёт, кроме салата",
+      "description": "Отдельная порция овощей перед основной едой снижает подъём сахара. Разбираем, что годится из обычных продуктов, сколько нужно и почему сок и смузи здесь бесполезны.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-26",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-11-01.png",
+      "title": "Несладкий завтрак: 12 вариантов на каждый день",
+      "description": "Сладкий завтрак задаёт самый крутой подъём сахара за день и тянет за собой качели до вечера. Список завтраков, которые этого не делают, и правило сборки.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-27",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-12-01.png",
+      "title": "Хлопья на завтрак: что показал эксперимент со здоровыми людьми",
+      "description": "Скачки сахара бывают не только у диабетиков. Что случилось с глюкозой у двадцати здоровых людей после обычного завтрака и почему утро худшее время для крахмала.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-28",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-13-01.png",
+      "title": "Чем заменить сахар: мёд, агава, кокосовый сахар",
+      "description": "Все эти продукты состоят из тех же двух молекул, что и обычный сахар. Где разница реальная, где маркетинговая и почему у агавы низкий гликемический индекс это не плюс.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-31",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-14-01.png",
+      "title": "Как найти скрытый сахар в составе продукта",
+      "description": "Производители называют сахар десятком разных слов. Список имён, по которым его видно, и правило первой пятёрки ингредиентов.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-01",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-15-01.png",
+      "title": "Как выбрать хлеб и хлопья по этикетке",
+      "description": "Простое правило для сухих продуктов: сравнить углеводы и клетчатку в таблице пищевой ценности. Что означает соотношение и почему калории тут не помогут.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-02",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-16-01.png",
+      "title": "Яблочный уксус перед едой: работает или нет",
+      "description": "Разбираем механизм без мифологии: что уксус действительно делает с сахаром в крови, сколько и когда его пить, кому он противопоказан.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-03",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-17-01.png",
+      "title": "Как есть углеводы и не ловить скачок сахара",
+      "description": "Голые углеводы дают самый крутой подъём и через час возвращают голод сильнее прежнего. Семь пар, которые это меняют, и какие жиры для этого годятся.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-04",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-18-01.png",
+      "title": "Полезные перекусы без сахара: список",
+      "description": "Сладкий перекус даёт меньше энергии, чем кажется: инсулин уводит глюкозу в хранилища. Десять несладких вариантов, которые собираются за полминуты.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-07",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-19-01.png",
+      "title": "Почему при худобе бывает высокий инсулин",
+      "description": "Мышцы вмещают в четыре раза больше глюкозы, чем печень. Что происходит, когда мышечной массы мало, и почему движение после еды работает без повышения инсулина.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-08",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-20-01.png",
+      "title": "Когда есть сладкое, чтобы был меньший скачок сахара",
+      "description": "Время имеет значение не меньше, чем состав. Почему десерт после еды мягче перекуса и сколько часов в сутки тело проводит в состоянии переваривания.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-09",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-21-01.png",
+      "title": "Почему от здорового питания вздувает живот",
+      "description": "Клетчатка это еда для бактерий кишечника. Если они разрослись избыточно, овощи достаются им, а человеку достаётся газ. Признаки и порядок, в котором это разбирают.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-10",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-22-01.png",
+      "title": "Кому нельзя интервальное голодание",
+      "description": "У части людей длинные пищевые окна ухудшают состояние: организм достаёт глюкозу кортизолом, а он и так на исходе. Признаки и что делают вместо.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-11",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-23-01.png",
+      "title": "Кортизол: как понять свой суточный ритм",
+      "description": "Сон ломается по-разному в зависимости от рисунка кортизола. Три варианта, чем они отличаются и почему одна утренняя точка в крови мало что говорит.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-14",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-24-01.png",
+      "title": "Почему просыпаешься ночью с сердцебиением",
+      "description": "Ночные пробуждения около трёх часов часто связаны с падением сахара, а не с нервами. Механизм и что помогает в тот же вечер.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-15",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-25-01.png",
+      "title": "Высокий сахар при нормальном инсулине: что это значит",
+      "description": "Две разные картины, которые лечатся по-разному. Как отличить одну от другой по двум цифрам из одной пробирки и по времени суток.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-16",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-26-01.png",
+      "title": "Что проверить, если правильное питание не помогает",
+      "description": "Глюкоза это один рычаг из нескольких. Список показателей, которые смотрят, когда питание выстроено, а самочувствие прежнее.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-17",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-27-01.png",
+      "title": "Объём талии: норма для женщин и мужчин",
+      "description": "Жир вокруг внутренних органов вмешивается в обмен активнее подкожного, и в зеркале его не видно. Почему талия информативнее веса и что сдать.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-18",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-28-01.png",
+      "title": "Сколько белка нужно в день: простой ориентир",
+      "description": "Калории считать необязательно, а белок стоит посчитать хотя бы раз. Ориентир, частая реальность и почему важно распределять его по приёмам пищи.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-21",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-21T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-29-01.png",
+      "title": "СПКЯ и инсулинорезистентность: как они связаны",
+      "description": "Механизм, по которому высокий инсулин влияет на цикл, и что показало небольшое исследование с изменением только питания. Без обещаний.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-22",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-22T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-30-01.png",
+      "title": "Какие анализы сдать при планировании беременности обоим",
+      "description": "Углеводный обмен при планировании смотрят редко, а он участвует в оценке того, насколько среда безопасна для зачатия. Что сдать и за сколько готовиться.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-23",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-23T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-31-01.png",
+      "title": "Почему копится эстроген: печень, желчь, кишечник",
+      "description": "Эстроген надо не только произвести, но и вывести. Три участка этого пути и почему женские жалобы так часто упираются в пищеварение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-24",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-24T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-32-01.png",
+      "title": "ТТГ в норме, а симптомы есть: что смотреть",
+      "description": "ТТГ показывает команду гипофиза, а не работу железы. Почему нужны Т4 и Т3 свободные и что ломает превращение одного в другое.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-25",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-25T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-33-01.png",
+      "title": "Мужское здоровье: какие анализы сдать после сорока",
+      "description": "Обычная диспансеризация смотрит глюкозу, а она ломается последней. Чек-лист признаков и минимальный набор анализов.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-28",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-28T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-34-01.png",
+      "title": "Нужен ли монитор глюкозы, если нет диабета",
+      "description": "Что датчик показывает, чего не показывает и чем его можно заменить. Кому он действительно нужен и как не превратить его в источник тревоги.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-29",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-29T21:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-35-01.png",
+      "title": "Как выровнять сахар в крови: 7 шагов",
+      "description": "Короткий список из серии про глюкозу. Ничего покупать не нужно, первые пункты работают с ближайшего приёма пищи.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-30",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-30T21:00:00+03:00"
     }
   ]
 }
