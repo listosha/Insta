@@ -17,13 +17,14 @@
     }
   },
   "counts": {
-    "total": 295,
+    "total": 371,
     "guides": 10,
     "articles": 9,
     "menu": 30,
     "hero": 60,
     "glucose": 36,
-    "wave1": 150
+    "wave1": 150,
+    "bady": 76
   },
   "pins": [
     {
@@ -4755,6 +4756,1222 @@
       "time": "09:30",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-29T09:30:00+03:00"
+    },
+    {
+      "slug": "bady-01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_01.png",
+      "title": "Железо не усваивается: при чём тут кислотность желудка",
+      "description": "Пьёте железо месяцами, а ферритин стоит. Соляная кислота переводит железо в усваиваемую форму и отцепляет B12 от белка еды. Признаки нехватки: тяжесть после мяса, отрыжка воздухом, вздутие через полчаса после еды. Что проверить и с чего начинают. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_68&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-13",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_02.png",
+      "title": "Пью витамин D, а он не растёт: три причины",
+      "description": "Витамин D жирорастворимый, и без жира в еде и нормальной желчи он проходит транзитом. Мешают также нехватка магния и лишний вес. Что делают с этим: форма, приём с едой, контроль по 25(OH)D через три месяца. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_100&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-14",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_03.png",
+      "title": "Болит грудь перед месячными: дело не в количестве эстрогена",
+      "description": "Печень разбирает отработанный эстроген двумя дорожками: мягкой и агрессивной. Вторая раздражает ткань груди и матки. Индол-3-карбинол из капусты сдвигает обмен в сторону мягкой. Почему без клетчатки и нормального стула это не работает. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_199&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-15",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_04.png",
+      "title": "Тревога фоном: чем глицин отличается от снотворного",
+      "description": "Не паника, а ровное натяжение с утра до ночи. Глицин работает тормозным передатчиком и снижает температуру тела перед сном, теанин из зелёного чая даёт спокойную сосредоточенность. Вместе снимают тонус, а не выключают. Когда этого мало и нужен врач. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_97&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-16",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_05.png",
+      "title": "Цинк при простуде: почему решают первые сутки",
+      "description": "Цинк не поднимает иммунитет вообще, он мешает вирусу размножаться в слизистой и нужен Т-лимфоцитам. Начали в первый день - болезнь короче, начали на третий - смысла мало. Почему рядом ставят рутин и витамин C и чем опасен долгий приём. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_183&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-17",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_06.png",
+      "title": "Магний и сон: почему он про засыпание, а не про бодрость",
+      "description": "Магний нужен ферментам, которые гасят возбуждение, и работе тормозного передатчика ГАМК. Без него тело не переключается из режима «делаю» в режим «сплю». Чем цитрат отличается от треоната и бисглицината и почему оксид работает слабительным. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_92&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-18",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_07.png",
+      "title": "Билирубин повышен: когда это не болезнь",
+      "description": "Чаще всего за повышенным непрямым билирубином стоит синдром Жильбера: фермент выводит его медленнее обычного. Отсюда вязкая усталость, тяжесть справа, плохая переносимость лекарств. Растёт на голодании и стрессе. Как отличить от проблем с печенью. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_79&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-19",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_08.png",
+      "title": "Мочевая кислота: не только про подагру",
+      "description": "Она поднимается задолго до первого больного сустава. Главный источник сегодня не мясо, а фруктоза из сладких напитков. Высокие значения идут вместе с инсулинорезистентностью и давлением. Ориентиры: выше 320 у женщин и выше 400 у мужчин. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_221&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-20",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_09.png",
+      "title": "Кишечник и настроение: что такое психобиотики",
+      "description": "В стенке кишечника своя нервная сеть, и по блуждающему нерву большинство сигналов идёт снизу вверх. Бактерии производят предшественники ГАМК и держат стенку плотной, а разрыхлённая стенка даёт тихое воспаление, которое мозг читает как тревогу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_71&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-21",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_10.png",
+      "title": "Статины и тяжесть в ногах: при чём тут коэнзим Q10",
+      "description": "Холестерин лёг идеально, а сил стало меньше и лестница даётся хуже. Статины гасят фермент, с которого начинается и холестерин, и коэнзим Q10, а без него митохондрии не делают энергию. Больше всего их в ногах и сердце. О чём сказать врачу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_217&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-22",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_11.png",
+      "title": "Коллаген: работает ли он вообще",
+      "description": "Он расщепляется в желудке, но короткие цепочки попадают в кровь и работают сигналом для клеток кожи и хряща. Без витамина C синтез невозможен, без достаточного белка в рационе бесполезен. Через сколько месяцев видны первые изменения. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_173&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-23",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_12.png",
+      "title": "Вздутие через час после еды: чего не хватает",
+      "description": "Не переедание, а еда, которая не разобрана до конца. Амилаза режет крахмал, протеазы белок, липаза жир. Не хватило фермента - кусок достаётся бактериям толстого кишечника, они его сбраживают. Почему выработка падает и когда ферменты не помогут. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_63&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-24",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_13.png",
+      "title": "Тошнит от железа: дело в форме, а не в железе",
+      "description": "Сульфат железа плохо всасывается, и всё неусвоенное раздражает слизистую кишечника. Отсюда тошнота, запор и брошенный на второй неделе курс. Чем отличается бисглицинат и зачем рядом ставят медь и витамин C. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_163&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-25",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_14.png",
+      "title": "Тяга к сладкому вечером: почему воля тут ни при чём",
+      "description": "Вечерняя тяга собирается из трёх вещей: сахарные качели днём, мало белка и исчерпанный к вечеру самоконтроль. Что с этим делают и почему ни один экстракт не переиграет пустой завтрак. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_164&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-26",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_15.png",
+      "title": "Селен и щитовидка: зачем он при антителах",
+      "description": "Чтобы собрать гормон, щитовидной железе нужна перекись водорода, а обезвреживают её ферменты с селеном в центре. Он же превращает Т4 в активный Т3. Почему при дефиците ТТГ приличный, а человек как в спячке. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_110&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-27",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_16.png",
+      "title": "Витамин C втрое поднимает усвоение железа",
+      "description": "Витамин C восстанавливает железо до формы, которую кишечник забирает легко, и связывает фитаты и танины. Условие: в тот же приём пищи. Кофе и чай рядом сводят эффект к нулю, разводить минимум на два часа. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_102&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-28",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_17.png",
+      "title": "ПМС стал тяжелее с годами: что за этим стоит",
+      "description": "После овуляции должен подниматься прогестерон, гормон спокойствия. Ближе к сорока овуляция случается не каждый цикл, прогестерона нет, а эстроген остаётся. Отсюда отёки, тревога и больная грудь. Что с этим делают. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_201&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-29",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-29T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_18.png",
+      "title": "Не уснуть до двух ночи: это не «сова»",
+      "description": "Кортизол должен быть высоким утром и почти нулевым к ночи. Когда ритм смещается, вечерний пик приходится на время отбоя, и тело получает команду работать. Что возвращает способность тормозить и почему свет важнее добавок. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_165&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-30",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_19.png",
+      "title": "Вздутие от овощей и бобовых: чего не хватает",
+      "description": "В бобовых и капусте есть углеводы, для которых у человека нет фермента вообще. Они доходят до толстого кишечника целыми, и бактерии дают газ. Что помогает и почему постоянное вздутие - повод проверить кишечник. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_64&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-31",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_20.png",
+      "title": "Болеете чаще всех: что смотрят в анализах",
+      "description": "За затяжными ОРВИ обычно стоят четыре вещи: низкий ферритин, дефицит витамина D, нехватка цинка и мало белка в рационе. Антитела строятся из белка. Что поддерживает в первые дни болезни, а что закрывает фон. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_182&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-01",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_21.png",
+      "title": "Коэнзим Q10: кому он действительно нужен",
+      "description": "Q10 переносит электроны в дыхательной цепи митохондрии, без него клетка не соберёт энергию. Нужен прежде всего тем, кто на статинах, и после сорока, когда свой синтез падает. Кому он не поможет и почему важна форма. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_179&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-02",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_22.png",
+      "title": "Сердце частит по ночам, а кардиолог не находит",
+      "description": "Сердечная мышца сокращается на входе кальция в клетку, а магний тормозит этот вход и помогает расслабиться между ударами. Мало магния - перебои и экстрасистолы. Почему анализ крови на магний почти ничего не показывает. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_93&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-03",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_23.png",
+      "title": "ГГТ повышен, остальное в норме: о чём это",
+      "description": "ГГТ реагирует раньше АЛТ и АСТ: растёт при застое желчи, лекарственной нагрузке и алкоголе. Ещё он маркер окислительного стресса и участвует в обороте глутатиона. Что смотрят рядом и что поддерживает печень. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_78&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-04",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_24.png",
+      "title": "Липосомальные витамины: маркетинг или разница",
+      "description": "Липосома это пузырёк из материала клеточной оболочки: вещество внутри проходит желудок целым. Для витамина C и глутатиона разница реальная, для магния и цинка чаще переплата. Как отличить настоящую липосому от надписи на этикетке. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_103&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-05",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_25.png",
+      "title": "Болит грудь перед месячными: две причины",
+      "description": "Ткань груди чувствительна к эстрогену, во второй половине цикла его уравновешивает прогестерон. Нет овуляции - нет равновесия. Вторая половина истории в том, как печень разбирает эстроген и при чём тут кишечник. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_84&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-06",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_26.png",
+      "title": "Гастрит пролечили, а тяжесть осталась",
+      "description": "Убрали повреждающий фактор, но не восстановили то, что он повредил. Слизистая живёт под защитным слоем, и когда он истончается, кислота достаёт до клеток. Что помогает заживлению и что обесценивает любой курс. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_66&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-07",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_27.png",
+      "title": "Просыпаетесь в три ночи: при чём тут сахар",
+      "description": "Ночью глюкоза снижается, и после дневных качелей она проваливается слишком низко. Тело выбрасывает адреналин и кортизол, чтобы печень её подняла, и вы просыпаетесь. Что делают с ужином и как гасят вечерний кортизол. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_169&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-08",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_28.png",
+      "title": "Цистит возвращается: почему клюква не решает сама",
+      "description": "Бактерии прячутся внутри клеток стенки мочевого пузыря, и курс убирает только то, что плавало в моче. Проантоцианидины клюквы мешают им прицепиться, но работают в профилактике, а не в приступе. Что важнее любой добавки. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_174&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-09",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_29.png",
+      "title": "Тревожность началась после того, как поехал живот",
+      "description": "При раздражённом кишечнике стенка становится проницаемее, и тихое воспаление мозг читает как тревогу. Вторая линия связи - блуждающий нерв, по которому сигналы идут снизу вверх. Что такое психобиотики и за сколько они работают. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_72&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-10",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_30.png",
+      "title": "Холестерин вырос: что смотреть кроме общего",
+      "description": "Общий холестерин сам по себе почти ничего не говорит. ЛПНП, ЛПВП, триглицериды и соотношение триглицеридов к ЛПВП дают картину. Высокое соотношение - это про инсулинорезистентность. Почему сначала проверяют щитовидку. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_218&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-11",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_31.png",
+      "title": "Куркумин без биоперина почти бесполезен",
+      "description": "Куркумин вмешивается в работу NF-kB, переключателя воспаления. Но в чистом виде до крови доходят единицы процентов: печень связывает и выводит его мгновенно. Пиперин из чёрного перца тормозит выведение и поднимает усвоение в разы. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_212&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-12",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_32.png",
+      "title": "Герпес вылезает после стресса, а не во время",
+      "description": "Вирус прячется в нервных узлах, пока его держат Т-лимфоциты. Кортизол подавляет именно это звено иммунитета, поэтому высыпания приходят, когда напряжение спадает. Что поддерживает клеточный иммунитет и при чём тут цинк. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_186&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-13",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_33.png",
+      "title": "Цинк: куда он девается и как понять, что его мало",
+      "description": "Первым проседает не иммунитет: долго заживают царапины, капризничает кожа, белые пятнышки на ногтях, притупились вкус и запах. Расходуется на стрессе, уходит с потом, конкурирует с железом. Почему его сдают вместе с медью. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_109&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-14",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_34.png",
+      "title": "Инозитол: инсулин, СПКЯ и овуляция",
+      "description": "Когда клетки хуже слышат инсулин, его становится больше, а высокий инсулин заставляет яичники производить больше андрогенов. Инозитол передаёт сигнал инсулина внутри клетки. Почему комбинируют две формы и за сколько это работает. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_90&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-15",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_35.png",
+      "title": "Желудок болит, а гастроскопия чистая",
+      "description": "Желудок болит не только от язвы: от спазма гладкой мышцы, от чувствительности нервных окончаний, от истончённого защитного слоя. Магний снимает спазм, растительные слизи прикрывают стенку. Почему важно, когда именно болит. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_74&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-16",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-36",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_36.png",
+      "title": "Тошнит от железа: что делают, чтобы не бросать курс",
+      "description": "Хелатные формы переносятся мягче сульфата, а приём через день нередко даёт больше усвоенного железа: гепсидин после дозы блокирует всасывание на часы. Зачем рядом медь, фолаты и B12 и что убрать из того же приёма пищи. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_162&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-17",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-37",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_37.png",
+      "title": "Судороги в ногах и тяжёлый ПМС: один дефицит",
+      "description": "Сокращение мышцы запускает кальций, а магний его выталкивает: мало магния - мышца не может отпустить. Во второй фазе цикла расход растёт, и магний нужен для синтеза прогестерона. Почему B6 идёт рядом не для красоты. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_91&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-18",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-38",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_38.png",
+      "title": "Инсулин растёт раньше сахара на годы",
+      "description": "Глюкоза натощак ломается последней: пока поджелудочная компенсирует, сахар держится нормальным, а инсулин уже высокий. Смотреть надо связку глюкоза плюс инсулин через HOMA-IR. Что помогает клеткам снова слышать инсулин. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_82&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-19",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-39",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_39.png",
+      "title": "Туман в голове: с чего начинают разбираться",
+      "description": "Мозг забирает пятую часть энергии при двух процентах веса, поэтому любой сбой снабжения бьёт по нему первым. Сначала исключают ферритин, B12, ТТГ и сон. Что делают ацетил-L-карнитин и тирозин и когда пора к неврологу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_105&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-20",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-20T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-40",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_40.png",
+      "title": "Лецитин: желчь, печень и память в одном",
+      "description": "Фосфатидилхолин входит в состав желчи и делает её текучей, а печень использует фосфолипиды, чтобы вывозить жир из клетки. Из холина делается ацетилхолин, медиатор памяти и внимания. Чем соевый отличается от подсолнечного. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_85&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-21",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-21T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-41",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_41.png",
+      "title": "Йод: зачем он нужен и кому с ним осторожнее",
+      "description": "Гормон щитовидной железы построен вокруг йода: в Т4 четыре атома, в Т3 три. Без сырья железа не соберёт гормон. Признаки нехватки и почему при аутоиммунном тиреоидите порядок такой: сначала анализы, потом решения. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_107&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-22",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-22T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-42",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_42.png",
+      "title": "Пробиотики не помогли: чем отличаются метабиотики",
+      "description": "Живые бактерии должны пройти желудок, выжить в желчи и найти свободную нишу. Метабиотики это продукты их работы: действуют сразу, подкисляют среду и кормят клетки стенки. Когда что выбирают: после антибиотика или при хроническом вздутии. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_67&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-23",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-23T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-43",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_43.png",
+      "title": "Мультивитамин: кому он нужен, а кому это трата",
+      "description": "В мультивитамине каждого компонента понемногу - это фон, а не терапия. Конкретный дефицит им не закрыть. На какие формы смотреть в составе и чего там почти никогда не хватает. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_112&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-24",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-24T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-44",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_44.png",
+      "title": "Волосы лезут и ногти слоятся: смотреть надо не туда",
+      "description": "Кожа, волосы и ногти для организма - самая необязательная стройка, поэтому проседают первыми. За ними обычно стоят низкий ферритин, щитовидка, нехватка белка или цинка. Почему первые изменения видны только через три месяца. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_216&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-25",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-25T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-45",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_45.png",
+      "title": "Переболели две недели назад, а сил нет",
+      "description": "Во время болезни иммунитет тратит колоссальный ресурс: аминокислоты на антитела, витамины на работу клеток, энергию на воспаление. После выздоровления баки пустые. Что поддерживает восстановление и когда пора сдавать анализы. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_190&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-26",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-26T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-46",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_46.png",
+      "title": "Сколько белка нужно в день и как его добрать",
+      "description": "Ориентир 1,2-1,6 грамма на килограмм веса. Из белка строятся ферменты, антитела, коллаген и гормоны, а при нехватке тело разбирает мышцы. Почему важно распределение по приёмам и какой приём у большинства самый пустой. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_89&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-27",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-27T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-47",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_47.png",
+      "title": "Серотонин делается в животе, а мозгу достаётся не он",
+      "description": "Девяносто процентов серотонина производится в кишечнике, но в мозг он не попадает: не проходит барьер. Там у него своя работа - моторика. Настоящая связь идёт через триптофан и через воспаление стенки. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_71&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-28",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-28T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-48",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_48.png",
+      "title": "Отёки к вечеру: почему меньше пить не помогает",
+      "description": "У лимфатической системы нет своего насоса, она движется за счёт мышц и дыхания. Сидячий день - и жидкость стоит в тканях. Плюс альбумин, который удерживает воду в сосуде и падает при нехватке белка. Когда отёк - повод к врачу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_75&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-29",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-29T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-49",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_49.png",
+      "title": "Хрустят колени: почему покой хрящу вредит",
+      "description": "Хрящ устроен без сосудов и питается жидкостью внутри сустава, которая продавливается только при движении. Глюкозамин, хондроитин и MSM дают сырьё, но сила мышц вокруг сустава важнее любой банки. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_170&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-30",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-30T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-50",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_50.png",
+      "title": "Спите восемь часов, а отдыха нет",
+      "description": "Сон и восстановление это разные вещи. При хроническом напряжении переключатель между режимом «бей или беги» и расслаблением заедает, и тело формально лежит, а внутри работает на оборотах. Что возвращает переключение. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_167&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-01",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-01T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-51",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_51.png",
+      "title": "Молочница возвращается: почему местного лечения мало",
+      "description": "Микрофлора влагалища заселяется из кишечника, и если там перекос, он воспроизводится по соседству. Вторая связь через эстроген: он поддерживает гликоген в слизистой, а это пища для лактобацилл. Отсюда возвраты в перименопаузу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_73&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-02",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-02T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-52",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_52.png",
+      "title": "Карнитин это транспорт, а не жиросжигатель",
+      "description": "Жир не может сам зайти в митохондрию, где сгорает: его туда завозит карнитин. Нет карнитина - клетка работает на углеводах, даже когда топливо рядом. Кому он нужен и почему без нагрузки он ничего не сожжёт. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_106&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-03",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-03T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-53",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_53.png",
+      "title": "После сорока: живот растёт и ночью встаёте в туалет",
+      "description": "Часть тестостерона превращается в эстрогены ферментом, который живёт в жировой ткани. Больше жира на животе - активнее превращение - ниже тестостерон. Круг замыкается. Что работает и почему сначала уролог и ПСА. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_198&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-04",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-04T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-54",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_54.png",
+      "title": "Формы магния: чем цитрат отличается от оксида",
+      "description": "Оксид усваивается примерно на четыре процента и работает слабительным. Цитрат - рабочая база, бисглицинат мягок к желудку, треонат единственный заметно проходит в мозг, малат берут утром при усталости. Почему формы смешивают. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_95&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-05",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-05T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-55",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_55.png",
+      "title": "Тяжесть справа после жирного и горечь по утрам",
+      "description": "Желчь эмульгирует жиры, помогает всасывать витамины A, D, E, K и выносит отработанные гормоны. При вялом оттоке ломается всё сразу, отсюда и низкий витамин D при исправном приёме. Почему регулярная еда важнее добавок. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_76&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-06",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-06T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-56",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_56.png",
+      "title": "Застолье и тяжесть: что реально помогает",
+      "description": "Поджелудочная выпускает ферменты по количеству и составу еды, и при пиковой нагрузке мощности не хватает. Нерасщеплённое достаётся бактериям, отсюда тяжесть через час. Что помогает кроме ферментов и когда дело не в застольях. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_63&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-07",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-07T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-57",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_57.png",
+      "title": "Первые часы простуды решают больше, чем вся неделя",
+      "description": "В первые часы вируса мало, и от скорости местного ответа зависит, останется это першением или развернётся в болезнь. Через сутки частиц уже миллионы. Что делают в это окно и почему сон в первую ночь так важен. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_182&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-08",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-08T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-58",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_58.png",
+      "title": "После сорока тело делает меньше своего Q10",
+      "description": "Организм производит коэнзим Q10 сам, и с возрастом всё меньше. Заметно это там, где работа не прекращается: сердце, мышцы ног, дёсны. Что ускоряет падение и почему из еды его почти не добрать. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_179&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-09",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-09T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-59",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_59.png",
+      "title": "Спали восемь часов и встали разбитой",
+      "description": "В норме кортизол резко поднимается в первые полчаса после пробуждения - это механизм, который вас включает. При истощении подъём вялый. Что поддерживает надпочечники и почему свет утром работает быстрее добавок. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_168&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-10",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-10T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-60",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_60.png",
+      "title": "Что проверить мужчине после сорока: короткий список",
+      "description": "ОАК и ферритин, глюкоза с инсулином, липидограмма целиком, печёночные пробы, креатинин, мочевая кислота, ТТГ, витамин D, B12 и тестостерон утром. Что чаще всего стоит за жалобой «нет сил» и когда добавляют ПСА. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_98&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-11",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-11T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-61",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_61.png",
+      "title": "Молочница возвращается: почему одного курса мало",
+      "description": "Лактобациллы производят молочную кислоту и держат среду кислой, а в кислой среде грибок не размножается. Что сбивает баланс: антибиотики, сахар, спринцевания и гормональные сдвиги. Почему диагноз ставится по мазку. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_177&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-12",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-12T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-62",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_62.png",
+      "title": "Железо через день усваивается лучше: про гепсидин",
+      "description": "Гепсидин управляет тем, сколько железа тело пропустит внутрь, и после дозы держится повышенным около суток. Поэтому та же суммарная доза через день усваивается лучше ежедневной. Почему при высоком СРБ курс не работает. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_163&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-13",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-13T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-63",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_63.png",
+      "title": "Вес стоит на честном дефиците: три гормона",
+      "description": "Инсулин блокирует распад жира, кортизол переносит его на живот и разбирает мышцы, а щитовидка при долгом ограничении снижает конверсию Т4 в активный Т3. Почему иногда сначала надо есть больше, а не меньше. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_83&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-14",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-14T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-64",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_64.png",
+      "title": "ТТГ красивый, а сил нет: смотрите надпочечники",
+      "description": "Кортизол нужен, чтобы гормон щитовидной железы сработал на уровне клетки. А при истощённых надпочечниках тело намеренно тормозит конверсию Т4 в активный Т3. Почему обе системы смотрят вместе. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_108&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-15",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-15T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-65",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_65.png",
+      "title": "Сорбент и микрофлора в одном: когда это оправдано",
+      "description": "Классический сорбент неизбирателен, но хитозан связывает жиры, диоксид кремния собирает газы брожения, фульвовые кислоты работают мягко. Смысл связки: убрать то, что кормит гнилостную флору, и одновременно заселить свою. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_67&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-16",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-16T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-66",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_66.png",
+      "title": "Частые позывы при чистых анализах: почему так бывает",
+      "description": "Стенка мочевого пузыря покрыта защитным слоем, который не даёт моче раздражать нервные окончания. После инфекций он повреждается, и обычная моча воспринимается как раздражитель. Плюс нервные окончания остаются настроенными на боль. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_174&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-17",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-17T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-67",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_67.png",
+      "title": "Ось кишечник-мозг: почему это не метафора",
+      "description": "В блуждающем нерве волокон снизу вверх примерно вчетверо больше, чем сверху вниз. Плюс иммунный канал: воспалённая стенка шлёт в кровь сигналы, которые влияют на настроение. Почему «нервничайте меньше» работает так плохо. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_72&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-18",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-18T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-68",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_68.png",
+      "title": "Сосуды теряют эластичность: что это на самом деле",
+      "description": "Внутренний слой сосуда производит оксид азота, сигнал к расслаблению стенки. Окислительный стресс повреждает этот слой, и сосуд хуже подстраивается под поток. В образовании бляшки участвует именно окисленный холестерин. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_220&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-19",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-19T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-69",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_69.png",
+      "title": "Тихое воспаление: как оно проявляется в анализах",
+      "description": "Оно идёт без температуры и красноты, годами. Смотреть надо высокочувствительный СРБ, соотношение нейтрофилов к лимфоцитам, ферритин при нормальном железе. Что его поддерживает и почему омега-3 не просто гасит, а завершает воспаление. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_214&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-20",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-20T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-70",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_70.png",
+      "title": "Ребёнок не может уснуть и плачет на ровном месте",
+      "description": "Потребность в магнии у растущего ребёнка выше, чем у взрослого в пересчёте на вес. Признаки нехватки: трудное засыпание, ночные судороги в икрах, тик, раздражительность, тяга к шоколаду. Какие формы выбирают для детей. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_94&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-21",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-21T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-71",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_71.png",
+      "title": "Две фазы детоксикации: почему нельзя разгонять первую",
+      "description": "Первая фаза делает вещество химически активным, и промежуточный продукт часто агрессивнее исходного. Вторая пришивает метку и обезвреживает. Разгонять первую без поддержки второй вредно. Что поддерживает обе и при чём тут стул. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_77&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-22",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-22T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-72",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_72.png",
+      "title": "Иммунитет к осени: что делать заранее, а не в ноябре",
+      "description": "Иммунный ответ не включается по кнопке: клеткам нужно сырьё, которое копится неделями. Витамин D к октябрю начинает таять, а к февралю у большинства на дне. Что проверяют за полтора месяца до сезона. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_190&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-23",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-23T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-73",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_73.png",
+      "title": "Легли в одиннадцать, а уснули в час",
+      "description": "Заснуть можно только когда температура тела начинает снижаться, поэтому помогает тёплый душ за час до сна. Плюс соотношение возбуждения и торможения, яркость света вечером и кофеин с периодом полувыведения около шести часов. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_165&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-24",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-24T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-74",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_74.png",
+      "title": "Высыпаюсь, а сил нет: смотрим на уровень клетки",
+      "description": "Энергия производится в митохондриях, и конвейеру нужны кофакторы: витамины группы B, коэнзим Q10, D-рибоза, карнитин. Без них клетка делает меньше энергии из той же еды. Что исключают в первую очередь. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_111&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-25",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-25T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-75",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_75.png",
+      "title": "После антибиотиков началось другое: почему так",
+      "description": "Антибиотик не различает своих и чужих и выбивает лактобациллы, которые держат кислую среду в кишечнике и мочеполовой сфере. Освободившееся место занимает то, что растёт быстрее. Что делают вместе с курсом, а не после. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_177&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-26",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-26T19:00:00+03:00"
+    },
+    {
+      "slug": "bady-76",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_76.png",
+      "title": "Клетчатка: как вводить, чтобы не раздувало",
+      "description": "Резкий переход даёт вздутие: бактериям привозят в разы больше еды, чем они привыкли перерабатывать. Прибавлять по 5 граммов в неделю, начинать с растворимой, пить достаточно воды. Сколько это в тарелке. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_64&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-10-27",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-10-27T19:00:00+03:00"
     }
   ]
 }
