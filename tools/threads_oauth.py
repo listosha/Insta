@@ -8,26 +8,36 @@
 и пока оно так, токен снова умрёт через 60 дней (ровно это и случилось: секрет
 обновляли 31.05.2026, канал встал 30.06, токен истёк около 30.07).
 
-Запускать ЛОКАЛЬНО, один раз. Сторонних пакетов не нужно, только Python 3.
-Откроется браузер с экраном авторизации Threads, после «Разрешить» редирект на
-http://localhost:8086/ поймает код и обменяет его на токены.
+Запускать ЛОКАЛЬНО, один раз. Откроется браузер с экраном авторизации Threads,
+после «Разрешить» редирект на https://localhost:8086/ поймает код и обменяет его
+на токены, а скрипт сам положит их в секреты GitHub.
+
+Почему https: Threads не пускает авторизацию с незащищённой страницы, попытка с
+http:// падает с «Небезопасный вход заблокирован» (error_code 1349187). Скрипт
+поднимает локальный HTTPS с самоподписанным сертификатом (создаётся сам при
+первом запуске, лежит в publisher/sync/certs, каталог в gitignore). Браузер
+один раз предупредит про сертификат - это ожидаемо, надо согласиться перейти.
 
 Подготовка:
   1. В приложении Meta (том же, что для Instagram) должен быть подключён
      use-case Threads API с правами threads_basic и threads_content_publish.
-  2. В настройках Threads API → Redirect Callback URLs добавить РОВНО:
-        http://localhost:8086/
-  3. Запустить:
-        THREADS_APP_ID=...  THREADS_APP_SECRET=...  python tools/threads_oauth.py
-     (Windows PowerShell:)
-        $env:THREADS_APP_ID="..."; $env:THREADS_APP_SECRET="..."; python tools/threads_oauth.py
+  2. В настройках Threads API -> Redirect Callback URLs добавить РОВНО:
+        https://localhost:8086/
+  3. Ключи приложения положить в C:\\Users\\listo\\publisher\\sync\\.env:
+        THREADS_APP_ID=...        <- App settings -> Basic -> Threads App ID
+        THREADS_APP_SECRET=...    <- там же Threads App Secret
+     (НЕ обычные App ID и App Secret сверху той же страницы.)
+  4. Запустить: python tools/threads_oauth.py
+
+Флаги:
+  --check      только проверка: ключи, свободен ли порт, ссылка авторизации
+  --no-github  не писать секреты, просто напечатать значения
 
 Скоупы: threads_basic (кто я) + threads_content_publish (публиковать посты и
 ответы). Ответ-с-ссылкой публикуется тем же скоупом, отдельного права не нужно.
 
-Что печатает в конце: THREADS_ACCESS_TOKEN и THREADS_USER_ID - их вручную
-положить в Settings → Secrets and variables → Actions репозитория listosha/Insta.
-Токен в консоли, в файлы ничего не пишется.
+По умолчанию токен в консоль не печатается: он шифруется и уходит прямо в
+секреты THREADS_ACCESS_TOKEN и THREADS_USER_ID репозитория listosha/Insta.
 """
 import http.server
 import json
@@ -38,6 +48,12 @@ import threading
 import urllib.parse
 import urllib.request
 import webbrowser
+
+# Консоль Windows часто в cp1251 и падает на не-кириллических символах.
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+except Exception:  # noqa: BLE001
+    pass
 
 def load_env_file():
     """Подхватываем ключи из publisher/sync/.env - он в gitignore и там же лежат
@@ -60,9 +76,15 @@ load_env_file()
 
 APP_ID = os.environ.get("THREADS_APP_ID", "").strip()
 APP_SECRET = os.environ.get("THREADS_APP_SECRET", "").strip()
-REDIRECT_URI = "http://localhost:8086/"
+# Threads не пускает авторизацию с незащищённой страницы: попытка с http:// падает
+# с «Небезопасный вход заблокирован» (error_code 1349187). Поэтому поднимаем локальный
+# HTTPS с самоподписанным сертификатом - браузер один раз предупредит, это нормально.
+REDIRECT_URI = "https://localhost:8086/"
 SCOPES = "threads_basic,threads_content_publish"
 PORT = 8086
+CERT_DIR = os.path.join(os.path.expanduser("~"), "publisher", "sync", "certs")
+CERT_FILE = os.path.join(CERT_DIR, "localhost-cert.pem")
+KEY_FILE = os.path.join(CERT_DIR, "localhost-key.pem")
 
 AUTH_URL = "https://threads.net/oauth/authorize"
 TOKEN_URL = "https://graph.threads.net/oauth/access_token"
@@ -72,6 +94,43 @@ ME_URL = "https://graph.threads.net/v1.0/me"
 GH_REPO = "listosha/Insta"
 
 result = {}
+
+
+def ensure_cert():
+    """Самоподписанный сертификат для localhost. Генерится один раз и переиспользуется."""
+    if os.path.exists(CERT_FILE) and os.path.exists(KEY_FILE):
+        return
+    from datetime import datetime, timedelta, timezone
+    from cryptography import x509
+    from cryptography.x509.oid import NameOID
+    from cryptography.hazmat.primitives import hashes, serialization
+    from cryptography.hazmat.primitives.asymmetric import rsa
+
+    os.makedirs(CERT_DIR, exist_ok=True)
+    key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
+    name = x509.Name([x509.NameAttribute(NameOID.COMMON_NAME, "localhost")])
+    now = datetime.now(timezone.utc)
+    cert = (
+        x509.CertificateBuilder()
+        .subject_name(name).issuer_name(name)
+        .public_key(key.public_key())
+        .serial_number(x509.random_serial_number())
+        .not_valid_before(now - timedelta(days=1))
+        .not_valid_after(now + timedelta(days=825))
+        .add_extension(x509.SubjectAlternativeName([
+            x509.DNSName("localhost"),
+            x509.IPAddress(__import__("ipaddress").ip_address("127.0.0.1")),
+        ]), critical=False)
+        .sign(key, hashes.SHA256())
+    )
+    with open(KEY_FILE, "wb") as f:
+        f.write(key.private_bytes(
+            serialization.Encoding.PEM,
+            serialization.PrivateFormat.TraditionalOpenSSL,
+            serialization.NoEncryption()))
+    with open(CERT_FILE, "wb") as f:
+        f.write(cert.public_bytes(serialization.Encoding.PEM))
+    print(f"Сертификат для localhost создан: {CERT_DIR}")
 
 
 def github_token():
@@ -219,12 +278,12 @@ def main():
     if not APP_ID or not APP_SECRET:
         print("Не нашёл THREADS_APP_ID и THREADS_APP_SECRET.")
         print("Заполни их в C:\\Users\\listo\\publisher\\sync\\.env либо задай переменными окружения.")
-        print("Где взять: developers.facebook.com → приложение → App settings → Basic →")
+        print("Где взять: developers.facebook.com -> приложение -> App settings -> Basic ->")
         print("поля «Threads App ID» и «Threads App Secret» (НЕ обычные App ID и App Secret сверху).")
         sys.exit(1)
 
     print(f"client_id, который уйдёт в Threads: {APP_ID}")
-    print("Сверь его с полем «Threads App ID» в App settings → Basic.\n")
+    print("Сверь его с полем «Threads App ID» в App settings -> Basic.\n")
 
     if "--check" in sys.argv:
         # Проверка без браузера: ключи прочитаны, порт свободен, ссылка собрана.
@@ -250,10 +309,17 @@ def main():
         "scope": SCOPES,
         "response_type": "code",
     })
+    ensure_cert()
     print("Открываю браузер. Если не открылся, зайди руками:\n" + url + "\n")
+    print("Браузер предупредит про сертификат localhost - это ожидаемо,")
+    print("жми «Дополнительно» -> «Перейти на localhost (небезопасно)».\n")
     webbrowser.open(url)
 
+    import ssl
+    ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+    ctx.load_cert_chain(CERT_FILE, KEY_FILE)
     with socketserver.TCPServer(("127.0.0.1", PORT), Handler) as httpd:
+        httpd.socket = ctx.wrap_socket(httpd.socket, server_side=True)
         httpd.serve_forever()
 
     if "error" in result:
