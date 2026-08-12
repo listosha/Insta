@@ -121,14 +121,26 @@ jobs:
               print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500. Aborting.")
               sys.exit(1)
 
-          # Шаг 1: создаём контейнер текстового поста
-          resp = graph_post(
-              f"{THREADS_BASE}/{USER_ID}/threads",
-              {
+          # Шаг 1: создаём контейнер. Если у записи есть поле "image" с публичным
+          # URL картинки - постим картинкой, текст уходит подписью. Иначе текстом.
+          image_url = entry.get("image")
+          if image_url:
+              params = {
+                  "media_type":   "IMAGE",
+                  "image_url":    image_url,
+                  "text":         text,
+                  "access_token": ACCESS_TOKEN,
+              }
+              print(f"With image: {image_url}")
+          else:
+              params = {
                   "media_type":   "TEXT",
                   "text":         text,
                   "access_token": ACCESS_TOKEN,
-              },
+              }
+          resp = graph_post(
+              f"{THREADS_BASE}/{USER_ID}/threads",
+              params,
               "Create container",
           )
           creation_id = resp.json()["id"]
