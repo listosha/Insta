@@ -17,12 +17,13 @@
     }
   },
   "counts": {
-    "total": 145,
+    "total": 295,
     "guides": 10,
     "articles": 9,
     "menu": 30,
     "hero": 60,
-    "glucose": 36
+    "glucose": 36,
+    "wave1": 150
   },
   "pins": [
     {
@@ -2354,6 +2355,2406 @@
       "time": "21:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-30T21:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_01.png",
+      "title": "Ферритин упал, а гемоглобин в норме",
+      "description": "Ферритин упал, а гемоглобин в норме. Гемоглобин держится дольше всех · Сначала пустеет склад - ферритин · Симптомы приходят раньше анемии · ОАК один ничего не покажет · Смотреть ферритин отдельно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_02.png",
+      "title": "Ферритин: рабочие ориентиры",
+      "description": "Ферритин: рабочие ориентиры. Женщины: комфортно 50-100 · Мужчины: 80-150 · Ниже 30 - почти всегда дефицит · 30-50 - зона симптомов · Выше 200 - искать причину. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_03.png",
+      "title": "Бегаешь и упал ферритин: почему так",
+      "description": "Бегаешь и упал ферритин: почему так. Потери с потом · Микротравмы стопы при беге · Воспаление после нагрузки · Выше расход кислорода · Проверять ферритин раз в полгода. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_04.png",
+      "title": "Обильные месячные и вечный дефицит",
+      "description": "Обильные месячные и вечный дефицит. Главная причина у женщин · Прокладка за 2 часа - это много · Сгустки крупнее монеты · Цикл короче 24 дней · Без разбора причины железо не удержится. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_05.png",
+      "title": "Латентный дефицит: анемии нет, а железа нет",
+      "description": "Латентный дефицит: анемии нет, а железа нет. Гемоглобин ещё нормальный · Ферритин уже низкий · Насыщение трансферрина падает · Симптомы уже есть · Это стадия до анемии. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_06.png",
+      "title": "Сколько ждать, пока поднимется ферритин",
+      "description": "Сколько ждать, пока поднимется ферритин. Самочувствие - 3-4 недели · Гемоглобин - 1-2 месяца · Ферритин - 3-6 месяцев · Бросают обычно на середине · Контроль по анализу, не по ощущениям. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_07.png",
+      "title": "Железо через день работает лучше",
+      "description": "Железо через день работает лучше. Гепсидин растёт после дозы · Сутки блокирует всасывание · Через день усваивается больше · Меньше побочных со стороны ЖКТ · Схему подбирает врач. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_08.png",
+      "title": "Воспаление запирает железо",
+      "description": "Воспаление запирает железо. Гепсидин закрывает всасывание · Ферритин растёт как белок воспаления · Цифра высокая, а железа нет · Смотреть СРБ рядом с ферритином · Сначала гасим воспаление. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_09.png",
+      "title": "Железо и щитовидка тянут друг друга",
+      "description": "Железо и щитовидка тянут друг друга. Железо нужно для синтеза гормонов · Гипотиреоз ухудшает всасывание · Симптомы почти одинаковые · Проверять обе истории сразу · Одно без другого не вытянуть. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-13",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_10.png",
+      "title": "Сколько ферритина нужно волосам",
+      "description": "Сколько ферритина нужно волосам. Волос первым уходит в экономию · Ниже 30 - выпадение частое · Ориентир для роста - от 50 · Эффект виден через 3-4 месяца · Один биотин тут не работает. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_11.png",
+      "title": "Ферритин высокий: о чём это говорит",
+      "description": "Ферритин высокий: о чём это говорит. Воспаление или инфекция · Проблемы с печенью · Алкоголь · Избыточный приём железа · Редко - перегрузка железом. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_12.png",
+      "title": "Железо всасывается в начале кишки",
+      "description": "Железо всасывается в начале кишки. Двенадцатиперстная кишка · Нужна кислая среда желудка · Воспаление снижает всасывание · Целиакия крадёт железо · Кишечник важнее дозы. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_13.png",
+      "title": "Низкая кислотность: железо просто не идёт",
+      "description": "Низкая кислотность: железо просто не идёт. Кислота переводит железо в усвояемую форму · Гастрит и возраст снижают её · Отрыжка, тяжесть, вздутие - сигналы · Кислое к еде помогает · Проверить желудок до курса. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_14.png",
+      "title": "Железо уходит, а причину не ищут",
+      "description": "Железо уходит, а причину не ищут. Обильные месячные · Скрытая кровопотеря в ЖКТ · Целиакия и воспаление кишечника · Хеликобактер · Донорство без контроля. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_15.png",
+      "title": "Подростку не хватает железа чаще, чем кажется",
+      "description": "Подростку не хватает железа чаще, чем кажется. Быстрый рост забирает запасы · Старт менструаций у девочек · Еда «на бегу» · Падает внимание и учёба · Ферритин - простой способ проверить. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_16.png",
+      "title": "Низкое железо у мужчины это всегда вопрос",
+      "description": "Низкое железо у мужчины это всегда вопрос. Месячных нет, значит есть потеря · Смотрят ЖКТ в первую очередь · Спорт на выносливость · Целиакия · Само по себе не бывает. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_17.png",
+      "title": "Как считать железо, если не ешь мясо",
+      "description": "Как считать железо, если не ешь мясо. Негемовое усваивается хуже · Витамин C к каждому приёму · Замачивать бобовые и крупы · Квашеное рядом · Ферритин контролировать чаще. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_18.png",
+      "title": "Кофе после железа: через сколько можно",
+      "description": "Кофе после железа: через сколько можно. Танины связывают железо · Разводить минимум на 2 часа · То же про чёрный и зелёный чай · Какао туда же · Утренний кофе - не с добавкой. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-14",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_19.png",
+      "title": "Кальций и железо мешают друг другу",
+      "description": "Кальций и железо мешают друг другу. Конкурируют за один транспорт · Молочное - в другой приём · Добавки развести на 4 часа · Творог не к железу · Порядок важнее дозы. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_20.png",
+      "title": "Тошнит от железа: что обычно помогает",
+      "description": "Тошнит от железа: что обычно помогает. Принимать после еды · Разделить приём · Другая форма препарата · Приём через день · Обсудить с врачом, не бросать молча. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_21.png",
+      "title": "Запор на железе: 5 рабочих шагов",
+      "description": "Запор на железе: 5 рабочих шагов. Больше воды · Клетчатка из овощей · Слива и киви · Движение каждый день · Обсудить смену формы. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_22.png",
+      "title": "Тёмный стул на железе это нормально",
+      "description": "Тёмный стул на железе это нормально. Неусвоенное железо окисляется · Цвет меняется почти у всех · Тревожно, если чёрный и дёгтеобразный · Плюс слабость и боль - к врачу · Само по себе не опасно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_23.png",
+      "title": "MCV и MCH: что это в анализе",
+      "description": "MCV и MCH: что это в анализе. MCV - средний объём эритроцита · MCH - сколько в нём гемоглобина · Низкие - думают о железе · Высокий MCV - о B12 и фолатах · Смотреть вместе с ферритином. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_24.png",
+      "title": "RDW вырос: ранний звоночек",
+      "description": "RDW вырос: ранний звоночек. Разброс эритроцитов по размеру · Растёт раньше гемоглобина · Часто первый признак дефицита · Смотреть с MCV · Повод проверить ферритин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_25.png",
+      "title": "ОЖСС и трансферрин простыми словами",
+      "description": "ОЖСС и трансферрин простыми словами. Трансферрин - грузовик для железа · ОЖСС - сколько всего мест · Мало железа - грузовиков больше · Насыщение ниже 20% - дефицит · Одна цифра без других не читается. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_26.png",
+      "title": "Насыщение трансферрина: недооценённая цифра",
+      "description": "Насыщение трансферрина: недооценённая цифра. Показывает железо в дороге · Ниже 20% - дефицит вероятен · Падает раньше гемоглобина · Считается из железа и ОЖСС · Часто есть в бланке, но её не смотрят. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_27.png",
+      "title": "Что уходит первым, когда железо возвращается",
+      "description": "Что уходит первым, когда железо возвращается. Сначала - туман в голове · Потом выносливость · Дальше - волосы и ногти · Позже всех - холодные руки · Полный круг занимает месяцы. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_28.png",
+      "title": "Тарелка на железо: как собрать за минуту",
+      "description": "Тарелка на железо: как собрать за минуту. Белок животный или бобовые · Овощи с витамином C · Зелень · Без молочного в этот приём · Кофе - через два часа. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-15",
+      "time": "21:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T21:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_29.png",
+      "title": "Субпродукты, если их не любишь",
+      "description": "Субпродукты, если их не любишь. Печень в паштет с яблоком · Немного в фарш для котлет · Сердце тушить с овощами · Раз в неделю достаточно · Начать с маленькой порции. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_30.png",
+      "title": "Морепродукты и железо",
+      "description": "Морепродукты и железо. Мидии и устрицы - лидеры · Осьминог и кальмар · Плюс цинк и B12 в комплекте · Консервы тоже считаются · Пара раз в неделю. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_31.png",
+      "title": "Гречка не спасает от дефицита железа",
+      "description": "Гречка не спасает от дефицита железа. Железо в ней негемовое · Фитаты мешают всасыванию · Цифра в таблице ≠ усвоено · Замачивание немного помогает · Одной гречкой ферритин не поднять. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_32.png",
+      "title": "Гранат и яблоки: красное ≠ железо",
+      "description": "Гранат и яблоки: красное ≠ железо. Железа в них мало · Цвет ни при чём · Польза - в витамине C · Работают как помощники · Основа всё равно белок и бобовые. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_33.png",
+      "title": "Витамин A помогает железу выйти из склада",
+      "description": "Витамин A помогает железу выйти из склада. Мобилизует железо из запасов · Дефицит A мешает поднять гемоглобин · Печень, желток, жирная рыба · Бета-каротин из моркови и тыквы · Проверять вместе с железом. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_34.png",
+      "title": "Медь: без неё железо не поедет",
+      "description": "Медь: без неё железо не поедет. Нужна для транспорта железа · Дефицит даёт «железоустойчивую» картину · Много цинка вымывает медь · Орехи, какао, печень · Смотреть, если железо не растёт. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_35.png",
+      "title": "B12 и фолаты смотрят рядом с железом",
+      "description": "B12 и фолаты смотрят рядом с железом. Дефициты часто идут вместе · B12 маскирует картину в ОАК · MCV может остаться нормальным · Проверять до начала курса · Иначе лечим половину. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_36",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_36.png",
+      "title": "Синдром беспокойных ног: проверь ферритин",
+      "description": "Синдром беспокойных ног: проверь ферритин. Тянет шевелить ногами вечером · Мешает засыпать · Часто связан с низким ферритином · Ориентир для проверки - ниже 75 · Уходит на фоне восполнения. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_37",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_37.png",
+      "title": "Заеды в уголках рта и ломкие ногти",
+      "description": "Заеды в уголках рта и ломкие ногти. Классика дефицита железа · Плюс B2 и B12 · Ногти в ложечку - койлонихия · Бледная слизистая век · Всё это до анемии. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_38",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_38.png",
+      "title": "Одышка на лестнице без нагрузки",
+      "description": "Одышка на лестнице без нагрузки. Кислород возить нечем · Сердце частит в покое · Шум в ушах при вставании · Кружится голова · Повод сдать ОАК и ферритин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-16",
+      "time": "21:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T21:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_39",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_39.png",
+      "title": "Сдаёшь кровь следи за ферритином",
+      "description": "Сдаёшь кровь следи за ферритином. Каждая донация уносит запас · Гемоглобин восстановится раньше · Ферритин - заметно позже · Проверять раз в полгода · Не про отказ, про контроль. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-17",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_40",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_40.png",
+      "title": "Что мешает железу в обычной еде",
+      "description": "Что мешает железу в обычной еде. Фитаты в отрубях и злаках · Танины в чае и кофе · Кальций в молочном · Оксалаты в шпинате · Соя в большом объёме. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-17",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_41",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_41.png",
+      "title": "Чугунная сковорода немного, но добавляет",
+      "description": "Чугунная сковорода немного, но добавляет. Часть железа переходит в еду · Сильнее с кислым - томаты · Эффект небольшой · Дефицит ею не закрыть · Приятный бонус, не лечение. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-17",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_42",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_42.png",
+      "title": "Когда пересдавать железо и ферритин",
+      "description": "Когда пересдавать железо и ферритин. Через 4-6 недель от старта · Потом раз в 2-3 месяца · Не сдавать в простуду · Не пить добавку в день сдачи · Сравнивать в одной лаборатории. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-17",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_43",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_43.png",
+      "title": "Когда железо принимать не надо",
+      "description": "Когда железо принимать не надо. Ферритин высокий · Активная инфекция · Перегрузка железом в семье · Без анализа «на всякий случай» · Только по результату, не по симптому. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-17",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_44",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_44.png",
+      "title": "Утро или вечер: когда пить железо",
+      "description": "Утро или вечер: когда пить железо. Натощак усваивается лучше · Но чаще тошнит · Компромисс - через час после еды · Главное - стабильность · И два часа без кофе и молочного. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-17",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_iron_45",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_45.png",
+      "title": "Железо: 7 шагов, чтобы закрыть вопрос",
+      "description": "Железо: 7 шагов, чтобы закрыть вопрос. Сдать ферритин, ОАК, СРБ · Найти причину потери · Наладить кислотность и кишечник · Убрать блокаторы из приёма · Добавить витамин C · Держать курс месяцами · Пересдать и не бросать раньше. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-08-17",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_01.png",
+      "title": "Базовый набор: что сдать первым делом",
+      "description": "Базовый набор: что сдать первым делом. ОАК с лейкоформулой · Ферритин и СРБ · Витамин D · ТТГ · Глюкоза и инсулин · АЛТ, АСТ, креатинин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-17",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_02.png",
+      "title": "6 ошибок перед сдачей крови",
+      "description": "6 ошибок перед сдачей крови. Тренировка накануне · Алкоголь за сутки · Добавки утром того же дня · Жирный ужин · Сдача в простуду · Разные лаборатории каждый раз. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-17",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_03.png",
+      "title": "Натощак или нет: что реально важно",
+      "description": "Натощак или нет: что реально важно. Строго натощак: глюкоза, инсулин, липиды · 8-12 часов, не больше · Вода можно · ТТГ и ферритин - не критично · Кофе ломает даже «нестрогие». Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_04.png",
+      "title": "Что сдавать только утром",
+      "description": "Что сдавать только утром. Кортизол - до 9 утра · Тестостерон - 7-11 · ТТГ выше утром · Железо скачет в течение дня · Пересдавать в то же время. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_05.png",
+      "title": "На какой день цикла сдавать гормоны",
+      "description": "На какой день цикла сдавать гормоны. ФСГ, ЛГ, эстрадиол - 2-5 день · Прогестерон - 7 дней до месячных · Пролактин - любой, но утром · ТТГ и ферритин - любой день · Считать от первого дня. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_06.png",
+      "title": "ОАК: что смотреть кроме гемоглобина",
+      "description": "ОАК: что смотреть кроме гемоглобина. MCV - размер эритроцита · MCH - гемоглобин в клетке · RDW - разброс размеров · Тромбоциты · Лейкоформула целиком. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_07.png",
+      "title": "Лейкоформула простыми словами",
+      "description": "Лейкоформула простыми словами. Нейтрофилы - бактерии · Лимфоциты - вирусы · Моноциты - затяжное · Эозинофилы - аллергия и паразиты · Смотреть в процентах и в абсолюте. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_08.png",
+      "title": "СОЭ и СРБ: в чём разница",
+      "description": "СОЭ и СРБ: в чём разница. СРБ реагирует за часы · СОЭ - за дни и тянется · СРБ точнее для «сейчас» · Высокий СРБ ломает ферритин · Сдавать вне простуды. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_09.png",
+      "title": "Ферритин без СРБ читать нельзя",
+      "description": "Ферритин без СРБ читать нельзя. Ферритин растёт при воспалении · Дефицит спрячется за нормальной цифрой · СРБ показывает, верить ли ферритину · Сдавать одним заходом · Это самая частая ошибка. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_10.png",
+      "title": "Витамин D: какой анализ нужен",
+      "description": "Витамин D: какой анализ нужен. 25(OH)D - это он · 1,25(OH)2D обычно не нужен · Ориентир - 30-60 · Ниже 20 - выраженный дефицит · Контроль через 3 месяца. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_11.png",
+      "title": "B12 в норме, а дефицит есть",
+      "description": "B12 в норме, а дефицит есть. Общий B12 включает неактивную форму · Точнее - гомоцистеин · Ещё точнее - метилмалоновая кислота · Добавка накануне завышает цифру · Смотреть с фолатами. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-18",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_12.png",
+      "title": "Гомоцистеин: зачем его сдают",
+      "description": "Гомоцистеин: зачем его сдают. Показывает работу B12 и фолатов · Растёт при их нехватке · Ориентир - ниже 8 · Связан с сосудами · Дешёвый и информативный. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_13.png",
+      "title": "АЛТ и АСТ: что они значат",
+      "description": "АЛТ и АСТ: что они значат. АЛТ - про печень · АСТ - печень, мышцы, сердце · Тренировка накануне завышает АСТ · Смотреть в динамике · Оба вместе информативнее. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_14.png",
+      "title": "ГГТ: самый чуткий по печени",
+      "description": "ГГТ: самый чуткий по печени. Реагирует раньше АЛТ · Алкоголь поднимает заметно · Растёт при застое желчи · Часто единственный отклонённый · Повод посмотреть желчный. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_15.png",
+      "title": "Билирубин повышен: не всегда болезнь",
+      "description": "Билирубин повышен: не всегда болезнь. Часто это синдром Жильбера · Растёт натощак и на стрессе · Смотреть прямой и непрямой · Плюс АЛТ и ГГТ · Одна цифра ничего не решает. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_16.png",
+      "title": "Липидограмма: что важнее общего холестерина",
+      "description": "Липидограмма: что важнее общего холестерина. ЛПНП - основной ориентир · ЛПВП - защитный · Триглицериды - про питание · Не-ЛПВП холестерин · Соотношение ТГ/ЛПВП. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_17.png",
+      "title": "Глюкоза натощак почти ничего не говорит",
+      "description": "Глюкоза натощак почти ничего не говорит. Держится нормальной годами · Инсулин растёт раньше · HOMA-IR считается из двух цифр · Гликированный - средняя за квартал · Сдавать всё вместе. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_18.png",
+      "title": "Гликированный иногда обманывает",
+      "description": "Гликированный иногда обманывает. Занижен при анемии · Завышен при дефиците железа · Зависит от жизни эритроцита · Смотреть с ОАК · Не единственный маркер. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_19.png",
+      "title": "Креатинин и СКФ: как читать",
+      "description": "Креатинин и СКФ: как читать. Креатинин зависит от мышц · СКФ - расчётный показатель · У спортсменов бывает завышен · Смотреть с мочевиной · Динамика важнее одной точки. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_20.png",
+      "title": "Мочевая кислота: не только про подагру",
+      "description": "Мочевая кислота: не только про подагру. Растёт при инсулинорезистентности · Фруктоза поднимает заметно · Алкоголь тоже · Связана с давлением · Смотреть с глюкозой и инсулином. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-19",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_21.png",
+      "title": "Общий белок и альбумин: что показывают",
+      "description": "Общий белок и альбумин: что показывают. Альбумин - питание и печень · Низкий - мало белка в еде · Влияет на кальций в бланке · Падает при воспалении · Простой маркер дефицита. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_22.png",
+      "title": "Магний в крови мало что показывает",
+      "description": "Магний в крови мало что показывает. В крови всего 1% запаса · Тело держит цифру любой ценой · Дефицит бывает при норме · Смотреть на симптомы · Эритроцитарный чуть точнее. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_23.png",
+      "title": "Цинк и медь: смотреть только вместе",
+      "description": "Цинк и медь: смотреть только вместе. Конкурируют за всасывание · Долгий цинк вымывает медь · Дефицит меди даёт анемию · Соотношение важнее цифр · Сдавать одним заходом. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_24.png",
+      "title": "Кальций общий или ионизированный",
+      "description": "Кальций общий или ионизированный. Общий зависит от альбумина · Ионизированный - рабочая форма · При низком белке общий занижен · Смотреть с витамином D · И с паратгормоном. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_25.png",
+      "title": "Паратгормон: когда его сдают",
+      "description": "Паратгормон: когда его сдают. Кальций отклонился · Витамин D долго низкий · Камни в почках в анамнезе · Плохая плотность костей · Читается только в паре с кальцием. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_26.png",
+      "title": "Омега-3 индекс: что он показывает",
+      "description": "Омега-3 индекс: что он показывает. Долю омега-3 в мембранах · Ориентир - выше 8% · У большинства ниже 4% · Меняется за 3-4 месяца · Не путать с жирными кислотами крови. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_27.png",
+      "title": "ТТГ и время суток: почему цифра пляшет",
+      "description": "ТТГ и время суток: почему цифра пляшет. Утром выше, вечером ниже · Разница бывает вдвое · Пересдавать в то же время · Не сдавать после бессонной ночи · Сравнивать в одной лаборатории. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_28.png",
+      "title": "Антитела ТПО и ТГ: что делать с плюсом",
+      "description": "Антитела ТПО и ТГ: что делать с плюсом. Сами по себе не лечатся · Показывают аутоиммунный процесс · Смотреть с ТТГ и Т4 · Пересдавать не чаще раза в год · Динамика титра мало что меняет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_29.png",
+      "title": "Кортизол: кровь или слюна",
+      "description": "Кортизол: кровь или слюна. Кровь - одна точка утром · Слюна - четыре точки за день · Ритм важнее уровня · Стресс перед забором ломает результат · Выбирать по задаче. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-20",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_30.png",
+      "title": "Пролактин: правила сдачи",
+      "description": "Пролактин: правила сдачи. Утром, через 2-3 часа после сна · Без стресса и спешки · Без секса и массажа груди накануне · Без тренировки · Повышенный - пересдать. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_31.png",
+      "title": "Что сдать мужчине после сорока",
+      "description": "Что сдать мужчине после сорока. ОАК и ферритин · Глюкоза, инсулин, гликированный · Липидограмма · АЛТ, АСТ, ГГТ, креатинин · ТТГ и витамин D · Тестостерон утром. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_32.png",
+      "title": "Референс лаборатории это не норма",
+      "description": "Референс лаборатории это не норма. Это разброс тех, кто сдавал · Туда попали и нездоровые · Рабочий коридор часто уже · Особенно по ферритину и B12 · «В пределах нормы» ≠ хорошо. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_33.png",
+      "title": "Динамика важнее одной точки",
+      "description": "Динамика важнее одной точки. Любая цифра - снимок момента · Два замера показывают тренд · Сдавать в одной лаборатории · В одинаковых условиях · Хранить все бланки вместе. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_34.png",
+      "title": "Как хранить свои анализы",
+      "description": "Как хранить свои анализы. Один файл или папка · Дата и лаборатория в имени · Таблица ключевых цифр · Отмечать, что принимали · На приём - со всей историей. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_35.png",
+      "title": "Что не надо сдавать «на всякий случай»",
+      "description": "Что не надо сдавать «на всякий случай». Огромные панели гормонов без жалоб · Пищевая непереносимость IgG · Витамины по одному без плана · Онкомаркеры для скрининга · Сначала вопрос, потом анализ. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_36",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_36.png",
+      "title": "Как часто повторять анализы",
+      "description": "Как часто повторять анализы. Дефициты - через 3 месяца · ТТГ при стабильности - раз в год · Липиды - раз в год · ОАК - раз в год · Чаще только по показаниям. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_37",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_37.png",
+      "title": "Пил витамин D, а цифра не выросла",
+      "description": "Пил витамин D, а цифра не выросла. Мало времени приёма · Не хватает магния · Проблемы с желчью и жирами · Лишний вес «разбавляет» · Проверить кальций и ПТГ. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_38",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_38.png",
+      "title": "Добавки в день сдачи ломают результат",
+      "description": "Добавки в день сдачи ломают результат. Биотин искажает гормоны · Железо завышает сывороточное · B12 завышает свой же анализ · Пауза 3-7 дней · Сказать врачу, что принимали. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-21",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_39",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_39.png",
+      "title": "Что сдать женщине раз в год",
+      "description": "Что сдать женщине раз в год. ОАК, ферритин, СРБ · ТТГ · Витамин D и B12 · Глюкоза и инсулин · Липидограмма · АЛТ, креатинин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-22",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_lab_40",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_40.png",
+      "title": "Как читать анализы: 6 правил",
+      "description": "Как читать анализы: 6 правил. Смотреть группы, не цифры · Рабочий коридор, а не референс · Ферритин только с СРБ · Одна лаборатория и одно время · Динамика вместо точки · Симптомы важнее бланка. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-08-22",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_01.png",
+      "title": "Щитовидка: полный набор анализов",
+      "description": "Щитовидка: полный набор анализов. ТТГ · Т4 свободный · Т3 свободный · АТ-ТПО · АТ-ТГ · УЗИ при жалобах. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-22",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_02.png",
+      "title": "ТТГ 3,5 это норма или уже нет",
+      "description": "ТТГ 3,5 это норма или уже нет. Референс тянется до 4 · Рабочий коридор уже: 1-2 · Выше 2,5 плюс симптомы - вопрос · При планировании беременности строже · Одного ТТГ мало. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-22",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_03.png",
+      "title": "Т4 свободный: что он показывает",
+      "description": "Т4 свободный: что он показывает. Это заготовка гормона · Основной продукт железы · Падает при гипотиреозе · Смотреть вместе с ТТГ · Без него ТТГ читается вслепую. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-22",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_04.png",
+      "title": "Т3 свободный: рабочая форма гормона",
+      "description": "Т3 свободный: рабочая форма гормона. В неё превращается Т4 · Работает в клетках · Падает при стрессе и голодании · Нужны селен, цинк, железо · Смотреть, если симптомы есть, а ТТГ норм. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-22",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_05.png",
+      "title": "Т4 не превращается в Т3: почему",
+      "description": "Т4 не превращается в Т3: почему. Хронический стресс · Дефицит селена и цинка · Низкий ферритин · Голодание и жёсткий дефицит калорий · Воспаление и проблемы печени. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-22",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_06.png",
+      "title": "АТ-ТПО положительные: что делать дальше",
+      "description": "АТ-ТПО положительные: что делать дальше. Это не приговор и не диагноз сам по себе · Смотреть ТТГ и Т4 · Контроль раз в 6-12 месяцев · Селен и витамин D в фокусе · Титр снижать смысла нет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-22",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_07.png",
+      "title": "АТ-ТГ: зачем второй анализ",
+      "description": "АТ-ТГ: зачем второй анализ. Бывает положительным при отрицательном ТПО · Дополняет картину · Иногда мешает другим анализам · Сдают один раз для понимания · Каждый месяц пересдавать не нужно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-22",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_08.png",
+      "title": "Гипотиреоз: 7 ранних признаков",
+      "description": "Гипотиреоз: 7 ранних признаков. Мёрзнете, когда всем нормально · Отёк лица по утрам · Сухая кожа и ломкие волосы · Запоры · Медленный пульс · Туман в голове · Прибавка веса без изменений в еде. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-22",
+      "time": "21:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T21:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_09.png",
+      "title": "Субклинический гипотиреоз: что это значит",
+      "description": "Субклинический гипотиреоз: что это значит. ТТГ повышен, Т4 в норме · Симптомы бывают, бывают нет · Решение зависит от антител · И от планов на беременность · Наблюдение - тоже тактика. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_10.png",
+      "title": "Щитовидка разогналась: 6 признаков",
+      "description": "Щитовидка разогналась: 6 признаков. Сердце частит в покое · Худеете без причины · Потливость и жар · Тремор рук · Тревожность и бессонница · Стул чаще обычного. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_11.png",
+      "title": "Где брать йод из еды",
+      "description": "Где брать йод из еды. Морская рыба · Морская капуста · Креветки и мидии · Яйца · Йодированная соль · Молочное. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_12.png",
+      "title": "Кому с йодом нужна осторожность",
+      "description": "Кому с йодом нужна осторожность. При АИТ большие дозы могут навредить · Не назначать себе «на глаз» · Из еды - безопасно · Добавки - только с врачом · Сначала анализы, потом йод. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_13.png",
+      "title": "Селен и щитовидная железа",
+      "description": "Селен и щитовидная железа. Нужен для превращения Т4 в Т3 · Защищает железу от окисления · Бразильский орех - самый простой источник · Больше не значит лучше · Курсом и с контролем. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_14.png",
+      "title": "Что нужно щитовидке кроме йода",
+      "description": "Что нужно щитовидке кроме йода. Селен · Цинк · Железо и ферритин · Витамин D · Белок в достатке · Тирозин из белковой еды. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_15.png",
+      "title": "Капуста и соя: правда про гойтрогены",
+      "description": "Капуста и соя: правда про гойтрогены. Мешают только в больших объёмах · Термообработка снимает эффект · При нормальном йоде риска нет · Соя может мешать таблетке · Отказываться от овощей не нужно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_16.png",
+      "title": "Глютен и АИТ: что известно на сегодня",
+      "description": "Глютен и АИТ: что известно на сегодня. При целиакии - исключать обязательно · Без целиакии данные слабее · Часть людей отмечает улучшение · Пробовать осознанно, а не «за компанию» · Рацион не должен обеднеть. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_17.png",
+      "title": "Стресс бьёт по щитовидке",
+      "description": "Стресс бьёт по щитовидке. Кортизол тормозит конверсию Т4 в Т3 · Растёт реверсивный Т3 · Симптомы есть, ТТГ нормальный · Сон и восстановление - часть лечения · Без этого добавки не вытянут. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_18.png",
+      "title": "Кишечник и щитовидка: связь ближе, чем кажется",
+      "description": "Кишечник и щитовидка: связь ближе, чем кажется. Часть Т4 превращается в Т3 при участии микробиоты · Воспаление снижает конверсию · Запоры замедляют обмен гормонов · Нужны белок и клетчатка · Начинать часто приходится отсюда. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-23",
+      "time": "21:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T21:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_19.png",
+      "title": "Печень делает львиную долю Т3",
+      "description": "Печень делает львиную долю Т3. Основная конверсия идёт там · Жировой гепатоз мешает · Алкоголь мешает · Нужны белок и аминокислоты · Смотреть АЛТ и ГГТ. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_20.png",
+      "title": "Щитовидка ломает цикл: как это выглядит",
+      "description": "Щитовидка ломает цикл: как это выглядит. Цикл удлиняется или пропадает · Месячные обильнее · ПМС тяжелее · Прогестерон проседает · ТТГ проверяют при любых сбоях цикла. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_21.png",
+      "title": "Щитовидка и планирование",
+      "description": "Щитовидка и планирование. Требования к ТТГ строже · Проверять до, а не после · Антитела меняют тактику · Йод обсуждается с врачом · Контроль каждый триместр. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_22.png",
+      "title": "Щитовидка и вес: сколько на неё списывать",
+      "description": "Щитовидка и вес: сколько на неё списывать. Гипотиреоз замедляет обмен · Но обычно это единицы килограммов · Много - это уже отёки и питание · Компенсация не растворяет вес сама · Лечим железу, а не весы. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_23.png",
+      "title": "Холестерин вырос, а щитовидку не смотрели",
+      "description": "Холестерин вырос, а щитовидку не смотрели. Гипотиреоз поднимает ЛПНП · Классическая связка · Проверяют ТТГ до статинов · Компенсация часто снижает цифры · Смотреть вместе. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_24.png",
+      "title": "Запоры и щитовидная железа",
+      "description": "Запоры и щитовидная железа. Гипотиреоз замедляет моторику · Вода и клетчатка помогают частично · Магний в помощь · Без компенсации не уйдёт · Частая недооценённая причина. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_25.png",
+      "title": "Пульс подсказывает про щитовидку",
+      "description": "Пульс подсказывает про щитовидку. Медленный - вниз по гормонам · Частый в покое - вверх · Мерить утром лёжа · Записывать неделю · Полезно принести врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_26.png",
+      "title": "Сухая кожа и локти: проверь щитовидку",
+      "description": "Сухая кожа и локти: проверь щитовидку. Кожа сухая круглый год · Шелушение на локтях · Отёчность лица · Ломкие ногти · Крем не решает системную причину. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_27.png",
+      "title": "Апатия и туман: не всегда выгорание",
+      "description": "Апатия и туман: не всегда выгорание. Гипотиреоз даёт ту же картину · Мысли медленнее · Память хуже · Интерес пропадает · ТТГ стоит проверить до психолога. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-24",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_28.png",
+      "title": "Что мешает таблетке щитовидки",
+      "description": "Что мешает таблетке щитовидки. Кофе сразу после приёма · Кальций и железо · Соя и клетчатка в тот же час · Антациды · Правило - интервал и постоянство. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-25",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_29.png",
+      "title": "Когда пересдавать ТТГ после изменений",
+      "description": "Когда пересдавать ТТГ после изменений. Через 6-8 недель · Раньше цифра ещё не устоялась · Утром и натощак · В той же лаборатории · Дальше - раз в 6-12 месяцев. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-25",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_30.png",
+      "title": "УЗИ щитовидки: когда оно нужно",
+      "description": "УЗИ щитовидки: когда оно нужно. Прощупывается образование · Меняется голос или глотание · Антитела положительные · Отклонения в гормонах · Каждый год «для профилактики» - не нужно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-25",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_31.png",
+      "title": "Нашли узел: что значит категория",
+      "description": "Нашли узел: что значит категория. Категорию ставят по УЗИ · 1-2 - наблюдение · 3 - контроль по срокам · 4-5 - обсуждают пункцию · Решение принимает врач, не интернет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-25",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_32.png",
+      "title": "Постоянно 36,2: при чём тут щитовидка",
+      "description": "Постоянно 36,2: при чём тут щитовидка. Гормоны задают темп обмена · Низкая температура - частый спутник · Мерить утром в покое · Смотреть вместе с пульсом · Само по себе не диагноз. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-25",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_33.png",
+      "title": "Отёки лица по утрам: частая причина",
+      "description": "Отёки лица по утрам: частая причина. Гипотиреоз задерживает жидкость · Отёк плотный, не «водичка» · Кольца становятся тесными · Соль и вода тут вторичны · Проверять ТТГ и Т4. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-25",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_34.png",
+      "title": "Тарелка для щитовидки: что класть",
+      "description": "Тарелка для щитовидки: что класть. Белок в каждый приём · Морская рыба дважды в неделю · Овощи и зелень · Орехи для селена · Достаточно калорий - без жёстких диет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-25",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_thy_35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_35.png",
+      "title": "Щитовидка: 6 шагов по порядку",
+      "description": "Щитовидка: 6 шагов по порядку. Сдать ТТГ, Т4, Т3, антитела · Проверить ферритин и витамин D · Убрать жёсткий дефицит калорий · Наладить сон и стресс · Добавить селен и цинк по анализам · Пересдать через 6-8 недель. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-08-25",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_01.png",
+      "title": "Когда она начинается на самом деле",
+      "description": "Когда она начинается на самом деле. Чаще всего после 40 · Иногда с 37-38 · Длится от двух до восьми лет · Месячные ещё идут · Гормоны уже качает. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-25",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_02.png",
+      "title": "Перименопауза или щитовидка",
+      "description": "Перименопауза или щитовидка. Симптомы пересекаются почти полностью · Усталость, вес, туман, сухость кожи · ТТГ и Т4 отвечают на вопрос за день · Часто есть и то, и другое · Начинать со щитовидки - дешевле. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_03.png",
+      "title": "Цикл поехал: что здесь нормально",
+      "description": "Цикл поехал: что здесь нормально. Стал короче на 2-4 дня · Иногда пропускается · Обильнее, чем раньше · ПМС тяжелее · Резкие изменения - к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_04.png",
+      "title": "Почему бросает в жар: механизм в двух словах",
+      "description": "Почему бросает в жар: механизм в двух словах. Эстроген качает термостат мозга · Сосуды резко расширяются · Отсюда жар и пот · Потом озноб · Это не «нервы». Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_05.png",
+      "title": "Что из еды смягчает приливы",
+      "description": "Что из еды смягчает приливы. Ровный сахар в крови · Белок в каждый приём · Соя и льняное семя · Меньше алкоголя · Меньше острого на ночь. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_06.png",
+      "title": "Ночная потливость: что помогает",
+      "description": "Ночная потливость: что помогает. Прохладная спальня · Хлопок и слои · Ужин не поздний и не сладкий · Алкоголь вечером убрать · Магний перед сном. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_07.png",
+      "title": "Сон рассыпается: почему именно сейчас",
+      "description": "Сон рассыпается: почему именно сейчас. Прогестерон падает первым · Он же успокаивал и усыплял · Приливы будят под утро · Кортизол сдвигается · Круг замыкается на усталости. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_08.png",
+      "title": "Тревога без причины",
+      "description": "Тревога без причины. Эстроген влияет на серотонин · Прогестерон - на успокоение · Качели дают вспышки тревоги · Хуже перед месячными · Это физиология, а не характер. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_09.png",
+      "title": "Туман в голове после сорока",
+      "description": "Туман в голове после сорока. Слова теряются на полуслове · Хуже держится внимание · Эстроген работает в мозге тоже · Сон и железо усугубляют · Обычно проходит после перестройки. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_10.png",
+      "title": "Сухость везде и сразу",
+      "description": "Сухость везде и сразу. Кожа, глаза, слизистые · Эстроген держал влагу · Больше воды не решает · Омега-3 и жиры в еде · Про интимную сухость говорить с врачом. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-26",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_11.png",
+      "title": "Волосы редеют по пробору",
+      "description": "Волосы редеют по пробору. Меняется соотношение гормонов · Плюс падает ферритин · Плюс белка не хватает · Проверить щитовидку · Маски тут бессильны. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_12.png",
+      "title": "Кости теряют плотность быстрее всего сейчас",
+      "description": "Кости теряют плотность быстрее всего сейчас. Эстроген защищал костную ткань · Первые годы - самые быстрые · Кальций из еды · Витамин D и K2 · Силовые нагрузки обязательны. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_13.png",
+      "title": "Кальций из еды: если молочное не идёт",
+      "description": "Кальций из еды: если молочное не идёт. Кунжут и тахини · Сардины с косточками · Миндаль · Тёмная зелень · Тофу · Обогащённые растительные напитки. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_14.png",
+      "title": "Витамин D и K2: зачем вместе",
+      "description": "Витамин D и K2: зачем вместе. D помогает усвоить кальций · K2 направляет его в кости · Без K2 кальций идёт не туда · Проверять 25(OH)D · Дозу подбирают по анализу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_15.png",
+      "title": "Магний закрывает сразу три жалобы",
+      "description": "Магний закрывает сразу три жалобы. Сон становится глубже · Тревожность мягче · Судороги в ногах уходят · Помогает кишечнику · Формы различаются по эффекту. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_16.png",
+      "title": "Сколько белка нужно после сорока",
+      "description": "Сколько белка нужно после сорока. Ориентир - 1,2-1,6 г на кг · Считать по каждому приёму · 20-30 г за раз · Завтрак чаще всего пустой · Без белка мышцы не удержать. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_17.png",
+      "title": "Мышцы важнее любой диеты сейчас",
+      "description": "Мышцы важнее любой диеты сейчас. Они держат обмен · Забирают глюкозу без инсулина · Защищают кости · Силовые дважды в неделю · Начинать можно с веса тела. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_18.png",
+      "title": "Фигура меняется, даже если еда та же",
+      "description": "Фигура меняется, даже если еда та же. Жир перераспределяется к талии · Эстроген перестаёт удерживать бёдра · Мышцы уходят без нагрузки · Дело не в силе воли · Работают белок и силовые. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_19.png",
+      "title": "Инсулин после 40: почему растёт",
+      "description": "Инсулин после 40: почему растёт. Клетки хуже слышат инсулин · Меньше мышц - меньше склад · Сон и стресс добавляют · Проверить инсулин и HOMA-IR · Порядок еды помогает сразу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-27",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_20.png",
+      "title": "Холестерин пополз вверх после сорока",
+      "description": "Холестерин пополз вверх после сорока. Эстроген держал липиды · ЛПНП растёт, ЛПВП падает · Проверить щитовидку · Смотреть триглицериды · Клетчатка и омега-3 в помощь. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_21.png",
+      "title": "Давление стало скакать",
+      "description": "Давление стало скакать. Сосуды теряют эластичность · Приливы добавляют скачки · Соль и алкоголь усиливают · Мерить дома и записывать · Показать записи врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T09:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_22.png",
+      "title": "После 40 щитовидка проверяется первой",
+      "description": "После 40 щитовидка проверяется первой. Проблемы учащаются именно сейчас · Симптомы копируют перименопаузу · ТТГ, Т4, антитела · Раз в год достаточно · Дешёвый способ снять вопрос. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T11:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_23.png",
+      "title": "Месячные обильнее ферритин ниже",
+      "description": "Месячные обильнее ферритин ниже. Перед менопаузой кровопотеря растёт · Ферритин падает годами · Усталость списывают на возраст · Сдать ферритин и ОАК · Это самая обратимая часть. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T12:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_24.png",
+      "title": "Кишечник решает, сколько эстрогена вернётся",
+      "description": "Кишечник решает, сколько эстрогена вернётся. Часть эстрогена выводится с желчью · Микробиота может вернуть его обратно · Запоры усиливают нагрузку · Клетчатка помогает вывести · Овощи каждый день. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T14:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_25.png",
+      "title": "Печень разбирает эстроген на части",
+      "description": "Печень разбирает эстроген на части. Работает в две фазы · Нужны белок и витамины группы B · Крестоцветные помогают · Алкоголь мешает напрямую · Поддержка печени = мягче симптомы. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T15:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_26.png",
+      "title": "Соя и лён: что правда",
+      "description": "Соя и лён: что правда. Слабее собственного эстрогена · Могут смягчать приливы · Работают не у всех · Обычная еда, не лечение · При гормонозависимых опухолях - с врачом. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T17:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_27.png",
+      "title": "Алкоголь усиливает почти всё",
+      "description": "Алкоголь усиливает почти всё. Провоцирует приливы · Рушит вторую половину ночи · Мешает печени разбирать эстроген · Добавляет тревожность утром · Даже бокал заметен сейчас. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T18:30:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_28.png",
+      "title": "Кофе после обеда плата ночью",
+      "description": "Кофе после обеда плата ночью. Период полувыведения около 6 часов · Сон становится поверхностным · Приливы чаще под утро · Перенести последнюю чашку на 12-14 · Через неделю разница заметна. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-28",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T20:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_29.png",
+      "title": "Какие анализы сдать в перименопаузу",
+      "description": "Какие анализы сдать в перименопаузу. ТТГ, Т4 · Ферритин, ОАК · Витамин D и B12 · Глюкоза, инсулин · Липидограмма · ФСГ - по показаниям, а не «для диагноза». Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-29",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-29T08:00:00+03:00"
+    },
+    {
+      "slug": "w1-w1_peri_30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_30.png",
+      "title": "Перименопауза: 6 опор, на которые встать",
+      "description": "Перименопауза: 6 опор, на которые встать. Белок в каждый приём · Силовые дважды в неделю · Сон как приоритет, а не остаток · Ровный сахар в крови · Закрыть дефициты по анализам · Обсудить терапию с врачом. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-29",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-29T09:30:00+03:00"
     }
   ]
 }
