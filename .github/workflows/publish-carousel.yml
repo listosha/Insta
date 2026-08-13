@@ -115,33 +115,47 @@ jobs:
           ]
           print(f"URLs: {image_urls}")
 
-          # Шаг 1: создаём item-контейнеры для каждого слайда
-          item_ids = []
-          for idx, url in enumerate(image_urls, 1):
+          # Одиночная картинка постится обычным постом: карусель в Graph API требует
+          # минимум два элемента и на одном падает с "Invalid parameter" (subcode 2207088).
+          if len(image_urls) == 1:
+              print("Single image: posting as a regular photo, not a carousel")
               resp = graph_post(
                   f"{GRAPH_BASE}/{IG_USER_ID}/media",
                   {
-                      "image_url":        url,
-                      "is_carousel_item": "true",
-                      "access_token":     ACCESS_TOKEN,
+                      "image_url":    image_urls[0],
+                      "caption":      entry["caption"],
+                      "access_token": ACCESS_TOKEN,
                   },
-                  f"Slide {idx}",
+                  "Single image container",
               )
-              item_ids.append(resp.json()["id"])
+          else:
+              # Шаг 1: создаём item-контейнеры для каждого слайда
+              item_ids = []
+              for idx, url in enumerate(image_urls, 1):
+                  r_item = graph_post(
+                      f"{GRAPH_BASE}/{IG_USER_ID}/media",
+                      {
+                          "image_url":        url,
+                          "is_carousel_item": "true",
+                          "access_token":     ACCESS_TOKEN,
+                      },
+                      f"Slide {idx}",
+                  )
+                  item_ids.append(r_item.json()["id"])
 
-          print(f"Item IDs: {item_ids}")
+              print(f"Item IDs: {item_ids}")
 
-          # Шаг 2: создаём carousel container
-          resp = graph_post(
-              f"{GRAPH_BASE}/{IG_USER_ID}/media",
-              {
-                  "media_type":   "CAROUSEL",
-                  "caption":      entry["caption"],
-                  "children":     ",".join(item_ids),
-                  "access_token": ACCESS_TOKEN,
-              },
-              "Carousel container",
-          )
+              # Шаг 2: создаём carousel container
+              resp = graph_post(
+                  f"{GRAPH_BASE}/{IG_USER_ID}/media",
+                  {
+                      "media_type":   "CAROUSEL",
+                      "caption":      entry["caption"],
+                      "children":     ",".join(item_ids),
+                      "access_token": ACCESS_TOKEN,
+                  },
+                  "Carousel container",
+              )
           creation_id = resp.json()["id"]
           print(f"Container ID: {creation_id}")
 
