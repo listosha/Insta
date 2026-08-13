@@ -1,667 +1,61 @@
 {
-  "queued": 145,
-  "channel": "listosha0484",
-  "start": "2026-06-11",
+  "channel": "6a7c3ac8b2d9d5774361cf93",
+  "queued": 260,
+  "rebuiltFrom": "buffer",
   "posts": [
     {
-      "id": "6a29da63e47eb47263321c3e",
-      "dueAt": "2026-06-11T10:00:00+03:00",
-      "title": "5 признаков, что кортизол сбит — а анализ в норме",
-      "link": "https://listoshenkov.ru/zametki/kortizol/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=kortizol"
-    },
-    {
-      "id": "6a29da643ecaf482545ccca5",
-      "dueAt": "2026-06-11T21:00:00+03:00",
-      "title": "10 продуктов, где железа больше, чем в гречке",
+      "id": "6a7c4c96fbc6fabe36f627a8",
+      "dueAt": "2026-08-13T12:30:00+03:00",
+      "title": "Обильные месячные и вечный дефицит",
       "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
     },
     {
-      "id": "6a29da643ecaf482545cccef",
-      "dueAt": "2026-06-12T10:00:00+03:00",
-      "title": "ТТГ в норме, а вы как в спячке: 6 сигналов щитовидки",
-      "link": "https://listoshenkov.ru/zametki/schitovidka/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=schitovidka"
-    },
-    {
-      "id": "6a29da65e47eb47263321c64",
-      "dueAt": "2026-06-12T21:00:00+03:00",
-      "title": "Волосы сыплются: 6 дефицитов, которые виноваты",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a29da6506a8fd93fc8995e6",
-      "dueAt": "2026-06-13T10:00:00+03:00",
-      "title": "Просыпаешься в 3 ночи? 5 причин — и это не голова",
-      "link": "https://listoshenkov.ru/zametki/son-3-nochi/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=son-3-nochi"
-    },
-    {
-      "id": "6a29da66e215b834bcb77493",
-      "dueAt": "2026-06-13T21:00:00+03:00",
-      "title": "7 признаков скрытого дефицита железа",
+      "id": "6a7c4c96d11287e60bff9f9b",
+      "dueAt": "2026-08-13T14:00:00+03:00",
+      "title": "Латентный дефицит: анемии нет, а железа нет",
       "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
     },
     {
-      "id": "6a29da67e47eb47263321cae",
-      "dueAt": "2026-06-14T10:00:00+03:00",
-      "title": "Вес стоит на дефиците? 3 гормона держат жир под замком",
-      "link": "https://listoshenkov.ru/zametki/ves/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=ves"
-    },
-    {
-      "id": "6a29da6706a8fd93fc89960d",
-      "dueAt": "2026-06-14T21:00:00+03:00",
-      "title": "6 продуктов для густоты волос",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a29da6806a8fd93fc899647",
-      "dueAt": "2026-06-15T10:00:00+03:00",
-      "title": "ПМС всё тяжелее? 5 сигналов перекоса эстроген/прогестерон",
-      "link": "https://listoshenkov.ru/zametki/pms/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=pms"
-    },
-    {
-      "id": "6a29da68e215b834bcb774f2",
-      "dueAt": "2026-06-15T21:00:00+03:00",
-      "title": "5 анализов, чтобы проверить запасы железа",
+      "id": "6a7c4c97d11287e60bff9fc0",
+      "dueAt": "2026-08-13T15:30:00+03:00",
+      "title": "Сколько ждать, пока поднимется ферритин",
       "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
     },
     {
-      "id": "6a2aa6e6b880c6daab55db61",
-      "dueAt": "2026-06-16T10:00:00+03:00",
-      "title": "Перименопауза после 40: 6 ранних признаков",
-      "link": "https://listoshenkov.ru/zametki/perimenopauza/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=perimenopauza"
-    },
-    {
-      "id": "6a2aa6ec4a8a979301dfca56",
-      "dueAt": "2026-06-16T21:00:00+03:00",
-      "title": "Волосы лезут? 5 анализов сделать до трихолога",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a2aa6edbcbf13aa0d0fc3dd",
-      "dueAt": "2026-06-17T10:00:00+03:00",
-      "title": "Тревога — не характер: 5 телесных причин",
-      "link": "https://listoshenkov.ru/zametki/trevoga/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=trevoga"
-    },
-    {
-      "id": "6a2aa6eedc74e342b5ec537a",
-      "dueAt": "2026-06-17T21:00:00+03:00",
-      "title": "6 ошибок, из-за которых железо не усваивается",
+      "id": "6a7c4c9841c0632313ff9199",
+      "dueAt": "2026-08-13T17:00:00+03:00",
+      "title": "Железо через день работает лучше",
       "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
     },
     {
-      "id": "6a2aa6ee4a8a979301dfca85",
-      "dueAt": "2026-06-18T10:00:00+03:00",
-      "title": "Кишечник рулит гормонами: 5 связей, о которых молчат",
-      "link": "https://listoshenkov.ru/zametki/kishechnik/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=kishechnik"
-    },
-    {
-      "id": "6a2aa6efbcbf13aa0d0fc403",
-      "dueAt": "2026-06-18T21:00:00+03:00",
-      "title": "Уход не помогает: 5 ошибок при выпадении волос",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a2aa6f043e796cc5337b9ff",
-      "dueAt": "2026-06-19T10:00:00+03:00",
-      "title": "Холестерин повышен? 5 фактов до статинов",
-      "link": "https://listoshenkov.ru/zametki/holesterin/?utm_source=pinterest&utm_medium=social&utm_campaign=zametki&utm_content=holesterin"
-    },
-    {
-      "id": "6a2aa6f04a8a979301dfcaab",
-      "dueAt": "2026-06-19T21:00:00+03:00",
-      "title": "Железо без мяса: 8 растительных источников",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a2aa6f143e796cc5337ba2d",
-      "dueAt": "2026-06-20T21:00:00+03:00",
-      "title": "Что помогает железу усвоиться: 6 союзников",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a2ab3043e50ef9c21d4e325",
-      "dueAt": "2026-06-21T10:00:00+03:00",
-      "title": "3 завтрака для энергии до обеда",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3053e50ef9c21d4e34b",
-      "dueAt": "2026-06-22T10:00:00+03:00",
-      "title": "Обед без спада сил после еды",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30511f42e1492d60fa8",
-      "dueAt": "2026-06-23T10:00:00+03:00",
-      "title": "Ужин для спокойного сна",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3063e3f6e5089e5fc6c",
-      "dueAt": "2026-06-24T10:00:00+03:00",
-      "title": "Перекусы без качелей сахара",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3073e3f6e5089e5fc9e",
-      "dueAt": "2026-06-25T10:00:00+03:00",
-      "title": "Завтраки, чтобы поднять железо",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab308943e421cd038faf2",
-      "dueAt": "2026-06-26T10:00:00+03:00",
-      "title": "Тарелка для гормонального баланса",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30811f42e1492d6100e",
-      "dueAt": "2026-06-27T10:00:00+03:00",
-      "title": "Что есть при дефиците железа",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3093ecb1653aeb76b99",
-      "dueAt": "2026-06-28T10:00:00+03:00",
-      "title": "Меню для поддержки щитовидки",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30a943e421cd038fb3f",
-      "dueAt": "2026-06-29T10:00:00+03:00",
-      "title": "Еда, чтобы пережить ПМС легче",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30b7753915b8a311bf9",
-      "dueAt": "2026-06-30T10:00:00+03:00",
-      "title": "Меню при перименопаузе",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30b11f42e1492d6106f",
-      "dueAt": "2026-07-01T10:00:00+03:00",
-      "title": "Что такое «Сделай Меню»",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30c3e50ef9c21d4e3af",
-      "dueAt": "2026-07-02T10:00:00+03:00",
-      "title": "3 каши, которые держат сытость",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30d3ecb1653aeb76c0b",
-      "dueAt": "2026-07-03T10:00:00+03:00",
-      "title": "Смузи для энергии без сахара",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30d3e3f6e5089e5fd32",
-      "dueAt": "2026-07-04T10:00:00+03:00",
-      "title": "3 ужина за 15 минут",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30e943e421cd038fb89",
-      "dueAt": "2026-07-05T10:00:00+03:00",
-      "title": "Сытные салаты, чтобы наесться",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab30f3e3f6e5089e5fd7a",
-      "dueAt": "2026-07-06T10:00:00+03:00",
-      "title": "Тёплые супы для лёгкости в животе",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3107753915b8a311c27",
-      "dueAt": "2026-07-07T10:00:00+03:00",
-      "title": "Перекусы на работе без сахара",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3117753915b8a311c8a",
-      "dueAt": "2026-07-08T10:00:00+03:00",
-      "title": "Сладкое без скачка сахара",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab31111f42e1492d610a9",
-      "dueAt": "2026-07-09T10:00:00+03:00",
-      "title": "Завтраки с высоким белком",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab312943e421cd038fbd2",
-      "dueAt": "2026-07-10T10:00:00+03:00",
-      "title": "Еда при высоком кортизоле",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab31311f42e1492d610f2",
-      "dueAt": "2026-07-11T10:00:00+03:00",
-      "title": "Что есть, чтобы крепче спать",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab313943e421cd038fc16",
-      "dueAt": "2026-07-12T10:00:00+03:00",
-      "title": "Питание против тревоги",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3143e50ef9c21d4e42a",
-      "dueAt": "2026-07-13T10:00:00+03:00",
-      "title": "Еда для здорового кишечника",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3153ecb1653aeb76c45",
-      "dueAt": "2026-07-14T10:00:00+03:00",
-      "title": "Питание при высоком холестерине",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3163ecb1653aeb76c6b",
-      "dueAt": "2026-07-15T10:00:00+03:00",
-      "title": "Еда для густоты волос",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3173e3f6e5089e5fdae",
-      "dueAt": "2026-07-16T10:00:00+03:00",
-      "title": "Еда, чтобы выровнять сахар",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3173e3f6e5089e5fdd4",
-      "dueAt": "2026-07-17T10:00:00+03:00",
-      "title": "Сколько воды нужно и зачем",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3187753915b8a311cc9",
-      "dueAt": "2026-07-18T10:00:00+03:00",
-      "title": "Сколько белка нужно женщине",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab3193ecb1653aeb76cbd",
-      "dueAt": "2026-07-19T10:00:00+03:00",
-      "title": "Когда есть: ритм приёмов пищи",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a2ab31a943e421cd038fc60",
-      "dueAt": "2026-07-20T10:00:00+03:00",
-      "title": "Список покупок на неделю за минуту",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu"
-    },
-    {
-      "id": "6a46c48f3c4cbed3feaadfcd",
-      "dueAt": "2026-07-03T09:00:00+03:00",
-      "title": "10 продуктов, где железа больше, чем в гречке",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a46c49a5c0878dffa7b1f89",
-      "dueAt": "2026-07-03T20:00:00+03:00",
-      "title": "6 продуктов для густоты волос",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c49fc7f3a3379f2f0b61",
-      "dueAt": "2026-07-04T09:00:00+03:00",
-      "title": "ТТГ «в норме», а ты в спячке: 6 сигналов щитовидки",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a00c2201946bd0ff92",
-      "dueAt": "2026-07-04T20:00:00+03:00",
-      "title": "ПМС всё тяжелее? 5 сигналов перекоса эстрогена",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a05c0878dffa7b1fd2",
-      "dueAt": "2026-07-05T09:00:00+03:00",
-      "title": "Перименопауза после 40: 6 ранних признаков",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a1e55e31b283153882",
-      "dueAt": "2026-07-05T20:00:00+03:00",
-      "title": "5 анализов, чтобы проверить запасы железа",
+      "id": "6a7c4c9946abc51e70746540",
+      "dueAt": "2026-08-13T18:30:00+03:00",
+      "title": "Воспаление запирает железо",
       "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
     },
     {
-      "id": "6a46c4a2c7f3a3379f2f0b86",
-      "dueAt": "2026-07-06T09:00:00+03:00",
-      "title": "Волосы лезут: 6 дефицитов-виновников",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+      "id": "6a7d80aa84436e7521a3b90d",
+      "dueAt": "2026-08-13T19:00:00+03:00",
+      "title": "Железо не усваивается: при чём тут кислотность желудка",
+      "link": "https://app.listoshenkov.ru/?section=supp_68&ref=pinterest"
     },
     {
-      "id": "6a46c4a30c2201946bd0ffb7",
-      "dueAt": "2026-07-06T20:00:00+03:00",
-      "title": "5 анализов щитовидки (не только ТТГ)",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a43c4cbed3feaae09e",
-      "dueAt": "2026-07-07T09:00:00+03:00",
-      "title": "6 продуктов, выводящих лишний эстроген",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a45c0878dffa7b2019",
-      "dueAt": "2026-07-07T20:00:00+03:00",
-      "title": "7 продуктов для гормонов после 40",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a5e55e31b2831538a7",
-      "dueAt": "2026-07-08T09:00:00+03:00",
-      "title": "7 скрытых признаков дефицита железа",
+      "id": "6a7d8c47d695b3595194f138",
+      "dueAt": "2026-08-13T19:30:00+03:00",
+      "title": "Ферритин: рабочие ориентиры",
       "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
     },
     {
-      "id": "6a46c4a60c2201946bd0ffdc",
-      "dueAt": "2026-07-08T20:00:00+03:00",
-      "title": "5 анализов сделать до похода к трихологу",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a6e55e31b2831538cf",
-      "dueAt": "2026-07-09T09:00:00+03:00",
-      "title": "7 продуктов, которые крадут йод",
+      "id": "6a7c4c99d11287e60bff9fea",
+      "dueAt": "2026-08-13T20:00:00+03:00",
+      "title": "Железо и щитовидка тянут друг друга",
       "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
     },
     {
-      "id": "6a46c4a7bb7dc73d99b09f9f",
-      "dueAt": "2026-07-09T20:00:00+03:00",
-      "title": "Магний при ПМС: какой и когда",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a85c0878dffa7b2046",
-      "dueAt": "2026-07-10T09:00:00+03:00",
-      "title": "Не набрать вес в перименопаузу: 5 правил тарелки",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4a9bb7dc73d99b09fe9",
-      "dueAt": "2026-07-10T20:00:00+03:00",
-      "title": "Железо не усваивается: 6 частых ошибок",
+      "id": "6a7d8c48e666c02f565014a5",
+      "dueAt": "2026-08-13T20:30:00+03:00",
+      "title": "Бегаешь и упал ферритин: почему так",
       "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a46c4aac7f3a3379f2f0c1c",
-      "dueAt": "2026-07-11T09:00:00+03:00",
-      "title": "Не шампунь: 4 гормона, из-за которых сыплются волосы",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4aa3c4cbed3feaae0d7",
-      "dueAt": "2026-07-11T20:00:00+03:00",
-      "title": "АИТ: 5 первых признаков, которые пропускают",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4abbb7dc73d99b0a017",
-      "dueAt": "2026-07-12T09:00:00+03:00",
-      "title": "Прогестерон: 4 признака нехватки",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4acbb7dc73d99b0a03d",
-      "dueAt": "2026-07-12T20:00:00+03:00",
-      "title": "Кальций из растений: 6 источников без молочки",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4ad0c2201946bd10018",
-      "dueAt": "2026-07-13T09:00:00+03:00",
-      "title": "Железо без мяса: 8 растительных источников",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a46c4ad5c0878dffa7b207c",
-      "dueAt": "2026-07-13T20:00:00+03:00",
-      "title": "Сколько волос в день терять — это норма",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4aee55e31b283153aef",
-      "dueAt": "2026-07-14T09:00:00+03:00",
-      "title": "Селен, цинк, йод: кому и сколько",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4afbb7dc73d99b0a065",
-      "dueAt": "2026-07-14T20:00:00+03:00",
-      "title": "5 привычек, которые ломают цикл",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b0bb7dc73d99b0a08b",
-      "dueAt": "2026-07-15T09:00:00+03:00",
-      "title": "Приливы и бессонница: 4 нутриента, что помогают",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b0c7f3a3379f2f0c84",
-      "dueAt": "2026-07-15T20:00:00+03:00",
-      "title": "С чем пить железо, а с чем — никогда",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b13c4cbed3feaae14b",
-      "dueAt": "2026-07-16T09:00:00+03:00",
-      "title": "Выпадение после родов: почему и что делать",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b2e55e31b283153d65",
-      "dueAt": "2026-07-16T20:00:00+03:00",
-      "title": "Мёрзнешь, отёки, туман: это щитовидка?",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b30c2201946bd100d1",
-      "dueAt": "2026-07-17T09:00:00+03:00",
-      "title": "Болит грудь перед месячными: почему",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b4bb7dc73d99b0a0cd",
-      "dueAt": "2026-07-17T20:00:00+03:00",
-      "title": "Какие анализы сдать в перименопаузу",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b43c4cbed3feaae170",
-      "dueAt": "2026-07-18T09:00:00+03:00",
-      "title": "Ферритин 15 или 50: где твоя норма",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b53c4cbed3feaae195",
-      "dueAt": "2026-07-18T20:00:00+03:00",
-      "title": "Цинк, железо, белок: тройка для роста волос",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b6c7f3a3379f2f0cd7",
-      "dueAt": "2026-07-19T09:00:00+03:00",
-      "title": "8 продуктов для щитовидки",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b7e55e31b283154071",
-      "dueAt": "2026-07-19T20:00:00+03:00",
-      "title": "Тяга к сладкому перед циклом: как унять",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b80c2201946bd10103",
-      "dueAt": "2026-07-20T09:00:00+03:00",
-      "title": "Белок после 40: сколько и зачем",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b90c2201946bd10128",
-      "dueAt": "2026-07-20T20:00:00+03:00",
-      "title": "Витамин C ×3 усвоение: как поднять железо",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a46c4b93c4cbed3feaae1c1",
-      "dueAt": "2026-07-21T09:00:00+03:00",
-      "title": "7 ошибок, из-за которых волос всё меньше",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4ba3c4cbed3feaae1e6",
-      "dueAt": "2026-07-21T20:00:00+03:00",
-      "title": "Гипотиреоз: почему вес растёт",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4bb5c0878dffa7b2175",
-      "dueAt": "2026-07-22T09:00:00+03:00",
-      "title": "Семена для баланса гормонов (seed cycling)",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4bc5c0878dffa7b21a2",
-      "dueAt": "2026-07-22T20:00:00+03:00",
-      "title": "Магний в перименопаузу: 4 причины добавить",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4bde55e31b2831544e0",
-      "dueAt": "2026-07-23T09:00:00+03:00",
-      "title": "Тянет грызть лёд и мел? Это дефицит железа",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a46c4c4e55e31b283154543",
-      "dueAt": "2026-07-23T20:00:00+03:00",
-      "title": "Ломкие волосы и ногти: чего не хватает",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4c60c2201946bd10204",
-      "dueAt": "2026-07-24T09:00:00+03:00",
-      "title": "Щитовидка и брови/волосы: неочевидная связь",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4c7c7f3a3379f2f0d52",
-      "dueAt": "2026-07-24T20:00:00+03:00",
-      "title": "Отёки перед месячными: 5 причин",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4c73c4cbed3feaae234",
-      "dueAt": "2026-07-25T09:00:00+03:00",
-      "title": "Сон рушится после 45: что помогает уснуть",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4c8bb7dc73d99b0a129",
-      "dueAt": "2026-07-25T20:00:00+03:00",
-      "title": "Устаёшь, даже выспавшись: 5 причин",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a46c4c90c2201946bd10229",
-      "dueAt": "2026-07-26T09:00:00+03:00",
-      "title": "Биотин не помогает? Проверь сначала это",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4cac7f3a3379f2f0d7b",
-      "dueAt": "2026-07-26T20:00:00+03:00",
-      "title": "Йод: 5 признаков, что его не хватает",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4cbbb7dc73d99b0a14e",
-      "dueAt": "2026-07-27T09:00:00+03:00",
-      "title": "Раздражительность перед циклом: чего не хватает",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4cbbb7dc73d99b0a173",
-      "dueAt": "2026-07-27T20:00:00+03:00",
-      "title": "Мышцы и гормоны после 40: почему это важно",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4cc3c4cbed3feaae260",
-      "dueAt": "2026-07-28T09:00:00+03:00",
-      "title": "Гемоглобин в норме — а железа не хватает",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
-    },
-    {
-      "id": "6a46c4cde55e31b28315497b",
-      "dueAt": "2026-07-28T20:00:00+03:00",
-      "title": "Волосы и щитовидка: как это связано",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4cebb7dc73d99b0a1a1",
-      "dueAt": "2026-07-29T09:00:00+03:00",
-      "title": "ТТГ, Т4, антитела: что реально значат цифры",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
-    },
-    {
-      "id": "6a46c4cfc7f3a3379f2f0dd2",
-      "dueAt": "2026-07-29T20:00:00+03:00",
-      "title": "Клетчатка и эстроген: как это связано",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4d03c4cbed3feaae28e",
-      "dueAt": "2026-07-30T09:00:00+03:00",
-      "title": "Омега-3 после 40: зачем нужна",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4d0bb7dc73d99b0a1c6",
-      "dueAt": "2026-07-30T20:00:00+03:00",
-      "title": "Железо у веганов: 6 правил, чтобы не просесть",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
-    },
-    {
-      "id": "6a46c4d13c4cbed3feaae2b3",
-      "dueAt": "2026-07-31T09:00:00+03:00",
-      "title": "Маски не спасут, если есть дефицит",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
-    },
-    {
-      "id": "6a46c4d23c4cbed3feaae2d8",
-      "dueAt": "2026-07-31T20:00:00+03:00",
-      "title": "Постоянная усталость и щитовидка: связь",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
-    },
-    {
-      "id": "6a46c4d3c7f3a3379f2f0df7",
-      "dueAt": "2026-08-01T09:00:00+03:00",
-      "title": "B6, магний, кальций при ПМС: зачем каждый",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a46c4d45c0878dffa7b2216",
-      "dueAt": "2026-08-01T20:00:00+03:00",
-      "title": "Настроение скачет в перименопаузу: почему",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
-    },
-    {
-      "id": "6a7c3b4041c0632313fe2f1d",
-      "dueAt": "2026-08-12T21:00:00+03:00",
-      "title": "Почему клонит в сон после еды и что с этим делать",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
       "id": "6a7c3b4146abc51e70731c64",
@@ -670,10 +64,262 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
     },
     {
+      "id": "6a7c4c9ad11287e60bffa00f",
+      "dueAt": "2026-08-14T08:00:00+03:00",
+      "title": "Сколько ферритина нужно волосам",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4c9b6730bf576af6ac8e",
+      "dueAt": "2026-08-14T09:30:00+03:00",
+      "title": "Ферритин высокий: о чём это говорит",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4c9b6730bf576af6acc0",
+      "dueAt": "2026-08-14T11:00:00+03:00",
+      "title": "Железо всасывается в начале кишки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4c9c41c0632313ff922b",
+      "dueAt": "2026-08-14T12:30:00+03:00",
+      "title": "Низкая кислотность: железо просто не идёт",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4c9d41c0632313ff925d",
+      "dueAt": "2026-08-14T14:00:00+03:00",
+      "title": "Железо уходит, а причину не ищут",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4c9e46abc51e7074659b",
+      "dueAt": "2026-08-14T15:30:00+03:00",
+      "title": "Подростку не хватает железа чаще, чем кажется",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4c9e458ac3f0de22f4d4",
+      "dueAt": "2026-08-14T17:00:00+03:00",
+      "title": "Низкое железо у мужчины это всегда вопрос",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4c9f6730bf576af6acfc",
+      "dueAt": "2026-08-14T18:30:00+03:00",
+      "title": "Как считать железо, если не ешь мясо",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7d80ac6523c7515a238b3b",
+      "dueAt": "2026-08-14T19:00:00+03:00",
+      "title": "Пью витамин D, а он не растёт: три причины",
+      "link": "https://app.listoshenkov.ru/?section=supp_100&ref=pinterest"
+    },
+    {
+      "id": "6a7c4c9fd11287e60bffa03c",
+      "dueAt": "2026-08-14T20:00:00+03:00",
+      "title": "Кофе после железа: через сколько можно",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
       "id": "6a7c3b41fbc6fabe36f4cbb5",
       "dueAt": "2026-08-14T21:00:00+03:00",
       "title": "HOMA-IR: как посчитать индекс инсулинорезистентности самому",
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca06730bf576af6ad3b",
+      "dueAt": "2026-08-15T08:00:00+03:00",
+      "title": "Кальций и железо мешают друг другу",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca1d11287e60bffa087",
+      "dueAt": "2026-08-15T09:30:00+03:00",
+      "title": "Тошнит от железа: что обычно помогает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca1458ac3f0de22f520",
+      "dueAt": "2026-08-15T11:00:00+03:00",
+      "title": "Запор на железе: 5 рабочих шагов",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca2fbc6fabe36f628b5",
+      "dueAt": "2026-08-15T12:30:00+03:00",
+      "title": "Тёмный стул на железе это нормально",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca341c0632313ff930f",
+      "dueAt": "2026-08-15T14:00:00+03:00",
+      "title": "MCV и MCH: что это в анализе",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca36730bf576af6ad73",
+      "dueAt": "2026-08-15T15:30:00+03:00",
+      "title": "RDW вырос: ранний звоночек",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca441c0632313ff933b",
+      "dueAt": "2026-08-15T17:00:00+03:00",
+      "title": "ОЖСС и трансферрин простыми словами",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca46730bf576af6adb8",
+      "dueAt": "2026-08-15T18:30:00+03:00",
+      "title": "Насыщение трансферрина: недооценённая цифра",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7d80acbbb4aa7c1dde30f8",
+      "dueAt": "2026-08-15T19:00:00+03:00",
+      "title": "Болит грудь перед месячными: дело не в количестве эстрогена",
+      "link": "https://app.listoshenkov.ru/?section=supp_199&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca541c0632313ff9389",
+      "dueAt": "2026-08-15T20:00:00+03:00",
+      "title": "Что уходит первым, когда железо возвращается",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca6458ac3f0de22f5b9",
+      "dueAt": "2026-08-15T21:30:00+03:00",
+      "title": "Тарелка на железо: как собрать за минуту",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca6fbc6fabe36f62933",
+      "dueAt": "2026-08-16T08:00:00+03:00",
+      "title": "Субпродукты, если их не любишь",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca7fbc6fabe36f62958",
+      "dueAt": "2026-08-16T09:30:00+03:00",
+      "title": "Морепродукты и железо",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca8fbc6fabe36f6297d",
+      "dueAt": "2026-08-16T11:00:00+03:00",
+      "title": "Гречка не спасает от дефицита железа",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca8d11287e60bffa161",
+      "dueAt": "2026-08-16T12:30:00+03:00",
+      "title": "Гранат и яблоки: красное ≠ железо",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ca941c0632313ff943e",
+      "dueAt": "2026-08-16T14:00:00+03:00",
+      "title": "Витамин A помогает железу выйти из склада",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4caafbc6fabe36f629a2",
+      "dueAt": "2026-08-16T15:30:00+03:00",
+      "title": "Медь: без неё железо не поедет",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4caa41c0632313ff9470",
+      "dueAt": "2026-08-16T17:00:00+03:00",
+      "title": "B12 и фолаты смотрят рядом с железом",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cab41c0632313ff94c6",
+      "dueAt": "2026-08-16T18:30:00+03:00",
+      "title": "Синдром беспокойных ног: проверь ферритин",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7d80ad6523c7515a238b70",
+      "dueAt": "2026-08-16T19:00:00+03:00",
+      "title": "Тревога фоном: чем глицин отличается от снотворного",
+      "link": "https://app.listoshenkov.ru/?section=supp_97&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cacd11287e60bffa1f0",
+      "dueAt": "2026-08-16T20:00:00+03:00",
+      "title": "Заеды в уголках рта и ломкие ногти",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cad458ac3f0de22f69e",
+      "dueAt": "2026-08-16T21:30:00+03:00",
+      "title": "Одышка на лестнице без нагрузки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cad6730bf576af6ae78",
+      "dueAt": "2026-08-17T08:00:00+03:00",
+      "title": "Сдаёшь кровь следи за ферритином",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cae6730bf576af6ae9e",
+      "dueAt": "2026-08-17T09:30:00+03:00",
+      "title": "Что мешает железу в обычной еде",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4caffbc6fabe36f629de",
+      "dueAt": "2026-08-17T11:00:00+03:00",
+      "title": "Чугунная сковорода немного, но добавляет",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4caffbc6fabe36f62a03",
+      "dueAt": "2026-08-17T12:30:00+03:00",
+      "title": "Когда пересдавать железо и ферритин",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb0458ac3f0de22f6d0",
+      "dueAt": "2026-08-17T14:00:00+03:00",
+      "title": "Когда железо принимать не надо",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb16730bf576af6aee9",
+      "dueAt": "2026-08-17T15:30:00+03:00",
+      "title": "Утро или вечер: когда пить железо",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb1d11287e60bffa253",
+      "dueAt": "2026-08-17T17:00:00+03:00",
+      "title": "Железо: 7 шагов, чтобы закрыть вопрос",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb2d11287e60bffa279",
+      "dueAt": "2026-08-17T18:30:00+03:00",
+      "title": "Базовый набор: что сдать первым делом",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80af84436e7521a3b9c5",
+      "dueAt": "2026-08-17T19:00:00+03:00",
+      "title": "Цинк при простуде: почему решают первые сутки",
+      "link": "https://app.listoshenkov.ru/?section=supp_183&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb341c0632313ff95b2",
+      "dueAt": "2026-08-17T20:00:00+03:00",
+      "title": "6 ошибок перед сдачей крови",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
     },
     {
       "id": "6a7c3b4241c0632313fe2f42",
@@ -682,10 +328,130 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7c4cb346abc51e70746787",
+      "dueAt": "2026-08-18T08:00:00+03:00",
+      "title": "Натощак или нет: что реально важно",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb4fbc6fabe36f62aa3",
+      "dueAt": "2026-08-18T09:30:00+03:00",
+      "title": "Что сдавать только утром",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb56730bf576af6afa1",
+      "dueAt": "2026-08-18T11:00:00+03:00",
+      "title": "На какой день цикла сдавать гормоны",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb5d11287e60bffa2f1",
+      "dueAt": "2026-08-18T12:30:00+03:00",
+      "title": "ОАК: что смотреть кроме гемоглобина",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb66730bf576af6afcc",
+      "dueAt": "2026-08-18T14:00:00+03:00",
+      "title": "Лейкоформула простыми словами",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb7458ac3f0de22f76b",
+      "dueAt": "2026-08-18T15:30:00+03:00",
+      "title": "СОЭ и СРБ: в чём разница",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb841c0632313ff9639",
+      "dueAt": "2026-08-18T17:00:00+03:00",
+      "title": "Ферритин без СРБ читать нельзя",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb841c0632313ff965e",
+      "dueAt": "2026-08-18T18:30:00+03:00",
+      "title": "Витамин D: какой анализ нужен",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b0bbb4aa7c1dde3188",
+      "dueAt": "2026-08-18T19:00:00+03:00",
+      "title": "Магний и сон: почему он про засыпание, а не про бодрость",
+      "link": "https://app.listoshenkov.ru/?section=supp_92&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cb9d11287e60bffa37b",
+      "dueAt": "2026-08-18T20:00:00+03:00",
+      "title": "B12 в норме, а дефицит есть",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
       "id": "6a7c3b42d11287e60bfe4d07",
       "dueAt": "2026-08-18T21:00:00+03:00",
       "title": "Признаки скачков сахара в крови у здоровых людей",
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cbad11287e60bffa3a0",
+      "dueAt": "2026-08-19T08:00:00+03:00",
+      "title": "Гомоцистеин: зачем его сдают",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cba46abc51e707468b2",
+      "dueAt": "2026-08-19T09:30:00+03:00",
+      "title": "АЛТ и АСТ: что они значат",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cbbd11287e60bffa3d2",
+      "dueAt": "2026-08-19T11:00:00+03:00",
+      "title": "ГГТ: самый чуткий по печени",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cbbd11287e60bffa40a",
+      "dueAt": "2026-08-19T12:30:00+03:00",
+      "title": "Билирубин повышен: не всегда болезнь",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cbc46abc51e70746915",
+      "dueAt": "2026-08-19T14:00:00+03:00",
+      "title": "Липидограмма: что важнее общего холестерина",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cbd458ac3f0de22f846",
+      "dueAt": "2026-08-19T15:30:00+03:00",
+      "title": "Глюкоза натощак почти ничего не говорит",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cbefbc6fabe36f62b72",
+      "dueAt": "2026-08-19T17:00:00+03:00",
+      "title": "Гликированный иногда обманывает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cbed11287e60bffa45f",
+      "dueAt": "2026-08-19T18:30:00+03:00",
+      "title": "Креатинин и СКФ: как читать",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b0a8f0b7b7d4649762",
+      "dueAt": "2026-08-19T19:00:00+03:00",
+      "title": "Билирубин повышен: когда это не болезнь",
+      "link": "https://app.listoshenkov.ru/?section=supp_79&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cbffbc6fabe36f62ba4",
+      "dueAt": "2026-08-19T20:00:00+03:00",
+      "title": "Мочевая кислота: не только про подагру",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
     },
     {
       "id": "6a7c3b4346abc51e70731c8c",
@@ -694,10 +460,130 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7c4cc0d11287e60bffa492",
+      "dueAt": "2026-08-20T08:00:00+03:00",
+      "title": "Общий белок и альбумин: что показывают",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc06730bf576af6b0c4",
+      "dueAt": "2026-08-20T09:30:00+03:00",
+      "title": "Магний в крови мало что показывает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc141c0632313ff9712",
+      "dueAt": "2026-08-20T11:00:00+03:00",
+      "title": "Цинк и медь: смотреть только вместе",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc2d11287e60bffa4e4",
+      "dueAt": "2026-08-20T12:30:00+03:00",
+      "title": "Кальций общий или ионизированный",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc241c0632313ff974b",
+      "dueAt": "2026-08-20T14:00:00+03:00",
+      "title": "Паратгормон: когда его сдают",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc346abc51e70746a34",
+      "dueAt": "2026-08-20T15:30:00+03:00",
+      "title": "Омега-3 индекс: что он показывает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc446abc51e70746a79",
+      "dueAt": "2026-08-20T17:00:00+03:00",
+      "title": "ТТГ и время суток: почему цифра пляшет",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc56730bf576af6b14c",
+      "dueAt": "2026-08-20T18:30:00+03:00",
+      "title": "Антитела ТПО и ТГ: что делать с плюсом",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b184436e7521a3ba31",
+      "dueAt": "2026-08-20T19:00:00+03:00",
+      "title": "Мочевая кислота: не только про подагру",
+      "link": "https://app.listoshenkov.ru/?section=supp_221&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc5d11287e60bffa5a1",
+      "dueAt": "2026-08-20T20:00:00+03:00",
+      "title": "Кортизол: кровь или слюна",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
       "id": "6a7c3b4346abc51e70731cb1",
       "dueAt": "2026-08-20T21:00:00+03:00",
       "title": "Гликированный гемоглобин: расшифровка и когда он обманывает",
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc641c0632313ff97e3",
+      "dueAt": "2026-08-21T08:00:00+03:00",
+      "title": "Пролактин: правила сдачи",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc746abc51e70746ae3",
+      "dueAt": "2026-08-21T09:30:00+03:00",
+      "title": "Что сдать мужчине после сорока",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc746abc51e70746b26",
+      "dueAt": "2026-08-21T11:00:00+03:00",
+      "title": "Референс лаборатории это не норма",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc8458ac3f0de22fa27",
+      "dueAt": "2026-08-21T12:30:00+03:00",
+      "title": "Динамика важнее одной точки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cc9458ac3f0de22fa4c",
+      "dueAt": "2026-08-21T14:00:00+03:00",
+      "title": "Как хранить свои анализы",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ccad11287e60bffa628",
+      "dueAt": "2026-08-21T15:30:00+03:00",
+      "title": "Что не надо сдавать «на всякий случай»",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cca6730bf576af6b267",
+      "dueAt": "2026-08-21T17:00:00+03:00",
+      "title": "Как часто повторять анализы",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ccbd11287e60bffa64d",
+      "dueAt": "2026-08-21T18:30:00+03:00",
+      "title": "Пил витамин D, а цифра не выросла",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b2a8f0b7b7d46497a0",
+      "dueAt": "2026-08-21T19:00:00+03:00",
+      "title": "Кишечник и настроение: что такое психобиотики",
+      "link": "https://app.listoshenkov.ru/?section=supp_71&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ccc6730bf576af6b28d",
+      "dueAt": "2026-08-21T20:00:00+03:00",
+      "title": "Добавки в день сдачи ломают результат",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
     },
     {
       "id": "6a7c3b44458ac3f0de21bc1e",
@@ -706,10 +592,262 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7c4ccdfbc6fabe36f62cca",
+      "dueAt": "2026-08-22T08:00:00+03:00",
+      "title": "Что сдать женщине раз в год",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ccd46abc51e70746c27",
+      "dueAt": "2026-08-22T09:30:00+03:00",
+      "title": "Как читать анализы: 6 правил",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cce6730bf576af6b2f1",
+      "dueAt": "2026-08-22T11:00:00+03:00",
+      "title": "Щитовидка: полный набор анализов",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4ccf41c0632313ff98e5",
+      "dueAt": "2026-08-22T12:30:00+03:00",
+      "title": "ТТГ 3,5 это норма или уже нет",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd0d11287e60bffa6a3",
+      "dueAt": "2026-08-22T14:00:00+03:00",
+      "title": "Т4 свободный: что он показывает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd141c0632313ff994b",
+      "dueAt": "2026-08-22T15:30:00+03:00",
+      "title": "Т3 свободный: рабочая форма гормона",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd146abc51e70746c68",
+      "dueAt": "2026-08-22T17:00:00+03:00",
+      "title": "Т4 не превращается в Т3: почему",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd2fbc6fabe36f62d14",
+      "dueAt": "2026-08-22T18:30:00+03:00",
+      "title": "АТ-ТПО положительные: что делать дальше",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b3bbb4aa7c1dde31c2",
+      "dueAt": "2026-08-22T19:00:00+03:00",
+      "title": "Статины и тяжесть в ногах: при чём тут коэнзим Q10",
+      "link": "https://app.listoshenkov.ru/?section=supp_217&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd3458ac3f0de22fb6c",
+      "dueAt": "2026-08-22T20:00:00+03:00",
+      "title": "АТ-ТГ: зачем второй анализ",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd441c0632313ff99bf",
+      "dueAt": "2026-08-22T21:30:00+03:00",
+      "title": "Гипотиреоз: 7 ранних признаков",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd56730bf576af6b38c",
+      "dueAt": "2026-08-23T08:00:00+03:00",
+      "title": "Субклинический гипотиреоз: что это значит",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd541c0632313ff9a1c",
+      "dueAt": "2026-08-23T09:30:00+03:00",
+      "title": "Щитовидка разогналась: 6 признаков",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd6d11287e60bffa74e",
+      "dueAt": "2026-08-23T11:00:00+03:00",
+      "title": "Где брать йод из еды",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd741c0632313ff9a76",
+      "dueAt": "2026-08-23T12:30:00+03:00",
+      "title": "Кому с йодом нужна осторожность",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd846abc51e70746cd6",
+      "dueAt": "2026-08-23T14:00:00+03:00",
+      "title": "Селен и щитовидная железа",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cd9d11287e60bffa77d",
+      "dueAt": "2026-08-23T15:30:00+03:00",
+      "title": "Что нужно щитовидке кроме йода",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c4cda6730bf576af6b3b8",
+      "dueAt": "2026-08-23T17:00:00+03:00",
+      "title": "Капуста и соя: правда про гойтрогены",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50b8d11287e60bffcef1",
+      "dueAt": "2026-08-23T18:30:00+03:00",
+      "title": "Глютен и АИТ: что известно на сегодня",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b484436e7521a3ba56",
+      "dueAt": "2026-08-23T19:00:00+03:00",
+      "title": "Коллаген: работает ли он вообще",
+      "link": "https://app.listoshenkov.ru/?section=supp_173&ref=pinterest"
+    },
+    {
+      "id": "6a7c50b946abc51e707496d6",
+      "dueAt": "2026-08-23T20:00:00+03:00",
+      "title": "Стресс бьёт по щитовидке",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50ba458ac3f0de232aeb",
+      "dueAt": "2026-08-23T21:30:00+03:00",
+      "title": "Кишечник и щитовидка: связь ближе, чем кажется",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50bbfbc6fabe36f65922",
+      "dueAt": "2026-08-24T08:00:00+03:00",
+      "title": "Печень делает львиную долю Т3",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50bcfbc6fabe36f65950",
+      "dueAt": "2026-08-24T09:30:00+03:00",
+      "title": "Щитовидка ломает цикл: как это выглядит",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50bdd11287e60bffcf4f",
+      "dueAt": "2026-08-24T11:00:00+03:00",
+      "title": "Щитовидка и планирование",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50bdd11287e60bffcf74",
+      "dueAt": "2026-08-24T12:30:00+03:00",
+      "title": "Щитовидка и вес: сколько на неё списывать",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50be6730bf576af6e428",
+      "dueAt": "2026-08-24T14:00:00+03:00",
+      "title": "Холестерин вырос, а щитовидку не смотрели",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c50bf6730bf576af6e44d",
+      "dueAt": "2026-08-24T15:30:00+03:00",
+      "title": "Запоры и щитовидная железа",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50c041c0632313ffc9b2",
+      "dueAt": "2026-08-24T17:00:00+03:00",
+      "title": "Пульс подсказывает про щитовидку",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50c146abc51e70749705",
+      "dueAt": "2026-08-24T18:30:00+03:00",
+      "title": "Сухая кожа и локти: проверь щитовидку",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b5bc73727d20f44b83",
+      "dueAt": "2026-08-24T19:00:00+03:00",
+      "title": "Вздутие через час после еды: чего не хватает",
+      "link": "https://app.listoshenkov.ru/?section=supp_63&ref=pinterest"
+    },
+    {
+      "id": "6a7c50c1d11287e60bffcf99",
+      "dueAt": "2026-08-24T20:00:00+03:00",
+      "title": "Апатия и туман: не всегда выгорание",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
       "id": "6a7c3b45458ac3f0de21bc45",
       "dueAt": "2026-08-24T21:00:00+03:00",
       "title": "Порядок еды при инсулинорезистентности: что есть первым",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7c50c241c0632313ffc9fb",
+      "dueAt": "2026-08-25T08:00:00+03:00",
+      "title": "Что мешает таблетке щитовидки",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50c346abc51e70749741",
+      "dueAt": "2026-08-25T09:30:00+03:00",
+      "title": "Когда пересдавать ТТГ после изменений",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7c50c4d11287e60bffcfbe",
+      "dueAt": "2026-08-25T11:00:00+03:00",
+      "title": "УЗИ щитовидки: когда оно нужно",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50c541c0632313ffca2a",
+      "dueAt": "2026-08-25T12:30:00+03:00",
+      "title": "Нашли узел: что значит категория",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7c50c546abc51e70749766",
+      "dueAt": "2026-08-25T14:00:00+03:00",
+      "title": "Постоянно 36,2: при чём тут щитовидка",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7d808bbc73727d20f443b8",
+      "dueAt": "2026-08-25T15:30:00+03:00",
+      "title": "Отёки лица по утрам: частая причина",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7d808cbc73727d20f446a6",
+      "dueAt": "2026-08-25T17:00:00+03:00",
+      "title": "Тарелка для щитовидки: что класть",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7d808de8ef718a109213ac",
+      "dueAt": "2026-08-25T18:30:00+03:00",
+      "title": "Щитовидка: 6 шагов по порядку",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b584436e7521a3ba7b",
+      "dueAt": "2026-08-25T19:00:00+03:00",
+      "title": "Тошнит от железа: дело в форме, а не в железе",
+      "link": "https://app.listoshenkov.ru/?section=supp_163&ref=pinterest"
+    },
+    {
+      "id": "6a7d808ebbb4aa7c1dde2be2",
+      "dueAt": "2026-08-25T20:00:00+03:00",
+      "title": "Когда она начинается на самом деле",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
     },
     {
       "id": "6a7c3b45458ac3f0de21bc6a",
@@ -718,10 +856,130 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7d808fa8f0b7b7d46490e3",
+      "dueAt": "2026-08-26T08:00:00+03:00",
+      "title": "Перименопауза или щитовидка",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7d8090bc73727d20f44762",
+      "dueAt": "2026-08-26T09:30:00+03:00",
+      "title": "Цикл поехал: что здесь нормально",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d8091a8f0b7b7d4649108",
+      "dueAt": "2026-08-26T11:00:00+03:00",
+      "title": "Почему бросает в жар: механизм в двух словах",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d809284436e7521a3b351",
+      "dueAt": "2026-08-26T12:30:00+03:00",
+      "title": "Что из еды смягчает приливы",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d8093e8ef718a10921466",
+      "dueAt": "2026-08-26T14:00:00+03:00",
+      "title": "Ночная потливость: что помогает",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d809484436e7521a3b38c",
+      "dueAt": "2026-08-26T15:30:00+03:00",
+      "title": "Сон рассыпается: почему именно сейчас",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d8095bbb4aa7c1dde2ce4",
+      "dueAt": "2026-08-26T17:00:00+03:00",
+      "title": "Тревога без причины",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80966523c7515a2388a5",
+      "dueAt": "2026-08-26T18:30:00+03:00",
+      "title": "Туман в голове после сорока",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b7e8ef718a10921909",
+      "dueAt": "2026-08-26T19:00:00+03:00",
+      "title": "Тяга к сладкому вечером: почему воля тут ни при чём",
+      "link": "https://app.listoshenkov.ru/?section=supp_164&ref=pinterest"
+    },
+    {
+      "id": "6a7d8096e8ef718a109214b8",
+      "dueAt": "2026-08-26T20:00:00+03:00",
+      "title": "Сухость везде и сразу",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
       "id": "6a7c3b46fbc6fabe36f4cc21",
       "dueAt": "2026-08-26T21:00:00+03:00",
       "title": "Овощи перед едой: что подойдёт, кроме салата",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d8097e8ef718a109214dd",
+      "dueAt": "2026-08-27T08:00:00+03:00",
+      "title": "Волосы редеют по пробору",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest"
+    },
+    {
+      "id": "6a7d8098e8ef718a1092150c",
+      "dueAt": "2026-08-27T09:30:00+03:00",
+      "title": "Кости теряют плотность быстрее всего сейчас",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d8099bc73727d20f4481b",
+      "dueAt": "2026-08-27T11:00:00+03:00",
+      "title": "Кальций из еды: если молочное не идёт",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d809aa8f0b7b7d464944f",
+      "dueAt": "2026-08-27T12:30:00+03:00",
+      "title": "Витамин D и K2: зачем вместе",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d809b84436e7521a3b5e8",
+      "dueAt": "2026-08-27T14:00:00+03:00",
+      "title": "Магний закрывает сразу три жалобы",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d809ca8f0b7b7d4649474",
+      "dueAt": "2026-08-27T15:30:00+03:00",
+      "title": "Сколько белка нужно после сорока",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d809d6523c7515a238917",
+      "dueAt": "2026-08-27T17:00:00+03:00",
+      "title": "Мышцы важнее любой диеты сейчас",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d809ee8ef718a109216bf",
+      "dueAt": "2026-08-27T18:30:00+03:00",
+      "title": "Фигура меняется, даже если еда та же",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b86523c7515a238c2d",
+      "dueAt": "2026-08-27T19:00:00+03:00",
+      "title": "Селен и щитовидка: зачем он при антителах",
+      "link": "https://app.listoshenkov.ru/?section=supp_110&ref=pinterest"
+    },
+    {
+      "id": "6a7d809fbbb4aa7c1dde2f29",
+      "dueAt": "2026-08-27T20:00:00+03:00",
+      "title": "Инсулин после 40: почему растёт",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
     },
     {
       "id": "6a7c3b46fbc6fabe36f4cc47",
@@ -730,10 +988,100 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7d80a0bc73727d20f44873",
+      "dueAt": "2026-08-28T08:00:00+03:00",
+      "title": "Холестерин пополз вверх после сорока",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a184436e7521a3b817",
+      "dueAt": "2026-08-28T09:30:00+03:00",
+      "title": "Давление стало скакать",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a2e8ef718a1092170e",
+      "dueAt": "2026-08-28T11:00:00+03:00",
+      "title": "После 40 щитовидка проверяется первой",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a3bbb4aa7c1dde2f78",
+      "dueAt": "2026-08-28T12:30:00+03:00",
+      "title": "Месячные обильнее ферритин ниже",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a46523c7515a238a31",
+      "dueAt": "2026-08-28T14:00:00+03:00",
+      "title": "Кишечник решает, сколько эстрогена вернётся",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a5e8ef718a10921763",
+      "dueAt": "2026-08-28T15:30:00+03:00",
+      "title": "Печень разбирает эстроген на части",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a6bc73727d20f448f1",
+      "dueAt": "2026-08-28T17:00:00+03:00",
+      "title": "Соя и лён: что правда",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a76523c7515a238a7e",
+      "dueAt": "2026-08-28T18:30:00+03:00",
+      "title": "Алкоголь усиливает почти всё",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b8a8f0b7b7d464980f",
+      "dueAt": "2026-08-28T19:00:00+03:00",
+      "title": "Витамин C втрое поднимает усвоение железа",
+      "link": "https://app.listoshenkov.ru/?section=supp_102&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a8a8f0b7b7d46495cc",
+      "dueAt": "2026-08-28T20:00:00+03:00",
+      "title": "Кофе после обеда плата ночью",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
       "id": "6a7c3b4746abc51e70731cd9",
       "dueAt": "2026-08-28T21:00:00+03:00",
       "title": "Хлопья на завтрак: что показал эксперимент со здоровыми людьми",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a86523c7515a238af2",
+      "dueAt": "2026-08-29T08:00:00+03:00",
+      "title": "Какие анализы сдать в перименопаузу",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80a9bc73727d20f4498b",
+      "dueAt": "2026-08-29T09:30:00+03:00",
+      "title": "Перименопауза: 6 опор, на которые встать",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest"
+    },
+    {
+      "id": "6a7d80b96523c7515a238cc3",
+      "dueAt": "2026-08-29T19:00:00+03:00",
+      "title": "ПМС стал тяжелее с годами: что за этим стоит",
+      "link": "https://app.listoshenkov.ru/?section=supp_201&ref=pinterest"
+    },
+    {
+      "id": "6a7d80babbb4aa7c1dde3214",
+      "dueAt": "2026-08-30T19:00:00+03:00",
+      "title": "Не уснуть до двух ночи: это не «сова»",
+      "link": "https://app.listoshenkov.ru/?section=supp_165&ref=pinterest"
+    },
+    {
+      "id": "6a7d80bb6523c7515a238d0c",
+      "dueAt": "2026-08-31T19:00:00+03:00",
+      "title": "Вздутие от овощей и бобовых: чего не хватает",
+      "link": "https://app.listoshenkov.ru/?section=supp_64&ref=pinterest"
     },
     {
       "id": "6a7c3b476730bf576af54690",
@@ -742,10 +1090,22 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7d80bce8ef718a1092195a",
+      "dueAt": "2026-09-01T19:00:00+03:00",
+      "title": "Болеете чаще всех: что смотрят в анализах",
+      "link": "https://app.listoshenkov.ru/?section=supp_182&ref=pinterest"
+    },
+    {
       "id": "6a7c3b48fbc6fabe36f4cc8e",
       "dueAt": "2026-09-01T21:00:00+03:00",
       "title": "Как найти скрытый сахар в составе продукта",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80bde8ef718a1092197f",
+      "dueAt": "2026-09-02T19:00:00+03:00",
+      "title": "Коэнзим Q10: кому он действительно нужен",
+      "link": "https://app.listoshenkov.ru/?section=supp_179&ref=pinterest"
     },
     {
       "id": "6a7c3b4841c0632313fe2f9f",
@@ -754,10 +1114,22 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7d80bebbb4aa7c1dde3243",
+      "dueAt": "2026-09-03T19:00:00+03:00",
+      "title": "Сердце частит по ночам, а кардиолог не находит",
+      "link": "https://app.listoshenkov.ru/?section=supp_93&ref=pinterest"
+    },
+    {
       "id": "6a7c3b496730bf576af5470d",
       "dueAt": "2026-09-03T21:00:00+03:00",
       "title": "Яблочный уксус перед едой: работает или нет",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80bfbc73727d20f44c64",
+      "dueAt": "2026-09-04T19:00:00+03:00",
+      "title": "ГГТ повышен, остальное в норме: о чём это",
+      "link": "https://app.listoshenkov.ru/?section=supp_78&ref=pinterest"
     },
     {
       "id": "6a7c3b4946abc51e70731d2b",
@@ -766,10 +1138,34 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7d80c0bbb4aa7c1dde3295",
+      "dueAt": "2026-09-05T19:00:00+03:00",
+      "title": "Липосомальные витамины: маркетинг или разница",
+      "link": "https://app.listoshenkov.ru/?section=supp_103&ref=pinterest"
+    },
+    {
+      "id": "6a7d80c16523c7515a238d52",
+      "dueAt": "2026-09-06T19:00:00+03:00",
+      "title": "Болит грудь перед месячными: две причины",
+      "link": "https://app.listoshenkov.ru/?section=supp_84&ref=pinterest"
+    },
+    {
+      "id": "6a7d80c2bc73727d20f44cbb",
+      "dueAt": "2026-09-07T19:00:00+03:00",
+      "title": "Гастрит пролечили, а тяжесть осталась",
+      "link": "https://app.listoshenkov.ru/?section=supp_66&ref=pinterest"
+    },
+    {
       "id": "6a7c3b4a458ac3f0de21bcbd",
       "dueAt": "2026-09-07T21:00:00+03:00",
       "title": "Полезные перекусы без сахара: список",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80c3e8ef718a109219cb",
+      "dueAt": "2026-09-08T19:00:00+03:00",
+      "title": "Просыпаетесь в три ночи: при чём тут сахар",
+      "link": "https://app.listoshenkov.ru/?section=supp_169&ref=pinterest"
     },
     {
       "id": "6a7c3b4b458ac3f0de21bcf6",
@@ -778,10 +1174,22 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7d80c484436e7521a3bb3f",
+      "dueAt": "2026-09-09T19:00:00+03:00",
+      "title": "Цистит возвращается: почему клюква не решает сама",
+      "link": "https://app.listoshenkov.ru/?section=supp_174&ref=pinterest"
+    },
+    {
       "id": "6a7c3b4b46abc51e70731d50",
       "dueAt": "2026-09-09T21:00:00+03:00",
       "title": "Когда есть сладкое, чтобы был меньший скачок сахара",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80c56523c7515a238d86",
+      "dueAt": "2026-09-10T19:00:00+03:00",
+      "title": "Тревожность началась после того, как поехал живот",
+      "link": "https://app.listoshenkov.ru/?section=supp_72&ref=pinterest"
     },
     {
       "id": "6a7c3b4c46abc51e70731d75",
@@ -790,10 +1198,34 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7d80c684436e7521a3bb97",
+      "dueAt": "2026-09-11T19:00:00+03:00",
+      "title": "Холестерин вырос: что смотреть кроме общего",
+      "link": "https://app.listoshenkov.ru/?section=supp_218&ref=pinterest"
+    },
+    {
       "id": "6a7c3b4c46abc51e70731d9a",
       "dueAt": "2026-09-11T21:00:00+03:00",
       "title": "Кому нельзя интервальное голодание",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80c7a8f0b7b7d464994d",
+      "dueAt": "2026-09-12T19:00:00+03:00",
+      "title": "Куркумин без биоперина почти бесполезен",
+      "link": "https://app.listoshenkov.ru/?section=supp_212&ref=pinterest"
+    },
+    {
+      "id": "6a7d80c884436e7521a3bbc7",
+      "dueAt": "2026-09-13T19:00:00+03:00",
+      "title": "Герпес вылезает после стресса, а не во время",
+      "link": "https://app.listoshenkov.ru/?section=supp_186&ref=pinterest"
+    },
+    {
+      "id": "6a7d80c984436e7521a3bbf4",
+      "dueAt": "2026-09-14T19:00:00+03:00",
+      "title": "Цинк: куда он девается и как понять, что его мало",
+      "link": "https://app.listoshenkov.ru/?section=supp_109&ref=pinterest"
     },
     {
       "id": "6a7c3b4dd11287e60bfe4e06",
@@ -802,10 +1234,22 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
     },
     {
+      "id": "6a7d80ca84436e7521a3bc25",
+      "dueAt": "2026-09-15T19:00:00+03:00",
+      "title": "Инозитол: инсулин, СПКЯ и овуляция",
+      "link": "https://app.listoshenkov.ru/?section=supp_90&ref=pinterest"
+    },
+    {
       "id": "6a7c3b4d458ac3f0de21bd65",
       "dueAt": "2026-09-15T21:00:00+03:00",
       "title": "Почему просыпаешься ночью с сердцебиением",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80cba8f0b7b7d46499a2",
+      "dueAt": "2026-09-16T19:00:00+03:00",
+      "title": "Желудок болит, а гастроскопия чистая",
+      "link": "https://app.listoshenkov.ru/?section=supp_74&ref=pinterest"
     },
     {
       "id": "6a7c3b4e41c0632313fe303d",
@@ -814,10 +1258,22 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
     },
     {
+      "id": "6a7d80ccbc73727d20f44d6d",
+      "dueAt": "2026-09-17T19:00:00+03:00",
+      "title": "Тошнит от железа: что делают, чтобы не бросать курс",
+      "link": "https://app.listoshenkov.ru/?section=supp_162&ref=pinterest"
+    },
+    {
       "id": "6a7c3b4fd11287e60bfe4e30",
       "dueAt": "2026-09-17T21:00:00+03:00",
       "title": "Что проверить, если правильное питание не помогает",
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
+    },
+    {
+      "id": "6a7d80cd84436e7521a3bc4f",
+      "dueAt": "2026-09-18T19:00:00+03:00",
+      "title": "Судороги в ногах и тяжёлый ПМС: один дефицит",
+      "link": "https://app.listoshenkov.ru/?section=supp_91&ref=pinterest"
     },
     {
       "id": "6a7c3b4f46abc51e70731de4",
@@ -826,10 +1282,34 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
     },
     {
+      "id": "6a7d80cea8f0b7b7d46499ca",
+      "dueAt": "2026-09-19T19:00:00+03:00",
+      "title": "Инсулин растёт раньше сахара на годы",
+      "link": "https://app.listoshenkov.ru/?section=supp_82&ref=pinterest"
+    },
+    {
+      "id": "6a7d80cf6523c7515a238e94",
+      "dueAt": "2026-09-20T19:00:00+03:00",
+      "title": "Туман в голове: с чего начинают разбираться",
+      "link": "https://app.listoshenkov.ru/?section=supp_105&ref=pinterest"
+    },
+    {
+      "id": "6a7d80d0bbb4aa7c1dde334f",
+      "dueAt": "2026-09-21T19:00:00+03:00",
+      "title": "Лецитин: желчь, печень и память в одном",
+      "link": "https://app.listoshenkov.ru/?section=supp_85&ref=pinterest"
+    },
+    {
       "id": "6a7c3b5041c0632313fe3064",
       "dueAt": "2026-09-21T21:00:00+03:00",
       "title": "Сколько белка нужно в день: простой ориентир",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d80d1a8f0b7b7d46499fe",
+      "dueAt": "2026-09-22T19:00:00+03:00",
+      "title": "Йод: зачем он нужен и кому с ним осторожнее",
+      "link": "https://app.listoshenkov.ru/?section=supp_107&ref=pinterest"
     },
     {
       "id": "6a7c3b50d11287e60bfe4e90",
@@ -838,10 +1318,22 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
     },
     {
+      "id": "6a7d80d26523c7515a238ec0",
+      "dueAt": "2026-09-23T19:00:00+03:00",
+      "title": "Пробиотики не помогли: чем отличаются метабиотики",
+      "link": "https://app.listoshenkov.ru/?section=supp_67&ref=pinterest"
+    },
+    {
       "id": "6a7c3b5146abc51e70731e10",
       "dueAt": "2026-09-23T21:00:00+03:00",
       "title": "Какие анализы сдать при планировании беременности обоим",
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
+    },
+    {
+      "id": "6a7d80d2a8f0b7b7d4649a2d",
+      "dueAt": "2026-09-24T19:00:00+03:00",
+      "title": "Мультивитамин: кому он нужен, а кому это трата",
+      "link": "https://app.listoshenkov.ru/?section=supp_112&ref=pinterest"
     },
     {
       "id": "6a7c3b516730bf576af5490e",
@@ -850,10 +1342,34 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
     },
     {
+      "id": "6a7d80d3e8ef718a10921ab6",
+      "dueAt": "2026-09-25T19:00:00+03:00",
+      "title": "Волосы лезут и ногти слоятся: смотреть надо не туда",
+      "link": "https://app.listoshenkov.ru/?section=supp_216&ref=pinterest"
+    },
+    {
       "id": "6a7c3b52fbc6fabe36f4cd67",
       "dueAt": "2026-09-25T21:00:00+03:00",
       "title": "ТТГ в норме, а симптомы есть: что смотреть",
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
+    },
+    {
+      "id": "6a7d80d4bbb4aa7c1dde33c5",
+      "dueAt": "2026-09-26T19:00:00+03:00",
+      "title": "Переболели две недели назад, а сил нет",
+      "link": "https://app.listoshenkov.ru/?section=supp_190&ref=pinterest"
+    },
+    {
+      "id": "6a7d80d5bc73727d20f44e0e",
+      "dueAt": "2026-09-27T19:00:00+03:00",
+      "title": "Сколько белка нужно в день и как его добрать",
+      "link": "https://app.listoshenkov.ru/?section=supp_89&ref=pinterest"
+    },
+    {
+      "id": "6a7d80d6e8ef718a10921adb",
+      "dueAt": "2026-09-28T19:00:00+03:00",
+      "title": "Серотонин делается в животе, а мозгу достаётся не он",
+      "link": "https://app.listoshenkov.ru/?section=supp_71&ref=pinterest"
     },
     {
       "id": "6a7c3b5346abc51e70731e53",
@@ -862,17 +1378,190 @@
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
     },
     {
+      "id": "6a7d8499e8ef718a10924a68",
+      "dueAt": "2026-09-29T19:00:00+03:00",
+      "title": "Отёки к вечеру: почему меньше пить не помогает",
+      "link": "https://app.listoshenkov.ru/?section=supp_75&ref=pinterest"
+    },
+    {
       "id": "6a7c3b536730bf576af54933",
       "dueAt": "2026-09-29T21:00:00+03:00",
       "title": "Нужен ли монитор глюкозы, если нет диабета",
       "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest"
     },
     {
+      "id": "6a7d849a6523c7515a23b9c6",
+      "dueAt": "2026-09-30T19:00:00+03:00",
+      "title": "Хрустят колени: почему покой хрящу вредит",
+      "link": "https://app.listoshenkov.ru/?section=supp_170&ref=pinterest"
+    },
+    {
       "id": "6a7c3b546730bf576af5496d",
       "dueAt": "2026-09-30T21:00:00+03:00",
       "title": "Как выровнять сахар в крови: 7 шагов",
       "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest"
+    },
+    {
+      "id": "6a7d849bbbb4aa7c1dde618e",
+      "dueAt": "2026-10-01T19:00:00+03:00",
+      "title": "Спите восемь часов, а отдыха нет",
+      "link": "https://app.listoshenkov.ru/?section=supp_167&ref=pinterest"
+    },
+    {
+      "id": "6a7d849ce8ef718a10924a92",
+      "dueAt": "2026-10-02T19:00:00+03:00",
+      "title": "Молочница возвращается: почему местного лечения мало",
+      "link": "https://app.listoshenkov.ru/?section=supp_73&ref=pinterest"
+    },
+    {
+      "id": "6a7d849d84436e7521a3e5dd",
+      "dueAt": "2026-10-03T19:00:00+03:00",
+      "title": "Карнитин это транспорт, а не жиросжигатель",
+      "link": "https://app.listoshenkov.ru/?section=supp_106&ref=pinterest"
+    },
+    {
+      "id": "6a7d849ebbb4aa7c1dde61c9",
+      "dueAt": "2026-10-04T19:00:00+03:00",
+      "title": "После сорока: живот растёт и ночью встаёте в туалет",
+      "link": "https://app.listoshenkov.ru/?section=supp_198&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a0bc73727d20f47af9",
+      "dueAt": "2026-10-05T19:00:00+03:00",
+      "title": "Формы магния: чем цитрат отличается от оксида",
+      "link": "https://app.listoshenkov.ru/?section=supp_95&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a184436e7521a3e60c",
+      "dueAt": "2026-10-06T19:00:00+03:00",
+      "title": "Тяжесть справа после жирного и горечь по утрам",
+      "link": "https://app.listoshenkov.ru/?section=supp_76&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a2a8f0b7b7d464c594",
+      "dueAt": "2026-10-07T19:00:00+03:00",
+      "title": "Застолье и тяжесть: что реально помогает",
+      "link": "https://app.listoshenkov.ru/?section=supp_63&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a36523c7515a23b9f8",
+      "dueAt": "2026-10-08T19:00:00+03:00",
+      "title": "Первые часы простуды решают больше, чем вся неделя",
+      "link": "https://app.listoshenkov.ru/?section=supp_182&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a4e8ef718a10924ac8",
+      "dueAt": "2026-10-09T19:00:00+03:00",
+      "title": "После сорока тело делает меньше своего Q10",
+      "link": "https://app.listoshenkov.ru/?section=supp_179&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a5bc73727d20f47b31",
+      "dueAt": "2026-10-10T19:00:00+03:00",
+      "title": "Спали восемь часов и встали разбитой",
+      "link": "https://app.listoshenkov.ru/?section=supp_168&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a684436e7521a3e6c4",
+      "dueAt": "2026-10-11T19:00:00+03:00",
+      "title": "Что проверить мужчине после сорока: короткий список",
+      "link": "https://app.listoshenkov.ru/?section=supp_98&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a784436e7521a3e6e9",
+      "dueAt": "2026-10-12T19:00:00+03:00",
+      "title": "Молочница возвращается: почему одного курса мало",
+      "link": "https://app.listoshenkov.ru/?section=supp_177&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a8a8f0b7b7d464c5d9",
+      "dueAt": "2026-10-13T19:00:00+03:00",
+      "title": "Железо через день усваивается лучше: про гепсидин",
+      "link": "https://app.listoshenkov.ru/?section=supp_163&ref=pinterest"
+    },
+    {
+      "id": "6a7d84a96523c7515a23ba2f",
+      "dueAt": "2026-10-14T19:00:00+03:00",
+      "title": "Вес стоит на честном дефиците: три гормона",
+      "link": "https://app.listoshenkov.ru/?section=supp_83&ref=pinterest"
+    },
+    {
+      "id": "6a7d84aabbb4aa7c1dde625e",
+      "dueAt": "2026-10-15T19:00:00+03:00",
+      "title": "ТТГ красивый, а сил нет: смотрите надпочечники",
+      "link": "https://app.listoshenkov.ru/?section=supp_108&ref=pinterest"
+    },
+    {
+      "id": "6a7d84abbc73727d20f47b82",
+      "dueAt": "2026-10-16T19:00:00+03:00",
+      "title": "Сорбент и микрофлора в одном: когда это оправдано",
+      "link": "https://app.listoshenkov.ru/?section=supp_67&ref=pinterest"
+    },
+    {
+      "id": "6a7d84ace8ef718a10924b28",
+      "dueAt": "2026-10-17T19:00:00+03:00",
+      "title": "Частые позывы при чистых анализах: почему так бывает",
+      "link": "https://app.listoshenkov.ru/?section=supp_174&ref=pinterest"
+    },
+    {
+      "id": "6a7d84ad84436e7521a3e744",
+      "dueAt": "2026-10-18T19:00:00+03:00",
+      "title": "Ось кишечник-мозг: почему это не метафора",
+      "link": "https://app.listoshenkov.ru/?section=supp_72&ref=pinterest"
+    },
+    {
+      "id": "6a7d84ae6523c7515a23ba83",
+      "dueAt": "2026-10-19T19:00:00+03:00",
+      "title": "Сосуды теряют эластичность: что это на самом деле",
+      "link": "https://app.listoshenkov.ru/?section=supp_220&ref=pinterest"
+    },
+    {
+      "id": "6a7d84b0bbb4aa7c1dde62d3",
+      "dueAt": "2026-10-20T19:00:00+03:00",
+      "title": "Тихое воспаление: как оно проявляется в анализах",
+      "link": "https://app.listoshenkov.ru/?section=supp_214&ref=pinterest"
+    },
+    {
+      "id": "6a7d84b1e8ef718a10924b4d",
+      "dueAt": "2026-10-21T19:00:00+03:00",
+      "title": "Ребёнок не может уснуть и плачет на ровном месте",
+      "link": "https://app.listoshenkov.ru/?section=supp_94&ref=pinterest"
+    },
+    {
+      "id": "6a7d84b2bbb4aa7c1dde62fb",
+      "dueAt": "2026-10-22T19:00:00+03:00",
+      "title": "Две фазы детоксикации: почему нельзя разгонять первую",
+      "link": "https://app.listoshenkov.ru/?section=supp_77&ref=pinterest"
+    },
+    {
+      "id": "6a7d84b3e8ef718a10924b7f",
+      "dueAt": "2026-10-23T19:00:00+03:00",
+      "title": "Иммунитет к осени: что делать заранее, а не в ноябре",
+      "link": "https://app.listoshenkov.ru/?section=supp_190&ref=pinterest"
+    },
+    {
+      "id": "6a7d84b4e8ef718a10924ba4",
+      "dueAt": "2026-10-24T19:00:00+03:00",
+      "title": "Легли в одиннадцать, а уснули в час",
+      "link": "https://app.listoshenkov.ru/?section=supp_165&ref=pinterest"
+    },
+    {
+      "id": "6a7d84b5a8f0b7b7d464c636",
+      "dueAt": "2026-10-25T19:00:00+03:00",
+      "title": "Высыпаюсь, а сил нет: смотрим на уровень клетки",
+      "link": "https://app.listoshenkov.ru/?section=supp_111&ref=pinterest"
+    },
+    {
+      "id": "6a7d84b684436e7521a3e795",
+      "dueAt": "2026-10-26T19:00:00+03:00",
+      "title": "После антибиотиков началось другое: почему так",
+      "link": "https://app.listoshenkov.ru/?section=supp_177&ref=pinterest"
+    },
+    {
+      "id": "6a7d84b76523c7515a23bb18",
+      "dueAt": "2026-10-27T19:00:00+03:00",
+      "title": "Клетчатка: как вводить, чтобы не раздувало",
+      "link": "https://app.listoshenkov.ru/?section=supp_64&ref=pinterest"
     }
-  ],
-  "note": "Канал Buffer пересоздан 12.08.2026 (Reconnect); будущие слоты вычищены и ставятся заново."
+  ]
 }
