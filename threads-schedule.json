@@ -852,12 +852,12 @@
     "time": "18:00",
     "timezone": "Europe/Moscow",
     "text": "Латентный дефицит: анемии нет, а железа нет\n\n- Гемоглобин ещё нормальный\n- Ферритин уже низкий\n- Насыщение трансферрина падает\n- Симптомы уже есть\n- Это стадия до анемии\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Железо за 8 недель»:\nhttps://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18178924975420270",
+    "published_at": "2026-08-14T18:01:06.725132+03:00",
+    "reply_id": "17899474167354790",
+    "reply_status": "published"
   },
   {
     "id": 67,
