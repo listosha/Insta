@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "date": "2026-06-15",
+    "time": "10:00",
+    "status": "pending",
+    "board_id": "REPLACE_WITH_BOARD_ID",
+    "title": "10 продуктов, где железа больше, чем в гречке",
+    "description": "Памятка: топ источников железа в рационе. Сохрани, чтобы не забыть при составлении меню. Подробный разбор и подбор меню — по ссылке. #питание #железо #нутрициология",
+    "link": "https://example.com/landing/zhelezo",
+    "image_url": "https://raw.githubusercontent.com/listosha/Insta/main/images/series-25-/slide-01.png",
+    "pin_id": null,
+    "published_at": null,
+    "_comment": "DRAFT-образец. image_url указывает на PNG в публичном репо (raw.githubusercontent) — Pinterest API умеет брать картинку по URL (source_type=image_url), отдельная заливка файла не нужна. board_id заполнить после создания доски. Идеальная картинка — вертикаль 1000x1500; наши 1080x1350 тоже примет."
+  }
+]

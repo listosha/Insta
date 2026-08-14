@@ -1,0 +1,90 @@
+name: Refresh Pinterest Token
+
+# DRAFT / черновик — НЕ включать, пока не заведены секреты и не пройден OAuth.
+#
+# Pinterest access-токен живёт 30 дней, refresh-токен — 60 дней (обновляется
+# бесконечно). Этот воркфлоу меняет access-токен через refresh-токен и пишет
+# новое значение обратно в секрет PINTEREST_ACCESS_TOKEN через GitHub API.
+# Запускать чаще раза в 30 дней.
+#
+# СЕКРЕТЫ:
+#   PINTEREST_ACCESS_TOKEN   — текущий access-токен (этот воркфлоу его перезаписывает)
+#   PINTEREST_REFRESH_TOKEN  — refresh-токен (60 дней; если ответ вернёт новый — обновить вручную/доработать)
+#   PINTEREST_APP_ID         — app_id приложения
+#   PINTEREST_APP_SECRET     — app_secret приложения
+#   PINTEREST_REFRESH_PAT    — fine-grained PAT с "Secrets: Read and write" на репо listosha/Insta
+#
+# Security note: репо публичный. Токен никогда не печатается — шифруется публичным
+# ключом репо (libsodium) перед записью, как требует GitHub.
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 6 1 * *'   # ~раз в месяц — включить после того, как постинг заработает
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh token and update secret
+        env:
+          REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          APP_ID:        ${{ secrets.PINTEREST_APP_ID }}
+          APP_SECRET:    ${{ secrets.PINTEREST_APP_SECRET }}
+          GH_REPO:       ${{ github.repository }}
+          REFRESH_PAT:   ${{ secrets.PINTEREST_REFRESH_PAT }}
+        run: |
+          pip install --quiet requests pynacl
+          python3 << 'EOF'
+          import os, sys, json, requests
+          from base64 import b64encode
+          from nacl import encoding, public
+
+          refresh_token = os.environ["REFRESH_TOKEN"]
+          app_id        = os.environ["APP_ID"]
+          app_secret    = os.environ["APP_SECRET"]
+          repo          = os.environ["GH_REPO"]
+          pat           = os.environ["REFRESH_PAT"]
+
+          # 1) обмен refresh-токена на новый access-токен (HTTP Basic auth app_id:app_secret)
+          r = requests.post(
+              "https://api.pinterest.com/v5/oauth/token",
+              auth=(app_id, app_secret),
+              data={"grant_type": "refresh_token", "refresh_token": refresh_token},
+              timeout=60,
+          )
+          if not r.ok:
+              print(f"Refresh failed: {r.status_code} {r.text[:300]}")
+              sys.exit(1)
+          new_token = r.json()["access_token"]
+          print(f"Got refreshed access token, expires_in={r.json().get('expires_in', '?')}s")
+          if "refresh_token" in r.json():
+              print("NOTE: ответ содержит новый refresh_token — обновите секрет PINTEREST_REFRESH_TOKEN.")
+
+          gh = {
+              "Authorization": f"Bearer {pat}",
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+
+          # 2) публичный ключ репо для шифрования секрета
+          k = requests.get(
+              f"https://api.github.com/repos/{repo}/actions/secrets/public-key",
+              headers=gh, timeout=30,
+          )
+          k.raise_for_status()
+          key_id = k.json()["key_id"]
+          pub = public.PublicKey(k.json()["key"].encode("utf-8"), encoding.Base64Encoder())
+
+          # 3) зашифровать и записать новый access-токен в секрет
+          sealed = public.SealedBox(pub).encrypt(new_token.encode("utf-8"))
+          body = {"encrypted_value": b64encode(sealed).decode("utf-8"), "key_id": key_id}
+          u = requests.put(
+              f"https://api.github.com/repos/{repo}/actions/secrets/PINTEREST_ACCESS_TOKEN",
+              headers=gh, data=json.dumps(body), timeout=30,
+          )
+          if u.status_code not in (201, 204):
+              print(f"Secret update failed: {u.status_code} {u.text[:300]}")
+              sys.exit(1)
+          print("PINTEREST_ACCESS_TOKEN updated successfully.")
+          EOF
