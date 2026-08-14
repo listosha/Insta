@@ -77,7 +77,12 @@ const CARDS = [
     tile:{ e:'🎧', bg:'#f5d8e8', t:'Эфиры и подкасты', d:'Ставишь и занимаешься делами' } },
   { name:'rem-11-favorites',
     h:'Звёздочка, которой не пользуются', s:'Сохрани сейчас, найдёшь когда придут анализы',
-    tile:{ e:'⭐', bg:'#fef3d8', t:'Избранное', d:'Пост находится за две секунды' } }
+    tile:{ e:'⭐', bg:'#fef3d8', t:'Избранное', d:'Пост находится за две секунды' } },
+  // Служебные обложки: та же вёрстка, но надзаголовок и кнопка свои — карточка ведёт
+  // не в приложение. Поля eyebrow/cta необязательные, у напоминалок их нет.
+  { name:'svc-max-link', eyebrow:'Канал в MAX', cta:'Перейти →',
+    h:'У канала появился адрес', s:'Теперь им можно поделиться, а не пересылать по одному посту',
+    tile:{ e:'💬', bg:'#e8e0fb', t:'max.ru/channel_alex_nutrition', d:'Прямая ссылка на канал' } }
 ];
 
 const root = document.getElementById('root');
@@ -88,7 +93,7 @@ for (const c of CARDS) {
   el.setAttribute('data-name', c.name);
   el.innerHTML =
     '<div class="glow"></div>'
-    + '<div class="eyebrow">В приложении<span></span></div>'
+    + '<div class="eyebrow">' + (c.eyebrow || 'В приложении') + '<span></span></div>'
     + '<div class="mid">'
       + '<div class="headline' + (c.h.length > 30 ? ' sm' : '') + '">' + c.h + '</div>'
       + '<div class="sub">' + c.s + '</div>'
@@ -100,7 +105,7 @@ for (const c of CARDS) {
       + '</div>'
     + '</div>'
     + '<div class="footer"><div class="brand">Алексей Листошенков · нутрициолог</div>'
-      + '<div class="open">Открыть →</div></div>';
+      + '<div class="open">' + (c.cta || 'Открыть →') + '</div></div>';
   root.appendChild(el);
 }
 </script>
