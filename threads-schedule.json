@@ -1133,13 +1133,13 @@
     "time": "15:00",
     "timezone": "Europe/Moscow",
     "text": "В бланке подсветили билирубин, стрелка вверх. Пугаться или нет?\n\nЧаще всего это синдром Жильбера: фермент, который цепляет к билирубину метку для вывода, работает медленнее. Не болезнь, встречается у каждого десятого.\n\nНо он даёт вязкую усталость, тяжесть справа и плохую переносимость лекарств. Растёт на голодании, стрессе и алкоголе.\n\nКарточка в первом комментарии\n\nДелюсь тем, что использую в практике. Это не назначение.",
-    "status": "pending",
+    "status": "published",
     "reply": "Карточка с составом:\nhttps://app.listoshenkov.ru/?section=supp_79&ref=threads",
     "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-45/bady_07.png",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "17911685253265612",
+    "published_at": "2026-08-19T15:01:18.969227+03:00",
+    "reply_id": "18101265746209592",
+    "reply_status": "published"
   },
   {
     "id": 78,
