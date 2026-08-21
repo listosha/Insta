@@ -17,7 +17,7 @@
     }
   },
   "counts": {
-    "total": 371,
+    "total": 398,
     "guides": 10,
     "articles": 9,
     "menu": 30,
@@ -534,294 +534,6 @@
       "scheduled_at": "2026-07-02T10:00:00+03:00"
     },
     {
-      "slug": "menu-smuzi-energiya",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-smuzi-energiya.png",
-      "title": "Смузи для энергии без сахара",
-      "description": "Смузи для энергии без сахара. Йогурт, ягоды, семена чиа · Шпинат, банан, орехи · Какао, банан, миндаль. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-03",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-03T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-uzhin-15min",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-uzhin-15min.png",
-      "title": "3 ужина за 15 минут",
-      "description": "3 ужина за 15 минут. Рыба на пару с овощами · Омлет с овощами · Тёплый салат с курицей. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-04",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-04T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-salaty-syto",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-salaty-syto.png",
-      "title": "Сытные салаты, чтобы наесться",
-      "description": "Сытные салаты, чтобы наесться. Салат с тунцом и яйцом · Тёплый салат с нутом · Зелень, авокадо, семечки. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-05",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-05T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-supy-jkt",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-supy-jkt.png",
-      "title": "Тёплые супы для лёгкости в животе",
-      "description": "Тёплые супы для лёгкости в животе. Овощной крем-суп · Куриный бульон с овощами · Чечевичный суп. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-06",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-06T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-perekus-rabota",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-perekus-rabota.png",
-      "title": "Перекусы на работе без сахара",
-      "description": "Перекусы на работе без сахара. Орехи и кусочек сыра · Йогурт без добавок · Яйцо и овощные палочки. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-07",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-07T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-desert-bez-sahara",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-desert-bez-sahara.png",
-      "title": "Сладкое без скачка сахара",
-      "description": "Сладкое без скачка сахара. Йогурт с ягодами и орехами · Тёмный шоколад 70%+ · Запечённое яблоко с корицей. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-08",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-08T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-belok-zavtrak",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-belok-zavtrak.png",
-      "title": "Завтраки с высоким белком",
-      "description": "Завтраки с высоким белком. Яичница с творогом · Скрэмбл с лососем · Творог с орехами. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-09",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-09T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-eda-kortizol",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-kortizol.png",
-      "title": "Еда при высоком кортизоле",
-      "description": "Еда при высоком кортизоле. Завтрак с белком · Магний: зелень, семечки · Омега-3 рыба. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-10",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-10T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-eda-son",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-son.png",
-      "title": "Что есть, чтобы крепче спать",
-      "description": "Что есть, чтобы крепче спать. Триптофан: индейка, творог · Магний: тыквенные семечки · Лёгкий тёплый ужин. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-11",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-11T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-eda-trevoga",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-trevoga.png",
-      "title": "Питание против тревоги",
-      "description": "Питание против тревоги. Магний и B6 · Омега-3 рыба · Ровный сахар. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-12",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-12T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-eda-kishechnik",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-kishechnik.png",
-      "title": "Еда для здорового кишечника",
-      "description": "Еда для здорового кишечника. Клетчатка: овощи, крупы · Ферментированное · Бобовые понемногу. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-13",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-13T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-eda-holesterin",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-holesterin.png",
-      "title": "Питание при высоком холестерине",
-      "description": "Питание при высоком холестерине. Омега-3 рыба · Растворимая клетчатка · Орехи горстью. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-14",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-14T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-eda-volosy",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-volosy.png",
-      "title": "Еда для густоты волос",
-      "description": "Еда для густоты волос. Белок и железо · Цинк и омега-3 · Зелень и яркие овощи. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-15",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-15T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-eda-insulin",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-insulin.png",
-      "title": "Еда, чтобы выровнять сахар",
-      "description": "Еда, чтобы выровнять сахар. Белок и жир первыми · Сложные углеводы · Клетчатка каждый приём. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-16",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-16T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-voda",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-voda.png",
-      "title": "Сколько воды нужно и зачем",
-      "description": "Сколько воды нужно и зачем. ~30 мл на кг веса · Стакан после пробуждения · Меньше кофе и сладких. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-17",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-17T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-belok-skolko",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-belok-skolko.png",
-      "title": "Сколько белка нужно женщине",
-      "description": "Сколько белка нужно женщине. ~1,2–1,6 г на кг · Белок в каждый приём · Считаем источники. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-18",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-18T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-ritm-edy",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-ritm-edy.png",
-      "title": "Когда есть: ритм приёмов пищи",
-      "description": "Когда есть: ритм приёмов пищи. Завтрак в первый час · 3 приёма без долгих окон · Ужин за 3 часа до сна. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-19",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-19T10:00:00+03:00"
-    },
-    {
-      "slug": "menu-spisok-pokupok",
-      "type": "menu",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-spisok-pokupok.png",
-      "title": "Список покупок на неделю за минуту",
-      "description": "Список покупок на неделю за минуту. Меню собирает список · Всё по категориям · Ничего не забудешь. Готовое меню под твои цели и анализы — в приложении по ссылке.",
-      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-07-20",
-      "time": "10:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-07-20T10:00:00+03:00"
-    },
-    {
       "slug": "iron_01",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_01.png",
@@ -836,6 +548,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-03T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-smuzi-energiya",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-smuzi-energiya.png",
+      "title": "Смузи для энергии без сахара",
+      "description": "Смузи для энергии без сахара. Йогурт, ягоды, семена чиа · Шпинат, банан, орехи · Какао, банан, миндаль. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-03",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-03T10:00:00+03:00"
     },
     {
       "slug": "hair_01",
@@ -870,6 +598,22 @@
       "scheduled_at": "2026-07-04T09:00:00+03:00"
     },
     {
+      "slug": "menu-uzhin-15min",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-uzhin-15min.png",
+      "title": "3 ужина за 15 минут",
+      "description": "3 ужина за 15 минут. Рыба на пару с овощами · Омлет с овощами · Тёплый салат с курицей. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-04",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-04T10:00:00+03:00"
+    },
+    {
       "slug": "pms_01",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_01.png",
@@ -900,6 +644,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-05T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-salaty-syto",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-salaty-syto.png",
+      "title": "Сытные салаты, чтобы наесться",
+      "description": "Сытные салаты, чтобы наесться. Салат с тунцом и яйцом · Тёплый салат с нутом · Зелень, авокадо, семечки. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-05",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-05T10:00:00+03:00"
     },
     {
       "slug": "iron_02",
@@ -934,6 +694,22 @@
       "scheduled_at": "2026-07-06T09:00:00+03:00"
     },
     {
+      "slug": "menu-supy-jkt",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-supy-jkt.png",
+      "title": "Тёплые супы для лёгкости в животе",
+      "description": "Тёплые супы для лёгкости в животе. Овощной крем-суп · Куриный бульон с овощами · Чечевичный суп. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-06",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-06T10:00:00+03:00"
+    },
+    {
       "slug": "thy_02",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_02.png",
@@ -964,6 +740,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-07T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-perekus-rabota",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-perekus-rabota.png",
+      "title": "Перекусы на работе без сахара",
+      "description": "Перекусы на работе без сахара. Орехи и кусочек сыра · Йогурт без добавок · Яйцо и овощные палочки. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-07",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-07T10:00:00+03:00"
     },
     {
       "slug": "peri_02",
@@ -998,6 +790,22 @@
       "scheduled_at": "2026-07-08T09:00:00+03:00"
     },
     {
+      "slug": "menu-desert-bez-sahara",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-desert-bez-sahara.png",
+      "title": "Сладкое без скачка сахара",
+      "description": "Сладкое без скачка сахара. Йогурт с ягодами и орехами · Тёмный шоколад 70%+ · Запечённое яблоко с корицей. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-08",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-08T10:00:00+03:00"
+    },
+    {
       "slug": "hair_03",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_03.png",
@@ -1028,6 +836,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-09T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-belok-zavtrak",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-belok-zavtrak.png",
+      "title": "Завтраки с высоким белком",
+      "description": "Завтраки с высоким белком. Яичница с творогом · Скрэмбл с лососем · Творог с орехами. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-09",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-09T10:00:00+03:00"
     },
     {
       "slug": "pms_03",
@@ -1062,6 +886,22 @@
       "scheduled_at": "2026-07-10T09:00:00+03:00"
     },
     {
+      "slug": "menu-eda-kortizol",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-kortizol.png",
+      "title": "Еда при высоком кортизоле",
+      "description": "Еда при высоком кортизоле. Завтрак с белком · Магний: зелень, семечки · Омега-3 рыба. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-10",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-10T10:00:00+03:00"
+    },
+    {
       "slug": "iron_04",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/iron_04.png",
@@ -1092,6 +932,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-11T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-son",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-son.png",
+      "title": "Что есть, чтобы крепче спать",
+      "description": "Что есть, чтобы крепче спать. Триптофан: индейка, творог · Магний: тыквенные семечки · Лёгкий тёплый ужин. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-11",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-11T10:00:00+03:00"
     },
     {
       "slug": "thy_04",
@@ -1126,6 +982,22 @@
       "scheduled_at": "2026-07-12T09:00:00+03:00"
     },
     {
+      "slug": "menu-eda-trevoga",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-trevoga.png",
+      "title": "Питание против тревоги",
+      "description": "Питание против тревоги. Магний и B6 · Омега-3 рыба · Ровный сахар. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-12",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-12T10:00:00+03:00"
+    },
+    {
       "slug": "peri_04",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/peri_04.png",
@@ -1156,6 +1028,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-13T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-kishechnik",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-kishechnik.png",
+      "title": "Еда для здорового кишечника",
+      "description": "Еда для здорового кишечника. Клетчатка: овощи, крупы · Ферментированное · Бобовые понемногу. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-13",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-13T10:00:00+03:00"
     },
     {
       "slug": "hair_05",
@@ -1190,6 +1078,22 @@
       "scheduled_at": "2026-07-14T09:00:00+03:00"
     },
     {
+      "slug": "menu-eda-holesterin",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-holesterin.png",
+      "title": "Питание при высоком холестерине",
+      "description": "Питание при высоком холестерине. Омега-3 рыба · Растворимая клетчатка · Орехи горстью. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-14",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-14T10:00:00+03:00"
+    },
+    {
       "slug": "pms_05",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_05.png",
@@ -1220,6 +1124,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-15T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-eda-volosy",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-volosy.png",
+      "title": "Еда для густоты волос",
+      "description": "Еда для густоты волос. Белок и железо · Цинк и омега-3 · Зелень и яркие овощи. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-15",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-15T10:00:00+03:00"
     },
     {
       "slug": "iron_06",
@@ -1254,6 +1174,22 @@
       "scheduled_at": "2026-07-16T09:00:00+03:00"
     },
     {
+      "slug": "menu-eda-insulin",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-eda-insulin.png",
+      "title": "Еда, чтобы выровнять сахар",
+      "description": "Еда, чтобы выровнять сахар. Белок и жир первыми · Сложные углеводы · Клетчатка каждый приём. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-16",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-16T10:00:00+03:00"
+    },
+    {
       "slug": "thy_06",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/thy_06.png",
@@ -1284,6 +1220,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-17T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-voda",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-voda.png",
+      "title": "Сколько воды нужно и зачем",
+      "description": "Сколько воды нужно и зачем. ~30 мл на кг веса · Стакан после пробуждения · Меньше кофе и сладких. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-17",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-17T10:00:00+03:00"
     },
     {
       "slug": "peri_06",
@@ -1318,6 +1270,22 @@
       "scheduled_at": "2026-07-18T09:00:00+03:00"
     },
     {
+      "slug": "menu-belok-skolko",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-belok-skolko.png",
+      "title": "Сколько белка нужно женщине",
+      "description": "Сколько белка нужно женщине. ~1,2–1,6 г на кг · Белок в каждый приём · Считаем источники. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-18",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-18T10:00:00+03:00"
+    },
+    {
       "slug": "hair_07",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/hair_07.png",
@@ -1350,6 +1318,22 @@
       "scheduled_at": "2026-07-19T09:00:00+03:00"
     },
     {
+      "slug": "menu-ritm-edy",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-ritm-edy.png",
+      "title": "Когда есть: ритм приёмов пищи",
+      "description": "Когда есть: ритм приёмов пищи. Завтрак в первый час · 3 приёма без долгих окон · Ужин за 3 часа до сна. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-19",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-19T10:00:00+03:00"
+    },
+    {
       "slug": "pms_07",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-hero/pms_07.png",
@@ -1380,6 +1364,22 @@
       "time": "09:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-07-20T09:00:00+03:00"
+    },
+    {
+      "slug": "menu-spisok-pokupok",
+      "type": "menu",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-menu/menu-spisok-pokupok.png",
+      "title": "Список покупок на неделю за минуту",
+      "description": "Список покупок на неделю за минуту. Меню собирает список · Всё по категориям · Ничего не забудешь. Готовое меню под твои цели и анализы — в приложении по ссылке.",
+      "link": "https://listoshenkov.ru/menu/?utm_source=pinterest&utm_medium=social&utm_campaign=menu",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-07-20",
+      "time": "10:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-07-20T10:00:00+03:00"
     },
     {
       "slug": "iron_08",
@@ -1798,566 +1798,6 @@
       "scheduled_at": "2026-08-12T21:00:00+03:00"
     },
     {
-      "slug": "gluk-pin-02",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-02-01.png",
-      "title": "Какие анализы сдать, чтобы проверить сахар и инсулин",
-      "description": "Одной глюкозы натощак мало: она остаётся нормальной годами, пока инсулин растёт. Три показателя из одной пробирки и что они означают. Ориентиры, а не диагноз.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-13",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-13T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-03",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-03-01.png",
-      "title": "HOMA-IR: как посчитать индекс инсулинорезистентности самому",
-      "description": "Индекс считается из глюкозы и инсулина натощак обычным калькулятором. Показывает то, чего не видно в отдельных строках анализа. Ориентир и пример расчёта.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-14",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-14T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-04",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-04-01.png",
-      "title": "Как справиться с тягой к сладкому без силы воли",
-      "description": "Тяга включается на падении сахара и обычно проходит сама за двадцать минут. Три шага, которые работают лучше запретов. Механизм и исследование в бесплатном гайде.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-17",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-17T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-05",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-05-01.png",
-      "title": "Признаки скачков сахара в крови у здоровых людей",
-      "description": "Скачки глюкозы бывают и без диабета: по оценкам, к нарушенной регуляции предрасположены около 88 процентов взрослых. Чек-лист симптомов и что проверить дальше.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-18",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-18T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-06",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-06-01.png",
-      "title": "Прогулка после еды: сколько минут и зачем",
-      "description": "Десять минут движения после еды заметно снижают подъём сахара, причём без повышения инсулина. Почему это работает и в какое окно нужно успеть.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-19",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-19T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-07",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-07-01.png",
-      "title": "Гликированный гемоглобин: расшифровка и когда он обманывает",
-      "description": "HbA1c показывает средний сахар за квартал, и подготовиться к нему нельзя. Но у анализа есть два ограничения, из-за которых по нему делают неверные выводы.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-20",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-20T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-08",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-08-01.png",
-      "title": "Почему нет сил, если питание нормальное",
-      "description": "Усталость при достаточной еде часто идёт от перегруженных митохондрий, но не всегда: те же симптомы дают низкий ферритин, дефицит B12 и вялая щитовидная железа. Что проверить.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-21",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-21T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-09a",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-09a-01.png",
-      "title": "Порядок еды при инсулинорезистентности: что есть первым",
-      "description": "Один и тот же обед даёт разный скачок сахара в зависимости от того, с чего начать. Схема из трёх шагов, механизм и цифры исследования. Разбор целиком в канале.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-24",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-24T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-09b",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-09b-01.png",
-      "title": "Как есть хлеб и не ловить скачок сахара",
-      "description": "Приём из практики: разложить бутерброд на составляющие и съесть хлеб последним. Работает с любым приёмом пищи, где есть крахмал.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-25",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-25T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-10",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-10-01.png",
-      "title": "Овощи перед едой: что подойдёт, кроме салата",
-      "description": "Отдельная порция овощей перед основной едой снижает подъём сахара. Разбираем, что годится из обычных продуктов, сколько нужно и почему сок и смузи здесь бесполезны.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-26",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-26T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-11",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-11-01.png",
-      "title": "Несладкий завтрак: 12 вариантов на каждый день",
-      "description": "Сладкий завтрак задаёт самый крутой подъём сахара за день и тянет за собой качели до вечера. Список завтраков, которые этого не делают, и правило сборки.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-27",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-27T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-12",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-12-01.png",
-      "title": "Хлопья на завтрак: что показал эксперимент со здоровыми людьми",
-      "description": "Скачки сахара бывают не только у диабетиков. Что случилось с глюкозой у двадцати здоровых людей после обычного завтрака и почему утро худшее время для крахмала.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-28",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-28T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-13",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-13-01.png",
-      "title": "Чем заменить сахар: мёд, агава, кокосовый сахар",
-      "description": "Все эти продукты состоят из тех же двух молекул, что и обычный сахар. Где разница реальная, где маркетинговая и почему у агавы низкий гликемический индекс это не плюс.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-08-31",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-31T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-14",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-14-01.png",
-      "title": "Как найти скрытый сахар в составе продукта",
-      "description": "Производители называют сахар десятком разных слов. Список имён, по которым его видно, и правило первой пятёрки ингредиентов.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-01",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-01T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-15",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-15-01.png",
-      "title": "Как выбрать хлеб и хлопья по этикетке",
-      "description": "Простое правило для сухих продуктов: сравнить углеводы и клетчатку в таблице пищевой ценности. Что означает соотношение и почему калории тут не помогут.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-02",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-02T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-16",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-16-01.png",
-      "title": "Яблочный уксус перед едой: работает или нет",
-      "description": "Разбираем механизм без мифологии: что уксус действительно делает с сахаром в крови, сколько и когда его пить, кому он противопоказан.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-03",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-03T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-17",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-17-01.png",
-      "title": "Как есть углеводы и не ловить скачок сахара",
-      "description": "Голые углеводы дают самый крутой подъём и через час возвращают голод сильнее прежнего. Семь пар, которые это меняют, и какие жиры для этого годятся.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-04",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-04T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-18",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-18-01.png",
-      "title": "Полезные перекусы без сахара: список",
-      "description": "Сладкий перекус даёт меньше энергии, чем кажется: инсулин уводит глюкозу в хранилища. Десять несладких вариантов, которые собираются за полминуты.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-07",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-07T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-19",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-19-01.png",
-      "title": "Почему при худобе бывает высокий инсулин",
-      "description": "Мышцы вмещают в четыре раза больше глюкозы, чем печень. Что происходит, когда мышечной массы мало, и почему движение после еды работает без повышения инсулина.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-08",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-08T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-20",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-20-01.png",
-      "title": "Когда есть сладкое, чтобы был меньший скачок сахара",
-      "description": "Время имеет значение не меньше, чем состав. Почему десерт после еды мягче перекуса и сколько часов в сутки тело проводит в состоянии переваривания.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-09",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-09T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-21",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-21-01.png",
-      "title": "Почему от здорового питания вздувает живот",
-      "description": "Клетчатка это еда для бактерий кишечника. Если они разрослись избыточно, овощи достаются им, а человеку достаётся газ. Признаки и порядок, в котором это разбирают.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-10",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-10T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-22",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-22-01.png",
-      "title": "Кому нельзя интервальное голодание",
-      "description": "У части людей длинные пищевые окна ухудшают состояние: организм достаёт глюкозу кортизолом, а он и так на исходе. Признаки и что делают вместо.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-11",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-11T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-23",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-23-01.png",
-      "title": "Кортизол: как понять свой суточный ритм",
-      "description": "Сон ломается по-разному в зависимости от рисунка кортизола. Три варианта, чем они отличаются и почему одна утренняя точка в крови мало что говорит.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-14",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-14T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-24",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-24-01.png",
-      "title": "Почему просыпаешься ночью с сердцебиением",
-      "description": "Ночные пробуждения около трёх часов часто связаны с падением сахара, а не с нервами. Механизм и что помогает в тот же вечер.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-15",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-15T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-25",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-25-01.png",
-      "title": "Высокий сахар при нормальном инсулине: что это значит",
-      "description": "Две разные картины, которые лечатся по-разному. Как отличить одну от другой по двум цифрам из одной пробирки и по времени суток.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-16",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-16T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-26",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-26-01.png",
-      "title": "Что проверить, если правильное питание не помогает",
-      "description": "Глюкоза это один рычаг из нескольких. Список показателей, которые смотрят, когда питание выстроено, а самочувствие прежнее.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-17",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-17T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-27",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-27-01.png",
-      "title": "Объём талии: норма для женщин и мужчин",
-      "description": "Жир вокруг внутренних органов вмешивается в обмен активнее подкожного, и в зеркале его не видно. Почему талия информативнее веса и что сдать.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-18",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-18T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-28",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-28-01.png",
-      "title": "Сколько белка нужно в день: простой ориентир",
-      "description": "Калории считать необязательно, а белок стоит посчитать хотя бы раз. Ориентир, частая реальность и почему важно распределять его по приёмам пищи.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-21",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-21T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-29",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-29-01.png",
-      "title": "СПКЯ и инсулинорезистентность: как они связаны",
-      "description": "Механизм, по которому высокий инсулин влияет на цикл, и что показало небольшое исследование с изменением только питания. Без обещаний.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-22",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-22T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-30",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-30-01.png",
-      "title": "Какие анализы сдать при планировании беременности обоим",
-      "description": "Углеводный обмен при планировании смотрят редко, а он участвует в оценке того, насколько среда безопасна для зачатия. Что сдать и за сколько готовиться.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-23",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-23T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-31",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-31-01.png",
-      "title": "Почему копится эстроген: печень, желчь, кишечник",
-      "description": "Эстроген надо не только произвести, но и вывести. Три участка этого пути и почему женские жалобы так часто упираются в пищеварение.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-24",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-24T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-32",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-32-01.png",
-      "title": "ТТГ в норме, а симптомы есть: что смотреть",
-      "description": "ТТГ показывает команду гипофиза, а не работу железы. Почему нужны Т4 и Т3 свободные и что ломает превращение одного в другое.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-25",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-25T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-33",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-33-01.png",
-      "title": "Мужское здоровье: какие анализы сдать после сорока",
-      "description": "Обычная диспансеризация смотрит глюкозу, а она ломается последней. Чек-лист признаков и минимальный набор анализов.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-28",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-28T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-34",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-34-01.png",
-      "title": "Нужен ли монитор глюкозы, если нет диабета",
-      "description": "Что датчик показывает, чего не показывает и чем его можно заменить. Кому он действительно нужен и как не превратить его в источник тревоги.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-29",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-29T21:00:00+03:00"
-    },
-    {
-      "slug": "gluk-pin-35",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-35-01.png",
-      "title": "Как выровнять сахар в крови: 7 шагов",
-      "description": "Короткий список из серии про глюкозу. Ничего покупать не нужно, первые пункты работают с ближайшего приёма пищи.",
-      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
-      "board": {
-        "name": "Сахар и инсулин: питание без скачков",
-        "serviceId": "1084523222707692428"
-      },
-      "date": "2026-09-30",
-      "time": "21:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-09-30T21:00:00+03:00"
-    },
-    {
       "slug": "w1-w1_iron_01",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_01.png",
@@ -2486,6 +1926,22 @@
       "scheduled_at": "2026-08-13T18:30:00+03:00"
     },
     {
+      "slug": "bady-01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_01.png",
+      "title": "Железо не усваивается: при чём тут кислотность желудка",
+      "description": "Пьёте железо месяцами, а ферритин стоит. Соляная кислота переводит железо в усваиваемую форму и отцепляет B12 от белка еды. Признаки нехватки: тяжесть после мяса, отрыжка воздухом, вздутие через полчаса после еды. Что проверить и с чего начинают. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_68&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-13",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_iron_09",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_09.png",
@@ -2500,6 +1956,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-13T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-02-01.png",
+      "title": "Какие анализы сдать, чтобы проверить сахар и инсулин",
+      "description": "Одной глюкозы натощак мало: она остаётся нормальной годами, пока инсулин растёт. Три показателя из одной пробирки и что они означают. Ориентиры, а не диагноз.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-13",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-13T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_iron_10",
@@ -2630,6 +2102,22 @@
       "scheduled_at": "2026-08-14T18:30:00+03:00"
     },
     {
+      "slug": "bady-02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_02.png",
+      "title": "Пью витамин D, а он не растёт: три причины",
+      "description": "Витамин D жирорастворимый, и без жира в еде и нормальной желчи он проходит транзитом. Мешают также нехватка магния и лишний вес. Что делают с этим: форма, приём с едой, контроль по 25(OH)D через три месяца. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_100&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-14",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_iron_18",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_18.png",
@@ -2644,6 +2132,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-14T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-03-01.png",
+      "title": "HOMA-IR: как посчитать индекс инсулинорезистентности самому",
+      "description": "Индекс считается из глюкозы и инсулина натощак обычным калькулятором. Показывает то, чего не видно в отдельных строках анализа. Ориентир и пример расчёта.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-14",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-14T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_iron_19",
@@ -2772,6 +2276,22 @@
       "time": "18:30",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-15T18:30:00+03:00"
+    },
+    {
+      "slug": "bady-03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_03.png",
+      "title": "Болит грудь перед месячными: дело не в количестве эстрогена",
+      "description": "Печень разбирает отработанный эстроген двумя дорожками: мягкой и агрессивной. Вторая раздражает ткань груди и матки. Индол-3-карбинол из капусты сдвигает обмен в сторону мягкой. Почему без клетчатки и нормального стула это не работает. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_199&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-15",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-15T19:00:00+03:00"
     },
     {
       "slug": "w1-w1_iron_27",
@@ -2934,6 +2454,22 @@
       "scheduled_at": "2026-08-16T18:30:00+03:00"
     },
     {
+      "slug": "bady-04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_04.png",
+      "title": "Тревога фоном: чем глицин отличается от снотворного",
+      "description": "Не паника, а ровное натяжение с утра до ночи. Глицин работает тормозным передатчиком и снижает температуру тела перед сном, теанин из зелёного чая даёт спокойную сосредоточенность. Вместе снимают тонус, а не выключают. Когда этого мало и нужен врач. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_97&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-16",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-16T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_iron_37",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_iron_37.png",
@@ -3094,6 +2630,22 @@
       "scheduled_at": "2026-08-17T18:30:00+03:00"
     },
     {
+      "slug": "bady-05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_05.png",
+      "title": "Цинк при простуде: почему решают первые сутки",
+      "description": "Цинк не поднимает иммунитет вообще, он мешает вирусу размножаться в слизистой и нужен Т-лимфоцитам. Начали в первый день - болезнь короче, начали на третий - смысла мало. Почему рядом ставят рутин и витамин C и чем опасен долгий приём. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_183&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-17",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_lab_02",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_02.png",
@@ -3108,6 +2660,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-17T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-04-01.png",
+      "title": "Как справиться с тягой к сладкому без силы воли",
+      "description": "Тяга включается на падении сахара и обычно проходит сама за двадцать минут. Три шага, которые работают лучше запретов. Механизм и исследование в бесплатном гайде.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-17",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-17T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_lab_03",
@@ -3238,6 +2806,22 @@
       "scheduled_at": "2026-08-18T18:30:00+03:00"
     },
     {
+      "slug": "bady-06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_06.png",
+      "title": "Магний и сон: почему он про засыпание, а не про бодрость",
+      "description": "Магний нужен ферментам, которые гасят возбуждение, и работе тормозного передатчика ГАМК. Без него тело не переключается из режима «делаю» в режим «сплю». Чем цитрат отличается от треоната и бисглицината и почему оксид работает слабительным. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_92&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-18",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_lab_11",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_11.png",
@@ -3252,6 +2836,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-18T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-05-01.png",
+      "title": "Признаки скачков сахара в крови у здоровых людей",
+      "description": "Скачки глюкозы бывают и без диабета: по оценкам, к нарушенной регуляции предрасположены около 88 процентов взрослых. Чек-лист симптомов и что проверить дальше.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-18",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-18T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_lab_12",
@@ -3382,6 +2982,22 @@
       "scheduled_at": "2026-08-19T18:30:00+03:00"
     },
     {
+      "slug": "bady-07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_07.png",
+      "title": "Билирубин повышен: когда это не болезнь",
+      "description": "Чаще всего за повышенным непрямым билирубином стоит синдром Жильбера: фермент выводит его медленнее обычного. Отсюда вязкая усталость, тяжесть справа, плохая переносимость лекарств. Растёт на голодании и стрессе. Как отличить от проблем с печенью. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_79&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-19",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_lab_20",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_20.png",
@@ -3396,6 +3012,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-19T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-06-01.png",
+      "title": "Прогулка после еды: сколько минут и зачем",
+      "description": "Десять минут движения после еды заметно снижают подъём сахара, причём без повышения инсулина. Почему это работает и в какое окно нужно успеть.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-19",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-19T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_lab_21",
@@ -3526,6 +3158,22 @@
       "scheduled_at": "2026-08-20T18:30:00+03:00"
     },
     {
+      "slug": "bady-08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_08.png",
+      "title": "Мочевая кислота: не только про подагру",
+      "description": "Она поднимается задолго до первого больного сустава. Главный источник сегодня не мясо, а фруктоза из сладких напитков. Высокие значения идут вместе с инсулинорезистентностью и давлением. Ориентиры: выше 320 у женщин и выше 400 у мужчин. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_221&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-20",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_lab_29",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_29.png",
@@ -3540,6 +3188,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-20T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-07-01.png",
+      "title": "Гликированный гемоглобин: расшифровка и когда он обманывает",
+      "description": "HbA1c показывает средний сахар за квартал, и подготовиться к нему нельзя. Но у анализа есть два ограничения, из-за которых по нему делают неверные выводы.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-20",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-20T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_lab_30",
@@ -3670,6 +3334,22 @@
       "scheduled_at": "2026-08-21T18:30:00+03:00"
     },
     {
+      "slug": "bady-09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_09.png",
+      "title": "Кишечник и настроение: что такое психобиотики",
+      "description": "В стенке кишечника своя нервная сеть, и по блуждающему нерву большинство сигналов идёт снизу вверх. Бактерии производят предшественники ГАМК и держат стенку плотной, а разрыхлённая стенка даёт тихое воспаление, которое мозг читает как тревогу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_71&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-21",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_lab_38",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_lab_38.png",
@@ -3684,6 +3364,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-21T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-08-01.png",
+      "title": "Почему нет сил, если питание нормальное",
+      "description": "Усталость при достаточной еде часто идёт от перегруженных митохондрий, но не всегда: те же симптомы дают низкий ферритин, дефицит B12 и вялая щитовидная железа. Что проверить.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-21",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-21T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_lab_39",
@@ -3812,6 +3508,22 @@
       "time": "18:30",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-22T18:30:00+03:00"
+    },
+    {
+      "slug": "bady-10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_10.png",
+      "title": "Статины и тяжесть в ногах: при чём тут коэнзим Q10",
+      "description": "Холестерин лёг идеально, а сил стало меньше и лестница даётся хуже. Статины гасят фермент, с которого начинается и холестерин, и коэнзим Q10, а без него митохондрии не делают энергию. Больше всего их в ногах и сердце. О чём сказать врачу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_217&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-22",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-22T19:00:00+03:00"
     },
     {
       "slug": "w1-w1_thy_07",
@@ -3974,6 +3686,22 @@
       "scheduled_at": "2026-08-23T18:30:00+03:00"
     },
     {
+      "slug": "bady-11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_11.png",
+      "title": "Коллаген: работает ли он вообще",
+      "description": "Он расщепляется в желудке, но короткие цепочки попадают в кровь и работают сигналом для клеток кожи и хряща. Без витамина C синтез невозможен, без достаточного белка в рационе бесполезен. Через сколько месяцев видны первые изменения. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_173&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-23",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-23T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_thy_17",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_17.png",
@@ -4134,6 +3862,22 @@
       "scheduled_at": "2026-08-24T18:30:00+03:00"
     },
     {
+      "slug": "bady-12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_12.png",
+      "title": "Вздутие через час после еды: чего не хватает",
+      "description": "Не переедание, а еда, которая не разобрана до конца. Амилаза режет крахмал, протеазы белок, липаза жир. Не хватило фермента - кусок достаётся бактериям толстого кишечника, они его сбраживают. Почему выработка падает и когда ферменты не помогут. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_63&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-24",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_thy_27",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_thy_27.png",
@@ -4148,6 +3892,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-24T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-09a",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-09a-01.png",
+      "title": "Порядок еды при инсулинорезистентности: что есть первым",
+      "description": "Один и тот же обед даёт разный скачок сахара в зависимости от того, с чего начать. Схема из трёх шагов, механизм и цифры исследования. Разбор целиком в канале.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-24",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-24T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_thy_28",
@@ -4278,6 +4038,22 @@
       "scheduled_at": "2026-08-25T18:30:00+03:00"
     },
     {
+      "slug": "bady-13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_13.png",
+      "title": "Тошнит от железа: дело в форме, а не в железе",
+      "description": "Сульфат железа плохо всасывается, и всё неусвоенное раздражает слизистую кишечника. Отсюда тошнота, запор и брошенный на второй неделе курс. Чем отличается бисглицинат и зачем рядом ставят медь и витамин C. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_163&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-25",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_peri_01",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_01.png",
@@ -4292,6 +4068,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-25T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-09b",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-09b-01.png",
+      "title": "Как есть хлеб и не ловить скачок сахара",
+      "description": "Приём из практики: разложить бутерброд на составляющие и съесть хлеб последним. Работает с любым приёмом пищи, где есть крахмал.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-25",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-25T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_peri_02",
@@ -4422,6 +4214,22 @@
       "scheduled_at": "2026-08-26T18:30:00+03:00"
     },
     {
+      "slug": "bady-14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_14.png",
+      "title": "Тяга к сладкому вечером: почему воля тут ни при чём",
+      "description": "Вечерняя тяга собирается из трёх вещей: сахарные качели днём, мало белка и исчерпанный к вечеру самоконтроль. Что с этим делают и почему ни один экстракт не переиграет пустой завтрак. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_164&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-26",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_peri_10",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_10.png",
@@ -4436,6 +4244,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-26T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-10-01.png",
+      "title": "Овощи перед едой: что подойдёт, кроме салата",
+      "description": "Отдельная порция овощей перед основной едой снижает подъём сахара. Разбираем, что годится из обычных продуктов, сколько нужно и почему сок и смузи здесь бесполезны.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-26",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-26T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_peri_11",
@@ -4566,6 +4390,22 @@
       "scheduled_at": "2026-08-27T18:30:00+03:00"
     },
     {
+      "slug": "bady-15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_15.png",
+      "title": "Селен и щитовидка: зачем он при антителах",
+      "description": "Чтобы собрать гормон, щитовидной железе нужна перекись водорода, а обезвреживают её ферменты с селеном в центре. Он же превращает Т4 в активный Т3. Почему при дефиците ТТГ приличный, а человек как в спячке. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_110&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-27",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_peri_19",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_19.png",
@@ -4580,6 +4420,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-27T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-11-01.png",
+      "title": "Несладкий завтрак: 12 вариантов на каждый день",
+      "description": "Сладкий завтрак задаёт самый крутой подъём сахара за день и тянет за собой качели до вечера. Список завтраков, которые этого не делают, и правило сборки.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-27",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-27T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_peri_20",
@@ -4710,6 +4566,22 @@
       "scheduled_at": "2026-08-28T18:30:00+03:00"
     },
     {
+      "slug": "bady-16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_16.png",
+      "title": "Витамин C втрое поднимает усвоение железа",
+      "description": "Витамин C восстанавливает железо до формы, которую кишечник забирает легко, и связывает фитаты и танины. Условие: в тот же приём пищи. Кофе и чай рядом сводят эффект к нулю, разводить минимум на два часа. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=supp_102&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-28",
+      "time": "19:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T19:00:00+03:00"
+    },
+    {
       "slug": "w1-w1_peri_28",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w1/w1_peri_28.png",
@@ -4724,6 +4596,22 @@
       "time": "20:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-28T20:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-12-01.png",
+      "title": "Хлопья на завтрак: что показал эксперимент со здоровыми людьми",
+      "description": "Скачки сахара бывают не только у диабетиков. Что случилось с глюкозой у двадцати здоровых людей после обычного завтрака и почему утро худшее время для крахмала.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-28",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-28T21:00:00+03:00"
     },
     {
       "slug": "w1-w1_peri_29",
@@ -4758,260 +4646,36 @@
       "scheduled_at": "2026-08-29T09:30:00+03:00"
     },
     {
-      "slug": "bady-01",
+      "slug": "anemiya-simptomy-i-lechenie",
       "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_01.png",
-      "title": "Железо не усваивается: при чём тут кислотность желудка",
-      "description": "Пьёте железо месяцами, а ферритин стоит. Соляная кислота переводит железо в усваиваемую форму и отцепляет B12 от белка еды. Признаки нехватки: тяжесть после мяса, отрыжка воздухом, вздутие через полчаса после еды. Что проверить и с чего начинают. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_68&ref=pinterest",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/anemiya-simptomy-i-lechenie.png",
+      "title": "Анемия: симптомы и лечение - с чего начинают",
+      "description": "Слабость и одышка на обычной нагрузке. Бледная кожа, круги под глазами. Волосы лезут, ногти ломкие. Первый шаг - ОАК: гемоглобин, MCV, MCH. Ферритин показывает запасы железа. СРБ рядом: воспаление меняет картину. Лечение назначает врач, найдя причину. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
       "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
       },
-      "date": "2026-08-13",
-      "time": "19:00",
+      "date": "2026-08-29",
+      "time": "11:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-13T19:00:00+03:00"
+      "scheduled_at": "2026-08-29T11:00:00+03:00"
     },
     {
-      "slug": "bady-02",
+      "slug": "zhelezodeficitnaya-anemiya-simptomy",
       "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_02.png",
-      "title": "Пью витамин D, а он не растёт: три причины",
-      "description": "Витамин D жирорастворимый, и без жира в еде и нормальной желчи он проходит транзитом. Мешают также нехватка магния и лишний вес. Что делают с этим: форма, приём с едой, контроль по 25(OH)D через три месяца. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_100&ref=pinterest",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/zhelezodeficitnaya-anemiya-simptomy.png",
+      "title": "Железодефицитная анемия: 7 симптомов",
+      "description": "К обеду сил не остаётся. Одышка и сердцебиение на лестнице. Тянет грызть лёд или мел. Волосы сыплются пучками. Ногти ломкие, с бороздками. Бледность и синева под глазами. Мёрзнут руки и ноги в тёплой комнате. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
       "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
       },
-      "date": "2026-08-14",
-      "time": "19:00",
+      "date": "2026-08-29",
+      "time": "16:00",
       "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-14T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-03",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_03.png",
-      "title": "Болит грудь перед месячными: дело не в количестве эстрогена",
-      "description": "Печень разбирает отработанный эстроген двумя дорожками: мягкой и агрессивной. Вторая раздражает ткань груди и матки. Индол-3-карбинол из капусты сдвигает обмен в сторону мягкой. Почему без клетчатки и нормального стула это не работает. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_199&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-15",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-15T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-04",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_04.png",
-      "title": "Тревога фоном: чем глицин отличается от снотворного",
-      "description": "Не паника, а ровное натяжение с утра до ночи. Глицин работает тормозным передатчиком и снижает температуру тела перед сном, теанин из зелёного чая даёт спокойную сосредоточенность. Вместе снимают тонус, а не выключают. Когда этого мало и нужен врач. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_97&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-16",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-16T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-05",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_05.png",
-      "title": "Цинк при простуде: почему решают первые сутки",
-      "description": "Цинк не поднимает иммунитет вообще, он мешает вирусу размножаться в слизистой и нужен Т-лимфоцитам. Начали в первый день - болезнь короче, начали на третий - смысла мало. Почему рядом ставят рутин и витамин C и чем опасен долгий приём. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_183&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-17",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-17T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-06",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_06.png",
-      "title": "Магний и сон: почему он про засыпание, а не про бодрость",
-      "description": "Магний нужен ферментам, которые гасят возбуждение, и работе тормозного передатчика ГАМК. Без него тело не переключается из режима «делаю» в режим «сплю». Чем цитрат отличается от треоната и бисглицината и почему оксид работает слабительным. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_92&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-18",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-18T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-07",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_07.png",
-      "title": "Билирубин повышен: когда это не болезнь",
-      "description": "Чаще всего за повышенным непрямым билирубином стоит синдром Жильбера: фермент выводит его медленнее обычного. Отсюда вязкая усталость, тяжесть справа, плохая переносимость лекарств. Растёт на голодании и стрессе. Как отличить от проблем с печенью. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_79&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-19",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-19T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-08",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_08.png",
-      "title": "Мочевая кислота: не только про подагру",
-      "description": "Она поднимается задолго до первого больного сустава. Главный источник сегодня не мясо, а фруктоза из сладких напитков. Высокие значения идут вместе с инсулинорезистентностью и давлением. Ориентиры: выше 320 у женщин и выше 400 у мужчин. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_221&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-20",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-20T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-09",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_09.png",
-      "title": "Кишечник и настроение: что такое психобиотики",
-      "description": "В стенке кишечника своя нервная сеть, и по блуждающему нерву большинство сигналов идёт снизу вверх. Бактерии производят предшественники ГАМК и держат стенку плотной, а разрыхлённая стенка даёт тихое воспаление, которое мозг читает как тревогу. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_71&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-21",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-21T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-10",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_10.png",
-      "title": "Статины и тяжесть в ногах: при чём тут коэнзим Q10",
-      "description": "Холестерин лёг идеально, а сил стало меньше и лестница даётся хуже. Статины гасят фермент, с которого начинается и холестерин, и коэнзим Q10, а без него митохондрии не делают энергию. Больше всего их в ногах и сердце. О чём сказать врачу. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_217&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-22",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-22T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-11",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_11.png",
-      "title": "Коллаген: работает ли он вообще",
-      "description": "Он расщепляется в желудке, но короткие цепочки попадают в кровь и работают сигналом для клеток кожи и хряща. Без витамина C синтез невозможен, без достаточного белка в рационе бесполезен. Через сколько месяцев видны первые изменения. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_173&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-23",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-23T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-12",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_12.png",
-      "title": "Вздутие через час после еды: чего не хватает",
-      "description": "Не переедание, а еда, которая не разобрана до конца. Амилаза режет крахмал, протеазы белок, липаза жир. Не хватило фермента - кусок достаётся бактериям толстого кишечника, они его сбраживают. Почему выработка падает и когда ферменты не помогут. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_63&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-24",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-24T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-13",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_13.png",
-      "title": "Тошнит от железа: дело в форме, а не в железе",
-      "description": "Сульфат железа плохо всасывается, и всё неусвоенное раздражает слизистую кишечника. Отсюда тошнота, запор и брошенный на второй неделе курс. Чем отличается бисглицинат и зачем рядом ставят медь и витамин C. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_163&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-25",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-25T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-14",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_14.png",
-      "title": "Тяга к сладкому вечером: почему воля тут ни при чём",
-      "description": "Вечерняя тяга собирается из трёх вещей: сахарные качели днём, мало белка и исчерпанный к вечеру самоконтроль. Что с этим делают и почему ни один экстракт не переиграет пустой завтрак. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_164&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-26",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-26T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-15",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_15.png",
-      "title": "Селен и щитовидка: зачем он при антителах",
-      "description": "Чтобы собрать гормон, щитовидной железе нужна перекись водорода, а обезвреживают её ферменты с селеном в центре. Он же превращает Т4 в активный Т3. Почему при дефиците ТТГ приличный, а человек как в спячке. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_110&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-27",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-27T19:00:00+03:00"
-    },
-    {
-      "slug": "bady-16",
-      "type": "pin",
-      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_16.png",
-      "title": "Витамин C втрое поднимает усвоение железа",
-      "description": "Витамин C восстанавливает железо до формы, которую кишечник забирает легко, и связывает фитаты и танины. Условие: в тот же приём пищи. Кофе и чай рядом сводят эффект к нулю, разводить минимум на два часа. Информационный материал, не назначение.",
-      "link": "https://app.listoshenkov.ru/?section=supp_102&ref=pinterest",
-      "board": {
-        "name": "Быстрое сохранение",
-        "serviceId": "1084523222707156579"
-      },
-      "date": "2026-08-28",
-      "time": "19:00",
-      "tz": "Europe/Moscow",
-      "scheduled_at": "2026-08-28T19:00:00+03:00"
+      "scheduled_at": "2026-08-29T16:00:00+03:00"
     },
     {
       "slug": "bady-17",
@@ -5030,6 +4694,38 @@
       "scheduled_at": "2026-08-29T19:00:00+03:00"
     },
     {
+      "slug": "bady-dlya-pohudeniya",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/bady-dlya-pohudeniya.png",
+      "title": "БАДы для похудения: что проверить до покупки",
+      "description": "Щитовидка: ТТГ и Т4 свободный. Глюкоза натощак и инсулин, индекс HOMA. Ферритин - на пустом депо вес стоит. Витамин D, 25(OH)D. Состав: чем короче, тем понятнее. Спросить врача про сочетание с лекарствами. Обещание «минус 10 кг» - повод закрыть страницу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-vitaminy-mineraly&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-30",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T11:00:00+03:00"
+    },
+    {
+      "slug": "bady-dlya-mozga",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/bady-dlya-mozga.png",
+      "title": "БАДы для мозга: что смотреть в анализах",
+      "description": "B12 и гомоцистеин - туман в голове. Ферритин: память садится на низком депо. Витамин D, 25(OH)D. ТТГ - щитовидка тормозит мышление. Глюкоза и инсулин: скачки бьют по вниманию. Сон и храп с остановками - до любых добавок. Омега-3 индекс, если лаборатория делает. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-vitaminy-mineraly&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-30",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T16:00:00+03:00"
+    },
+    {
       "slug": "bady-18",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_18.png",
@@ -5044,6 +4740,38 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-08-30T19:00:00+03:00"
+    },
+    {
+      "slug": "ves-stoit-obemy-uhodyat",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/ves-stoit-obemy-uhodyat.png",
+      "title": "Вес стоит, объёмы уходят: почему так",
+      "description": "Мышцы тяжелее жира при том же объёме. Задержка воды: соль, углеводы, фаза цикла. Гликоген держит воду после тренировок. Мерить сантиметром раз в неделю, в один день. Взвешиваться утром, до еды, в одних условиях. Фото раз в месяц честнее весов. Если и объёмы встали - смотреть ТТГ и инсулин. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-ves-v-zaschite&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-31",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T11:00:00+03:00"
+    },
+    {
+      "slug": "vzdutie-zhivota-posle-edy",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/vzdutie-zhivota-posle-edy.png",
+      "title": "Вздутие живота после еды: 7 причин",
+      "description": "Еда на бегу и разговоры - глотается воздух. Молочное: лактоза не расщепляется. Капуста, бобовые, яблоки - группа ФОДМАП. Сахарозаменители на -ол: сорбит, ксилит. Мало желудочного сока, еда стоит. СИБР: вздутие через 30-60 минут после еды. Стресс - кишечник замедляется. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-08-31",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T16:00:00+03:00"
     },
     {
       "slug": "bady-19",
@@ -5062,6 +4790,54 @@
       "scheduled_at": "2026-08-31T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-13-01.png",
+      "title": "Чем заменить сахар: мёд, агава, кокосовый сахар",
+      "description": "Все эти продукты состоят из тех же двух молекул, что и обычный сахар. Где разница реальная, где маркетинговая и почему у агавы низкий гликемический индекс это не плюс.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-08-31",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T21:00:00+03:00"
+    },
+    {
+      "slug": "vzdutie-zhivota-doma",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/vzdutie-zhivota-doma.png",
+      "title": "Вздутие живота: что делать в домашних условиях",
+      "description": "Есть медленнее, тщательно жевать. Убрать газировку и трубочки. На неделю снять молочное, смотреть разницу. Проверить подсластители в жвачке и йогуртах. Прогулка 15 минут после еды. Вести дневник: еда, время, вздутие. Кровь в стуле или потеря веса - сразу к врачу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-01",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T11:00:00+03:00"
+    },
+    {
+      "slug": "vzdutie-zhivota-prichiny",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/vzdutie-zhivota-prichiny.png",
+      "title": "Вздутие живота: причины, которые пропускают",
+      "description": "Непереносимость лактозы или фруктозы. СИБР после курса антибиотиков. Целиакию проверяют ДО отказа от глютена. Низкая кислотность желудка. Запор: газу некуда деться. Гинекология: миома, киста, эндометриоз. Щитовидка на минимуме тормозит кишечник. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-01",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T16:00:00+03:00"
+    },
+    {
       "slug": "bady-20",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_20.png",
@@ -5076,6 +4852,54 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-01T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-14-01.png",
+      "title": "Как найти скрытый сахар в составе продукта",
+      "description": "Производители называют сахар десятком разных слов. Список имён, по которым его видно, и правило первой пятёрки ингредиентов.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-01",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T21:00:00+03:00"
+    },
+    {
+      "slug": "gipotireoz-lechenie",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/gipotireoz-lechenie.png",
+      "title": "Гипотиреоз: лечение начинается с анализов",
+      "description": "ТТГ - с него начинают всегда. Т4 свободный, вместе с ТТГ. АТ-ТПО: аутоиммунная причина. УЗИ щитовидной железы. Ферритин и витамин D часто в минусе рядом. Дозу подбирает эндокринолог по цифрам. Спросить: через сколько пересдавать ТТГ. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-09-02",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T11:00:00+03:00"
+    },
+    {
+      "slug": "zhenskie-gormony-kak-povysit",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/zhenskie-gormony-kak-povysit.png",
+      "title": "Женские гормоны: как повысить - с чего начать",
+      "description": "Сначала анализы, потом любые решения. Мало жиров в рационе - не из чего строить. Дефицит веса гасит цикл. Хронический недосып сбивает выработку. Ежедневное кардио натощак работает против. Проверить ТТГ и пролактин. Гормоны назначает только врач. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-02",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T16:00:00+03:00"
     },
     {
       "slug": "bady-21",
@@ -5094,6 +4918,54 @@
       "scheduled_at": "2026-09-02T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-15-01.png",
+      "title": "Как выбрать хлеб и хлопья по этикетке",
+      "description": "Простое правило для сухих продуктов: сравнить углеводы и клетчатку в таблице пищевой ценности. Что означает соотношение и почему калории тут не помогут.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-02",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T21:00:00+03:00"
+    },
+    {
+      "slug": "zhelezo-v-krovi-povysheno",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/zhelezo-v-krovi-povysheno.png",
+      "title": "Железо в крови повышено: о чём это говорит",
+      "description": "Один показатель ничего не решает. Смотреть с ферритином, ОЖСС, трансферрином. Насыщение трансферрина выше 45% - к врачу. Добавки железа перед сдачей завышают цифру. Ферритин растёт на воспалении - сдать СРБ. Алкоголь и жирное накануне искажают. Спросить врача про гемохроматоз в семье. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-09-03",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T11:00:00+03:00"
+    },
+    {
+      "slug": "zhelezo-v-krovi-ponizheno",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/zhelezo-v-krovi-ponizheno.png",
+      "title": "Железо в крови понижено: что сдать дальше",
+      "description": "Сывороточное железо скачет день ото дня. Ферритин показывает запас, а не минуту. ОЖСС и насыщение трансферрина. ОАК: гемоглобин, MCV, MCH. СРБ - воспаление завышает ферритин. Сдавать утром натощак, без добавок 5-7 дней. Искать потерю: обильный цикл, ЖКТ, питание. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-09-03",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T16:00:00+03:00"
+    },
+    {
       "slug": "bady-22",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_22.png",
@@ -5108,6 +4980,54 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-03T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-16-01.png",
+      "title": "Яблочный уксус перед едой: работает или нет",
+      "description": "Разбираем механизм без мифологии: что уксус действительно делает с сахаром в крови, сколько и когда его пить, кому он противопоказан.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-03",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T21:00:00+03:00"
+    },
+    {
+      "slug": "izzhoga-chto-delat",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/izzhoga-chto-delat.png",
+      "title": "Изжога: что делать до похода к врачу",
+      "description": "Не ложиться 2-3 часа после еды. Порции меньше, ужин раньше. Приподнять изголовье кровати. Убрать поздний кофе, алкоголь, острое. Тесный пояс давит на желудок снизу. Дневник: еда, время, эпизод. Чаще 2 раз в неделю - к гастроэнтерологу. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-04",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T11:00:00+03:00"
+    },
+    {
+      "slug": "izzhoga-prichiny",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/izzhoga-prichiny.png",
+      "title": "Изжога: причины, кроме «повышенной кислотности»",
+      "description": "Слабый нижний сфинктер пищевода. Грыжа пищеводного отверстия диафрагмы. Переедание и поздний ужин. Жир на животе давит вверх. Хеликобактер - дыхательный тест. Часть лекарств расслабляет сфинктер. Еда на бегу и стресс. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-04",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T16:00:00+03:00"
     },
     {
       "slug": "bady-23",
@@ -5126,6 +5046,54 @@
       "scheduled_at": "2026-09-04T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-17-01.png",
+      "title": "Как есть углеводы и не ловить скачок сахара",
+      "description": "Голые углеводы дают самый крутой подъём и через час возвращают голод сильнее прежнего. Семь пар, которые это меняют, и какие жиры для этого годятся.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-04",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T21:00:00+03:00"
+    },
+    {
+      "slug": "insulinorezistentnost-lechenie",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/insulinorezistentnost-lechenie.png",
+      "title": "Инсулинорезистентность: лечение - с чего начинают",
+      "description": "Глюкоза натощак и инсулин, индекс HOMA-IR. Гликированный гемоглобин HbA1c. Липидограмма: триглицериды и ЛПВП. Окружность талии - самый дешёвый маркёр. Печень на УЗИ: жировой гепатоз рядом. Сон меньше 6 часов держит сахар высоким. Схему подбирает эндокринолог, не интернет. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-05",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T11:00:00+03:00"
+    },
+    {
+      "slug": "magniy-glicinat",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/magniy-glicinat.png",
+      "title": "Магний глицинат: чем отличается от других форм",
+      "description": "Хелатная форма, мягче для кишечника. Оксид чаще даёт послабляющий эффект. Цитрат - доступная и распространённая форма. Смотреть содержание элементарного магния. Магний в крови не показывает запас в тканях. Судороги ног и тики - повод обсудить с врачом. Форму и дозу подбирает врач. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-vitaminy-mineraly&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-05",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T16:00:00+03:00"
+    },
+    {
       "slug": "bady-24",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_24.png",
@@ -5140,6 +5108,38 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-05T19:00:00+03:00"
+    },
+    {
+      "slug": "menopauza-bez-poteri-sebya",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/menopauza-bez-poteri-sebya.png",
+      "title": "Менопауза без потери себя: что держать в поле зрения",
+      "description": "Приливы и бессонница - к гинекологу, не терпеть. Кости: денситометрия и витамин D. Щитовидка маскируется под менопаузу - ТТГ. Ферритин: цикл ещё идёт, потери тоже. Белок и силовые держат мышцы. Липидограмма после 45 - раз в год. Туман в голове и настроение - тоже симптом. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-06",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T11:00:00+03:00"
+    },
+    {
+      "slug": "menopauza-bez-mucheniy",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/menopauza-bez-mucheniy.png",
+      "title": "Менопауза без мучений: 7 вещей, которые помогают",
+      "description": "Прохладная спальня и лёгкая ткань ночью. Кофе и алкоголь усиливают приливы. Силовые 2 раза в неделю против потери мышц. Дневник приливов покажет свои триггеры. Вес пошёл на живот - проверить инсулин. Обсудить с гинекологом варианты терапии. Терпеть годами не обязательно. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-06",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T16:00:00+03:00"
     },
     {
       "slug": "bady-25",
@@ -5158,6 +5158,38 @@
       "scheduled_at": "2026-09-06T19:00:00+03:00"
     },
     {
+      "slug": "nizkiy-ferritin-simptomy",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/nizkiy-ferritin-simptomy.png",
+      "title": "Низкий ферритин: 7 симптомов",
+      "description": "Волосы лезут пучками. К обеду сил не остаётся. Одышка на лестнице. Тянет грызть лёд. Мёрзнут руки и ноги. Ногти ломкие, в бороздках. Вечером «крутит» ноги, сложно уснуть. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-09-07",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T11:00:00+03:00"
+    },
+    {
+      "slug": "nizkiy-ferritin-normalnyy-gemoglobin",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/nizkiy-ferritin-normalnyy-gemoglobin.png",
+      "title": "Низкий ферритин при нормальном гемоглобине",
+      "description": "Депо пустеет раньше, гемоглобин падает последним. Симптомы уже есть, а ОАК «в норме». Ферритин 40-60 - ориентир, а не 10. СРБ рядом: воспаление завышает ферритин. Смотреть MCV и MCH в общем анализе. Искать потерю: обильный цикл, ЖКТ. По одному гемоглобину вывод не делают. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-09-07",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T16:00:00+03:00"
+    },
+    {
       "slug": "bady-26",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_26.png",
@@ -5172,6 +5204,54 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-07T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-18-01.png",
+      "title": "Полезные перекусы без сахара: список",
+      "description": "Сладкий перекус даёт меньше энергии, чем кажется: инсулин уводит глюкозу в хранилища. Десять несладких вариантов, которые собираются за полминуты.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-07",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T21:00:00+03:00"
+    },
+    {
+      "slug": "nizkiy-ferritin-kak-podnyat",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/nizkiy-ferritin-kak-podnyat.png",
+      "title": "Низкий ферритин: как поднять - что на это влияет",
+      "description": "Сначала причина потери, иначе вернётся. Гемовое железо: печень, красное мясо, моллюски. Витамин C в тот же приём. Чай и кофе - через час после еды. Кальций и железо разводить по времени. Воспаление в кишечнике мешает всасыванию. Пересдавать не раньше чем через 2-3 месяца. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Железо и ферритин: анализы, нормы, продукты",
+        "serviceId": "1084523222707692417"
+      },
+      "date": "2026-09-08",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T11:00:00+03:00"
+    },
+    {
+      "slug": "sibr-lechenie",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/sibr-lechenie.png",
+      "title": "СИБР: лечение начинается с диагноза",
+      "description": "Диагноз ставят дыхательным тестом. Тест с лактулозой или глюкозой. Вздутие через 30-60 минут после еды. Часто после антибиотиков или ИПП. Щитовидка тормозит моторику - сдать ТТГ. Схему назначает гастроэнтеролог. Без устранения причины СИБР возвращается. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-08",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T16:00:00+03:00"
     },
     {
       "slug": "bady-27",
@@ -5190,6 +5270,54 @@
       "scheduled_at": "2026-09-08T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-19-01.png",
+      "title": "Почему при худобе бывает высокий инсулин",
+      "description": "Мышцы вмещают в четыре раза больше глюкозы, чем печень. Что происходит, когда мышечной массы мало, и почему движение после еды работает без повышения инсулина.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-08",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T21:00:00+03:00"
+    },
+    {
+      "slug": "ttg-nizhe-normy",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/ttg-nizhe-normy.png",
+      "title": "ТТГ ниже нормы: что это значит",
+      "description": "Сам по себе ТТГ - половина картины. Досдать Т4 свободный и Т3 свободный. АТ-рТТГ при подозрении на гиперфункцию. Сердцебиение, потливость, потеря веса. На тироксине ТТГ падает - сказать врачу. Первый триместр беременности снижает ТТГ. Пересдать через 4-6 недель, в той же лаборатории. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-09-09",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T11:00:00+03:00"
+    },
+    {
+      "slug": "ukoly-dlya-pohudeniya-v-zhivot",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/ukoly-dlya-pohudeniya-v-zhivot.png",
+      "title": "Уколы для похудения в живот: что важно знать",
+      "description": "Это рецептурные препараты, не косметология. Назначает врач, после анализов и осмотра. Есть противопоказания: щитовидка, поджелудочная. Побочные со стороны ЖКТ - частая история. Без белка и силовых уходят мышцы. После отмены вес возвращается без привычек. Покупка «с рук» - риск подделки. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-glp1&ref=pinterest",
+      "board": {
+        "name": "Быстрое сохранение",
+        "serviceId": "1084523222707156579"
+      },
+      "date": "2026-09-09",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T16:00:00+03:00"
+    },
+    {
       "slug": "bady-28",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_28.png",
@@ -5204,6 +5332,54 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-09T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-20-01.png",
+      "title": "Когда есть сладкое, чтобы был меньший скачок сахара",
+      "description": "Время имеет значение не меньше, чем состав. Почему десерт после еды мягче перекуса и сколько часов в сутки тело проводит в состоянии переваривания.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-09",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T21:00:00+03:00"
+    },
+    {
+      "slug": "silnaya-ustalost-prichiny",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/silnaya-ustalost-prichiny.png",
+      "title": "Сильная усталость: причины, которые видно в анализах",
+      "description": "Ферритин на нуле при нормальном гемоглобине. ТТГ и Т4 свободный. B12 и фолаты. Витамин D, 25(OH)D. Глюкоза и инсулин: провалы после еды. Остановки дыхания во сне - спишь и не высыпаешься. Депрессия даёт и физическую усталость тоже. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-10",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T11:00:00+03:00"
+    },
+    {
+      "slug": "schitovidka-simptomy-kom-v-gorle",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/schitovidka-simptomy-kom-v-gorle.png",
+      "title": "Щитовидка: симптомы, ком в горле - когда это она",
+      "description": "Ком без боли при глотании. Давит на шею, мешает воротник. УЗИ щитовидной железы - первый шаг. ТТГ, Т4 свободный, АТ-ТПО. Ком бывает и от рефлюкса. Осиплость дольше 2 недель - к врачу. Узел на УЗИ описывают по шкале TIRADS. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-09-10",
+      "time": "16:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T16:00:00+03:00"
     },
     {
       "slug": "bady-29",
@@ -5222,6 +5398,38 @@
       "scheduled_at": "2026-09-10T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-21-01.png",
+      "title": "Почему от здорового питания вздувает живот",
+      "description": "Клетчатка это еда для бактерий кишечника. Если они разрослись избыточно, овощи достаются им, а человеку достаётся газ. Признаки и порядок, в котором это разбирают.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-10",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T21:00:00+03:00"
+    },
+    {
+      "slug": "schitovidka-simptomy-i-lechenie",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-gap/schitovidka-simptomy-i-lechenie.png",
+      "title": "Щитовидка: симптомы и лечение - с чего начать",
+      "description": "Мёрзнешь, отёки утром, вес ползёт вверх. Волосы лезут, брови редеют с краю. Сердцебиение и потливость - обратная сторона. Анализы: ТТГ, Т4 свободный, АТ-ТПО. УЗИ железы. Лечение подбирает эндокринолог по цифрам. Пересдавать в одной лаборатории. Информационный материал, не назначение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Щитовидная железа: ТТГ, Т4, антитела",
+        "serviceId": "1084523222707692420"
+      },
+      "date": "2026-09-11",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T11:00:00+03:00"
+    },
+    {
       "slug": "bady-30",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_30.png",
@@ -5236,6 +5444,22 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-11T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-22-01.png",
+      "title": "Кому нельзя интервальное голодание",
+      "description": "У части людей длинные пищевые окна ухудшают состояние: организм достаёт глюкозу кортизолом, а он и так на исходе. Признаки и что делают вместо.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-11",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T21:00:00+03:00"
     },
     {
       "slug": "bady-31",
@@ -5286,6 +5510,22 @@
       "scheduled_at": "2026-09-14T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-23-01.png",
+      "title": "Кортизол: как понять свой суточный ритм",
+      "description": "Сон ломается по-разному в зависимости от рисунка кортизола. Три варианта, чем они отличаются и почему одна утренняя точка в крови мало что говорит.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T21:00:00+03:00"
+    },
+    {
       "slug": "bady-34",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_34.png",
@@ -5300,6 +5540,22 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-15T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-24-01.png",
+      "title": "Почему просыпаешься ночью с сердцебиением",
+      "description": "Ночные пробуждения около трёх часов часто связаны с падением сахара, а не с нервами. Механизм и что помогает в тот же вечер.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T21:00:00+03:00"
     },
     {
       "slug": "bady-35",
@@ -5318,6 +5574,22 @@
       "scheduled_at": "2026-09-16T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-25-01.png",
+      "title": "Высокий сахар при нормальном инсулине: что это значит",
+      "description": "Две разные картины, которые лечатся по-разному. Как отличить одну от другой по двум цифрам из одной пробирки и по времени суток.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T21:00:00+03:00"
+    },
+    {
       "slug": "bady-36",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_36.png",
@@ -5334,6 +5606,22 @@
       "scheduled_at": "2026-09-17T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-26-01.png",
+      "title": "Что проверить, если правильное питание не помогает",
+      "description": "Глюкоза это один рычаг из нескольких. Список показателей, которые смотрят, когда питание выстроено, а самочувствие прежнее.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T21:00:00+03:00"
+    },
+    {
       "slug": "bady-37",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_37.png",
@@ -5348,6 +5636,22 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-18T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-27-01.png",
+      "title": "Объём талии: норма для женщин и мужчин",
+      "description": "Жир вокруг внутренних органов вмешивается в обмен активнее подкожного, и в зеркале его не видно. Почему талия информативнее веса и что сдать.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-18",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T21:00:00+03:00"
     },
     {
       "slug": "bady-38",
@@ -5398,6 +5702,22 @@
       "scheduled_at": "2026-09-21T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-28-01.png",
+      "title": "Сколько белка нужно в день: простой ориентир",
+      "description": "Калории считать необязательно, а белок стоит посчитать хотя бы раз. Ориентир, частая реальность и почему важно распределять его по приёмам пищи.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-21",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-21T21:00:00+03:00"
+    },
+    {
       "slug": "bady-41",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_41.png",
@@ -5412,6 +5732,22 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-22T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-29-01.png",
+      "title": "СПКЯ и инсулинорезистентность: как они связаны",
+      "description": "Механизм, по которому высокий инсулин влияет на цикл, и что показало небольшое исследование с изменением только питания. Без обещаний.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-22",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-22T21:00:00+03:00"
     },
     {
       "slug": "bady-42",
@@ -5430,6 +5766,22 @@
       "scheduled_at": "2026-09-23T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-30-01.png",
+      "title": "Какие анализы сдать при планировании беременности обоим",
+      "description": "Углеводный обмен при планировании смотрят редко, а он участвует в оценке того, насколько среда безопасна для зачатия. Что сдать и за сколько готовиться.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-23",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-23T21:00:00+03:00"
+    },
+    {
       "slug": "bady-43",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_43.png",
@@ -5446,6 +5798,22 @@
       "scheduled_at": "2026-09-24T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-31-01.png",
+      "title": "Почему копится эстроген: печень, желчь, кишечник",
+      "description": "Эстроген надо не только произвести, но и вывести. Три участка этого пути и почему женские жалобы так часто упираются в пищеварение.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-24",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-24T21:00:00+03:00"
+    },
+    {
       "slug": "bady-44",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_44.png",
@@ -5460,6 +5828,22 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-25T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-32-01.png",
+      "title": "ТТГ в норме, а симптомы есть: что смотреть",
+      "description": "ТТГ показывает команду гипофиза, а не работу железы. Почему нужны Т4 и Т3 свободные и что ломает превращение одного в другое.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-25",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-25T21:00:00+03:00"
     },
     {
       "slug": "bady-45",
@@ -5510,6 +5894,22 @@
       "scheduled_at": "2026-09-28T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-33-01.png",
+      "title": "Мужское здоровье: какие анализы сдать после сорока",
+      "description": "Обычная диспансеризация смотрит глюкозу, а она ломается последней. Чек-лист признаков и минимальный набор анализов.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-28",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-28T21:00:00+03:00"
+    },
+    {
       "slug": "bady-48",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_48.png",
@@ -5526,6 +5926,22 @@
       "scheduled_at": "2026-09-29T19:00:00+03:00"
     },
     {
+      "slug": "gluk-pin-34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-34-01.png",
+      "title": "Нужен ли монитор глюкозы, если нет диабета",
+      "description": "Что датчик показывает, чего не показывает и чем его можно заменить. Кому он действительно нужен и как не превратить его в источник тревоги.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-29",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-29T21:00:00+03:00"
+    },
+    {
       "slug": "bady-49",
       "type": "pin",
       "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-23/bady_49.png",
@@ -5540,6 +5956,22 @@
       "time": "19:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-30T19:00:00+03:00"
+    },
+    {
+      "slug": "gluk-pin-35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-glucose/pin-35-01.png",
+      "title": "Как выровнять сахар в крови: 7 шагов",
+      "description": "Короткий список из серии про глюкозу. Ничего покупать не нужно, первые пункты работают с ближайшего приёма пищи.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-30",
+      "time": "21:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-30T21:00:00+03:00"
     },
     {
       "slug": "bady-50",
