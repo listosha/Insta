@@ -1226,12 +1226,12 @@
     "time": "12:00",
     "timezone": "Europe/Moscow",
     "text": "Запор на железе: 5 рабочих шагов\n\n- Больше воды\n- Клетчатка из овощей\n- Слива и киви\n- Движение каждый день\n- Обсудить смену формы\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Железо за 8 недель»:\nhttps://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18085326659242482",
+    "published_at": "2026-08-21T12:01:05.808482+03:00",
+    "reply_id": "17905025961490560",
+    "reply_status": "published"
   },
   {
     "id": 252,
