@@ -1332,12 +1332,12 @@
     "time": "12:00",
     "timezone": "Europe/Moscow",
     "text": "Насыщение трансферрина: недооценённая цифра\n\n- Показывает железо в дороге\n- Ниже 20% - дефицит вероятен\n- Падает раньше гемоглобина\n- Считается из железа и ОЖСС\n- Часто есть в бланке, но её не смотрят\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Железо за 8 недель»:\nhttps://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18388297678160866",
+    "published_at": "2026-08-24T12:00:47.678994+03:00",
+    "reply_id": "18612001219053850",
+    "reply_status": "published"
   },
   {
     "id": 254,
