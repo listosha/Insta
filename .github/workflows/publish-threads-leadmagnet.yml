@@ -135,8 +135,10 @@ jobs:
               sys.exit(0)
 
           late_min = int((now_moscow - best_dt).total_seconds() // 60)
-          print(f"Publishing lead magnet {entry['id']} — {entry['folder']} "
-                f"({entry['pages_count']} pages; slot {entry['date']} {entry['time']}, {late_min} min late)")
+          what = (f"{entry['folder']} ({entry['pages_count']} pages)"
+                  if entry.get("folder") else "text post")
+          print(f"Publishing lead magnet {entry['id']} — {what}"
+                f"; slot {entry['date']} {entry['time']}, {late_min} min late")
 
           text = entry["text"]
           if len(text) > 500:
@@ -154,51 +156,68 @@ jobs:
                   print(f"THREADS_REJECTED_LEN={len(text)}", file=f)
               sys.exit(0)
 
-          image_urls = [
-              f"{REPO_RAW}/{entry['folder']}/page-{str(i).zfill(2)}.png"
-              for i in range(1, entry["pages_count"] + 1)
-          ]
-          print(f"URLs: {image_urls}")
-          if len(image_urls) < 2:
-              print("ERROR: a Threads carousel needs at least 2 items. Aborting.")
-              sys.exit(1)
+          # Дорожка 14:00 обслуживает два формата. Запись с folder - это
+          # карусель лид-магнита (страницы PNG лежат в репозитории). Запись без
+          # folder - обычный текстовый пост: серия про БАДы идёт текстом,
+          # потому что по охватам августа в Threads летит сцена с механизмом,
+          # а карусели-шпаргалки июня дали медиану восемь просмотров.
+          if entry.get("folder"):
+              image_urls = [
+                  f"{REPO_RAW}/{entry['folder']}/page-{str(i).zfill(2)}.png"
+                  for i in range(1, entry["pages_count"] + 1)
+              ]
+              print(f"URLs: {image_urls}")
+              if len(image_urls) < 2:
+                  print("ERROR: a Threads carousel needs at least 2 items. Aborting.")
+                  sys.exit(1)
 
-          # Шаг 1: item-контейнеры для каждой страницы карусели
-          item_ids = []
-          for idx, url in enumerate(image_urls, 1):
+              # Шаг 1: item-контейнеры для каждой страницы карусели
+              item_ids = []
+              for idx, url in enumerate(image_urls, 1):
+                  resp = graph_post(
+                      f"{THREADS_BASE}/{USER_ID}/threads",
+                      {
+                          "media_type":       "IMAGE",
+                          "image_url":        url,
+                          "is_carousel_item": "true",
+                          "access_token":     ACCESS_TOKEN,
+                      },
+                      f"Carousel item {idx}",
+                  )
+                  item_ids.append(resp.json()["id"])
+              print(f"Item IDs: {item_ids}")
+
+              # Threads требует, чтобы КАЖДЫЙ дочерний item-контейнер дошёл до
+              # FINISHED, прежде чем собирать карусель - иначе контейнер карусели
+              # падает с "Invalid Carousel Children" (code 100, subcode 4279004).
+              # В отличие от IG Graph API (publish-carousel.yml), где дочерние
+              # можно не ждать.
+              for idx, item_id in enumerate(item_ids, 1):
+                  if not wait_finished(item_id, f"Carousel item {idx}"):
+                      print(f"Carousel item {idx} ({item_id}) не дошёл до FINISHED. Aborting.")
+                      sys.exit(1)
+
+              # Шаг 2: контейнер карусели (текст поста - здесь)
               resp = graph_post(
                   f"{THREADS_BASE}/{USER_ID}/threads",
                   {
-                      "media_type":       "IMAGE",
-                      "image_url":        url,
-                      "is_carousel_item": "true",
-                      "access_token":     ACCESS_TOKEN,
+                      "media_type":   "CAROUSEL",
+                      "children":     ",".join(item_ids),
+                      "text":         text,
+                      "access_token": ACCESS_TOKEN,
                   },
-                  f"Carousel item {idx}",
+                  "Carousel container",
               )
-              item_ids.append(resp.json()["id"])
-          print(f"Item IDs: {item_ids}")
-
-          # Threads требует, чтобы КАЖДЫЙ дочерний item-контейнер дошёл до FINISHED,
-          # прежде чем собирать карусель — иначе контейнер карусели падает с
-          # "Invalid Carousel Children" (code 100, subcode 4279004). В отличие от
-          # IG Graph API (publish-carousel.yml), где дочерние можно не ждать.
-          for idx, item_id in enumerate(item_ids, 1):
-              if not wait_finished(item_id, f"Carousel item {idx}"):
-                  print(f"Carousel item {idx} ({item_id}) не дошёл до FINISHED. Aborting.")
-                  sys.exit(1)
-
-          # Шаг 2: контейнер карусели (текст поста — здесь)
-          resp = graph_post(
-              f"{THREADS_BASE}/{USER_ID}/threads",
-              {
-                  "media_type":   "CAROUSEL",
-                  "children":     ",".join(item_ids),
-                  "text":         text,
-                  "access_token": ACCESS_TOKEN,
-              },
-              "Carousel container",
-          )
+          else:
+              resp = graph_post(
+                  f"{THREADS_BASE}/{USER_ID}/threads",
+                  {
+                      "media_type":   "TEXT",
+                      "text":         text,
+                      "access_token": ACCESS_TOKEN,
+                  },
+                  "Text container",
+              )
           creation_id = resp.json()["id"]
           print(f"Container ID: {creation_id}")
 
