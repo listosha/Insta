@@ -118,8 +118,21 @@ jobs:
 
           text = entry["text"]
           if len(text) > 500:
-              print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500. Aborting.")
-              sys.exit(1)
+              # Раньше здесь был sys.exit(1) ДО записи файла: статус записи не
+              # менялся, шаг коммита не выполнялся, и следующий запуск брал тот же
+              # пост снова. Один длинный текст останавливал очередь Threads навсегда.
+              # Теперь запись снимается с публикации, очередь идёт дальше, а job
+              # всё равно падает в конце (шаг "Fail if an entry was rejected"),
+              # чтобы пришло уведомление и текст починили.
+              print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500.")
+              print(f"Снимаю запись {entry['id']} с публикации (error_too_long), очередь освобождаю.")
+              schedule[entry_idx]["status"] = "error_too_long"
+              with open("threads-schedule.json", "w", encoding="utf-8") as f:
+                  json.dump(schedule, f, ensure_ascii=False, indent=2)
+              with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
+                  print(f"THREADS_REJECTED_ID={entry['id']}", file=f)
+                  print(f"THREADS_REJECTED_LEN={len(text)}", file=f)
+              sys.exit(0)
 
           # Шаг 1: создаём контейнер. Если у записи есть поле "image" с публичным
           # URL картинки - постим картинкой, текст уходит подписью. Иначе текстом.
@@ -226,7 +239,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add threads-schedule.json
-          git diff --staged --quiet || git commit -m "Published thread $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          if [ -n "$THREADS_REJECTED_ID" ]; then
+            msg="Rejected thread $THREADS_REJECTED_ID (text over 500 chars)"
+          else
+            msg="Published thread $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          fi
+          git diff --staged --quiet || git commit -m "$msg"
           # Публикация уже состоялась — статус обязан доехать, иначе следующий запуск
           # отправит тот же пост повторно. Пуш в main может отбить чужой коммит
           # (человек или другой воркфлоу), поэтому перед повтором подтягиваем main
@@ -238,3 +256,12 @@ jobs:
             git pull --rebase origin main || exit 1
           done
           git push
+
+      # Запись снята с публикации из-за длины: коммит уже проехал и очередь
+      # разблокирована, но job обязан упасть — иначе про сорванный пост никто
+      # не узнает.
+      - name: Fail if an entry was rejected
+        if: env.THREADS_REJECTED_ID != ''
+        run: |
+          echo "::error::Пост ${THREADS_REJECTED_ID} снят с публикации: ${THREADS_REJECTED_LEN} символов при лимите 500. Запись помечена error_too_long, очередь идёт дальше. Почини текст и верни status в pending."
+          exit 1

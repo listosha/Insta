@@ -140,8 +140,19 @@ jobs:
 
           text = entry["text"]
           if len(text) > 500:
-              print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500. Aborting.")
-              sys.exit(1)
+              # Аварийный выход ДО записи файла оставлял запись в pending, и
+              # следующий запуск упирался в неё снова: очередь вставала навсегда
+              # (так в августе встали посты Threads). Снимаем запись с публикации,
+              # очередь идёт дальше, а job падает в конце ради уведомления.
+              print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500.")
+              print(f"Снимаю запись {entry['id']} с публикации (error_too_long), очередь освобождаю.")
+              schedule[entry_idx]["status"] = "error_too_long"
+              with open(SCHEDULE, "w", encoding="utf-8") as f:
+                  json.dump(schedule, f, ensure_ascii=False, indent=2)
+              with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
+                  print(f"THREADS_REJECTED_ID={entry['id']}", file=f)
+                  print(f"THREADS_REJECTED_LEN={len(text)}", file=f)
+              sys.exit(0)
 
           image_urls = [
               f"{REPO_RAW}/{entry['folder']}/page-{str(i).zfill(2)}.png"
@@ -264,7 +275,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add threads-leadmagnets-schedule.json
-          git diff --staged --quiet || git commit -m "Published lead magnet $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          if [ -n "$THREADS_REJECTED_ID" ]; then
+            msg="Rejected lead magnet $THREADS_REJECTED_ID (text over 500 chars)"
+          else
+            msg="Published lead magnet $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          fi
+          git diff --staged --quiet || git commit -m "$msg"
           # Публикация уже состоялась — статус обязан доехать, иначе следующий запуск
           # отправит тот же пост повторно. Пуш в main может отбить чужой коммит
           # (человек или другой воркфлоу), поэтому перед повтором подтягиваем main
@@ -276,3 +292,9 @@ jobs:
             git pull --rebase origin main || exit 1
           done
           git push
+
+      - name: Fail if an entry was rejected
+        if: env.THREADS_REJECTED_ID != ''
+        run: |
+          echo "::error::Лид-магнит ${THREADS_REJECTED_ID} снят с публикации: ${THREADS_REJECTED_LEN} символов при лимите 500. Запись помечена error_too_long, очередь идёт дальше."
+          exit 1
