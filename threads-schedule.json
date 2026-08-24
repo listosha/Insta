@@ -1319,12 +1319,12 @@
     "time": "09:00",
     "timezone": "Europe/Moscow",
     "text": "ОЖСС и трансферрин простыми словами\n\n- Трансферрин - грузовик для железа\n- ОЖСС - сколько всего мест\n- Мало железа - грузовиков больше\n- Насыщение ниже 20% - дефицит\n- Одна цифра без других не читается\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Железо за 8 недель»:\nhttps://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "17920709325199932",
+    "published_at": "2026-08-24T11:49:53.420418+03:00",
+    "reply_id": "17905118172507408",
+    "reply_status": "published"
   },
   {
     "id": 87,
