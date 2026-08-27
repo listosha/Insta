@@ -17,14 +17,15 @@
     }
   },
   "counts": {
-    "total": 447,
+    "total": 597,
     "guides": 10,
     "articles": 9,
     "menu": 30,
     "hero": 60,
     "glucose": 36,
     "wave1": 150,
-    "bady": 76
+    "bady": 76,
+    "wave2": 150
   },
   "pins": [
     {
@@ -7188,6 +7189,2406 @@
       "time": "14:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-11-10T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_01.png",
+      "title": "ПМС стал тяжелее с годами",
+      "description": "ПМС стал тяжелее с годами. После 35 прогестерон падает первым · Эстроген какое-то время держится · Разрыв между ними и даёт симптомы · Раньше два дня, теперь полцикла · Это не «характер испортился». Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-30",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_02.png",
+      "title": "Тянет на сладкое перед месячными",
+      "description": "Тянет на сладкое перед месячными. Во второй фазе расход энергии выше · Серотонин к вечеру проседает · Сахар даёт быстрый подъём и провал · Белок в каждый приём снимает пики · Магний уменьшает тягу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-30",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_03.png",
+      "title": "Болит грудь перед месячными",
+      "description": "Болит грудь перед месячными. Чувствительность к эстрогену · Отёк ткани, а не рост · Кофе усиливает у многих · Держится до первого дня · Постоянная боль вне цикла - к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-30",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_04.png",
+      "title": "Отекаю во второй фазе",
+      "description": "Отекаю во второй фазе. Прогестерон задерживает натрий · Плюс кило-два за неделю - обычное дело · Соль вечером усиливает · Вода не «вымывает», а помогает · Стойкие отёки - проверить почки и щитовидку. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-30",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_05.png",
+      "title": "Мигрень приходит перед циклом",
+      "description": "Мигрень приходит перед циклом. Триггер - падение эстрогена · Обычно за 2-3 дня до месячных · Магний за неделю до - рабочая тактика · Пропуски еды усиливают · Частые приступы - к неврологу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-30",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_06.png",
+      "title": "Раздражает всё вторую половину цикла",
+      "description": "Раздражает всё вторую половину цикла. Прогестерон влияет на ГАМК · Чувствительность к нему индивидуальна · Сон и сахар усиливают перепады · Дневник цикла показывает закономерность · Если рушит жизнь - это ПМДР, к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-30",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_07.png",
+      "title": "Не сплю перед месячными",
+      "description": "Не сплю перед месячными. Температура тела во второй фазе выше · Прогестерон падает - сон рвётся · Просыпания в 3-4 утра типичны · Прохладная спальня помогает · Алкоголь вечером добивает. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-30",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-30T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_08.png",
+      "title": "Вздутие во второй фазе",
+      "description": "Вздутие во второй фазе. Прогестерон замедляет кишечник · Плюс задержка жидкости · Клетчатка резко - хуже, постепенно - лучше · Газообразующие убрать на неделю · Постоянное вздутие - искать отдельно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-31",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_09.png",
+      "title": "Прогестерон: когда его сдавать",
+      "description": "Прогестерон: когда его сдавать. За 7 дней до месячных, не «на 21 день» · При цикле 35 дней это день 28 · Одна цифра вне контекста мало значит · Сдавать вместе с эстрадиолом · Без овуляции он будет низким всегда. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-31",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_10.png",
+      "title": "Эстроген высокий относительно прогестерона",
+      "description": "Эстроген высокий относительно прогестерона. Дело не в цифре, а в соотношении · Грудь, отёки, тяжёлый ПМС · Печень и кишечник выводят эстроген · Клетчатка и стул каждый день · Смотреть обе цифры в одной фазе. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-31",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_11.png",
+      "title": "Цикл короче 24 дней: о чём это",
+      "description": "Цикл короче 24 дней: о чём это. Вторая фаза укоротилась · Часто это слабая овуляция · Бывает при стрессе и дефиците веса · К перименопаузе - обычная картина · Смотреть в паре с ТТГ и ферритином. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-31",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_12.png",
+      "title": "Цикл длиннее 35 дней: что смотрят",
+      "description": "Цикл длиннее 35 дней: что смотрят. Овуляция поздняя или её нет · Проверяют ТТГ и пролактин · Инсулин и вес при СПКЯ · Стресс и жёсткие диеты · Три таких цикла подряд - повод к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-31",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_13.png",
+      "title": "Мажет за пару дней до месячных",
+      "description": "Мажет за пару дней до месячных. Часто слабая вторая фаза · Прогестерон не удерживает эндометрий · Смотрят вместе с УЗИ · Разово - бывает у всех · Постоянно - к гинекологу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-08-31",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-08-31T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_14.png",
+      "title": "Обильные месячные: где граница нормы",
+      "description": "Обильные месячные: где граница нормы. Прокладка за 2 часа - это много · Сгустки крупнее монеты · Больше 7 дней · Приходится вставать ночью · Такие циклы съедают ферритин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-01",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_15.png",
+      "title": "Больно в первый день: норма или нет",
+      "description": "Больно в первый день: норма или нет. Простагландины дают спазм · Норма - если обезболивающее решает · Не норма - если срывает планы · Боль, растущая с годами - к врачу · Омега-3 и магний снижают фон. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-01",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_16.png",
+      "title": "Как понять, что овуляция есть",
+      "description": "Как понять, что овуляция есть. Слизь как яичный белок · Скачок базальной температуры · Прогестерон за 7 дней до месячных · Тесты на ЛГ ловят пик · Регулярный цикл - ещё не гарантия. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-01",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_17.png",
+      "title": "Базальная температура: что она показывает",
+      "description": "Базальная температура: что она показывает. Прогестерон поднимает её на 0,3-0,5 · Меряют утром, не вставая · Показывает овуляцию задним числом · Болезнь и алкоголь сбивают · Как единственный метод - слабо. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-01",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_18.png",
+      "title": "Прыщи по подбородку ходят за циклом",
+      "description": "Прыщи по подбородку ходят за циклом. Вторая фаза - активнее сальные железы · Чувствительность кожи к андрогенам · Сахар и молочное усиливают у части · Цинк помогает не всем, но помогает · Стойкие высыпания - смотреть андрогены. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-01",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_19.png",
+      "title": "Магний и ПМС: что он реально делает",
+      "description": "Магний и ПМС: что он реально делает. Снимает спазм и тягу к сладкому · Работает на курсе, не разово · Цитрат и глицинат переносятся мягче · Оксид больше слабит, чем усваивается · Вечером - заодно помогает уснуть. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-01",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_20.png",
+      "title": "Витамин B6 во второй фазе",
+      "description": "Витамин B6 во второй фазе. Участвует в обмене серотонина · Помогает при раздражительности и отёках · Дозы выше 100 мг долго - опасно · Курс, а не постоянный приём · Лучше в связке с магнием. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-02",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_21.png",
+      "title": "Кальций и ПМС: неожиданная связь",
+      "description": "Кальций и ПМС: неожиданная связь. В исследованиях снижал симптомы · Работает в паре с витамином D · Молочное или добавка - оба варианта · Эффект накопительный, за 2-3 цикла · Дозу подбирают, а не берут максимум. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-02",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_22.png",
+      "title": "Омега-3 и болезненные месячные",
+      "description": "Омега-3 и болезненные месячные. Снижает синтез простагландинов · Эффект появляется через 2-3 цикла · Рыба 2-3 раза в неделю - база · Дозировка добавки имеет значение · Не заменяет обезболивающее в первый день. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-02",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_23.png",
+      "title": "Кофе во второй фазе бьёт сильнее",
+      "description": "Кофе во второй фазе бьёт сильнее. Усиливает боль в груди · Дёргает сон, а он и так рваный · Кортизол и без него повышен · Не бросать резко - будет голова · Перенести на утро и уменьшить дозу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-02",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_24.png",
+      "title": "Бокал вина перед месячными",
+      "description": "Бокал вина перед месячными. Печень занята обменом эстрогена · Сон становится поверхностным · Утром отёки заметнее · Тяга к сладкому на следующий день · Во второй фазе переносится хуже. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-02",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_25.png",
+      "title": "Клетчатка и обмен эстрогена",
+      "description": "Клетчатка и обмен эстрогена. Связывает эстроген в кишечнике · Без стула он всасывается обратно · Норма - 25-30 г в день · Наращивать постепенно, иначе вздутие · Вода обязательна, иначе хуже. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-02",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_26.png",
+      "title": "Крестоцветные и вторая фаза",
+      "description": "Крестоцветные и вторая фаза. Брокколи, капуста, руккола · Поддерживают мягкий путь обмена эстрогена · Работает регулярность, а не разовая порция · При гипотиреозе - в приготовленном виде · Не лекарство, а фон. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-03",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_27.png",
+      "title": "Лён и цикл: что известно",
+      "description": "Лён и цикл: что известно. Лигнаны влияют на обмен эстрогена · Молотое семя, целое проходит транзитом · Столовая ложка в день - рабочая доза · Хранить в холодильнике · Эффект мягкий и накопительный. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-03",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_28.png",
+      "title": "Запор и гормоны связаны крепче, чем кажется",
+      "description": "Запор и гормоны связаны крепче, чем кажется. Эстроген выводится через кишечник · Стул реже - выше обратное всасывание · Вторая фаза сама замедляет моторику · Вода, клетчатка, движение · Каждый день - это норма, а не роскошь. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-03",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_29.png",
+      "title": "Щитовидка ломает цикл первой",
+      "description": "Щитовидка ломает цикл первой. Гипотиреоз удлиняет цикл · Гипертиреоз укорачивает или обрывает · Влияет на пролактин · ТТГ - первый анализ при сбое · Симптомы легко спутать с ПМС. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-03",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_30.png",
+      "title": "Пролактин: когда его смотреть",
+      "description": "Пролактин: когда его смотреть. Задержки и пропавшие месячные · Выделения из груди · Сдавать утром, в покое · Стресс и секс накануне завышают · Высокий дважды - к эндокринологу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-03",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_31.png",
+      "title": "Инсулин и нерегулярный цикл",
+      "description": "Инсулин и нерегулярный цикл. Высокий инсулин мешает овуляции · Типично для СПКЯ · Смотрят глюкозу натощак и HOMA-IR · Вес, сон и движение меняют картину · Один тестостерон мало что скажет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-03",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_32.png",
+      "title": "Месячные пропали после похудения",
+      "description": "Месячные пропали после похудения. Организм экономит на репродукции · Слишком мало еды или жира · Спорт добавляет нагрузку · Возвращаются не сразу после набора · Полгода без цикла - обязательно к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-04",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_33.png",
+      "title": "Тренируюсь много, а цикл сбился",
+      "description": "Тренируюсь много, а цикл сбился. Дефицит энергии важнее самих нагрузок · Часто вместе с недоеданием · Первым уходит вторая фаза · Кости страдают молча · Меньше кардио, больше еды. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-04",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_34.png",
+      "title": "Задержка после сильного стресса",
+      "description": "Задержка после сильного стресса. Кортизол давит на овуляцию · Задержка бывает разовой · Перелёты и болезнь работают так же · Сон - первое, что чинят · Повторяется - идти разбираться. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-04",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_35.png",
+      "title": "После отмены таблеток цикл не вернулся",
+      "description": "После отмены таблеток цикл не вернулся. Обычно восстанавливается за 3 месяца · Дольше - искать причину, а не ждать · Проверяют ТТГ, пролактин, вес · КОК не лечили причину, а заменяли цикл · Дефициты после длинного приёма частые. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-04",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_36",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_36.png",
+      "title": "Цикл после родов: чего ждать",
+      "description": "Цикл после родов: чего ждать. На ГВ может не быть месяцами · Первые циклы часто без овуляции · Ферритин обычно на дне · Щитовидка может дать сбой · Год без цикла вне ГВ - к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-04",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_37",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_37.png",
+      "title": "Обильные месячные съедают железо",
+      "description": "Обильные месячные съедают железо. Потеря железа каждый цикл · Ферритин падает раньше гемоглобина · Усталость и выпадение волос · Курс железа без разбора причины бесполезен · Смотреть ферритин, а не только ОАК. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-04",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_38",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_38.png",
+      "title": "Низкий ферритин усиливает ПМС",
+      "description": "Низкий ферритин усиливает ПМС. Меньше кислорода - меньше сил · Настроение проседает · Голова болит чаще · Порог для симптомов - около 30-50 · Проверять раз в полгода при обильных циклах. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-05",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_39",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_39.png",
+      "title": "Что сдать при нерегулярном цикле",
+      "description": "Что сдать при нерегулярном цикле. ТТГ и свободный Т4 · Пролактин · Эстрадиол и прогестерон по фазам · Глюкоза и инсулин · Ферритин и ОАК. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-05",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_40",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_40.png",
+      "title": "Гормоны сдают по дням цикла",
+      "description": "Гормоны сдают по дням цикла. ФСГ, ЛГ, эстрадиол - на 2-5 день · Прогестерон - за 7 дней до месячных · Пролактин - утром, в покое · ТТГ - в любой день · Сданное «когда получилось» читать нельзя. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-05",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_41",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_41.png",
+      "title": "Дневник цикла: что записывать",
+      "description": "Дневник цикла: что записывать. День начала и длину · Обильность и сгустки · Настроение и сон · Грудь, отёки, голова · Три цикла - и картина видна. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-05",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_42",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_42.png",
+      "title": "Просыпаюсь мокрой перед месячными",
+      "description": "Просыпаюсь мокрой перед месячными. Падение эстрогена меняет терморегуляцию · Часто вместе с рваным сном · После 40 - типичная история · Алкоголь и острое усиливают · Постоянные ночные поты - к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-05",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_43",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_43.png",
+      "title": "Либидо ходит по циклу",
+      "description": "Либидо ходит по циклу. Пик вокруг овуляции · Спад во второй фазе - норма · Усталость и стресс глушат сильнее гормонов · КОК у части снижает · Стойкий спад - смотреть щитовидку и ферритин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-05",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_44",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_44.png",
+      "title": "Голова болит сразу после овуляции",
+      "description": "Голова болит сразу после овуляции. Резкий скачок и спад эстрогена · Обезвоживание усиливает · Пропущенный обед - типичный триггер · Магний курсом снижает частоту · Дневник покажет привязку к дню цикла. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-05",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-05T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_pms_45",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_pms_45.png",
+      "title": "ПМС, с которым идут к врачу",
+      "description": "ПМС, с которым идут к врачу. Симптомы срывают работу и отношения · Цикл короче 21 или длиннее 35 дней · Кровотечение больше 7 дней · Пропуски месяцами вне беременности · Боль, которую не снимает ничего. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Женские гормоны: ПМС, цикл, перименопауза",
+        "serviceId": "1084523222707692422"
+      },
+      "date": "2026-09-06",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_01.png",
+      "title": "Волосы полезли через три месяца после родов",
+      "description": "Волосы полезли через три месяца после родов. В беременность выпадение притормаживает · После родов всё уходит разом · Пик - 3-4 месяц · Обычно проходит к году · Ферритин при этом почти всегда низкий. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-06",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_02.png",
+      "title": "Волос реагирует с задержкой в три месяца",
+      "description": "Волос реагирует с задержкой в три месяца. Причина случилась осенью, паника в январе · Волос уходит в покой, потом выпадает · Искать событие 2-3 месяца назад · Диета, болезнь, стресс, роды · Поэтому по дате выпадения ищут причину. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-06",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_03.png",
+      "title": "Сколько волос в день выпадать можно",
+      "description": "Сколько волос в день выпадать можно. До 100 - обычное обновление · Больше - смотрят причину · Считать в день мытья бессмысленно · Важнее динамика за месяц · И то, редеет ли пробор. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-06",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_04.png",
+      "title": "Диффузное или по мужскому типу",
+      "description": "Диффузное или по мужскому типу. Диффузное - редеет везде равномерно · Андрогенное - расширяется пробор · Первое чаще от дефицитов · Второе связано с чувствительностью к андрогенам · Тактика у них разная. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-06",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_05.png",
+      "title": "Пробор стал шире: что проверяют",
+      "description": "Пробор стал шире: что проверяют. Ферритин и щитовидку · Андрогены при жирности кожи и прыщах · Витамин D · Дефицит калорий и белка · Фото раз в месяц в одном свете. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-06",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_06.png",
+      "title": "Похудела - и волосы посыпались",
+      "description": "Похудела - и волосы посыпались. Резкий дефицит калорий - стресс для волоса · Белка обычно не хватает первым · Минус больше 1 кг в неделю - фактор риска · Выпадение начнётся через 2-3 месяца · Медленнее худеть дешевле, чем лечить. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-06",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-06T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_07.png",
+      "title": "Волос состоит из белка",
+      "description": "Волос состоит из белка. Кератин - это белок · При нехватке организм экономит на волосе · Ориентир - 1,2-1,5 г на кг · Белок в каждый приём, а не раз в день · Без него любые витамины впустую. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-07",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_08.png",
+      "title": "Ферритин ниже 30 - волос уходит первым",
+      "description": "Ферритин ниже 30 - волос уходит первым. Волос не жизненно важен, его отключают · Гемоглобин при этом бывает в норме · Ориентир для роста - от 50 · Курс железа идёт 3-6 месяцев · Результат виден не раньше третьего месяца. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-07",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_09.png",
+      "title": "Биотин: кому он правда нужен",
+      "description": "Биотин: кому он правда нужен. Дефицит биотина - редкость · При нём добавка работает · Без дефицита эффекта в исследованиях нет · Зато он искажает анализы на щитовидку · Отменять за 2-3 дня до сдачи крови. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-07",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_10.png",
+      "title": "Цинк и волосы: где связь",
+      "description": "Цинк и волосы: где связь. Участвует в делении клеток фолликула · Дефицит бывает при вегетарианстве · Тошнота на голодный желудок - частая реакция · Долгие высокие дозы бьют по меди · Курсом и с контролем. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-07",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_11.png",
+      "title": "Витамин D и рост волоса",
+      "description": "Витамин D и рост волоса. Рецепторы к нему есть в фолликуле · Низкий D часто у людей с выпадением · Дозу подбирают по анализу · «На глаз» высокие дозы не нужны · Смотрят вместе с кальцием. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-07",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_12.png",
+      "title": "Щитовидка меняет волос целиком",
+      "description": "Щитовидка меняет волос целиком. При гипотиреозе волос сухой и ломкий · Выпадение диффузное · Внешняя треть брови редеет · ТТГ и свободный Т4 - базовая пара · Волос отвечает медленно после коррекции. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-07",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-07T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_13.png",
+      "title": "После сильного стресса волосы уходят пачками",
+      "description": "После сильного стресса волосы уходят пачками. Фолликулы разом уходят в покой · Выпадение начнётся через 2-3 месяца · Длится 3-6 месяцев · Обычно обратимо · Если тянется дольше - искать второй фактор. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-08",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_14.png",
+      "title": "Переболела - и волосы посыпались",
+      "description": "Переболела - и волосы посыпались. Высокая температура - типичный триггер · Тот же механизм, что при стрессе · Старт через 2-3 месяца · Проходит само за несколько месяцев · Проверить ферритин: болезнь его роняет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-08",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_15.png",
+      "title": "Тест натяжения: как его делают",
+      "description": "Тест натяжения: как его делают. Мягко тянут прядь из 50-60 волос · Больше 5-6 выпавших - активная фаза · Не мыть голову сутки до теста · Повторяют в разных зонах · Это ориентир, а не диагноз. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-08",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_16.png",
+      "title": "Что сдать при выпадении",
+      "description": "Что сдать при выпадении. Ферритин и ОАК · ТТГ и свободный Т4 · Витамин D · Цинк по показаниям · Андрогены при жирности и прыщах. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-08",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_17.png",
+      "title": "Когда ждать результат от протокола",
+      "description": "Когда ждать результат от протокола. Выпадение стихает через 6-10 недель · Новый подшёрсток - к третьему месяцу · Длина отрастает по 1 см в месяц · Фото раз в месяц, а не зеркало · Бросают обычно на втором месяце. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-08",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_18.png",
+      "title": "Зуд и шелушение мешают росту",
+      "description": "Зуд и шелушение мешают росту. Себорейный дерматит - частая история · Воспаление ухудшает питание фолликула · Чесать нельзя, лечить нужно · Средства подбирает врач · Без кожи головы протокол не работает. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-08",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-08T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_19.png",
+      "title": "Корни жирные, концы сухие",
+      "description": "Корни жирные, концы сухие. Это разные зоны с разной задачей · Пересушивание корней усиливает жирность · Мыть можно хоть каждый день · Уход на длину, а не на кожу · Резкая перемена жирности - к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-09",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_20.png",
+      "title": "Перхоть - это не сухость",
+      "description": "Перхоть - это не сухость. Чаще грибок и воспаление · Пересушивание делает хуже · Обычный шампунь не решает · Нужны лечебные средства курсом · Возвращается без поддерживающей схемы. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-09",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_21.png",
+      "title": "Ногти слоятся: что за этим стоит",
+      "description": "Ногти слоятся: что за этим стоит. Железо и цинк - первые подозреваемые · Белка мало - ноготь тонкий · Бытовая химия без перчаток · Гель-лак без перерывов · Смотреть вместе с волосами: причина одна. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-09",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_22.png",
+      "title": "Продольные борозды на ногтях",
+      "description": "Продольные борозды на ногтях. С возрастом появляются у всех · Сами по себе не болезнь · Резко появившиеся - повод посмотреть · Поперечные борозды говорят больше · Их связывают с болезнью или стрессом. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-09",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_23.png",
+      "title": "Ноготь стал вогнутым, как ложка",
+      "description": "Ноготь стал вогнутым, как ложка. Классический признак дефицита железа · Называется койлонихия · Сначала ноготь плоский, потом вогнутый · Проверяют ферритин, а не только гемоглобин · Форма выправляется медленно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-09",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_24.png",
+      "title": "Белые пятнышки на ногтях",
+      "description": "Белые пятнышки на ногтях. Это почти всегда микротравма · Не признак дефицита кальция · Растут вместе с ногтем и уходят · Много пятен и ломкость - смотреть питание · Ноготь обновляется 5-6 месяцев. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-09",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-09T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_25.png",
+      "title": "Заусенцы не заканчиваются",
+      "description": "Заусенцы не заканчиваются. Сухость кожи и частое мытьё · Дефицит белка и железа · Привычка обрывать делает хуже · Крем и масло на ночь · Воспаление вокруг ногтя - к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-10",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_26.png",
+      "title": "Волос растёт сантиметр в месяц",
+      "description": "Волос растёт сантиметр в месяц. Ускорить рост нельзя, можно не мешать · Задача - удержать то, что есть · Фаза роста длится годы · Ножницы на скорость не влияют · Оценивать по подшёрстку у корней. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-10",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_27.png",
+      "title": "Шампунь не лечит выпадение",
+      "description": "Шампунь не лечит выпадение. Он моет кожу головы, и это его работа · Выпадение растёт изнутри · Ухода мало, когда дело в дефиците · Но плохая кожа головы мешает росту · Сначала анализы, потом полка в ванной. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-10",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_28.png",
+      "title": "Масла для волос: чего от них ждать",
+      "description": "Масла для волос: чего от них ждать. Работают на длине, не на корнях · Уменьшают ломкость и сечение · Рост не ускоряют · Тяжёлые масла утяжеляют тонкий волос · На кожу головы - осторожно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-10",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_29.png",
+      "title": "Волос ломается, а не выпадает",
+      "description": "Волос ломается, а не выпадает. Обломок короче и без белой луковицы · Виноваты утюжок, фен и окрашивание · Расчёсывание мокрых волос · Тугие резинки · Это чинится уходом, а не анализами. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-10",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_30.png",
+      "title": "Тугой хвост каждый день",
+      "description": "Тугой хвост каждый день. Постоянное натяжение травмирует фолликул · Первыми редеют виски и лоб · Называется тракционная алопеция · На ранней стадии обратимо · Менять пробор и укладку. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-10",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-10T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_31.png",
+      "title": "Окрашивание и выпадение",
+      "description": "Окрашивание и выпадение. Краска бьёт по стержню, не по корню · Выпадение от неё - редкость · Ломкость от неё - обычное дело · Осветление рискованнее тонирования · Пауза между окрашиваниями решает больше. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-11",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_32.png",
+      "title": "Вегетарианство и выпадение",
+      "description": "Вегетарианство и выпадение. Железо из растений усваивается хуже · B12 берётся только из добавок · Белок надо считать честно · Цинк тоже в зоне риска · Ферритин раз в полгода. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-11",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_33.png",
+      "title": "Волосы в менопаузу меняются",
+      "description": "Волосы в менопаузу меняются. Эстроген падает - фаза роста короче · Волос тоньше и суше · Возможно поредение по пробору · Ферритин и щитовидку смотреть всё равно · Уход меняют под другой волос. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-gormonalnyj-balans&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-11",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_34.png",
+      "title": "Волосы редеют, а на лице растут",
+      "description": "Волосы редеют, а на лице растут. Похоже на избыток андрогенов · Частая связка с СПКЯ · Смотрят тестостерон и ДГЭА-С · Инсулин тянет андрогены вверх · Одним уходом это не решается. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-11",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_35.png",
+      "title": "Бросила таблетки - волосы посыпались",
+      "description": "Бросила таблетки - волосы посыпались. Отмена меняет гормональный фон разом · Выпадение начинается через 2-3 месяца · Обычно длится до полугода · Ферритин после долгого приёма часто низкий · Если не стихает - искать причину. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-11",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_36",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_36.png",
+      "title": "Коллаген для волос и ногтей",
+      "description": "Коллаген для волос и ногтей. В кишечнике распадается на аминокислоты · Адресно в волос не доставляется · Как источник белка - работает · Ждать чуда от порошка не стоит · Дешевле добрать белок едой. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-11",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_37",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_37.png",
+      "title": "Витамины для волос в одной банке",
+      "description": "Витамины для волос в одной банке. Обычно всё в маленьких дозах · Дефицит ими не закрыть · Биотин внутри мешает анализам щитовидки · Дешевле точечно по анализам · Комплекс - это про спокойствие, не про результат. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-11",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-11T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_38",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_38.png",
+      "title": "Всё пью, а анализы не растут",
+      "description": "Всё пью, а анализы не растут. Дело часто во всасывании · Низкая кислотность мешает железу · Воспаление кишечника крадёт нутриенты · Целиакия проверяется анализом · Без кишечника добавки бессмысленны. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-zhelezo-8-nedel&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-12",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_39",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_39.png",
+      "title": "Сон и волосы связаны напрямую",
+      "description": "Сон и волосы связаны напрямую. Ночью идёт восстановление тканей · Хронический недосып поднимает кортизол · Кортизол укорачивает фазу роста · Меньше 6 часов - фактор риска · Это бесплатно и работает. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-12",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_40",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_40.png",
+      "title": "Ем мало, а волосы платят",
+      "description": "Ем мало, а волосы платят. Организм экономит на несрочном · Волос в списке первый · Даже при нормальных анализах · Минимум - не ниже основного обмена · Возврат к норме еды возвращает рост. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-12",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_41",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_41.png",
+      "title": "Курение ускоряет поредение",
+      "description": "Курение ускоряет поредение. Сужает сосуды кожи головы · Усиливает окислительный стресс · Связано с ранней сединой · Бьёт по коллагену кожи · Отказ работает на волос медленно, но верно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-12",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_42",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_42.png",
+      "title": "Ранняя седина: что за ней смотрят",
+      "description": "Ранняя седина: что за ней смотрят. Главное - наследственность · Иногда B12 и щитовидка · Витилиго и аутоиммунные состояния · Курение и стресс ускоряют · Закрасить можно, вернуть цвет - нет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-12",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_43",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_43.png",
+      "title": "Мыть голову реже - меньше выпадет?",
+      "description": "Мыть голову реже - меньше выпадет?. Волос уже отделился, он ждёт мытья · Реже моешь - больше в руках за раз · Общее количество не меняется · Грязная кожа головы мешает росту · Мыть по потребности. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-12",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_44",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_44.png",
+      "title": "Уколы для волос: на что рассчитывать",
+      "description": "Уколы для волос: на что рассчитывать. Не заменяют разбор причины · На дефиците железа эффект короткий · Работают как поддержка, а не решение · Стоят заметно дороже анализов · Сначала кровь, потом кабинет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-12",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_hair_45",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_hair_45.png",
+      "title": "Когда выпадение ведут к врачу",
+      "description": "Когда выпадение ведут к врачу. Залысины и очаги · Пробор шире с каждым месяцем · Выпадение дольше полугода · Зуд, боль, воспаление кожи · Выпадение вместе с потерей веса. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_protokol-volosy-3-mesyaca&ref=pinterest",
+      "board": {
+        "name": "Волосы: выпадение, рост, дефициты",
+        "serviceId": "1084523222707692430"
+      },
+      "date": "2026-09-12",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T18:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_01.png",
+      "title": "Глюкоза 5,2, а сил нет",
+      "description": "Глюкоза 5,2, а сил нет. Натощак она падает последней · Инсулин к этому моменту уже высокий · Одна глюкоза ничего не исключает · Смотреть инсулин и гликированный · Симптомы появляются раньше цифр. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-12",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-12T20:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_02.png",
+      "title": "Инсулинорезистентность простыми словами",
+      "description": "Инсулинорезистентность простыми словами. Клетка перестаёт слышать инсулин · Поджелудочная отвечает большей дозой · Годами сахар держится в норме · Потом срывается в преддиабет · Ловят по инсулину, а не по сахару. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_03.png",
+      "title": "HOMA-IR: как посчитать индекс",
+      "description": "HOMA-IR: как посчитать индекс. Нужны глюкоза и инсулин натощак · Формула перемножает их и делит на 22,5 · Ориентир - ниже 2,5 · Сдавать строго натощак · Одна цифра без симптомов - ещё не диагноз. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_04.png",
+      "title": "Гликированный гемоглобин помнит три месяца",
+      "description": "Гликированный гемоглобин помнит три месяца. Показывает средний сахар за 8-12 недель · Не зависит от вчерашнего торта · Ниже 5,7 - норма · 5,7-6,4 - преддиабет · При анемии цифра искажается. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_05.png",
+      "title": "Инсулин натощак: что считать нормой",
+      "description": "Инсулин натощак: что считать нормой. Лаборатории пишут широкий коридор · Комфортно - ближе к нижней трети · Высокий инсулин при норме сахара - сигнал · Сдавать вместе с глюкозой · Одна цифра без глюкозы не читается. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_06.png",
+      "title": "Тест с нагрузкой: зачем смотреть инсулин",
+      "description": "Тест с нагрузкой: зачем смотреть инсулин. Обычный тест меряет только сахар · С инсулином видно, какой ценой он держится · Показывает раннюю стадию · Занимает два часа · Назначает врач, не лаборатория. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_07.png",
+      "title": "Сахар в норме, а симптомы есть",
+      "description": "Сахар в норме, а симптомы есть. Сонливость после еды · Тяга к сладкому во второй половине дня · Просыпания ночью · Жир на животе при обычном питании · Это разговор про инсулин, а не про сахар. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_08.png",
+      "title": "Тянет на сладкое через час после обеда",
+      "description": "Тянет на сладкое через час после обеда. Обед был почти без белка · Быстрый подъём и провал сахара · Мозг просит вернуть уровень · Белок и клетчатка гасят провал · Сила воли тут ни при чём. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_09.png",
+      "title": "После еды вырубает",
+      "description": "После еды вырубает. Чем выше пик, тем глубже провал · Большая порция углеводов без белка · Проверить, что было на тарелке · Десять минут ходьбы снимают · Постоянная сонливость - к анализам. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T18:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_10.png",
+      "title": "Дрожь и голод через два часа после еды",
+      "description": "Дрожь и голод через два часа после еды. Реактивная гипогликемия · Сахар взлетел и упал ниже исходного · Часто после сладкого завтрака · Белок с утра решает · Частые эпизоды - к врачу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-13",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-13T20:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_11.png",
+      "title": "Тот же обед, другой порядок",
+      "description": "Тот же обед, другой порядок. Сначала овощи и белок · Углеводы в конце · Пик сахара ниже на треть · Ничего не убирали с тарелки · Работает и в кафе, и дома. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_12.png",
+      "title": "Овощи перед едой: что подойдёт",
+      "description": "Овощи перед едой: что подойдёт. Салат из листьев с маслом · Огурцы, капуста, помидоры · Квашеное тоже годится · Хватает пары горстей · Смысл в клетчатке до углеводов. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_13.png",
+      "title": "Ложка уксуса перед углеводами",
+      "description": "Ложка уксуса перед углеводами. Замедляет опорожнение желудка · Снижает пик после еды · Разводить в стакане воды · Через трубочку, чтобы беречь эмаль · При гастрите не подходит. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_14.png",
+      "title": "Десять минут ходьбы после еды",
+      "description": "Десять минут ходьбы после еды. Мышца забирает глюкозу без инсулина · Пик срезается заметно · Работает даже медленный шаг · Лучше сразу, а не через час · Самый дешёвый приём из всех. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_15.png",
+      "title": "Как есть хлеб и не ловить скачок",
+      "description": "Как есть хлеб и не ловить скачок. Не первым и не в одиночку · Сначала белок и овощи · Цельнозерновой мягче белого · Остывший хлеб даёт меньший пик · Кусок с сыром лучше куска всухую. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_16",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_16.png",
+      "title": "Фрукты: когда и сколько",
+      "description": "Фрукты: когда и сколько. Не натощак и не вместо еды · После белковой части обеда · Две-три порции в день · Целый фрукт, а не сок · Клетчатка внутри и есть тормоз. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_17",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_17.png",
+      "title": "Сок и фрукт - разные вещи",
+      "description": "Сок и фрукт - разные вещи. В соке нет клетчатки · Сахар приходит разом · Стакан сока - это три апельсина · Свежевыжатый не исключение · Фрукт целиком, воду отдельно. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_18",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_18.png",
+      "title": "Гречка не спасает от скачка",
+      "description": "Гречка не спасает от скачка. Это всё равно углеводы · Пик мягче, но он есть · Порция решает больше названия · Белок и овощи рядом обязательны · Остывшая крупа даёт меньший подъём. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-14",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-14T18:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_19",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_19.png",
+      "title": "Каша на завтрак и провал к одиннадцати",
+      "description": "Каша на завтрак и провал к одиннадцати. Углеводы без белка на пустой желудок · Пик и провал за полтора часа · Отсюда голод и раздражительность · Добавить яйца, творог, орехи · Каша не враг, враг - каша соло. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_20",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_20.png",
+      "title": "Белковый завтрак держит день",
+      "description": "Белковый завтрак держит день. 20-30 г белка с утра · Голод приходит позже · Тяга к сладкому вечером меньше · Яйца, творог, рыба, тофу · Кофе завтраком не считается. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_21",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_21.png",
+      "title": "Сахар там, где его не ждёшь",
+      "description": "Сахар там, где его не ждёшь. Йогурты с наполнителем · Соусы и кетчуп · Хлопья и мюсли · Творожки и сырки · Читать состав, а не надпись на лице. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_22",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_22.png",
+      "title": "Заменители сахара: что известно",
+      "description": "Заменители сахара: что известно. Сахар в крови почти не поднимают · Эритрит и стевия переносятся легче · Сорбит и мальтит слабят · Тягу к сладкому не убирают · Как мост, а не как решение. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_23",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_23.png",
+      "title": "Кофе с молоком вместо завтрака",
+      "description": "Кофе с молоком вместо завтрака. Это не еда, а отложенный голод · Кофеин на пустой желудок дёргает кортизол · Сахар потом падает сильнее · Хотя бы белок рядом · Кофе после еды, а не вместо. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_24",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_24.png",
+      "title": "Ночью сахар падает после алкоголя",
+      "description": "Ночью сахар падает после алкоголя. Печень занята спиртом, а не глюкозой · Провал приходит через несколько часов · Отсюда пробуждение и сердцебиение · Не пить на голодный желудок · На инсулине это отдельный риск. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_25",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_25.png",
+      "title": "Просыпаюсь в три ночи",
+      "description": "Просыпаюсь в три ночи. Провал сахара будит выбросом кортизола · Ужин был сладким или пустым · Белок вечером держит ровнее · Алкоголь усиливает · Если каждую ночь - смотреть углеводный обмен. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_26",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_26.png",
+      "title": "Тёмные складки на шее и подмышках",
+      "description": "Тёмные складки на шее и подмышках. Называется чёрный акантоз · Кожа реагирует на высокий инсулин · Не грязь и не загар · Часто вместе с папилломами · Повод сдать инсулин и глюкозу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-15",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-15T18:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_27",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_27.png",
+      "title": "Жир на животе при обычном питании",
+      "description": "Жир на животе при обычном питании. Инсулин мешает жиру уходить · Талия важнее веса · Ориентир для женщин - до 80 см · Висцеральный жир поднимает воспаление · Меряют лентой, а не глазами. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_28",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_28.png",
+      "title": "Ем мало, а вес стоит",
+      "description": "Ем мало, а вес стоит. Высокий инсулин держит жир · Дефицит калорий при этом работает хуже · Смотрят инсулин, ТТГ и ферритин · Сон и стресс дают больше, чем кажется · Ужесточать диету - тупик. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_29",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_29.png",
+      "title": "Две ночи недосыпа меняют сахар",
+      "description": "Две ночи недосыпа меняют сахар. Чувствительность к инсулину падает · Голод и тяга к сладкому растут · Это видно уже на здоровых людях · Сон - часть терапии, а не фон · Меньше 6 часов - фактор риска. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_30",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_30.png",
+      "title": "Стресс поднимает сахар без еды",
+      "description": "Стресс поднимает сахар без еды. Кортизол вынимает глюкозу из печени · Организм готовится к бегу, а мы сидим · Хронический стресс держит фон высоким · Дыхание и прогулка снижают · Это не эзотерика, а физиология. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_31",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_31.png",
+      "title": "Магний и чувствительность к инсулину",
+      "description": "Магний и чувствительность к инсулину. Участвует в передаче сигнала инсулина · Дефицит чаще при высоком сахаре · Цитрат и глицинат мягче · Оксид больше слабит · Дозу подбирают, а не берут максимум. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_32",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_32.png",
+      "title": "Клетчатка работает как тормоз",
+      "description": "Клетчатка работает как тормоз. Замедляет всасывание глюкозы · Норма - 25-30 г в день · Овощи, бобовые, цельные крупы · Наращивать постепенно · Без воды даст обратный эффект. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_33",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_33.png",
+      "title": "Белок в каждый приём: сколько это",
+      "description": "Белок в каждый приём: сколько это. 20-30 г за раз · Ладонь мяса, рыбы или творога · Реже, но больше - работает хуже · Растительный белок считать честно · Это база всей ровной кривой. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_34",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_34.png",
+      "title": "Перекусы: помогают или мешают",
+      "description": "Перекусы: помогают или мешают. Каждый перекус - новый выброс инсулина · Три приёма ровнее пяти для многих · Если перекус, то с белком · Фрукт всухую - худший вариант · Смотреть по своему голоду, а не по правилу. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_poryadok-edy&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-16",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-16T18:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_35",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_35.png",
+      "title": "Интервальное голодание и инсулин",
+      "description": "Интервальное голодание и инсулин. Работает за счёт паузы между приёмами · Часть людей просто съедает меньше · Женщинам с нарушенным циклом - осторожно · Белок в окне добирать сложнее · Не единственный способ и не волшебный. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_36",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_36.png",
+      "title": "Мышцы - главный потребитель глюкозы",
+      "description": "Мышцы - главный потребитель глюкозы. Больше мышц - больше места для сахара · Силовые дважды в неделю меняют картину · Работает даже с гантелями дома · Кардио помогает, но меньше · Эффект держится сутки-двое. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_37",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_37.png",
+      "title": "Датчик глюкозы: что он реально даёт",
+      "description": "Датчик глюкозы: что он реально даёт. Показывает реакцию на конкретную еду · Учит порядку еды быстрее любых советов · Две недели дают почти всю пользу · Цифры пугают сильнее, чем стоит · Диагноз по нему не ставят. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_38",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_38.png",
+      "title": "Преддиабет: какие это цифры",
+      "description": "Преддиабет: какие это цифры. Глюкоза натощак 5,6-6,9 · Гликированный 5,7-6,4 · Через 2 часа в тесте 7,8-11,0 · Симптомов может не быть вовсе · Это стадия, а не приговор. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_39",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_39.png",
+      "title": "Преддиабет разворачивают назад",
+      "description": "Преддиабет разворачивают назад. Минус 5-7% веса меняет прогноз · Движение работает как лекарство · Питание важнее любой добавки · Контроль раз в 3-6 месяцев · Чем раньше начали, тем проще. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_40",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_40.png",
+      "title": "СПКЯ почти всегда про инсулин",
+      "description": "СПКЯ почти всегда про инсулин. Высокий инсулин поднимает андрогены · Отсюда цикл, кожа и волосы · Смотрят глюкозу, инсулин, HOMA-IR · Работа с инсулином меняет цикл · Один тестостерон картины не даёт. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_41",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_41.png",
+      "title": "Жировой гепатоз и сахар",
+      "description": "Жировой гепатоз и сахар. Печень запасает лишнее в виде жира · Часто идёт вместе с инсулинорезистентностью · АЛТ и УЗИ показывают · Алкоголь тут не обязателен · Обратим при снижении веса. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_42",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_42.png",
+      "title": "Метформин: что спрашивают у врача",
+      "description": "Метформин: что спрашивают у врача. Назначают по показаниям, не «для профилактики» · Снижает продукцию глюкозы печенью · Может ронять B12 при долгом приёме · ЖКТ первые недели протестует · Питание он не заменяет. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-17",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-17T18:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_43",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_43.png",
+      "title": "Что сдать, чтобы увидеть картину",
+      "description": "Что сдать, чтобы увидеть картину. Глюкоза натощак · Инсулин натощак · Гликированный гемоглобин · Липидный профиль · АЛТ и АСТ. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-18",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_44",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_44.png",
+      "title": "Три ошибки при сдаче анализов",
+      "description": "Три ошибки при сдаче анализов. Сдать сытым и удивиться цифре · Смотреть только глюкозу · Сдать инсулин без глюкозы · Кофе с утра «не считается» · Пересдавать в разных лабораториях. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-18",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_gluc_45",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_gluc_45.png",
+      "title": "Когда идти к эндокринологу",
+      "description": "Когда идти к эндокринологу. Гликированный выше 6,4 · Глюкоза натощак выше 6,9 дважды · Жажда и частое мочеиспускание · Резкая потеря веса без причины · Тёмные складки на шее и высокий инсулин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_uglevodnyy-obmen&ref=pinterest",
+      "board": {
+        "name": "Сахар и инсулин: питание без скачков",
+        "serviceId": "1084523222707692428"
+      },
+      "date": "2026-09-18",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_01.png",
+      "title": "Что сдать при постоянной усталости",
+      "description": "Что сдать при постоянной усталости. Ферритин и ОАК · ТТГ и свободный Т4 · Витамин D · B12 и фолат · Глюкоза и гликированный. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-18",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_02.png",
+      "title": "Что сдать при выпадении волос",
+      "description": "Что сдать при выпадении волос. Ферритин, а не только гемоглобин · ТТГ и свободный Т4 · Витамин D · Цинк по показаниям · Андрогены при жирной коже. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-18",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_03.png",
+      "title": "Что сдать при вздутии и тяжести",
+      "description": "Что сдать при вздутии и тяжести. ОАК и СРБ · Ферритин: воспаление его искажает · АЛТ, АСТ, ГГТ · Антитела к целиакии · Копрограмма и кальпротектин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-18",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_04.png",
+      "title": "Что сдать, если мёрзнете постоянно",
+      "description": "Что сдать, если мёрзнете постоянно. ТТГ и свободный Т4 · Ферритин и ОАК · Витамин D · Глюкоза натощак · Давление и пульс тоже считаются. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-18",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_05",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_05.png",
+      "title": "Что сдать при тумане в голове",
+      "description": "Что сдать при тумане в голове. B12 и фолат · Ферритин · ТТГ · Витамин D · Глюкоза и инсулин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-18",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-18T18:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_06",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_06.png",
+      "title": "Что сдать перед беременностью",
+      "description": "Что сдать перед беременностью. Ферритин и ОАК · ТТГ и антитела ТПО · Витамин D · Фолат и B12 · Глюкоза натощак. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T08:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_07",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_07.png",
+      "title": "Что сдать женщине после сорока",
+      "description": "Что сдать женщине после сорока. ТТГ и свободный Т4 · Ферритин · Липидный профиль · Глюкоза и гликированный · Витамин D и кальций. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "09:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T09:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_08",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_08.png",
+      "title": "Что сдать при частых простудах",
+      "description": "Что сдать при частых простудах. ОАК с лейкоформулой · Ферритин · Витамин D · Цинк · Глюкоза натощак. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "11:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T11:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_09",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_09.png",
+      "title": "Что сдать при бессоннице",
+      "description": "Что сдать при бессоннице. ТТГ · Ферритин · Витамин D и магний по симптомам · Глюкоза и инсулин · Кортизол по слюне при подозрении. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "12:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T12:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_10",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_10.png",
+      "title": "Что сдать, если вес не уходит",
+      "description": "Что сдать, если вес не уходит. Инсулин и глюкоза натощак · Гликированный гемоглобин · ТТГ и свободный Т4 · Ферритин · АЛТ и липидный профиль. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "14:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T14:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_11",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_11.png",
+      "title": "Что сдать при тревоге и сердцебиении",
+      "description": "Что сдать при тревоге и сердцебиении. ТТГ и свободный Т4 · Ферритин и ОАК · Магний и калий · Глюкоза натощак · B12. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "15:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T15:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_12",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_12.png",
+      "title": "Что сдать вегетарианцу",
+      "description": "Что сдать вегетарианцу. B12 обязательно · Ферритин · Витамин D · Цинк · Гомоцистеин. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "17:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T17:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_13",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_13.png",
+      "title": "Что сдать после долгой болезни",
+      "description": "Что сдать после долгой болезни. ОАК и СРБ · Ферритин: болезнь его роняет · Витамин D · АЛТ и АСТ · ТТГ через 6-8 недель. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "18:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T18:30:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_14",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_14.png",
+      "title": "Что сдать подростку",
+      "description": "Что сдать подростку. ОАК и ферритин · Витамин D · ТТГ · Глюкоза натощак · B12 при отказе от мяса. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-19",
+      "time": "20:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-19T20:00:00+03:00"
+    },
+    {
+      "slug": "w2-w2_add_15",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-w2/w2_add_15.png",
+      "title": "Что сдать раз в год, если ничего не беспокоит",
+      "description": "Что сдать раз в год, если ничего не беспокоит. ОАК и ферритин · Глюкоза и гликированный · Липидный профиль · АЛТ, АСТ, креатинин · ТТГ и витамин D. Разбор и чек-лист - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-20",
+      "time": "08:00",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-20T08:00:00+03:00"
     }
   ]
 }
