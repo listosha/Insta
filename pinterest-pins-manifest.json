@@ -17,7 +17,7 @@
     }
   },
   "counts": {
-    "total": 597,
+    "total": 601,
     "guides": 10,
     "articles": 9,
     "menu": 30,
@@ -9589,6 +9589,70 @@
       "time": "08:00",
       "tz": "Europe/Moscow",
       "scheduled_at": "2026-09-20T08:00:00+03:00"
+    },
+    {
+      "slug": "xy-xy_search_01",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-xy/xy_search_01.png",
+      "title": "Анализы расшифровка",
+      "description": "Анализы расшифровка. Сравнивайте с прошлым своим бланком · Референс лаборатории - это границы · Одна стрелка сама по себе мало значит · СРБ выше 5 завышает ферритин · Пересдавать в той же лаборатории · Единицы измерения у лабораторий разные. Чек-лист анализов целиком - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-01",
+      "time": "17:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-01T17:30:00+03:00"
+    },
+    {
+      "slug": "xy-xy_search_02",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-xy/xy_search_02.png",
+      "title": "Анализы расшифровка у взрослых",
+      "description": "Анализы расшифровка у взрослых. ТТГ с возрастом смещается вверх · Гемоглобин в норме при пустом ферритине · Креатинин зависит от мышц · Глюкоза спокойная при высоком инсулине · B12 у нижней границы после пятидесяти · Витамин D падает к февралю у всех. Чек-лист анализов целиком - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-02",
+      "time": "17:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-02T17:30:00+03:00"
+    },
+    {
+      "slug": "xy-xy_search_03",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-xy/xy_search_03.png",
+      "title": "Анализы крови расшифровка",
+      "description": "Анализы крови расшифровка. MCV - размер эритроцита · RDW - разброс размеров · Лейкоформула в процентах и в абсолюте · АЛТ и АСТ читают в паре · ГГТ поднимает не только алкоголь · СОЭ и СРБ смотрят вместе. Чек-лист анализов целиком - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-03",
+      "time": "17:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-03T17:30:00+03:00"
+    },
+    {
+      "slug": "xy-xy_search_04",
+      "type": "pin",
+      "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/pins-xy/xy_search_04.png",
+      "title": "Анализы расшифровка онлайн",
+      "description": "Анализы расшифровка онлайн. Калькулятор не видит жалоб и лекарств · Свои прошлые бланки полезнее чужих норм · Оптимум уже, чем референс · Проверьте единицы перед сравнением · Красные флаги - сразу к врачу. Чек-лист анализов целиком - по ссылке.",
+      "link": "https://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=pinterest",
+      "board": {
+        "name": "Анализы крови: как читать самому",
+        "serviceId": "1084523222707692423"
+      },
+      "date": "2026-09-04",
+      "time": "17:30",
+      "tz": "Europe/Moscow",
+      "scheduled_at": "2026-09-04T17:30:00+03:00"
     }
   ]
 }
