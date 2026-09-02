@@ -1,13 +1,21 @@
 name: Publish Threads Post
 
 # Mirrors publish-carousel.yml but for text posts on Threads (graph.threads.net).
-# Drains the earliest-due "pending" entry from threads-schedule.json, one per run.
+# Drains every DUE "pending" entry from threads-schedule.json, up to MAX_PER_RUN.
 #
 # TRIGGER: primary is cron-job.org → workflow_dispatch at the slot times
-# (12:00/18:00 МСК), same PAT as the carousel trigger. The schedule below is a
-# once-daily backstop (21:00 МСК) that drains any post a missed cron-job.org
-# trigger left behind. The publish script never publishes before a slot, so a
-# delayed run is only ever late, never early.
+# (09:00/12:00/15:00/18:00 МСК), same PAT as the carousel trigger. The schedule
+# below is a once-daily backstop (21:00 МСК) that drains any post a missed
+# cron-job.org trigger left behind. The publish script never publishes before a
+# slot, so a delayed run is only ever late, never early.
+#
+# 🔥 02.09.2026. С 25.08 задания cron-job.org получали от GitHub 401 (протух
+# отдельный PAT, которым авторизованы задания на этот репозиторий), и работал
+# только суточный backstop. Он забирал ОДИН пост за прогон, поэтому дорожка шла
+# по одному посту в день вместо четырёх и накопила 25 просроченных записей.
+# Разгребать пришлось руками, сдвигая всё расписание. Отсюда MAX_PER_RUN: в
+# обычный день созревший пост ровно один и поведение прежнее, а после простоя
+# дорожка идёт вдвое быстрее и долг расходится сама.
 
 on:
   schedule:
@@ -34,6 +42,7 @@ jobs:
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID:      ${{ secrets.THREADS_USER_ID }}
+          MAX_PER_RUN:          '2'
         run: |
           python3 << 'EOF'
           import json
@@ -47,11 +56,35 @@ jobs:
           USER_ID      = os.environ["THREADS_USER_ID"]
           THREADS_BASE = "https://graph.threads.net/v1.0"
 
+          # Сколько созревших постов забираем за один прогон. Единица означала бы,
+          # что четыре прогона в день закрывают ровно четыре новых поста и ни одного
+          # просроченного: любой простой пришлось бы разгребать руками.
+          MAX_PER_RUN  = int(os.environ.get("MAX_PER_RUN", "2"))
+          # После скольких неудачных прогонов запись снимается с публикации, чтобы
+          # не быть пробкой для всех следующих слотов.
+          MAX_ATTEMPTS = 3
+          # Пауза между постами внутри одного прогона: два поста в одну минуту
+          # выглядят как бот и в ленте, и для самой площадки.
+          GAP_SEC      = 75
+
+
+          class EntryError(Exception):
+              """Беда с конкретной записью: считаем попытку, идём к следующей."""
+
+
+          class GlobalError(Exception):
+              """Беда со всем каналом (мёртвый токен, лимит). Дальше идти нельзя.
+
+              Отдельный класс нужен, чтобы мёртвый токен не сжёг счётчики попыток у
+              всех созревших записей и не выбросил их содержимое: причина не в них.
+              """
+
+
           def graph_post(url, params, label, fatal=True):
               # Retry transient failures (5xx, is_transient, network). 5s/15s/45s backoff.
-              # fatal=True: abort the job on failure (use for the main post).
-              # fatal=False: return None on failure (use for the best-effort reply,
-              # so a failed comment never blocks committing the published post).
+              # fatal=True: поднять исключение (основной пост).
+              # fatal=False: вернуть None (ответ-комментарий best-effort, его сбой
+              # не должен мешать сохранить уже опубликованный пост).
               delays = [5, 15, 45]
               last_text = ""
               for attempt in range(len(delays) + 1):
@@ -61,6 +94,14 @@ jobs:
                       if resp.ok:
                           return resp
                       last_text = resp.text
+                      code = None
+                      try:
+                          code = resp.json().get("error", {}).get("code")
+                      except ValueError:
+                          pass
+                      # Мёртвый токен и лимиты площадки — беда не записи, а канала.
+                      if fatal and (resp.status_code in (401, 403) or code in (4, 17, 32, 190, 613)):
+                          raise GlobalError(f"{label}: {resp.status_code} {resp.text[:200]}")
                       transient = resp.status_code >= 500
                       if not transient:
                           try:
@@ -70,7 +111,7 @@ jobs:
                       if not transient:
                           print(f"  {label}: non-transient error, giving up")
                           if fatal:
-                              sys.exit(1)
+                              raise EntryError(f"{label}: {resp.status_code} {resp.text[:200]}")
                           return None
                   except requests.RequestException as e:
                       last_text = str(e)
@@ -79,7 +120,7 @@ jobs:
                       time.sleep(delays[attempt])
               print(f"  {label}: exhausted retries. Last response: {last_text[:300]}")
               if fatal:
-                  sys.exit(1)
+                  raise EntryError(f"{label}: retries exhausted, {last_text[:200]}")
               return None
 
           moscow_tz = timezone(timedelta(hours=3))
@@ -94,144 +135,184 @@ jobs:
                   f"{item['date']} {item['time']}", "%Y-%m-%d %H:%M"
               ).replace(tzinfo=moscow_tz)
 
-          # Earliest pending whose slot has already passed, one per run. We never
-          # publish before the slot, so a delayed run is only ever late, never early.
-          entry = None
-          entry_idx = None
-          best_dt = None
+          # Все созревшие pending по возрастанию слота. Мы никогда не публикуем раньше
+          # слота, поэтому запоздавший прогон бывает только поздним, но не ранним.
+          due = []
           for i, item in enumerate(schedule):
               if item.get("status") != "pending":
                   continue
-              dt = scheduled_dt(item)
-              if dt > now_moscow:
+              if scheduled_dt(item) > now_moscow:
                   continue
-              if best_dt is None or dt < best_dt:
-                  best_dt, entry, entry_idx = dt, item, i
+              due.append((scheduled_dt(item), i))
+          due.sort(key=lambda p: p[0])
 
-          if entry is None:
+          if not due:
               print("No due pending thread. Skipping.")
               sys.exit(0)
 
-          late_min = int((now_moscow - best_dt).total_seconds() // 60)
-          print(f"Publishing thread {entry['id']} "
-                f"(slot {entry['date']} {entry['time']}, {late_min} min late)")
+          print(f"Созревших записей: {len(due)}, беру не больше {MAX_PER_RUN}")
+          problems = []
+          published = 0
 
-          text = entry["text"]
-          if len(text) > 500:
-              # Раньше здесь был sys.exit(1) ДО записи файла: статус записи не
-              # менялся, шаг коммита не выполнялся, и следующий запуск брал тот же
-              # пост снова. Один длинный текст останавливал очередь Threads навсегда.
-              # Теперь запись снимается с публикации, очередь идёт дальше, а job
-              # всё равно падает в конце (шаг "Fail if an entry was rejected"),
-              # чтобы пришло уведомление и текст починили.
-              print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500.")
-              print(f"Снимаю запись {entry['id']} с публикации (error_too_long), очередь освобождаю.")
-              schedule[entry_idx]["status"] = "error_too_long"
-              with open("threads-schedule.json", "w", encoding="utf-8") as f:
-                  json.dump(schedule, f, ensure_ascii=False, indent=2)
-              with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
-                  print(f"THREADS_REJECTED_ID={entry['id']}", file=f)
-                  print(f"THREADS_REJECTED_LEN={len(text)}", file=f)
-              sys.exit(0)
 
-          # Шаг 1: создаём контейнер. Если у записи есть поле "image" с публичным
-          # URL картинки - постим картинкой, текст уходит подписью. Иначе текстом.
-          image_url = entry.get("image")
-          if image_url:
-              params = {
-                  "media_type":   "IMAGE",
-                  "image_url":    image_url,
-                  "text":         text,
-                  "access_token": ACCESS_TOKEN,
-              }
-              print(f"With image: {image_url}")
-          else:
-              params = {
-                  "media_type":   "TEXT",
-                  "text":         text,
-                  "access_token": ACCESS_TOKEN,
-              }
-          resp = graph_post(
-              f"{THREADS_BASE}/{USER_ID}/threads",
-              params,
-              "Create container",
-          )
-          creation_id = resp.json()["id"]
-          print(f"Container ID: {creation_id}")
+          def publish_one(entry_idx, slot_dt):
+              """Публикует одну запись. Меняет schedule на месте, файл не пишет."""
+              global published
+              entry = schedule[entry_idx]
+              late_min = int((now_moscow - slot_dt).total_seconds() // 60)
+              print(f"Publishing thread {entry['id']} "
+                    f"(slot {entry['date']} {entry['time']}, {late_min} min late)")
 
-          # Meta рекомендует подождать ~30с перед публикацией, чтобы контейнер
-          # обработался. Для текста обычно мгновенно, но пауза стоит дёшево.
-          time.sleep(30)
+              text = entry["text"]
+              if len(text) > 500:
+                  # Раньше здесь был sys.exit(1) ДО записи файла: статус записи не
+                  # менялся, шаг коммита не выполнялся, и следующий запуск брал тот же
+                  # пост снова. Один длинный текст останавливал очередь Threads навсегда.
+                  # Теперь запись снимается с публикации, очередь идёт дальше, а job
+                  # всё равно падает в конце, чтобы пришло уведомление.
+                  print(f"ERROR: text is {len(text)} chars, Threads hard limit is 500.")
+                  print(f"Снимаю запись {entry['id']} с публикации (error_too_long), очередь освобождаю.")
+                  entry["status"] = "error_too_long"
+                  problems.append(f"{entry['id']}: {len(text)} симв. при лимите 500, снят (error_too_long)")
+                  return
 
-          # Шаг 2: публикуем
-          resp = graph_post(
-              f"{THREADS_BASE}/{USER_ID}/threads_publish",
-              {
-                  "creation_id":  creation_id,
-                  "access_token": ACCESS_TOKEN,
-              },
-              "Publish",
-          )
-
-          thread_id = resp.json()["id"]
-          print(f"Published! Thread ID: {thread_id}")
-
-          schedule[entry_idx]["status"]       = "published"
-          schedule[entry_idx]["thread_id"]    = thread_id
-          schedule[entry_idx]["published_at"] = now_moscow.isoformat()
-
-          # Шаг 3 (опционально): постим ссылку отдельным комментарием-ответом.
-          # Threads режет охваты у постов со ссылкой в теле, поэтому ссылка
-          # вынесена в поле "reply" и публикуется ответом (reply_to_id) к
-          # только что созданному посту. Тело поста остаётся "чистым".
-          reply_text = entry.get("reply")
-          if reply_text and len(reply_text) > 500:
-              print(f"WARN: reply is {len(reply_text)} chars > 500, skipping reply.")
-              schedule[entry_idx]["reply_status"] = "skipped_too_long"
-              reply_text = None
-          if reply_text:
-              # Контейнер ответа (best-effort: сбой не валит job и не блокирует
-              # сохранение уже опубликованного поста — иначе следующий запуск
-              # опубликовал бы тот же пост повторно).
+              # Шаг 1: создаём контейнер. Если у записи есть поле "image" с публичным
+              # URL картинки - постим картинкой, текст уходит подписью. Иначе текстом.
+              image_url = entry.get("image")
+              if image_url:
+                  params = {
+                      "media_type":   "IMAGE",
+                      "image_url":    image_url,
+                      "text":         text,
+                      "access_token": ACCESS_TOKEN,
+                  }
+                  print(f"With image: {image_url}")
+              else:
+                  params = {
+                      "media_type":   "TEXT",
+                      "text":         text,
+                      "access_token": ACCESS_TOKEN,
+                  }
               resp = graph_post(
                   f"{THREADS_BASE}/{USER_ID}/threads",
+                  params,
+                  "Create container",
+              )
+              creation_id = resp.json()["id"]
+              print(f"Container ID: {creation_id}")
+
+              # Meta рекомендует подождать ~30с перед публикацией, чтобы контейнер
+              # обработался. Для текста обычно мгновенно, но пауза стоит дёшево.
+              time.sleep(30)
+
+              # Шаг 2: публикуем
+              resp = graph_post(
+                  f"{THREADS_BASE}/{USER_ID}/threads_publish",
                   {
-                      "media_type":   "TEXT",
-                      "text":         reply_text,
-                      "reply_to_id":  thread_id,
+                      "creation_id":  creation_id,
                       "access_token": ACCESS_TOKEN,
                   },
-                  "Create reply container",
-                  fatal=False,
+                  "Publish",
               )
-              reply_id = None
-              if resp is not None:
-                  reply_creation_id = resp.json()["id"]
-                  print(f"Reply container ID: {reply_creation_id}")
-                  time.sleep(30)
+
+              thread_id = resp.json()["id"]
+              print(f"Published! Thread ID: {thread_id}")
+
+              entry["status"]       = "published"
+              entry["thread_id"]    = thread_id
+              entry["published_at"] = now_moscow.isoformat()
+              entry.pop("attempts", None)
+              entry.pop("last_error", None)
+              published += 1
+
+              # Шаг 3 (опционально): постим ссылку отдельным комментарием-ответом.
+              # Threads режет охваты у постов со ссылкой в теле, поэтому ссылка
+              # вынесена в поле "reply" и публикуется ответом (reply_to_id) к
+              # только что созданному посту. Тело поста остаётся "чистым".
+              reply_text = entry.get("reply")
+              if reply_text and len(reply_text) > 500:
+                  print(f"WARN: reply is {len(reply_text)} chars > 500, skipping reply.")
+                  entry["reply_status"] = "skipped_too_long"
+                  reply_text = None
+              if reply_text:
+                  # Контейнер ответа (best-effort: сбой не валит job и не блокирует
+                  # сохранение уже опубликованного поста — иначе следующий запуск
+                  # опубликовал бы тот же пост повторно).
                   resp = graph_post(
-                      f"{THREADS_BASE}/{USER_ID}/threads_publish",
+                      f"{THREADS_BASE}/{USER_ID}/threads",
                       {
-                          "creation_id":  reply_creation_id,
+                          "media_type":   "TEXT",
+                          "text":         reply_text,
+                          "reply_to_id":  thread_id,
                           "access_token": ACCESS_TOKEN,
                       },
-                      "Publish reply",
+                      "Create reply container",
                       fatal=False,
                   )
+                  reply_id = None
                   if resp is not None:
-                      reply_id = resp.json()["id"]
-              if reply_id:
-                  print(f"Reply published! Reply ID: {reply_id}")
-                  schedule[entry_idx]["reply_id"]     = reply_id
-                  schedule[entry_idx]["reply_status"] = "published"
-              else:
-                  print("WARN: reply failed to publish; post stays published, reply marked failed.")
-                  schedule[entry_idx]["reply_status"] = "failed"
+                      reply_creation_id = resp.json()["id"]
+                      print(f"Reply container ID: {reply_creation_id}")
+                      time.sleep(30)
+                      resp = graph_post(
+                          f"{THREADS_BASE}/{USER_ID}/threads_publish",
+                          {
+                              "creation_id":  reply_creation_id,
+                              "access_token": ACCESS_TOKEN,
+                          },
+                          "Publish reply",
+                          fatal=False,
+                      )
+                      if resp is not None:
+                          reply_id = resp.json()["id"]
+                  if reply_id:
+                      print(f"Reply published! Reply ID: {reply_id}")
+                      entry["reply_id"]     = reply_id
+                      entry["reply_status"] = "published"
+                  else:
+                      print("WARN: reply failed to publish; post stays published, reply marked failed.")
+                      entry["reply_status"] = "failed"
 
+
+          aborted = None
+          for slot_dt, entry_idx in due[:MAX_PER_RUN]:
+              entry = schedule[entry_idx]
+              try:
+                  if published:
+                      print(f"Пауза {GAP_SEC}с перед следующим постом")
+                      time.sleep(GAP_SEC)
+                  publish_one(entry_idx, slot_dt)
+              except GlobalError as e:
+                  # Счётчики попыток не трогаем: записи ни при чём, беда с каналом.
+                  aborted = str(e)
+                  print(f"ОСТАНОВКА: похоже на беду канала, а не записи — {e}")
+                  break
+              except EntryError as e:
+                  n = int(entry.get("attempts", 0)) + 1
+                  entry["attempts"] = n
+                  entry["last_error"] = str(e)[:300]
+                  if n >= MAX_ATTEMPTS:
+                      entry["status"] = "error_publish"
+                      problems.append(f"{entry['id']}: {n} неудач подряд, снят (error_publish) — {str(e)[:120]}")
+                      print(f"Запись {entry['id']} снята с публикации после {n} попыток, очередь освобождаю.")
+                  else:
+                      problems.append(f"{entry['id']}: попытка {n} из {MAX_ATTEMPTS} — {str(e)[:120]}")
+                      print(f"Запись {entry['id']}: попытка {n} из {MAX_ATTEMPTS}, остаётся в очереди.")
+
+          # Пишем файл один раз на все изменения прогона.
           with open("threads-schedule.json", "w", encoding="utf-8") as f:
               json.dump(schedule, f, ensure_ascii=False, indent=2)
+          print(f"threads-schedule.json updated. Опубликовано за прогон: {published}")
 
-          print("threads-schedule.json updated.")
+          if aborted:
+              problems.append(f"канал недоступен: {aborted[:200]}")
+
+          with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
+              print(f"THREADS_PUBLISHED={published}", file=f)
+              if problems:
+                  # Одной строкой: многострочное значение в GITHUB_ENV требует
+                  # разделителей и ломается о случайный перенос из текста ошибки.
+                  print("THREADS_PROBLEMS=" + " | ".join(problems).replace("\n", " ")[:900], file=f)
           EOF
 
       - name: Commit updated schedule
@@ -239,10 +320,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add threads-schedule.json
-          if [ -n "$THREADS_REJECTED_ID" ]; then
-            msg="Rejected thread $THREADS_REJECTED_ID (text over 500 chars)"
+          if [ -n "$THREADS_PROBLEMS" ] && [ "${THREADS_PUBLISHED:-0}" = "0" ]; then
+            msg="Threads: проблемные записи, ничего не опубликовано $(date -u +%Y-%m-%d\ %H:%M) UTC"
           else
-            msg="Published thread $(date -u +%Y-%m-%d\ %H:%M) UTC"
+            msg="Published ${THREADS_PUBLISHED:-0} thread(s) $(date -u +%Y-%m-%d\ %H:%M) UTC"
           fi
           git diff --staged --quiet || git commit -m "$msg"
           # Публикация уже состоялась — статус обязан доехать, иначе следующий запуск
@@ -257,11 +338,10 @@ jobs:
           done
           git push
 
-      # Запись снята с публикации из-за длины: коммит уже проехал и очередь
-      # разблокирована, но job обязан упасть — иначе про сорванный пост никто
-      # не узнает.
+      # Коммит уже проехал и очередь разблокирована, но job обязан упасть — иначе
+      # про сорванный пост никто не узнает.
       - name: Fail if an entry was rejected
-        if: env.THREADS_REJECTED_ID != ''
+        if: env.THREADS_PROBLEMS != ''
         run: |
-          echo "::error::Пост ${THREADS_REJECTED_ID} снят с публикации: ${THREADS_REJECTED_LEN} символов при лимите 500. Запись помечена error_too_long, очередь идёт дальше. Почини текст и верни status в pending."
+          echo "::error::Threads: ${THREADS_PROBLEMS}"
           exit 1
