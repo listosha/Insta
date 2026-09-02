@@ -64,6 +64,18 @@ jobs:
                       if resp.ok:
                           return resp
                       last_text = resp.text
+                      code = None
+                      try:
+                          code = resp.json().get("error", {}).get("code")
+                      except ValueError:
+                          pass
+                      # Мёртвый токен и лимиты площадки — беда не записи, а канала.
+                      # Уходим жёстко, НЕ трогая счётчик попыток: иначе протухший
+                      # токен за три прогона выбросил бы содержимое трёх записей.
+                      if fatal and (resp.status_code in (401, 403) or code in (4, 17, 32, 190, 613)):
+                          print(f"  {label}: похоже на беду канала ({resp.status_code}/{code}), "
+                                f"счётчик попыток не трогаю")
+                          sys.exit(1)
                       transient = resp.status_code >= 500
                       if not transient:
                           try:
@@ -73,7 +85,7 @@ jobs:
                       if not transient:
                           print(f"  {label}: non-transient error, giving up")
                           if fatal:
-                              sys.exit(1)
+                              bail(f"{label}: {resp.status_code} {resp.text[:160]}")
                           return None
                   except requests.RequestException as e:
                       last_text = str(e)
@@ -82,7 +94,7 @@ jobs:
                       time.sleep(delays[attempt])
               print(f"  {label}: exhausted retries. Last response: {last_text[:300]}")
               if fatal:
-                  sys.exit(1)
+                  bail(f"{label}: попытки исчерпаны, {last_text[:160]}")
               return None
 
           def wait_finished(container_id, label):
@@ -134,6 +146,29 @@ jobs:
               print("No due pending lead magnet. Skipping.")
               sys.exit(0)
 
+          # После скольких неудачных прогонов запись снимается с публикации, чтобы
+          # не быть пробкой для всех следующих слотов.
+          MAX_ATTEMPTS = 3
+
+
+          def bail(reason):
+              """Беда с этой записью: считаем попытку и освобождаем очередь."""
+              n = int(entry.get("attempts", 0)) + 1
+              schedule[entry_idx]["attempts"] = n
+              schedule[entry_idx]["last_error"] = str(reason)[:300]
+              if n >= MAX_ATTEMPTS:
+                  schedule[entry_idx]["status"] = "error_publish"
+                  note = f"{entry['id']}: {n} неудач подряд, снят (error_publish) — {reason}"
+                  print(f"Запись {entry['id']} снята с публикации после {n} попыток, очередь освобождаю.")
+              else:
+                  note = f"{entry['id']}: попытка {n} из {MAX_ATTEMPTS} — {reason}"
+                  print(f"Запись {entry['id']}: попытка {n} из {MAX_ATTEMPTS}, остаётся в очереди.")
+              with open(SCHEDULE, "w", encoding="utf-8") as f:
+                  json.dump(schedule, f, ensure_ascii=False, indent=2)
+              with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
+                  print("LEADMAGNET_PROBLEM=" + note.replace("\n", " ")[:900], file=f)
+              sys.exit(0)
+
           late_min = int((now_moscow - best_dt).total_seconds() // 60)
           what = (f"{entry['folder']} ({entry['pages_count']} pages)"
                   if entry.get("folder") else "text post")
@@ -169,7 +204,7 @@ jobs:
               print(f"URLs: {image_urls}")
               if len(image_urls) < 2:
                   print("ERROR: a Threads carousel needs at least 2 items. Aborting.")
-                  sys.exit(1)
+                  bail("в карусели меньше двух страниц")
 
               # Шаг 1: item-контейнеры для каждой страницы карусели
               item_ids = []
@@ -195,7 +230,7 @@ jobs:
               for idx, item_id in enumerate(item_ids, 1):
                   if not wait_finished(item_id, f"Carousel item {idx}"):
                       print(f"Carousel item {idx} ({item_id}) не дошёл до FINISHED. Aborting.")
-                      sys.exit(1)
+                      bail(f"страница {idx} карусели не дошла до FINISHED")
 
               # Шаг 2: контейнер карусели (текст поста - здесь)
               resp = graph_post(
@@ -223,7 +258,7 @@ jobs:
 
           # Шаг 3: ждём готовности контейнера, затем публикуем
           if not wait_finished(creation_id, "Carousel container"):
-              sys.exit(1)
+              bail("контейнер не дошёл до FINISHED")
 
           resp = graph_post(
               f"{THREADS_BASE}/{USER_ID}/threads_publish",
@@ -238,6 +273,8 @@ jobs:
 
           schedule[entry_idx]["status"]       = "published"
           schedule[entry_idx]["thread_id"]    = thread_id
+          schedule[entry_idx].pop("attempts", None)
+          schedule[entry_idx].pop("last_error", None)
           schedule[entry_idx]["published_at"] = now_moscow.isoformat()
 
           # Шаг 4 (опционально): ссылка на курс отдельным комментарием-ответом.
@@ -316,4 +353,12 @@ jobs:
         if: env.THREADS_REJECTED_ID != ''
         run: |
           echo "::error::Лид-магнит ${THREADS_REJECTED_ID} снят с публикации: ${THREADS_REJECTED_LEN} символов при лимите 500. Запись помечена error_too_long, очередь идёт дальше."
+          exit 1
+
+      # Коммит со счётчиком попыток уже проехал и очередь разблокирована, но job
+      # обязан упасть — иначе про сорванный пост никто не узнает.
+      - name: Fail if publishing failed
+        if: env.LEADMAGNET_PROBLEM != ''
+        run: |
+          echo "::error::Лид-магниты: ${LEADMAGNET_PROBLEM}"
           exit 1
