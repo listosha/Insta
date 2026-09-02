@@ -55,6 +55,18 @@ jobs:
                       if resp.ok:
                           return resp
                       last_text = resp.text
+                      code = None
+                      try:
+                          code = resp.json().get("error", {}).get("code")
+                      except ValueError:
+                          pass
+                      # Мёртвый токен и лимиты площадки — беда не записи, а канала.
+                      # Уходим жёстко, НЕ трогая счётчик попыток: иначе протухший
+                      # токен за три прогона выбросил бы содержимое трёх записей.
+                      if resp.status_code in (401, 403) or code in (4, 17, 32, 190, 613):
+                          print(f"  {label}: похоже на беду канала ({resp.status_code}/{code}), "
+                                f"счётчик попыток не трогаю")
+                          sys.exit(1)
                       transient = resp.status_code >= 500
                       if not transient:
                           try:
@@ -63,14 +75,14 @@ jobs:
                               transient = False
                       if not transient:
                           print(f"  {label}: non-transient error, giving up")
-                          sys.exit(1)
+                          bail(f"{label}: {resp.status_code} {resp.text[:160]}")
                   except requests.RequestException as e:
                       last_text = str(e)
                       print(f"  {label} attempt {attempt + 1}: network error: {e}")
                   if attempt < len(delays):
                       time.sleep(delays[attempt])
               print(f"  {label}: exhausted retries. Last response: {last_text[:300]}")
-              sys.exit(1)
+              bail(f"{label}: попытки исчерпаны, {last_text[:160]}")
 
           moscow_tz = timezone(timedelta(hours=3))
           now_moscow = datetime.now(moscow_tz)
@@ -103,6 +115,35 @@ jobs:
 
           if entry is None:
               print("No due pending carousel. Skipping.")
+              sys.exit(0)
+
+          # После скольких неудачных прогонов запись снимается с публикации.
+          MAX_ATTEMPTS = 3
+
+
+          def bail(reason):
+              """Беда с этой записью: считаем попытку и освобождаем очередь.
+
+              Раньше здесь стоял sys.exit(1) ДО записи файла: статус не менялся, шаг
+              коммита не выполнялся, и следующий прогон брал ту же запись снова. Одна
+              непубликуемая карусель встала бы пробкой перед всеми следующими слотами.
+              Теперь прогон выходит с нулём, коммит проезжает, а job валит отдельный
+              шаг в конце — чтобы про сорванный пост всё-таки узнали.
+              """
+              n = int(entry.get("attempts", 0)) + 1
+              schedule[entry_idx]["attempts"] = n
+              schedule[entry_idx]["last_error"] = str(reason)[:300]
+              if n >= MAX_ATTEMPTS:
+                  schedule[entry_idx]["status"] = "error_publish"
+                  note = f"{entry['id']}: {n} неудач подряд, снят (error_publish) — {reason}"
+                  print(f"Запись {entry['id']} снята с публикации после {n} попыток, очередь освобождаю.")
+              else:
+                  note = f"{entry['id']}: попытка {n} из {MAX_ATTEMPTS} — {reason}"
+                  print(f"Запись {entry['id']}: попытка {n} из {MAX_ATTEMPTS}, остаётся в очереди.")
+              with open("schedule.json", "w", encoding="utf-8") as f:
+                  json.dump(schedule, f, ensure_ascii=False, indent=2)
+              with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as f:
+                  print("CAROUSEL_PROBLEM=" + note.replace("\n", " ")[:900], file=f)
               sys.exit(0)
 
           late_min = int((now_moscow - best_dt).total_seconds() // 60)
@@ -173,7 +214,7 @@ jobs:
                   break
               if status == "ERROR":
                   print(f"Container error: {r.text}")
-                  sys.exit(1)
+                  bail(f"контейнер не собрался: {r.text[:160]}")
 
           # Шаг 4: публикуем
           resp = graph_post(
@@ -191,6 +232,8 @@ jobs:
           schedule[entry_idx]["status"]       = "published"
           schedule[entry_idx]["media_id"]     = media_id
           schedule[entry_idx]["published_at"] = now_moscow.isoformat()
+          schedule[entry_idx].pop("attempts", None)
+          schedule[entry_idx].pop("last_error", None)
 
           with open("schedule.json", "w", encoding="utf-8") as f:
               json.dump(schedule, f, ensure_ascii=False, indent=2)
@@ -203,7 +246,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add schedule.json
-          git diff --staged --quiet || git commit -m "Published carousel $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          if [ -n "$CAROUSEL_PROBLEM" ]; then
+            msg="Carousel: проблемная запись $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          else
+            msg="Published carousel $(date -u +%Y-%m-%d\ %H:%M) UTC"
+          fi
+          git diff --staged --quiet || git commit -m "$msg"
           # Публикация уже состоялась — статус обязан доехать, иначе следующий запуск
           # отправит тот же пост повторно. Пуш в main может отбить чужой коммит
           # (человек или другой воркфлоу), поэтому перед повтором подтягиваем main
@@ -215,3 +263,11 @@ jobs:
             git pull --rebase origin main || exit 1
           done
           git push
+
+      # Коммит со счётчиком попыток уже проехал и очередь разблокирована, но job
+      # обязан упасть — иначе про сорванный пост никто не узнает.
+      - name: Fail if an entry was rejected
+        if: env.CAROUSEL_PROBLEM != ''
+        run: |
+          echo "::error::Карусели: ${CAROUSEL_PROBLEM}"
+          exit 1
