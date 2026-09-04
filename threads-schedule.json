@@ -1557,13 +1557,13 @@
     "time": "15:00",
     "timezone": "Europe/Moscow",
     "text": "Антитела к щитовидке нашли, а что делать - непонятно.\n\nСелен тут одна из немногих вещей с внятным механизмом. Чтобы собрать гормон, железе нужна перекись водорода, а обезвреживают её ферменты с селеном в центре. Мало селена - железа окисляется изнутри.\n\nОн же нужен для превращения Т4 в активный Т3.\n\nКарточка в первом комментарии\n\nДелюсь тем, что использую в практике. Это не назначение.",
-    "status": "pending",
+    "status": "published",
     "reply": "Карточка с составом:\nhttps://app.listoshenkov.ru/?section=supp_110&ref=threads",
     "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-45/bady_15.png",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "17954304051251666",
+    "published_at": "2026-09-04T15:01:14.859805+03:00",
+    "reply_id": "17998070264801573",
+    "reply_status": "published"
   },
   {
     "id": 327,
