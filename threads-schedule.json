@@ -1783,12 +1783,12 @@
     "time": "18:00",
     "timezone": "Europe/Moscow",
     "text": "Базовый набор: что сдать первым делом\n\n- ОАК с лейкоформулой\n- Ферритин и СРБ\n- Витамин D\n- ТТГ\n- Глюкоза и инсулин\n- АЛТ, АСТ, креатинин\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Как читать анализы самостоятельно»:\nhttps://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18352835257175992",
+    "published_at": "2026-09-08T18:01:26.356800+03:00",
+    "reply_id": "18121426402847000",
+    "reply_status": "published"
   },
   {
     "id": 108,
