@@ -1822,13 +1822,13 @@
     "time": "15:00",
     "timezone": "Europe/Moscow",
     "text": "Простуда каждый месяц, а обычная неделя растягивается на три.\n\nСмотрят обычно четыре вещи: ферритин, витамин D, цинк и белок. Железо нужно иммунным клеткам для размножения, D для противомикробных пептидов в слизистых, цинк для Т-лимфоцитов, а антитела это просто белок.\n\nКарточка в первом комментарии\n\nДелюсь тем, что использую в практике. Это не назначение.",
-    "status": "pending",
+    "status": "published",
     "reply": "Карточка с составом:\nhttps://app.listoshenkov.ru/?section=supp_182&ref=threads",
     "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-45/bady_20.png",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18483036367106892",
+    "published_at": "2026-09-09T15:01:28.892629+03:00",
+    "reply_id": "18115557521076643",
+    "reply_status": "published"
   },
   {
     "id": 223,
