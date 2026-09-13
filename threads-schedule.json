@@ -2022,12 +2022,12 @@
     "time": "12:00",
     "timezone": "Europe/Moscow",
     "text": "Гомоцистеин: зачем его сдают\n\n- Показывает работу B12 и фолатов\n- Растёт при их нехватке\n- Ориентир - ниже 8\n- Связан с сосудами\n- Дешёвый и информативный\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Как читать анализы самостоятельно»:\nhttps://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18116805310941556",
+    "published_at": "2026-09-13T15:01:15.689144+03:00",
+    "reply_id": "18015012005952287",
+    "reply_status": "published"
   },
   {
     "id": 267,
@@ -2035,13 +2035,13 @@
     "time": "15:00",
     "timezone": "Europe/Moscow",
     "text": "«Липосомальный» на банке добавляет к цене заметно. Когда за это стоит платить?\n\nЛипосома это пузырёк из того же материала, что оболочка наших клеток: вещество внутри проходит желудок целым и всасывается легче.\n\nРазница реальна для витамина C и глутатиона. Для магния и цинка это чаще маркетинг.\n\nКарточка в первом комментарии\n\nДелюсь тем, что использую в практике. Это не назначение.",
-    "status": "pending",
+    "status": "published",
     "reply": "Карточка с составом:\nhttps://app.listoshenkov.ru/?section=supp_103&ref=threads",
     "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-45/bady_24.png",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18107783848953848",
+    "published_at": "2026-09-13T15:01:15.689144+03:00",
+    "reply_id": "17919971625220889",
+    "reply_status": "published"
   },
   {
     "id": 119,
