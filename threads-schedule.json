@@ -2128,12 +2128,12 @@
     "time": "12:00",
     "timezone": "Europe/Moscow",
     "text": "Глюкоза натощак почти ничего не говорит\n\n- Держится нормальной годами\n- Инсулин растёт раньше\n- HOMA-IR считается из двух цифр\n- Гликированный - средняя за квартал\n- Сдавать всё вместе\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Как читать анализы самостоятельно»:\nhttps://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18592121659066185",
+    "published_at": "2026-09-15T12:01:15.002111+03:00",
+    "reply_id": "18372786100241483",
+    "reply_status": "published"
   },
   {
     "id": 269,
