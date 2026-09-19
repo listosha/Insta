@@ -2354,13 +2354,13 @@
     "time": "15:00",
     "timezone": "Europe/Moscow",
     "text": "Подсветили общий холестерин, и разговор сразу свернул к статинам.\n\nОбщий холестерин почти ничего не говорит. Смотреть надо на состав: ЛПНП, ЛПВП, триглицериды и особенно соотношение триглицеридов к ЛПВП - когда оно высокое, речь про инсулинорезистентность, а не про жирную еду.\n\nИ проверить щитовидку: гипотиреоз поднимает ЛПНП.\n\nКарточка в первом комментарии\n\nДелюсь тем, что использую в практике. Это не назначение.",
-    "status": "pending",
+    "status": "published",
     "reply": "Карточка с составом:\nhttps://app.listoshenkov.ru/?section=supp_218&ref=threads",
     "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-45/bady_30.png",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18085955993694496",
+    "published_at": "2026-09-19T15:01:15.765405+03:00",
+    "reply_id": "17959562541238611",
+    "reply_status": "published"
   },
   {
     "id": 229,
