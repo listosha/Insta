@@ -4321,5 +4321,19 @@
     "published_at": null,
     "reply_id": null,
     "reply_status": null
+  },
+  {
+    "id": 328,
+    "date": "2026-09-20",
+    "time": "14:32",
+    "timezone": "Europe/Moscow",
+    "text": "Консультация, какая должна быть.\n\nВчетвером: мама, бабушка, лечащий врач и я. Обычно в таких я напрягаюсь - врачи и нутрициологи слышат друг друга не всегда. Здесь врач прогрессивный, и по ребёнку у всех вышла одна картина.\n\nРабота параллельно классической медицине - вот что улучшает результат. Пока это редкость…",
+    "status": "published",
+    "published_at": "2026-09-20T14:32:13+03:00",
+    "thread_id": "18126710719802287",
+    "permalink": "https://www.threads.com/@listosh.a/post/DdgfAgbCYiV",
+    "reply": null,
+    "reply_id": null,
+    "reply_status": null
   }
 ]
