@@ -235,6 +235,26 @@ jobs:
           schedule[entry_idx].pop("attempts", None)
           schedule[entry_idx].pop("last_error", None)
 
+          # Постоянная ссылка на пост. Календарь витрины (EF calendar,
+          # fromInstagram) берёт её из поля "permalink"; раньше сохраняли только
+          # media_id, и все опубликованные карусели висели в календаре без ссылок.
+          # Best-effort: сбой запроса не валит job - пост уже опубликован, и
+          # статус обязан сохраниться, иначе следующий запуск выложит дубль.
+          try:
+              _pl = requests.get(
+                  f"{GRAPH_BASE}/{media_id}",
+                  params={"fields": "permalink", "access_token": ACCESS_TOKEN},
+                  timeout=30,
+              )
+              _permalink = _pl.json().get("permalink") if _pl.ok else None
+              if _permalink:
+                  schedule[entry_idx]["permalink"] = _permalink
+                  print(f"Permalink: {_permalink}")
+              else:
+                  print(f"WARN: permalink not returned: {_pl.status_code} {_pl.text[:200]}")
+          except (requests.RequestException, ValueError) as e:
+              print(f"WARN: permalink request failed: {e}")
+
           with open("schedule.json", "w", encoding="utf-8") as f:
               json.dump(schedule, f, ensure_ascii=False, indent=2)
 
