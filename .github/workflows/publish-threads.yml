@@ -221,6 +221,26 @@ jobs:
               entry["status"]       = "published"
               entry["thread_id"]    = thread_id
               entry["published_at"] = now_moscow.isoformat()
+
+              # Постоянная ссылка на пост. Календарь витрины (EF calendar, fromThreads)
+              # берёт её из поля "permalink"; раньше сохраняли только thread_id, и все
+              # события Threads в календаре оставались без ссылок.
+              # Best-effort: сбой запроса не валит job - пост уже опубликован, и статус
+              # обязан сохраниться, иначе следующий запуск выложит дубль.
+              try:
+                  _pl = requests.get(
+                      f"{THREADS_BASE}/{thread_id}",
+                      params={"fields": "permalink", "access_token": ACCESS_TOKEN},
+                      timeout=30,
+                  )
+                  _permalink = _pl.json().get("permalink") if _pl.ok else None
+                  if _permalink:
+                      entry["permalink"] = _permalink
+                      print(f"Permalink: {_permalink}")
+                  else:
+                      print(f"WARN: permalink not returned: {_pl.status_code} {_pl.text[:200]}")
+              except (requests.RequestException, ValueError) as e:
+                  print(f"WARN: permalink request failed: {e}")
               entry.pop("attempts", None)
               entry.pop("last_error", None)
               published += 1
