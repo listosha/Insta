@@ -2690,12 +2690,13 @@
     "time": "12:00",
     "timezone": "Europe/Moscow",
     "text": "Как хранить свои анализы\n\n- Один файл или папка\n- Дата и лаборатория в имени\n- Таблица ключевых цифр\n- Отмечать, что принимали\n- На приём - со всей историей\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Как читать анализы самостоятельно»:\nhttps://app.listoshenkov.ru/?section=freeguide_gaid-analizy&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18119239654936767",
+    "published_at": "2026-09-22T12:01:21.172628+03:00",
+    "reply_id": "18137653372618168",
+    "reply_status": "published",
+    "permalink": "https://www.threads.com/@listosh.a/post/DdlXYkRFUMm"
   },
   {
     "id": 276,
