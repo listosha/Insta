@@ -2861,12 +2861,13 @@
     "time": "12:00",
     "timezone": "Europe/Moscow",
     "text": "Щитовидка: полный набор анализов\n\n- ТТГ\n- Т4 свободный\n- Т3 свободный\n- АТ-ТПО\n- АТ-ТГ\n- УЗИ при жалобах\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Диагностика щитовидной железы»:\nhttps://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18115601033009074",
+    "published_at": "2026-09-25T12:01:18.933208+03:00",
+    "reply_id": "18629176678044601",
+    "reply_status": "published",
+    "permalink": "https://www.threads.com/@listosh.a/post/DdtFw6Jm6ag"
   },
   {
     "id": 279,
