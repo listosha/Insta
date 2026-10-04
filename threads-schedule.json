@@ -3389,13 +3389,14 @@
     "time": "15:00",
     "timezone": "Europe/Moscow",
     "text": "Болезнь прошла две недели назад, а сил нет. Анализы приличные, но подняться на этаж тяжело.\n\nЭто физиологический хвост. Иммунитет тратил колоссальный ресурс: аминокислоты на антитела, витамины на работу клеток, энергию на воспаление. После выздоровления баки пустые.\n\nВажнее добавок белок и сон: новые клетки строятся из аминокислот.\n\nКарточка в первом комментарии\n\nДелюсь тем, что использую в практике. Это не назначение.",
-    "status": "pending",
+    "status": "published",
     "reply": "Карточка с составом:\nhttps://app.listoshenkov.ru/?section=supp_190&ref=threads",
     "image": "https://raw.githubusercontent.com/listosha/Insta/main/images/bady-45/bady_45.png",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18101571233377902",
+    "published_at": "2026-10-04T15:01:20.965374+03:00",
+    "reply_id": "18091744184388901",
+    "reply_status": "published",
+    "permalink": "https://www.threads.com/@listosh.a/post/DeElhmGIDeZ"
   },
   {
     "id": 238,
