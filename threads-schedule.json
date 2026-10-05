@@ -3432,12 +3432,13 @@
     "time": "12:00",
     "timezone": "Europe/Moscow",
     "text": "Пульс подсказывает про щитовидку\n\n- Медленный - вниз по гормонам\n- Частый в покое - вверх\n- Мерить утром лёжа\n- Записывать неделю\n- Полезно принести врачу\n\nСсылка на гайд - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "reply": "Бесплатный гайд «Диагностика щитовидной железы»:\nhttps://app.listoshenkov.ru/?section=freeguide_metodichka-schitovidnaya&ref=threads",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "17912376156519806",
+    "published_at": "2026-10-05T12:01:23.830811+03:00",
+    "reply_id": "18098613332642838",
+    "reply_status": "published",
+    "permalink": "https://www.threads.com/@listosh.a/post/DeG1uQfm16F"
   },
   {
     "id": 289,
