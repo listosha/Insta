@@ -4644,13 +4644,14 @@
     "time": "18:00",
     "timezone": "Europe/Moscow",
     "text": "Курс антибиотика, третий день. Живот уже крутит.\n\nПробиотик купили «на потом, после курса». Поздно: он работает как щит во время курса, и начинать его надо в первые 48 часов. Тогда риск диареи падает примерно вдвое. Через неделю эффект почти пропадает.\n\nА «восстановить флору после» - история слабее, чем кажется.\n\nПодробно - в первом комментарии 👇",
-    "status": "pending",
+    "status": "published",
     "src": "razbor-probiotiki-pri-antibiotikah",
     "reply": "Разбор «Пробиотики при антибиотиках» целиком в приложении:\nhttps://app.listoshenkov.ru/?startapp=note_probiotiki-pri-antibiotikah__thr",
-    "thread_id": null,
-    "published_at": null,
-    "reply_id": null,
-    "reply_status": null
+    "thread_id": "18056349038801323",
+    "published_at": "2026-10-20T18:01:16.535955+03:00",
+    "reply_id": "18116983408824569",
+    "reply_status": "published",
+    "permalink": "https://www.threads.com/@listosh.a/post/DeuG1ORnPHd"
   },
   {
     "id": 330,
